@@ -1,0 +1,18 @@
+{
+ "version": "version-f0ea5da9412f4e35",
+ "time": "2026-11-08 04:01:28",
+ "total": 11,
+ "functions": {
+  "ClientSend": 61876592,
+  "ConvertItemEnumToString": 76670496,
+  "DrawCubeCall": 59726048,
+  "DrawSkyEnv": 59726048,
+  "DrawSkyPixel": 59726048,
+  "DrawStars": 59734560,
+  "DrawSun": 59726048,
+  "FireTouchInterest": 10443040,
+  "GetConnectionErrorName": 87986288,
+  "InstanceIndex": 69171360,
+  "TaskWait": 70636000
+ }
+}

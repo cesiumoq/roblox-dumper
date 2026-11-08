@@ -1,0 +1,794 @@
+{
+ "version": "version-f0ea5da9412f4e35",
+ "time": "2026-11-08 04:01:28",
+ "types": {
+  "AirProperties": {
+   "AirDensity": "uintptr_t",
+   "GlobalWind": "uintptr_t"
+  },
+  "AnimationTrack": {
+   "Animation": "uintptr_t",
+   "Animator": "uintptr_t",
+   "IsPlaying": "uintptr_t",
+   "Looped": "uintptr_t",
+   "Speed": "uintptr_t",
+   "TimePosition": "uintptr_t"
+  },
+  "Animator": {
+   "ActiveAnimations": "uintptr_t"
+  },
+  "Atmosphere": {
+   "Color": "uintptr_t",
+   "Decay": "uintptr_t",
+   "Density": "uintptr_t",
+   "Glare": "uintptr_t",
+   "Haze": "uintptr_t",
+   "Offset": "uintptr_t"
+  },
+  "Attachment": {
+   "Position": "uintptr_t"
+  },
+  "BasePart": {
+   "CastShadow": "uintptr_t",
+   "Color3": "uintptr_t",
+   "Locked": "uintptr_t",
+   "Massless": "uintptr_t",
+   "Primitive": "uintptr_t",
+   "Reflectance": "uintptr_t",
+   "Shape": "uintptr_t",
+   "Transparency": "uintptr_t"
+  },
+  "Beam": {
+   "Attachment0": "uintptr_t",
+   "Attachment1": "uintptr_t",
+   "Brightness": "uintptr_t",
+   "CurveSize0": "uintptr_t",
+   "CurveSize1": "uintptr_t",
+   "LightEmission": "uintptr_t",
+   "LightInfluence": "uintptr_t",
+   "Texture": "uintptr_t",
+   "TextureLength": "uintptr_t",
+   "TextureSpeed": "uintptr_t",
+   "Width0": "uintptr_t",
+   "Width1": "uintptr_t",
+   "ZOffset": "uintptr_t"
+  },
+  "BloomEffect": {
+   "Enabled": "uintptr_t",
+   "Intensity": "uintptr_t",
+   "Size": "uintptr_t",
+   "Threshold": "uintptr_t"
+  },
+  "BlurEffect": {
+   "Enabled": "uintptr_t",
+   "Size": "uintptr_t"
+  },
+  "ByteCode": {
+   "Pointer": "uintptr_t",
+   "Size": "uintptr_t"
+  },
+  "CachedItem": {
+   "FileMeshData": "uintptr_t"
+  },
+  "Camera": {
+   "CameraSubject": "uintptr_t",
+   "CameraType": "uintptr_t",
+   "FieldOfView": "uintptr_t",
+   "ImagePlaneDepth": "uintptr_t",
+   "Position": "uintptr_t",
+   "Rotation": "uintptr_t",
+   "Viewport": "uintptr_t",
+   "ViewportSize": "uintptr_t"
+  },
+  "CharacterMesh": {
+   "BaseTextureId": "uintptr_t",
+   "BodyPart": "uintptr_t",
+   "MeshId": "uintptr_t",
+   "OverlayTextureId": "uintptr_t"
+  },
+  "ClickDetector": {
+   "MaxActivationDistance": "uintptr_t",
+   "MouseIcon": "uintptr_t"
+  },
+  "Clothing": {
+   "Color3": "uintptr_t",
+   "Template": "uintptr_t"
+  },
+  "ColorCorrectionEffect": {
+   "Brightness": "uintptr_t",
+   "Contrast": "uintptr_t",
+   "Enabled": "uintptr_t",
+   "TintColor": "uintptr_t"
+  },
+  "ColorGradingEffect": {
+   "Enabled": "uintptr_t",
+   "TonemapperPreset": "uintptr_t"
+  },
+  "DataModel": {
+   "CreatorId": "uintptr_t",
+   "GameId": "uintptr_t",
+   "GameLoaded": "uintptr_t",
+   "JobId": "uintptr_t",
+   "PlaceId": "uintptr_t",
+   "PlaceVersion": "uintptr_t",
+   "PrimitiveCount": "uintptr_t",
+   "ScriptContext": "uintptr_t",
+   "ServerIP": "uintptr_t",
+   "ToRenderView1": "uintptr_t",
+   "ToRenderView2": "uintptr_t",
+   "ToRenderView3": "uintptr_t",
+   "Workspace": "uintptr_t"
+  },
+  "DepthOfFieldEffect": {
+   "Enabled": "uintptr_t",
+   "FarIntensity": "uintptr_t",
+   "FocusDistance": "uintptr_t",
+   "InFocusRadius": "uintptr_t",
+   "NearIntensity": "uintptr_t"
+  },
+  "DragDetector": {
+   "ActivatedCursorIcon": "uintptr_t",
+   "CursorIcon": "uintptr_t",
+   "MaxActivationDistance": "uintptr_t",
+   "MaxDragAngle": "uintptr_t",
+   "MaxDragTranslation": "uintptr_t",
+   "MaxForce": "uintptr_t",
+   "MaxTorque": "uintptr_t",
+   "MinDragAngle": "uintptr_t",
+   "MinDragTranslation": "uintptr_t",
+   "ReferenceInstance": "uintptr_t",
+   "Responsiveness": "uintptr_t"
+  },
+  "FakeDataModel": {
+   "Pointer": "uintptr_t",
+   "RealDataModel": "uintptr_t"
+  },
+  "FileMeshData": {
+   "AABBMax": "uintptr_t",
+   "AABBMin": "uintptr_t",
+   "Faces": "uintptr_t",
+   "FacesEnd": "uintptr_t",
+   "Vertices": "uintptr_t",
+   "VerticesEnd": "uintptr_t"
+  },
+  "GuiBase2D": {
+   "AbsolutePosition": "uintptr_t",
+   "AbsoluteRotation": "uintptr_t",
+   "AbsoluteSize": "uintptr_t"
+  },
+  "GuiObject": {
+   "BackgroundColor3": "uintptr_t",
+   "BackgroundTransparency": "uintptr_t",
+   "BorderColor3": "uintptr_t",
+   "Image": "uintptr_t",
+   "LayoutOrder": "uintptr_t",
+   "Position": "uintptr_t",
+   "RichText": "uintptr_t",
+   "Rotation": "uintptr_t",
+   "ScreenGui_Enabled": "uintptr_t",
+   "Size": "uintptr_t",
+   "Text": "uintptr_t",
+   "TextColor3": "uintptr_t",
+   "Visible": "uintptr_t",
+   "ZIndex": "uintptr_t"
+  },
+  "Humanoid": {
+   "AutoJumpEnabled": "uintptr_t",
+   "AutoRotate": "uintptr_t",
+   "AutomaticScalingEnabled": "uintptr_t",
+   "BreakJointsOnDeath": "uintptr_t",
+   "CameraOffset": "uintptr_t",
+   "DisplayDistanceType": "uintptr_t",
+   "DisplayName": "uintptr_t",
+   "EvaluateStateMachine": "uintptr_t",
+   "FloorMaterial": "uintptr_t",
+   "Health": "uintptr_t",
+   "HealthDisplayDistance": "uintptr_t",
+   "HealthDisplayType": "uintptr_t",
+   "HipHeight": "uintptr_t",
+   "HumanoidRootPart": "uintptr_t",
+   "HumanoidState": "uintptr_t",
+   "HumanoidStateID": "uintptr_t",
+   "IsWalking": "uintptr_t",
+   "Jump": "uintptr_t",
+   "JumpHeight": "uintptr_t",
+   "JumpPower": "uintptr_t",
+   "MaxHealth": "uintptr_t",
+   "MaxSlopeAngle": "uintptr_t",
+   "MoveDirection": "uintptr_t",
+   "MoveToPart": "uintptr_t",
+   "MoveToPoint": "uintptr_t",
+   "NameDisplayDistance": "uintptr_t",
+   "NameOcclusion": "uintptr_t",
+   "PlatformStand": "uintptr_t",
+   "PlatformStatePointer": "uintptr_t",
+   "RequiresNeck": "uintptr_t",
+   "RigType": "uintptr_t",
+   "SeatPart": "uintptr_t",
+   "Sit": "uintptr_t",
+   "TargetPoint": "uintptr_t",
+   "UseJumpPower": "uintptr_t",
+   "WalkTimer": "uintptr_t",
+   "Walkspeed": "uintptr_t",
+   "WalkspeedCheck": "uintptr_t"
+  },
+  "Instance": {
+   "ChildrenEnd": "uintptr_t",
+   "ChildrenStart": "uintptr_t",
+   "ChildrenStride": "uintptr_t",
+   "ClassBase": "uintptr_t",
+   "ClassDescriptor": "uintptr_t",
+   "ClassName": "uintptr_t",
+   "FindFirstAncestorWhichIsA": "uintptr_t",
+   "FindFirstChild": "uintptr_t",
+   "FindFirstChildOfClass": "uintptr_t",
+   "FindFirstChildWhichIsA": "uintptr_t",
+   "FireTouchInterest": "uintptr_t",
+   "GetAttribute": "uintptr_t",
+   "GetChildren": "uintptr_t",
+   "InstanceIndex": "uintptr_t",
+   "Name": "uintptr_t",
+   "NameContainer": "uintptr_t",
+   "Parent": "uintptr_t",
+   "SetParent": "uintptr_t",
+   "This": "uintptr_t"
+  },
+  "LRUHolder": {
+   "MemEnforcedLRUCache": "uintptr_t"
+  },
+  "LRUNode": {
+   "AssetID": "uintptr_t",
+   "CachedItem": "uintptr_t",
+   "Next": "uintptr_t"
+  },
+  "Lighting": {
+   "Ambient": "uintptr_t",
+   "Brightness": "uintptr_t",
+   "ClockTime": "uintptr_t",
+   "ColorShift_Bottom": "uintptr_t",
+   "ColorShift_Top": "uintptr_t",
+   "EnvironmentDiffuseScale": "uintptr_t",
+   "EnvironmentSpecularScale": "uintptr_t",
+   "ExposureCompensation": "uintptr_t",
+   "FogColor": "uintptr_t",
+   "FogEnd": "uintptr_t",
+   "FogStart": "uintptr_t",
+   "GeographicLatitude": "uintptr_t",
+   "GlobalShadows": "uintptr_t",
+   "GradientBottom": "uintptr_t",
+   "GradientTop": "uintptr_t",
+   "LightColor": "uintptr_t",
+   "LightDirection": "uintptr_t",
+   "MoonPosition": "uintptr_t",
+   "OutdoorAmbient": "uintptr_t",
+   "Sky": "uintptr_t",
+   "Source": "uintptr_t",
+   "SunPosition": "uintptr_t"
+  },
+  "LocalScript": {
+   "ByteCode": "uintptr_t",
+   "GUID": "uintptr_t",
+   "Hash": "uintptr_t"
+  },
+  "MaterialColors": {
+   "Asphalt": "uintptr_t",
+   "Basalt": "uintptr_t",
+   "Brick": "uintptr_t",
+   "Cobblestone": "uintptr_t",
+   "Concrete": "uintptr_t",
+   "CrackedLava": "uintptr_t",
+   "Glacier": "uintptr_t",
+   "Grass": "uintptr_t",
+   "Ground": "uintptr_t",
+   "Ice": "uintptr_t",
+   "LeafyGrass": "uintptr_t",
+   "Limestone": "uintptr_t",
+   "Mud": "uintptr_t",
+   "Pavement": "uintptr_t",
+   "Rock": "uintptr_t",
+   "Salt": "uintptr_t",
+   "Sand": "uintptr_t",
+   "Sandstone": "uintptr_t",
+   "Slate": "uintptr_t",
+   "Snow": "uintptr_t",
+   "WoodPlanks": "uintptr_t"
+  },
+  "MemEnforcedLRUCache": {
+   "Head": "uintptr_t"
+  },
+  "MeshContentProvider": {
+   "LRUHolder": "uintptr_t"
+  },
+  "MeshPart": {
+   "MeshId": "uintptr_t",
+   "MeshSize": "uintptr_t",
+   "Texture": "uintptr_t"
+  },
+  "Misc": {
+   "Adornee": "uintptr_t",
+   "AnimationId": "uintptr_t",
+   "EnableLoadModule": "uintptr_t",
+   "LockViolationScriptCrash": "uintptr_t",
+   "PrintIdentity": "uintptr_t",
+   "StringLength": "uintptr_t",
+   "UnregisteredValueGetSet": "uintptr_t",
+   "Value": "uintptr_t"
+  },
+  "Model": {
+   "PrimaryPart": "uintptr_t",
+   "Scale": "uintptr_t"
+  },
+  "ModuleScript": {
+   "ByteCode": "uintptr_t",
+   "GUID": "uintptr_t",
+   "Hash": "uintptr_t",
+   "IsCoreScript": "uintptr_t"
+  },
+  "MouseService": {
+   "InputObject": "uintptr_t",
+   "InputObject2": "uintptr_t",
+   "MousePosition": "uintptr_t",
+   "SensitivityPointer": "uintptr_t"
+  },
+  "ParticleEmitter": {
+   "Acceleration": "uintptr_t",
+   "Brightness": "uintptr_t",
+   "Drag": "uintptr_t",
+   "Lifetime": "uintptr_t",
+   "LightEmission": "uintptr_t",
+   "LightInfluence": "uintptr_t",
+   "Rate": "uintptr_t",
+   "RotSpeed": "uintptr_t",
+   "Rotation": "uintptr_t",
+   "Speed": "uintptr_t",
+   "SpreadAngle": "uintptr_t",
+   "Texture": "uintptr_t",
+   "TimeScale": "uintptr_t",
+   "VelocityInheritance": "uintptr_t",
+   "ZOffset": "uintptr_t"
+  },
+  "Player": {
+   "AccountAge": "uintptr_t",
+   "CameraMode": "uintptr_t",
+   "DisplayName": "uintptr_t",
+   "HealthDisplayDistance": "uintptr_t",
+   "LocalPlayer": "uintptr_t",
+   "LocaleId": "uintptr_t",
+   "MaxZoomDistance": "uintptr_t",
+   "MinZoomDistance": "uintptr_t",
+   "ModelInstance": "uintptr_t",
+   "Mouse": "uintptr_t",
+   "NameDisplayDistance": "uintptr_t",
+   "Team": "uintptr_t",
+   "TeamColor": "uintptr_t",
+   "UserId": "uintptr_t"
+  },
+  "PlayerConfigurer": {
+   "Pointer": "uintptr_t"
+  },
+  "PlayerMouse": {
+   "Icon": "uintptr_t",
+   "Workspace": "uintptr_t"
+  },
+  "Primitive": {
+   "AssemblyAngularVelocity": "uintptr_t",
+   "AssemblyLinearVelocity": "uintptr_t",
+   "Flags": "uintptr_t",
+   "Material": "uintptr_t",
+   "Owner": "uintptr_t",
+   "Position": "uintptr_t",
+   "Rotation": "uintptr_t",
+   "Size": "uintptr_t",
+   "Validate": "uintptr_t"
+  },
+  "PrimitiveFlags": {
+   "Anchored": "uintptr_t",
+   "CanCollide": "uintptr_t",
+   "CanQuery": "uintptr_t",
+   "CanTouch": "uintptr_t"
+  },
+  "ProximityPrompt": {
+   "ActionText": "uintptr_t",
+   "Enabled": "uintptr_t",
+   "GamepadKeyCode": "uintptr_t",
+   "HoldDuration": "uintptr_t",
+   "KeyCode": "uintptr_t",
+   "MaxActivationDistance": "uintptr_t",
+   "ObjectText": "uintptr_t",
+   "RequiresLineOfSight": "uintptr_t"
+  },
+  "RenderJob": {
+   "FakeDataModel": "uintptr_t",
+   "RealDataModel": "uintptr_t",
+   "RenderView": "uintptr_t"
+  },
+  "RenderView": {
+   "DeviceD3D11": "uintptr_t",
+   "LightingValid": "uintptr_t",
+   "SkyValid": "uintptr_t",
+   "VisualEngine": "uintptr_t"
+  },
+  "RunService": {
+   "HeartbeatFPS": "uintptr_t",
+   "HeartbeatTask": "uintptr_t"
+  },
+  "Script": {
+   "ByteCode": "uintptr_t",
+   "GUID": "uintptr_t",
+   "Hash": "uintptr_t"
+  },
+  "ScriptContext": {
+   "GetGlobalState": "uintptr_t",
+   "LuaState": "uintptr_t",
+   "LuaStateAlt": "uintptr_t",
+   "RequireBypass": "uintptr_t",
+   "Resume": "uintptr_t",
+   "VTable": "uintptr_t",
+   "VmWrapper": "uintptr_t",
+   "VmWrapper2": "uintptr_t",
+   "VmWrapperBig": "uintptr_t",
+   "VmWrapperFn": "uintptr_t"
+  },
+  "Seat": {
+   "Occupant": "uintptr_t"
+  },
+  "Sky": {
+   "DrawCubeCall": "uintptr_t",
+   "DrawSkyEnv": "uintptr_t",
+   "DrawSkyPixel": "uintptr_t",
+   "DrawStars": "uintptr_t",
+   "DrawSun": "uintptr_t",
+   "MoonAngularSize": "uintptr_t",
+   "MoonTextureId": "uintptr_t",
+   "SkyboxBk": "uintptr_t",
+   "SkyboxDn": "uintptr_t",
+   "SkyboxFt": "uintptr_t",
+   "SkyboxLf": "uintptr_t",
+   "SkyboxOrientation": "uintptr_t",
+   "SkyboxRt": "uintptr_t",
+   "SkyboxUp": "uintptr_t",
+   "StarCount": "uintptr_t",
+   "SunAngularSize": "uintptr_t",
+   "SunTextureId": "uintptr_t"
+  },
+  "Sound": {
+   "IsPlaying": "uintptr_t",
+   "Looped": "uintptr_t",
+   "PlaybackSpeed": "uintptr_t",
+   "RollOffMaxDistance": "uintptr_t",
+   "RollOffMinDistance": "uintptr_t",
+   "SoundGroup": "uintptr_t",
+   "SoundId": "uintptr_t",
+   "Volume": "uintptr_t"
+  },
+  "SpawnLocation": {
+   "AllowTeamChangeOnTouch": "uintptr_t",
+   "Enabled": "uintptr_t",
+   "ForcefieldDuration": "uintptr_t",
+   "Neutral": "uintptr_t",
+   "TeamColor": "uintptr_t"
+  },
+  "SpecialMesh": {
+   "MeshId": "uintptr_t",
+   "Scale": "uintptr_t"
+  },
+  "StatsItem": {
+   "Value": "uintptr_t"
+  },
+  "SunRaysEffect": {
+   "Enabled": "uintptr_t",
+   "Intensity": "uintptr_t",
+   "Spread": "uintptr_t"
+  },
+  "SurfaceAppearance": {
+   "AlphaMode": "uintptr_t",
+   "Color": "uintptr_t",
+   "ColorMap": "uintptr_t",
+   "EmissiveMaskContent": "uintptr_t",
+   "EmissiveStrength": "uintptr_t",
+   "EmissiveTint": "uintptr_t",
+   "MetalnessMap": "uintptr_t",
+   "NormalMap": "uintptr_t",
+   "RoughnessMap": "uintptr_t"
+  },
+  "TaskScheduler": {
+   "JobEnd": "uintptr_t",
+   "JobName": "uintptr_t",
+   "JobStart": "uintptr_t",
+   "MaxFPS": "uintptr_t",
+   "Pointer": "uintptr_t",
+   "StepFunction": "uintptr_t"
+  },
+  "Team": {
+   "BrickColor": "uintptr_t"
+  },
+  "Terrain": {
+   "GrassLength": "uintptr_t",
+   "MaterialColors": "uintptr_t",
+   "WaterColor": "uintptr_t",
+   "WaterReflectance": "uintptr_t",
+   "WaterTransparency": "uintptr_t",
+   "WaterWaveSize": "uintptr_t",
+   "WaterWaveSpeed": "uintptr_t"
+  },
+  "Textures": {
+   "Decal_Texture": "uintptr_t",
+   "Texture_Texture": "uintptr_t"
+  },
+  "Tool": {
+   "CanBeDropped": "uintptr_t",
+   "Enabled": "uintptr_t",
+   "Grip": "uintptr_t",
+   "ManualActivationOnly": "uintptr_t",
+   "RequiresHandle": "uintptr_t",
+   "TextureId": "uintptr_t",
+   "Tooltip": "uintptr_t"
+  },
+  "UnionOperation": {
+   "AssetId": "uintptr_t"
+  },
+  "UserInputService": {
+   "WindowInputState": "uintptr_t"
+  },
+  "VehicleSeat": {
+   "MaxSpeed": "uintptr_t",
+   "SteerFloat": "uintptr_t",
+   "ThrottleFloat": "uintptr_t",
+   "Torque": "uintptr_t",
+   "TurnSpeed": "uintptr_t"
+  },
+  "VisualEngine": {
+   "Dimensions": "uintptr_t",
+   "FakeDataModel": "uintptr_t",
+   "Pointer": "uintptr_t",
+   "RenderView": "uintptr_t",
+   "ViewMatrix": "uintptr_t"
+  },
+  "Weld": {
+   "Part0": "uintptr_t",
+   "Part1": "uintptr_t"
+  },
+  "WeldConstraint": {
+   "Part0": "uintptr_t",
+   "Part1": "uintptr_t"
+  },
+  "WindowInputState": {
+   "CapsLock": "uintptr_t",
+   "CurrentTextBox": "uintptr_t"
+  },
+  "Workspace": {
+   "CurrentCamera": "uintptr_t",
+   "DistributedGameTime": "uintptr_t",
+   "ReadOnlyGravity": "uintptr_t",
+   "World": "uintptr_t"
+  },
+  "World": {
+   "AirProperties": "uintptr_t",
+   "FallenPartsDestroyHeight": "uintptr_t",
+   "Gravity": "uintptr_t",
+   "Primitives": "uintptr_t",
+   "worldStepsPerSec": "uintptr_t"
+  },
+  "FunctionDescriptor": {
+   "Function": "uintptr_t"
+  },
+  "BoundFuncDescriptor": {
+   "Function": "uintptr_t",
+   "Name": "uintptr_t"
+  },
+  "TechniqueArray": {
+   "BeginOffset": "uintptr_t",
+   "EndOffset": "uintptr_t",
+   "EntryStride": "uintptr_t"
+  },
+  "MaterialLayer": {
+   "ColorData": "uintptr_t",
+   "CullMode": "uintptr_t",
+   "FillModeByte": "uintptr_t",
+   "Flags2": "uintptr_t",
+   "MatFlags": "uintptr_t",
+   "Param": "uintptr_t",
+   "Stride": "uintptr_t"
+  },
+  "FastCluster": {
+   "ClusterNode": "uintptr_t",
+   "MeshEntityVTableRva": "uintptr_t",
+   "VTableRva": "uintptr_t",
+   "VTableRvaSub": "uintptr_t",
+   "VTableRvaSubAlt": "uintptr_t"
+  },
+  "DeviceD3D11Gfx": {
+   "ContextObjVTableRva": "uintptr_t",
+   "VTableRva": "uintptr_t"
+  },
+  "GeometryD3D11": {
+   "VTableRva": "uintptr_t"
+  },
+  "FastClusterBinding": {
+   "VTableRva": "uintptr_t"
+  },
+  "FastClusterEntity": {
+   "AlphaByte": "uintptr_t",
+   "BBoxMaxX": "uintptr_t",
+   "BBoxMaxY": "uintptr_t",
+   "BBoxMaxZ": "uintptr_t",
+   "BBoxMinX": "uintptr_t",
+   "BBoxMinY": "uintptr_t",
+   "BBoxMinZ": "uintptr_t",
+   "ContextPtr": "uintptr_t",
+   "DecalMaterialPtr": "uintptr_t",
+   "MaterialPtr": "uintptr_t",
+   "PrimitiveIndexArrayPtr": "uintptr_t",
+   "RenderQueueId": "uintptr_t",
+   "TechniqueArrayPtr": "uintptr_t",
+   "VTableRva": "uintptr_t"
+  },
+  "RbxTransport": {
+   "AppRTTI": "uintptr_t",
+   "AppVTable": "uintptr_t",
+   "ClientRTTI": "uintptr_t",
+   "ClientSend": "uintptr_t",
+   "ClientVTable": "uintptr_t",
+   "GetConnectionErrorName": "uintptr_t"
+  },
+  "RemoteEvent": {
+   "BaseVTableRva": "uintptr_t",
+   "DescBaseVTableRva": "uintptr_t",
+   "FireServerRva": "uintptr_t",
+   "HookSlot7RemoteEventFn": "uintptr_t",
+   "InstanceVTableRva": "uintptr_t",
+   "InvokeClient": "uintptr_t",
+   "InvokeServer": "uintptr_t",
+   "RemoteFuncVTableRva": "uintptr_t",
+   "VTableRva": "uintptr_t"
+  },
+  "ShaderManager": {
+   "VTableRva": "uintptr_t"
+  },
+  "ViewBase": {
+   "VTableRva": "uintptr_t"
+  },
+  "RakNet": {
+   "ConvertItemEnumToString": "uintptr_t",
+   "RakPeerVirtualTable": "uintptr_t",
+   "ReportNetworkError": "uintptr_t"
+  },
+  "WorldRoot": {
+   "FindPartOnRayBoundFnRva": "uintptr_t",
+   "FindPartOnRayWithIgnoreListBoundFnRva": "uintptr_t",
+   "FindPartOnRayWithWhitelistBoundFnRva": "uintptr_t",
+   "RaycastBoundFn": "uintptr_t",
+   "RaycastBoundFnRva": "uintptr_t",
+   "RaycastDescriptorVtableRva": "uintptr_t"
+  },
+  "Luau": {
+   "Free": "uintptr_t",
+   "Step": "uintptr_t",
+   "luaB_assert": "uintptr_t",
+   "luaB_error": "uintptr_t",
+   "luaB_gcinfo": "uintptr_t",
+   "luaB_getfenv": "uintptr_t",
+   "luaB_getmetatable": "uintptr_t",
+   "luaB_newproxy": "uintptr_t",
+   "luaB_next": "uintptr_t",
+   "luaB_print": "uintptr_t",
+   "luaB_rawequal": "uintptr_t",
+   "luaB_rawget": "uintptr_t",
+   "luaB_rawlen": "uintptr_t",
+   "luaB_rawset": "uintptr_t",
+   "luaB_select": "uintptr_t",
+   "luaB_setfenv": "uintptr_t",
+   "luaB_setmetatable": "uintptr_t",
+   "luaB_tonumber": "uintptr_t",
+   "luaB_tostring": "uintptr_t",
+   "luaB_type": "uintptr_t",
+   "luaB_typeof": "uintptr_t",
+   "tclone": "uintptr_t"
+  },
+  "Coroutine": {
+   "create": "uintptr_t",
+   "finally": "uintptr_t",
+   "isyieldable": "uintptr_t",
+   "running": "uintptr_t",
+   "status": "uintptr_t",
+   "wrap": "uintptr_t",
+   "yield": "uintptr_t"
+  },
+  "Raycast": {
+   "RaycastBoundFn": "uintptr_t"
+  },
+  "Functions": {
+   "Clone": "uintptr_t",
+   "Destroy": "uintptr_t",
+   "GlobalCollectGarbage": "uintptr_t",
+   "GlobalDelay": "uintptr_t",
+   "GlobalElapsedTime": "uintptr_t",
+   "GlobalGetFenv": "uintptr_t",
+   "GlobalLoadstring": "uintptr_t",
+   "GlobalPluginManager": "uintptr_t",
+   "GlobalPrint": "uintptr_t",
+   "GlobalRequire": "uintptr_t",
+   "GlobalSetFenv": "uintptr_t",
+   "GlobalSettings": "uintptr_t",
+   "GlobalSpawn": "uintptr_t",
+   "GlobalStats": "uintptr_t",
+   "GlobalTick": "uintptr_t",
+   "GlobalTime": "uintptr_t",
+   "GlobalUserSettings": "uintptr_t",
+   "GlobalVersion": "uintptr_t",
+   "GlobalWait": "uintptr_t",
+   "GlobalWarn": "uintptr_t",
+   "Print": "uintptr_t",
+   "PrintIdentity": "uintptr_t",
+   "Shapecast": "uintptr_t"
+  },
+  "LuauGlobal": {
+   "GCthreshold": "uintptr_t",
+   "dummynode": "uintptr_t",
+   "gcstate": "uintptr_t",
+   "gray": "uintptr_t",
+   "grayagain": "uintptr_t",
+   "totalbytes": "uintptr_t"
+  },
+  "LuaState": {
+   "Global": "uintptr_t"
+  },
+  "LuaCoroutine": {
+   "Create": "uintptr_t",
+   "Finally": "uintptr_t",
+   "Isyieldable": "uintptr_t",
+   "Running": "uintptr_t",
+   "Status": "uintptr_t",
+   "Wrap": "uintptr_t",
+   "Yield": "uintptr_t"
+  },
+  "LuaB": {
+   "LuaBAssert": "uintptr_t",
+   "LuaBError": "uintptr_t",
+   "LuaBGcinfo": "uintptr_t",
+   "LuaBGetfenv": "uintptr_t",
+   "LuaBGetmetatable": "uintptr_t",
+   "LuaBNewproxy": "uintptr_t",
+   "LuaBNext": "uintptr_t",
+   "LuaBPrint": "uintptr_t",
+   "LuaBRawequal": "uintptr_t",
+   "LuaBRawget": "uintptr_t",
+   "LuaBRawlen": "uintptr_t",
+   "LuaBRawset": "uintptr_t",
+   "LuaBSelect": "uintptr_t",
+   "LuaBSetfenv": "uintptr_t",
+   "LuaBSetmetatable": "uintptr_t",
+   "LuaBTonumber": "uintptr_t",
+   "LuaBTostring": "uintptr_t",
+   "LuaBType": "uintptr_t",
+   "LuaBTypeof": "uintptr_t"
+  },
+  "Task": {
+   "TaskCancel": "uintptr_t",
+   "TaskDefer": "uintptr_t",
+   "TaskDelay": "uintptr_t",
+   "TaskDesynchronize": "uintptr_t",
+   "TaskSpawn": "uintptr_t",
+   "TaskSynchronize": "uintptr_t",
+   "TaskWait": "uintptr_t"
+  },
+  "Alloc": {
+   "Malloc": "uintptr_t"
+  },
+  "highlight_manager": {
+   "context_active": "uintptr_t",
+   "context_depth": "uintptr_t",
+   "context_fill": "uintptr_t",
+   "context_outline": "uintptr_t",
+   "contexts": "uintptr_t",
+   "fallback_active": "uintptr_t",
+   "fallback_depth": "uintptr_t",
+   "fallback_fill": "uintptr_t",
+   "fallback_outline": "uintptr_t",
+   "manager": "uintptr_t"
+  },
+  "Descriptor": {
+   "Name": "uintptr_t"
+  }
+ }
+}
