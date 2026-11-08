@@ -1,0 +1,24 @@
+SWC Dumper - rapport
+====================
+
+Classe               Champ                          Valeur       Methode     Detail
+TaskScheduler        Pointer                        -            FAIL        ancre string introuvable
+FakeDataModel        Pointer                        -            FAIL        aucun candidat singleton pour RBX::DataModel
+VisualEngine         Pointer                        -            FAIL        aucun candidat singleton pour RBX::Graphics::VisualEngine
+FFlags               NextGenReplicatorEnabledWrite4 -            FAIL        string/ref introuvable
+FFlags               S2PhysicsSenderRate            -            FAIL        string/ref introuvable
+Animator             ActiveAnimations               0xa80        STALE       fallback ancien dump: string propriete absente
+Attachment           Position                       0xb4         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+CachedItem           FileMeshData                   0x40         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+MemEnforcedLRUCache  Head                           0x8          STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+Seat                 Occupant                       0x208        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+StatsItem            Value                          0x1259       STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+Team                 BrickColor                     0xa8         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+UnionOperation       AssetId                        0x300        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+UserInputService     WindowInputState               0x2b0        STALE       fallback ancien dump: string propriete absente
+LRUHolder            MemEnforcedLRUCache            0x20         STALE       fallback ancien dump (recette manquante)
+MeshContentProvider  LRUHolder                      0xc8         STALE       fallback ancien dump (recette manquante)
+PlayerConfigurer     Pointer                        0            STALE       fallback ancien dump (recette manquante)
+ScriptContext        RequireBypass                  0            STALE       fallback ancien dump (recette manquante)
+
+Total: FAIL=5, STALE=13

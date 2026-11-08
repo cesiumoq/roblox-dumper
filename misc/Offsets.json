@@ -1,0 +1,50 @@
+{
+  "version": "version-f0ea5da9412f4e35",
+  "offsets": {
+    "Animator": {
+      "ActiveAnimations": 2688
+    },
+    "Attachment": {
+      "Position": 180
+    },
+    "CachedItem": {
+      "FileMeshData": 64
+    },
+    "MemEnforcedLRUCache": {
+      "Head": 8
+    },
+    "Seat": {
+      "Occupant": 520
+    },
+    "StatsItem": {
+      "Value": 4697
+    },
+    "Team": {
+      "BrickColor": 168
+    },
+    "UnionOperation": {
+      "AssetId": 768
+    },
+    "UserInputService": {
+      "WindowInputState": 688
+    },
+    "LRUHolder": {
+      "MemEnforcedLRUCache": 32
+    },
+    "MeshContentProvider": {
+      "LRUHolder": 200
+    },
+    "PlayerConfigurer": {
+      "Pointer": 0
+    },
+    "ScriptContext": {
+      "RequireBypass": 0
+    }
+  },
+  "fflags": {},
+  "fflag_list": {
+    "Pointer": 144821200,
+    "ToFlag": 48,
+    "ToValue": 192
+  }
+}
