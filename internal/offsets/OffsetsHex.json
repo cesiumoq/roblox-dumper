@@ -1,7 +1,7 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 03:53:31",
- "total": 392,
+ "time": "2026-11-08 04:01:28",
+ "total": 590,
  "classes": {
   "AirProperties": {
    "AirDensity": "0x18",
@@ -65,7 +65,7 @@
    "Size": "0xA0"
   },
   "ByteCode": {
-   "Pointer": "0x10",
+   "Pointer": "0x18",
    "Size": "0x28"
   },
   "CachedItem": {
@@ -176,7 +176,7 @@
   "Humanoid": {
    "AutoJumpEnabled": "0x1C8",
    "AutoRotate": "0x1C9",
-   "AutomaticScalingEnabled": "0x95",
+   "AutomaticScalingEnabled": "0x1CA",
    "BreakJointsOnDeath": "0x1CC",
    "CameraOffset": "0x110",
    "DisplayDistanceType": "0x174",
@@ -202,6 +202,7 @@
    "NameDisplayDistance": "0x1A4",
    "NameOcclusion": "0x1A8",
    "PlatformStand": "0x1D2",
+   "PlatformStatePointer": "0xB97E6C1F",
    "RequiresNeck": "0x1D3",
    "RigType": "0x1B4",
    "SeatPart": "0xF0",
@@ -215,12 +216,22 @@
   "Instance": {
    "ChildrenEnd": "0x8",
    "ChildrenStart": "0x70",
+   "ChildrenStride": "0x10",
    "ClassBase": "0x1B0",
    "ClassDescriptor": "0x18",
    "ClassName": "0x8",
+   "FindFirstAncestorWhichIsA": "0x56C540",
+   "FindFirstChild": "0x5700F0",
+   "FindFirstChildOfClass": "0x56C880",
+   "FindFirstChildWhichIsA": "0x570320",
+   "FireTouchInterest": "0x9F5920",
+   "GetAttribute": "0x56D1A0",
+   "GetChildren": "0x56DAA0",
+   "InstanceIndex": "0x41F78A0",
    "Name": "0x0",
    "NameContainer": "0x68",
    "Parent": "0x60",
+   "SetParent": "0x1F14530",
    "This": "0x8"
   },
   "LRUHolder": {
@@ -291,12 +302,17 @@
   },
   "MeshPart": {
    "MeshId": "0x2F8",
+   "MeshSize": "0x210",
    "Texture": "0x328"
   },
   "Misc": {
    "Adornee": "0xD8",
    "AnimationId": "0xA8",
+   "EnableLoadModule": "0x855CF68",
+   "LockViolationScriptCrash": "0x74C1410",
+   "PrintIdentity": "0x4322690",
    "StringLength": "0x10",
+   "UnregisteredValueGetSet": "0x71DE240",
    "Value": "0xA0"
   },
   "Model": {
@@ -359,7 +375,7 @@
    "AssemblyAngularVelocity": "0xEC",
    "AssemblyLinearVelocity": "0xE0",
    "Flags": "0x1BE",
-   "Material": "0x0",
+   "Material": "0x24E",
    "Owner": "0x218",
    "Position": "0xD4",
    "Rotation": "0xB0",
@@ -395,7 +411,7 @@
   },
   "RunService": {
    "HeartbeatFPS": "0xF2",
-   "HeartbeatTask": "0x14B80"
+   "HeartbeatTask": "0x1001"
   },
   "Script": {
    "ByteCode": "0x0",
@@ -403,12 +419,26 @@
    "Hash": "0x188"
   },
   "ScriptContext": {
-   "RequireBypass": "0x0"
+   "GetGlobalState": "0x42B3C80",
+   "LuaState": "0x200",
+   "LuaStateAlt": "0x208",
+   "RequireBypass": "0x0",
+   "Resume": "0x431B1F0",
+   "VTable": "0x71B12C8",
+   "VmWrapper": "0xA8",
+   "VmWrapper2": "0x6C8",
+   "VmWrapperBig": "0x3B8",
+   "VmWrapperFn": "0x1CF86E0"
   },
   "Seat": {
    "Occupant": "0x200"
   },
   "Sky": {
+   "DrawCubeCall": "0x38F58E0",
+   "DrawSkyEnv": "0x38F58E0",
+   "DrawSkyPixel": "0x38F58E0",
+   "DrawStars": "0x38F58E0",
+   "DrawSun": "0x38F58E0",
    "MoonAngularSize": "0x22C",
    "MoonTextureId": "0xB0",
    "SkyboxBk": "0xE0",
@@ -444,7 +474,7 @@
    "Scale": "0xAC"
   },
   "StatsItem": {
-   "Value": "0x30E0"
+   "Value": "0x20"
   },
   "SunRaysEffect": {
    "Enabled": "0x98",
@@ -463,11 +493,12 @@
    "RoughnessMap": "0x170"
   },
   "TaskScheduler": {
-   "JobEnd": "0xD0",
-   "JobName": "0x18",
-   "JobStart": "0xC8",
+   "JobEnd": "0xA8",
+   "JobName": "0x10",
+   "JobStart": "0x1A8",
    "MaxFPS": "0xB0",
-   "Pointer": "0x8E4D7B8"
+   "Pointer": "0x858F8E8",
+   "StepFunction": "0x2A3E640"
   },
   "Team": {
    "BrickColor": "0xA0"
@@ -486,8 +517,8 @@
    "Texture_Texture": "0x1C8"
   },
   "Tool": {
-   "CanBeDropped": "0x365",
-   "Enabled": "0x95",
+   "CanBeDropped": "0x4A0",
+   "Enabled": "0x4A1",
    "Grip": "0x494",
    "ManualActivationOnly": "0x4A2",
    "RequiresHandle": "0x4A3",
@@ -498,7 +529,7 @@
    "AssetId": "0x2F8"
   },
   "UserInputService": {
-   "WindowInputState": "0x288"
+   "WindowInputState": "0x2B0"
   },
   "VehicleSeat": {
    "MaxSpeed": "0x210",
@@ -538,6 +569,227 @@
    "Gravity": "0x218",
    "Primitives": "0x2A0",
    "worldStepsPerSec": "0x868"
+  },
+  "FunctionDescriptor": {
+   "Function": "0x80"
+  },
+  "BoundFuncDescriptor": {
+   "Function": "0x90",
+   "Name": "0x8"
+  },
+  "TechniqueArray": {
+   "BeginOffset": "0x0",
+   "EndOffset": "0x8",
+   "EntryStride": "0x88"
+  },
+  "MaterialLayer": {
+   "ColorData": "0x26",
+   "CullMode": "0x10",
+   "FillModeByte": "0x11",
+   "Flags2": "0x20",
+   "MatFlags": "0x18",
+   "Param": "0x1C",
+   "Stride": "0x88"
+  },
+  "FastCluster": {
+   "ClusterNode": "0x188",
+   "MeshEntityVTableRva": "0x714CB38",
+   "VTableRva": "0x714B860",
+   "VTableRvaSub": "0x714B840",
+   "VTableRvaSubAlt": "0x714C1B8"
+  },
+  "DeviceD3D11Gfx": {
+   "ContextObjVTableRva": "0x70E7B98",
+   "VTableRva": "0x70E79A0"
+  },
+  "GeometryD3D11": {
+   "VTableRva": "0x70E7EC0"
+  },
+  "FastClusterBinding": {
+   "VTableRva": "0x714CA18"
+  },
+  "FastClusterEntity": {
+   "AlphaByte": "0x14",
+   "BBoxMaxX": "0xA4",
+   "BBoxMaxY": "0xA8",
+   "BBoxMaxZ": "0xAC",
+   "BBoxMinX": "0x98",
+   "BBoxMinY": "0x9C",
+   "BBoxMinZ": "0xA0",
+   "ContextPtr": "0x8",
+   "DecalMaterialPtr": "0x48",
+   "MaterialPtr": "0x20",
+   "PrimitiveIndexArrayPtr": "0x80",
+   "RenderQueueId": "0x10",
+   "TechniqueArrayPtr": "0x70",
+   "VTableRva": "0x714CAF0"
+  },
+  "RbxTransport": {
+   "AppRTTI": "0x8413AA0",
+   "AppVTable": "0x70DB908",
+   "ClientRTTI": "0x8455898",
+   "ClientSend": "0x3B02970",
+   "ClientVTable": "0x714D5B0",
+   "GetConnectionErrorName": "0x53E9070"
+  },
+  "RemoteEvent": {
+   "BaseVTableRva": "0x713F188",
+   "DescBaseVTableRva": "0x713EF20",
+   "FireServerRva": "0x710C10",
+   "HookSlot7RemoteEventFn": "0x3587220",
+   "InstanceVTableRva": "0x70D0B68",
+   "InvokeClient": "0x3583760",
+   "InvokeServer": "0x35833E0",
+   "RemoteFuncVTableRva": "0x71436F0",
+   "VTableRva": "0x7143958"
+  },
+  "ShaderManager": {
+   "VTableRva": "0x7148BA0"
+  },
+  "ViewBase": {
+   "VTableRva": "0x7149AD8"
+  },
+  "RakNet": {
+   "ConvertItemEnumToString": "0x491E620",
+   "RakPeerVirtualTable": "0x70E84B8",
+   "ReportNetworkError": "0x49B6820"
+  },
+  "WorldRoot": {
+   "FindPartOnRayBoundFnRva": "0x3D5690",
+   "FindPartOnRayWithIgnoreListBoundFnRva": "0x3D5840",
+   "FindPartOnRayWithWhitelistBoundFnRva": "0x3D59E0",
+   "RaycastBoundFn": "0x90",
+   "RaycastBoundFnRva": "0x3D30B0",
+   "RaycastDescriptorVtableRva": "0x7041420"
+  },
+  "Luau": {
+   "Free": "0x265D2F0",
+   "Step": "0x265D9F0",
+   "luaB_assert": "0x2699220",
+   "luaB_error": "0x2693A70",
+   "luaB_gcinfo": "0x26970A0",
+   "luaB_getfenv": "0x26954C0",
+   "luaB_getmetatable": "0x2694980",
+   "luaB_newproxy": "0x2699E00",
+   "luaB_next": "0x2698770",
+   "luaB_print": "0x2693620",
+   "luaB_rawequal": "0x26957A0",
+   "luaB_rawget": "0x26958B0",
+   "luaB_rawlen": "0x2697000",
+   "luaB_rawset": "0x2696340",
+   "luaB_select": "0x26992D0",
+   "luaB_setfenv": "0x2695580",
+   "luaB_setmetatable": "0x2694B00",
+   "luaB_tonumber": "0x26936E0",
+   "luaB_tostring": "0x2699DA0",
+   "luaB_type": "0x26970C0",
+   "luaB_typeof": "0x2697C20",
+   "tclone": "0x26AF1B0"
+  },
+  "Coroutine": {
+   "create": "0x5A60FE0",
+   "finally": "0x5A640F0",
+   "isyieldable": "0x5A61920",
+   "running": "0x5A618B0",
+   "status": "0x5A5EB20",
+   "wrap": "0x5A61580",
+   "yield": "0x5A61850"
+  },
+  "Raycast": {
+   "RaycastBoundFn": "0x90"
+  },
+  "Functions": {
+   "Clone": "0x56BC00",
+   "Destroy": "0x56BDA0",
+   "GlobalCollectGarbage": "0x4320A80",
+   "GlobalDelay": "0x4321300",
+   "GlobalElapsedTime": "0x4321A80",
+   "GlobalGetFenv": "0x4325010",
+   "GlobalLoadstring": "0x4321B00",
+   "GlobalPluginManager": "0x43221A0",
+   "GlobalPrint": "0x4322670",
+   "GlobalRequire": "0x4322790",
+   "GlobalSetFenv": "0x4325150",
+   "GlobalSettings": "0x4322D60",
+   "GlobalSpawn": "0x43231F0",
+   "GlobalStats": "0x4323960",
+   "GlobalTick": "0x4323E80",
+   "GlobalTime": "0x4323F00",
+   "GlobalUserSettings": "0x4324100",
+   "GlobalVersion": "0x4324510",
+   "GlobalWait": "0x4324600",
+   "GlobalWarn": "0x4324800",
+   "Print": "0x4322670",
+   "PrintIdentity": "0x4322690",
+   "Shapecast": "0xE13EC0"
+  },
+  "LuauGlobal": {
+   "GCthreshold": "0x38",
+   "dummynode": "0x6B22620",
+   "gcstate": "0x2",
+   "gray": "0xA8",
+   "grayagain": "0x70",
+   "totalbytes": "0x68"
+  },
+  "LuaState": {
+   "Global": "0x50"
+  },
+  "LuaCoroutine": {
+   "Create": "0x5A60FE0",
+   "Finally": "0x5A640F0",
+   "Isyieldable": "0x5A61920",
+   "Running": "0x5A618B0",
+   "Status": "0x5A5EB20",
+   "Wrap": "0x5A61580",
+   "Yield": "0x5A61850"
+  },
+  "LuaB": {
+   "LuaBAssert": "0x2699220",
+   "LuaBError": "0x2693A70",
+   "LuaBGcinfo": "0x26970A0",
+   "LuaBGetfenv": "0x26954C0",
+   "LuaBGetmetatable": "0x2694980",
+   "LuaBNewproxy": "0x2699E00",
+   "LuaBNext": "0x2698770",
+   "LuaBPrint": "0x2693620",
+   "LuaBRawequal": "0x26957A0",
+   "LuaBRawget": "0x26958B0",
+   "LuaBRawlen": "0x2697000",
+   "LuaBRawset": "0x2696340",
+   "LuaBSelect": "0x26992D0",
+   "LuaBSetfenv": "0x2695580",
+   "LuaBSetmetatable": "0x2694B00",
+   "LuaBTonumber": "0x26936E0",
+   "LuaBTostring": "0x2699DA0",
+   "LuaBType": "0x26970C0",
+   "LuaBTypeof": "0x2697C20"
+  },
+  "Task": {
+   "TaskCancel": "0x435D290",
+   "TaskDefer": "0x435C440",
+   "TaskDelay": "0x435CCB0",
+   "TaskDesynchronize": "0x435B700",
+   "TaskSpawn": "0x435C920",
+   "TaskSynchronize": "0x435B180",
+   "TaskWait": "0x435D1E0"
+  },
+  "Alloc": {
+   "Malloc": "0x4ADD350"
+  },
+  "highlight_manager": {
+   "context_active": "0x420",
+   "context_depth": "0x20",
+   "context_fill": "0x520",
+   "context_outline": "0x1520",
+   "contexts": "0x100",
+   "fallback_active": "0x538",
+   "fallback_depth": "0x138",
+   "fallback_fill": "0x638",
+   "fallback_outline": "0x1638",
+   "manager": "0xC18"
+  },
+  "Descriptor": {
+   "Name": "0x8"
   }
  }
 }
