@@ -74,6 +74,16 @@ a{color:inherit;text-decoration:none}
 .page{display:none}
 .page.on{display:block}
 @media(max-width:900px){.sidebar{display:none}.content{padding:20px 18px 60px}}
+
+.grad{background:linear-gradient(90deg,#a78bfa,#7dd3fc);-webkit-background-clip:text;background-clip:text;color:transparent;font-size:34px;font-weight:800;text-align:center;margin:8px 0 4px}
+.verline{text-align:center;color:var(--muted);font:13px var(--mono);margin-bottom:30px}
+.sect-title{text-align:center;font-size:19px;font-weight:700;margin:26px 0 16px}
+.pills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:760px;margin:0 auto 8px}
+.pills.center{justify-content:center}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border-radius:20px;background:var(--panel2);border:1px solid var(--line);color:var(--text);font-size:13px}
+.pill:hover{border-color:var(--blue);color:var(--blue)}
+.pill svg{color:var(--blue)}
+.file-ico{width:16px;height:16px;flex:0 0 16px}
 </style>
 </head>
 <body>
@@ -86,7 +96,8 @@ a{color:inherit;text-decoration:none}
   <nav>
     <div class="nav-sec">
       <div class="nav-title">Main</div>
-      <a href="#/" data-p="home"><span>Offsets</span><em id="n-off"></em></a>
+      <a href="#/" data-p="home"><span>Home</span></a>
+      <a href="#/browse" data-p="browse"><span>Offsets</span><em id="n-off"></em></a>
       <a href="#/fflags" data-p="fflags"><span>FFlags</span><em id="n-ff"></em></a>
       <a href="#/archive" data-p="archive"><span>Archive</span></a>
     </div>
@@ -111,8 +122,25 @@ a{color:inherit;text-decoration:none}
   </div>
 
   <div class="page" id="p-home">
+    <div class="grad">cesium dumper</div>
+    <div class="verline" id="home-ver"></div>
+
+    <div class="sect-title">External Offsets</div>
+    <div class="pills" id="pills-ext"></div>
+
+    <div class="sect-title">FFlags</div>
+    <div class="pills" id="pills-ff"></div>
+
+    <div class="sect-title">Misc</div>
+    <div class="pills" id="pills-misc"></div>
+
+    <div class="sect-title">Internal (functions)</div>
+    <div class="pills" id="pills-int"></div>
+  </div>
+
+  <div class="page" id="p-browse">
     <div class="hero">
-      <h1>Offsets <span>dump</span></h1>
+      <h1>Browse <span>offsets</span></h1>
       <p>Runtime + static dump. Offsets are RVAs from the RobloxPlayerBeta module base — same values for internal and external usage. Click any value to copy.</p>
     </div>
     <div id="off-list"></div>
@@ -268,7 +296,7 @@ function buildFF(filter) {
   document.getElementById('ff-empty').classList.toggle('hidden', shown > 0);
 }
 
-const PAGES = {home: 'offsets', fflags: 'fflags', docs: 'docs', archive: 'archive'};
+const PAGES = {home: 'home', browse: 'browse', fflags: 'fflags', docs: 'docs', archive: 'archive'};
 function nav(page, section) {
   for (const id of Object.values(PAGES)) {
     document.getElementById('p-' + id).style.display = 'none';
@@ -297,6 +325,27 @@ window.onhashchange = () => {
 
 buildOffsets('');
 buildFF('');
+
+const V = DATA.version || '';
+document.getElementById('home-ver').textContent = V;
+const ico = '<svg class="file-ico" viewBox="0 0 256 256" fill="currentColor"><path d="M216.49,79.51l-56-56A12,12,0,0,0,152,20H56A20,20,0,0,0,36,40V216a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V88A12,12,0,0,0,216.49,79.51ZM160,57l23,23H160Zm-100,155V44h76V92a12,12,0,0,0,12,12h48V212Z"/></svg>';
+function pill(href, label){
+  return '<a class="pill" href="' + href + '" target="_blank">' + ico + '<span>' + label + '</span></a>';
+}
+const base = V + '/';
+document.getElementById('pills-ext').innerHTML =
+  pill(base + 'offsets.hpp', 'Offsets.hpp') + pill(base + 'offsets.cs', 'Offsets.cs') +
+  pill(base + 'offsets.json', 'Offsets.json') + pill(base + 'offsetshex.json', 'OffsetsHex.json') +
+  pill(base + 'offsets.txt', 'Offsets.txt');
+document.getElementById('pills-ff').innerHTML =
+  pill(base + 'fflags.hpp', 'FFlags.hpp') + pill(base + 'fflags.cs', 'FFlags.cs') +
+  pill(base + 'fflags.json', 'FFlags.json') + pill(base + 'fflagshex.json', 'FFlagsHex.json') +
+  pill(base + 'fflags.txt', 'FFlags.txt');
+document.getElementById('pills-misc').innerHTML =
+  pill(base + 'struct.hpp', 'Struct.hpp') + pill(base + 'types.json', 'Types.json');
+document.getElementById('pills-int').innerHTML =
+  pill(base + 'functions.hpp', 'Functions.hpp') + pill(base + 'functions.cs', 'Functions.cs') +
+  pill(base + 'functions.json', 'Functions.json');
 const initial = window.location.hash.replace('#/', '').split('/');
 if (initial[0]) nav(initial[0], initial[1]); else nav('home');
 document.getElementById('q').oninput = e => {
@@ -304,7 +353,7 @@ document.getElementById('q').oninput = e => {
   const page = Object.entries(PAGES).find(([k]) =>
     document.getElementById('p-' + k).style.display === 'block');
   if (page) {
-    if (page[0] === 'fflags') loadFF(f); else buildOffsets(f);
+    if (page[0] === 'fflags') loadFF(f); else if (page[0] === 'browse' || page[0] === 'home') buildOffsets(f);
   }
 };
 </script>
