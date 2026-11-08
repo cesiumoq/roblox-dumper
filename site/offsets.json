@@ -1,7 +1,7 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 02:57:20",
- "total": 590,
+ "time": "2026-11-08 03:53:30",
+ "total": 392,
  "classes": {
   "AirProperties": {
    "AirDensity": 24,
@@ -65,7 +65,7 @@
    "Size": 160
   },
   "ByteCode": {
-   "Pointer": 24,
+   "Pointer": 16,
    "Size": 40
   },
   "CachedItem": {
@@ -176,7 +176,7 @@
   "Humanoid": {
    "AutoJumpEnabled": 456,
    "AutoRotate": 457,
-   "AutomaticScalingEnabled": 458,
+   "AutomaticScalingEnabled": 149,
    "BreakJointsOnDeath": 460,
    "CameraOffset": 272,
    "DisplayDistanceType": 372,
@@ -202,7 +202,6 @@
    "NameDisplayDistance": 420,
    "NameOcclusion": 424,
    "PlatformStand": 466,
-   "PlatformStatePointer": 3112070175,
    "RequiresNeck": 467,
    "RigType": 436,
    "SeatPart": 240,
@@ -216,22 +215,12 @@
   "Instance": {
    "ChildrenEnd": 8,
    "ChildrenStart": 112,
-   "ChildrenStride": 16,
    "ClassBase": 432,
    "ClassDescriptor": 24,
    "ClassName": 8,
-   "FindFirstAncestorWhichIsA": 5686592,
-   "FindFirstChild": 5701872,
-   "FindFirstChildOfClass": 5687424,
-   "FindFirstChildWhichIsA": 5702432,
-   "FireTouchInterest": 10443040,
-   "GetAttribute": 5689760,
-   "GetChildren": 5692064,
-   "InstanceIndex": 69171360,
    "Name": 0,
    "NameContainer": 104,
    "Parent": 96,
-   "SetParent": 32589104,
    "This": 8
   },
   "LRUHolder": {
@@ -302,17 +291,12 @@
   },
   "MeshPart": {
    "MeshId": 760,
-   "MeshSize": 528,
    "Texture": 808
   },
   "Misc": {
    "Adornee": 216,
    "AnimationId": 168,
-   "EnableLoadModule": 139841384,
-   "LockViolationScriptCrash": 122426384,
-   "PrintIdentity": 70395536,
    "StringLength": 16,
-   "UnregisteredValueGetSet": 119398976,
    "Value": 160
   },
   "Model": {
@@ -375,7 +359,7 @@
    "AssemblyAngularVelocity": 236,
    "AssemblyLinearVelocity": 224,
    "Flags": 446,
-   "Material": 590,
+   "Material": 0,
    "Owner": 536,
    "Position": 212,
    "Rotation": 176,
@@ -411,7 +395,7 @@
   },
   "RunService": {
    "HeartbeatFPS": 242,
-   "HeartbeatTask": 4097
+   "HeartbeatTask": 84864
   },
   "Script": {
    "ByteCode": 0,
@@ -419,26 +403,12 @@
    "Hash": 392
   },
   "ScriptContext": {
-   "GetGlobalState": 69942400,
-   "LuaState": 512,
-   "LuaStateAlt": 520,
-   "RequireBypass": 0,
-   "Resume": 70365680,
-   "VTable": 119214792,
-   "VmWrapper": 168,
-   "VmWrapper2": 1736,
-   "VmWrapperBig": 952,
-   "VmWrapperFn": 30377696
+   "RequireBypass": 0
   },
   "Seat": {
    "Occupant": 512
   },
   "Sky": {
-   "DrawCubeCall": 59726048,
-   "DrawSkyEnv": 59726048,
-   "DrawSkyPixel": 59726048,
-   "DrawStars": 59726048,
-   "DrawSun": 59726048,
    "MoonAngularSize": 556,
    "MoonTextureId": 176,
    "SkyboxBk": 224,
@@ -474,7 +444,7 @@
    "Scale": 172
   },
   "StatsItem": {
-   "Value": 32
+   "Value": 12512
   },
   "SunRaysEffect": {
    "Enabled": 152,
@@ -493,12 +463,11 @@
    "RoughnessMap": 368
   },
   "TaskScheduler": {
-   "JobEnd": 168,
-   "JobName": 16,
-   "JobStart": 424,
+   "JobEnd": 208,
+   "JobName": 24,
+   "JobStart": 200,
    "MaxFPS": 176,
-   "Pointer": 140048616,
-   "StepFunction": 44295744
+   "Pointer": 149215160
   },
   "Team": {
    "BrickColor": 160
@@ -517,8 +486,8 @@
    "Texture_Texture": 456
   },
   "Tool": {
-   "CanBeDropped": 1184,
-   "Enabled": 1185,
+   "CanBeDropped": 869,
+   "Enabled": 149,
    "Grip": 1172,
    "ManualActivationOnly": 1186,
    "RequiresHandle": 1187,
@@ -529,7 +498,7 @@
    "AssetId": 760
   },
   "UserInputService": {
-   "WindowInputState": 688
+   "WindowInputState": 648
   },
   "VehicleSeat": {
    "MaxSpeed": 528,
@@ -569,227 +538,6 @@
    "Gravity": 536,
    "Primitives": 672,
    "worldStepsPerSec": 2152
-  },
-  "FunctionDescriptor": {
-   "Function": 128
-  },
-  "BoundFuncDescriptor": {
-   "Function": 144,
-   "Name": 8
-  },
-  "TechniqueArray": {
-   "BeginOffset": 0,
-   "EndOffset": 8,
-   "EntryStride": 136
-  },
-  "MaterialLayer": {
-   "ColorData": 38,
-   "CullMode": 16,
-   "FillModeByte": 17,
-   "Flags2": 32,
-   "MatFlags": 24,
-   "Param": 28,
-   "Stride": 136
-  },
-  "FastCluster": {
-   "ClusterNode": 392,
-   "MeshEntityVTableRva": 118803256,
-   "VTableRva": 118798432,
-   "VTableRvaSub": 118798400,
-   "VTableRvaSubAlt": 118800824
-  },
-  "DeviceD3D11Gfx": {
-   "ContextObjVTableRva": 118389656,
-   "VTableRva": 118389152
-  },
-  "GeometryD3D11": {
-   "VTableRva": 118390464
-  },
-  "FastClusterBinding": {
-   "VTableRva": 118802968
-  },
-  "FastClusterEntity": {
-   "AlphaByte": 20,
-   "BBoxMaxX": 164,
-   "BBoxMaxY": 168,
-   "BBoxMaxZ": 172,
-   "BBoxMinX": 152,
-   "BBoxMinY": 156,
-   "BBoxMinZ": 160,
-   "ContextPtr": 8,
-   "DecalMaterialPtr": 72,
-   "MaterialPtr": 32,
-   "PrimitiveIndexArrayPtr": 128,
-   "RenderQueueId": 16,
-   "TechniqueArrayPtr": 112,
-   "VTableRva": 118803184
-  },
-  "RbxTransport": {
-   "AppRTTI": 138492576,
-   "AppVTable": 118339848,
-   "ClientRTTI": 138762392,
-   "ClientSend": 61876592,
-   "ClientVTable": 118805936,
-   "GetConnectionErrorName": 87986288
-  },
-  "RemoteEvent": {
-   "BaseVTableRva": 118747528,
-   "DescBaseVTableRva": 118746912,
-   "FireServerRva": 7408656,
-   "HookSlot7RemoteEventFn": 56128032,
-   "InstanceVTableRva": 118295400,
-   "InvokeClient": 56112992,
-   "InvokeServer": 56112096,
-   "RemoteFuncVTableRva": 118765296,
-   "VTableRva": 118765912
-  },
-  "ShaderManager": {
-   "VTableRva": 118786976
-  },
-  "ViewBase": {
-   "VTableRva": 118790872
-  },
-  "RakNet": {
-   "ConvertItemEnumToString": 76670496,
-   "RakPeerVirtualTable": 118391992,
-   "ReportNetworkError": 77293600
-  },
-  "WorldRoot": {
-   "FindPartOnRayBoundFnRva": 4019856,
-   "FindPartOnRayWithIgnoreListBoundFnRva": 4020288,
-   "FindPartOnRayWithWhitelistBoundFnRva": 4020704,
-   "RaycastBoundFn": 144,
-   "RaycastBoundFnRva": 4010160,
-   "RaycastDescriptorVtableRva": 117707808
-  },
-  "Luau": {
-   "Free": 40227568,
-   "Step": 40229360,
-   "luaB_assert": 40473120,
-   "luaB_error": 40450672,
-   "luaB_gcinfo": 40464544,
-   "luaB_getfenv": 40457408,
-   "luaB_getmetatable": 40454528,
-   "luaB_newproxy": 40476160,
-   "luaB_next": 40470384,
-   "luaB_print": 40449568,
-   "luaB_rawequal": 40458144,
-   "luaB_rawget": 40458416,
-   "luaB_rawlen": 40464384,
-   "luaB_rawset": 40461120,
-   "luaB_select": 40473296,
-   "luaB_setfenv": 40457600,
-   "luaB_setmetatable": 40454912,
-   "luaB_tonumber": 40449760,
-   "luaB_tostring": 40476064,
-   "luaB_type": 40464576,
-   "luaB_typeof": 40467488,
-   "tclone": 40563120
-  },
-  "Coroutine": {
-   "create": 94769120,
-   "finally": 94781680,
-   "isyieldable": 94771488,
-   "running": 94771376,
-   "status": 94759712,
-   "wrap": 94770560,
-   "yield": 94771280
-  },
-  "Raycast": {
-   "RaycastBoundFn": 144
-  },
-  "Functions": {
-   "Clone": 5684224,
-   "Destroy": 5684640,
-   "GlobalCollectGarbage": 70388352,
-   "GlobalDelay": 70390528,
-   "GlobalElapsedTime": 70392448,
-   "GlobalGetFenv": 70406160,
-   "GlobalLoadstring": 70392576,
-   "GlobalPluginManager": 70394272,
-   "GlobalPrint": 70395504,
-   "GlobalRequire": 70395792,
-   "GlobalSetFenv": 70406480,
-   "GlobalSettings": 70397280,
-   "GlobalSpawn": 70398448,
-   "GlobalStats": 70400352,
-   "GlobalTick": 70401664,
-   "GlobalTime": 70401792,
-   "GlobalUserSettings": 70402304,
-   "GlobalVersion": 70403344,
-   "GlobalWait": 70403584,
-   "GlobalWarn": 70404096,
-   "Print": 70395504,
-   "PrintIdentity": 70395536,
-   "Shapecast": 14761664
-  },
-  "LuauGlobal": {
-   "GCthreshold": 56,
-   "dummynode": 112338464,
-   "gcstate": 2,
-   "gray": 168,
-   "grayagain": 112,
-   "totalbytes": 104
-  },
-  "LuaState": {
-   "Global": 80
-  },
-  "LuaCoroutine": {
-   "Create": 94769120,
-   "Finally": 94781680,
-   "Isyieldable": 94771488,
-   "Running": 94771376,
-   "Status": 94759712,
-   "Wrap": 94770560,
-   "Yield": 94771280
-  },
-  "LuaB": {
-   "LuaBAssert": 40473120,
-   "LuaBError": 40450672,
-   "LuaBGcinfo": 40464544,
-   "LuaBGetfenv": 40457408,
-   "LuaBGetmetatable": 40454528,
-   "LuaBNewproxy": 40476160,
-   "LuaBNext": 40470384,
-   "LuaBPrint": 40449568,
-   "LuaBRawequal": 40458144,
-   "LuaBRawget": 40458416,
-   "LuaBRawlen": 40464384,
-   "LuaBRawset": 40461120,
-   "LuaBSelect": 40473296,
-   "LuaBSetfenv": 40457600,
-   "LuaBSetmetatable": 40454912,
-   "LuaBTonumber": 40449760,
-   "LuaBTostring": 40476064,
-   "LuaBType": 40464576,
-   "LuaBTypeof": 40467488
-  },
-  "Task": {
-   "TaskCancel": 70636176,
-   "TaskDefer": 70632512,
-   "TaskDelay": 70634672,
-   "TaskDesynchronize": 70629120,
-   "TaskSpawn": 70633760,
-   "TaskSynchronize": 70627712,
-   "TaskWait": 70636000
-  },
-  "Alloc": {
-   "Malloc": 78500688
-  },
-  "highlight_manager": {
-   "context_active": 1056,
-   "context_depth": 32,
-   "context_fill": 1312,
-   "context_outline": 5408,
-   "contexts": 256,
-   "fallback_active": 1336,
-   "fallback_depth": 312,
-   "fallback_fill": 1592,
-   "fallback_outline": 5688,
-   "manager": 3096
-  },
-  "Descriptor": {
-   "Name": 8
   }
  }
 }
