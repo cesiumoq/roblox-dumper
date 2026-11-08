@@ -4,9 +4,10 @@ const FILE_ICON = "M56 20h96l56 56v140a20 20 0 0 1-20 20H56a20 20 0 0 1-20-20V40
 
 const NAV = [
   ["overview", "Overview"],
-  ["offsets", "Offsets"],
-  ["fflags", "FFlags"],
-  ["functions", "Functions"],
+  ["offsets", "Offsets", "external"],
+  ["offsetsint", "Offsets int.", "internal"],
+  ["fflags", "FFlags", "external"],
+  ["functions", "Functions", "internal"],
   ["downloads", "Downloads"],
   ["api", "API"],
   ["favorites", "Favorites"],
@@ -14,6 +15,7 @@ const NAV = [
 
 const SOURCES = {
   offsets: "api/offsets_all.json",
+  offsetsint: "api/offsets_internal_all.json",
   fflags: "api/fflags_all.json",
   functions: "api/functions_all.json",
 };
@@ -36,6 +38,7 @@ function rowsFor(view, data) {
   if (!data) return [];
   switch (view) {
     case "offsets":
+    case "offsetsint":
       return flattenModules(data);
     case "fflags":
       return (data.flags || []).map((f) => ({ name: f.name, rva: f.rva }));
@@ -48,6 +51,7 @@ function rowsFor(view, data) {
 
 const COLUMNS = {
   offsets: [["name", "Name"], ["module", "Class"], ["rva", "RVA"]],
+  offsetsint: [["name", "Name"], ["module", "Class"], ["rva", "RVA"]],
   fflags: [["name", "Flag"], ["rva", "RVA"]],
   functions: [["name", "Function"], ["rva", "RVA"]],
 };
@@ -79,11 +83,10 @@ function CopyButton({ text, label = "copy" }) {
   const [copied, setCopied] = useState(false);
   return (
     <button
-      onClick={() => {
-        navigator.clipboard.writeText(text).then(() => {
-          setCopied(true);
-          setTimeout(() => setCopied(false), 900);
-        });
+      className="copy-btn"
+      onClick={async () => {
+        try { await navigator.clipboard.writeText(text); setCopied(true); setTimeout(() => setCopied(false), 1200); }
+        catch { setCopied(false); }
       }}
     >
       {copied ? "copied" : label}
@@ -100,12 +103,19 @@ function Star({ active, onClick }) {
 }
 
 function RowCopy({ row }) {
-  const parts = [];
-  for (const key of ["name", "rva"]) {
-    if (row[key] != null && row[key] !== "") parts.push(String(row[key]));
-  }
-  const text = parts.join(" ");
-  return <CopyButton text={text} label="" />;
+  const [copied, setCopied] = useState(false);
+  return (
+    <button
+      className="row-copy"
+      title="Copy row"
+      onClick={async () => {
+        try { await navigator.clipboard.writeText(JSON.stringify(row, null, 2)); setCopied(true); setTimeout(() => setCopied(false), 900); }
+        catch { setCopied(false); }
+      }}
+    >
+      {copied ? "ok" : "copy"}
+    </button>
+  );
 }
 
 export default function App() {
@@ -134,7 +144,7 @@ export default function App() {
   useEffect(() => {
     fetch("./data/latest/build.json", { cache: "no-store" })
       .then((r) => r.json())
-      .then((data) => { setBuild(String(data.build_number ?? "")); setMeta(data); })
+      .then((data) => { setBuild(String(data.build_number ?? "").replace(/^version-/, "")); setMeta(data); })
       .catch(() => {});
   }, []);
 
@@ -153,12 +163,16 @@ export default function App() {
     setGlobalLoaded(true);
     Promise.all([
       fetch("./api/offsets_all.json").then((r) => r.json()),
+      fetch("./api/offsets_internal_all.json").then((r) => r.json()),
       fetch("./api/fflags_all.json").then((r) => r.json()),
       fetch("./api/functions_all.json").then((r) => r.json()),
-    ]).then(([offsets, fflags, functions]) => {
+    ]).then(([offsets, offsetsint, fflags, functions]) => {
       const rows = [];
       for (const [module, entries] of Object.entries(offsets.modules || {})) {
         for (const entry of entries) rows.push({ view: "offsets", label: entry.name, meta: `${module} / ${entry.rva}` });
+      }
+      for (const [module, entries] of Object.entries(offsetsint.modules || {})) {
+        for (const entry of entries) rows.push({ view: "offsetsint", label: entry.name, meta: `${module} / ${entry.rva}` });
       }
       for (const f of fflags.flags || []) rows.push({ view: "fflags", label: f.name, meta: f.rva });
       for (const f of functions.functions || []) rows.push({ view: "functions", label: f.name, meta: f.rva });
