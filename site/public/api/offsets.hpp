@@ -4,7 +4,7 @@
 
 /*  Total Offsets   :  590
 
-/*  Dumped At       : 04:28 08/11/2026 (GMT)
+/*  Dumped At       : 04:29 08/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -85,7 +85,7 @@ namespace Offsets {
         inline constexpr uintptr_t Name = 0x8;
     }
     namespace ByteCode {
-        inline constexpr uintptr_t Pointer = 0x18;
+        inline constexpr uintptr_t Pointer = 0x10;
         inline constexpr uintptr_t Size = 0x28;
     }
     namespace CachedItem {

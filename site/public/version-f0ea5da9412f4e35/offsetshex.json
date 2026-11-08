@@ -1,6 +1,6 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 05:28:44",
+ "time": "2026-11-08 05:29:42",
  "total": 590,
  "classes": {
   "AirProperties": {
@@ -72,7 +72,7 @@
    "Name": "0x8"
   },
   "ByteCode": {
-   "Pointer": "0x18",
+   "Pointer": "0x10",
    "Size": "0x28"
   },
   "CachedItem": {

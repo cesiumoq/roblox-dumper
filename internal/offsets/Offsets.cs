@@ -97,7 +97,7 @@ namespace Offsets
     }
     public static class ByteCode
     {
-        public const long Pointer = 0x18;
+        public const long Pointer = 0x10;
         public const long Size = 0x28;
     }
     public static class CachedItem

@@ -4,7 +4,7 @@
 
 /*  Total Offsets   :  590
 
-/*  Dumped At       : 04:28 08/11/2026 (GMT)
+/*  Dumped At       : 04:29 08/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -55,7 +55,7 @@ BlurEffect.Enabled = 0x98
 BlurEffect.Size = 0xA0
 BoundFuncDescriptor.Function = 0x90
 BoundFuncDescriptor.Name = 0x8
-ByteCode.Pointer = 0x18
+ByteCode.Pointer = 0x10
 ByteCode.Size = 0x28
 CachedItem.FileMeshData = 0x28
 Camera.CameraSubject = 0xB0

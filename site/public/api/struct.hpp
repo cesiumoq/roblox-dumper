@@ -4,7 +4,7 @@
 
 /*  Total Offsets   :  590
 
-/*  Dumped At       : 04:28 08/11/2026 (GMT)
+/*  Dumped At       : 04:29 08/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -94,7 +94,7 @@ struct BoundFuncDescriptor {
 };
 
 struct ByteCode {
-    uintptr_t Pointer; // 0x18
+    uintptr_t Pointer; // 0x10
     uintptr_t Size; // 0x28
 };
 

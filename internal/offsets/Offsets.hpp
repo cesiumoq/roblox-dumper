@@ -85,7 +85,7 @@ namespace Offsets {
         inline constexpr uintptr_t Name = 0x8;
     }
     namespace ByteCode {
-        inline constexpr uintptr_t Pointer = 0x18;
+        inline constexpr uintptr_t Pointer = 0x10;
         inline constexpr uintptr_t Size = 0x28;
     }
     namespace CachedItem {

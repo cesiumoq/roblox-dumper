@@ -4,7 +4,7 @@
 
 /*  Total Offsets   :  590
 
-/*  Dumped At       : 04:28 08/11/2026 (GMT)
+/*  Dumped At       : 04:29 08/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -97,7 +97,7 @@ namespace Offsets
     }
     public static class ByteCode
     {
-        public const long Pointer = 0x18;
+        public const long Pointer = 0x10;
         public const long Size = 0x28;
     }
     public static class CachedItem
