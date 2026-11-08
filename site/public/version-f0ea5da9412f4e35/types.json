@@ -1,6 +1,6 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 05:51:20",
+ "time": "2026-11-08 20:11:45",
  "types": {
   "AirProperties": {
    "AirDensity": "uintptr_t",
@@ -483,6 +483,10 @@
    "InputObject2": "uintptr_t",
    "MousePosition": "uintptr_t",
    "SensitivityPointer": "uintptr_t"
+  },
+  "Offsets": {
+   "AirDensity": "uintptr_t",
+   "GlobalWind": "uintptr_t"
   },
   "ParticleEmitter": {
    "Acceleration": "uintptr_t",

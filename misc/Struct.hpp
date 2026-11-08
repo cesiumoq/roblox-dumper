@@ -2,9 +2,9 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  590
+/*  Total Offsets   :  592
 
-/*  Dumped At       : 04:36 08/11/2026 (GMT)
+/*  Dumped At       : 19:11 08/11/2026 (GMT)
 
 /*  Dumped In       : 3,2s
 
@@ -300,8 +300,10 @@ struct GuiObject {
 };
 
 struct Humanoid {
+    uintptr_t PlatformStatePointer; // 0x0
     uintptr_t WalkTimer; // 0x0
     uintptr_t HumanoidStateID; // 0x20
+    uintptr_t AutomaticScalingEnabled; // 0x95
     uintptr_t DisplayName; // 0xA0
     uintptr_t SeatPart; // 0xF0
     uintptr_t MoveToPart; // 0x100
@@ -325,7 +327,6 @@ struct Humanoid {
     uintptr_t Walkspeed; // 0x1C4
     uintptr_t AutoJumpEnabled; // 0x1C8
     uintptr_t AutoRotate; // 0x1C9
-    uintptr_t AutomaticScalingEnabled; // 0x1CA
     uintptr_t BreakJointsOnDeath; // 0x1CC
     uintptr_t EvaluateStateMachine; // 0x1CD
     uintptr_t Jump; // 0x1D0
@@ -337,7 +338,6 @@ struct Humanoid {
     uintptr_t HumanoidRootPart; // 0x460
     uintptr_t HumanoidState; // 0x8A8
     uintptr_t IsWalking; // 0xA2E
-    uintptr_t PlatformStatePointer; // 0xB97E6C1F
 };
 
 struct Instance {
@@ -399,8 +399,8 @@ struct Lighting {
 
 struct LocalScript {
     uintptr_t GUID; // 0xB8
+    uintptr_t ByteCode; // 0x180
     uintptr_t Hash; // 0x188
-    uintptr_t ByteCode; // 0x2E0
 };
 
 struct LuaB {
@@ -540,7 +540,7 @@ struct Model {
 struct ModuleScript {
     uintptr_t IsCoreScript; // 0x0
     uintptr_t GUID; // 0xB8
-    uintptr_t ByteCode; // 0x2E0
+    uintptr_t ByteCode; // 0x120
     uintptr_t Hash; // 0x348
 };
 
@@ -549,6 +549,11 @@ struct MouseService {
     uintptr_t MousePosition; // 0xBC
     uintptr_t InputObject; // 0xE8
     uintptr_t InputObject2; // 0xF8
+};
+
+struct Offsets {
+    uintptr_t AirDensity; // 0x18
+    uintptr_t GlobalWind; // 0x3C
 };
 
 struct ParticleEmitter {
@@ -596,6 +601,7 @@ struct PlayerMouse {
 };
 
 struct Primitive {
+    uintptr_t Material; // 0x0
     uintptr_t Validate; // 0x6
     uintptr_t Rotation; // 0xB0
     uintptr_t Position; // 0xD4
@@ -604,7 +610,6 @@ struct Primitive {
     uintptr_t Flags; // 0x1BE
     uintptr_t Size; // 0x1C4
     uintptr_t Owner; // 0x218
-    uintptr_t Material; // 0x24E
 };
 
 struct PrimitiveFlags {
@@ -671,7 +676,7 @@ struct RenderView {
 
 struct RunService {
     uintptr_t HeartbeatFPS; // 0xF2
-    uintptr_t HeartbeatTask; // 0x1001
+    uintptr_t HeartbeatTask; // 0x14B80
 };
 
 struct Script {
@@ -746,7 +751,7 @@ struct SpecialMesh {
 };
 
 struct StatsItem {
-    uintptr_t Value; // 0x20
+    uintptr_t Value; // 0x30E0
 };
 
 struct SunRaysEffect {
@@ -778,12 +783,12 @@ struct Task {
 };
 
 struct TaskScheduler {
-    uintptr_t JobName; // 0x10
-    uintptr_t JobEnd; // 0xA8
+    uintptr_t JobName; // 0x18
     uintptr_t MaxFPS; // 0xB0
-    uintptr_t JobStart; // 0x1A8
+    uintptr_t JobStart; // 0xC8
+    uintptr_t JobEnd; // 0xD0
     uintptr_t StepFunction; // 0x2A3E640
-    uintptr_t Pointer; // 0x858F8E8
+    uintptr_t Pointer; // 0x8E4D7B8
 };
 
 struct Team {
@@ -812,11 +817,11 @@ struct Textures {
 };
 
 struct Tool {
+    uintptr_t Enabled; // 0x95
     uintptr_t TextureId; // 0x348
+    uintptr_t CanBeDropped; // 0x365
     uintptr_t Tooltip; // 0x450
     uintptr_t Grip; // 0x494
-    uintptr_t CanBeDropped; // 0x4A0
-    uintptr_t Enabled; // 0x4A1
     uintptr_t ManualActivationOnly; // 0x4A2
     uintptr_t RequiresHandle; // 0x4A3
 };
@@ -826,7 +831,7 @@ struct UnionOperation {
 };
 
 struct UserInputService {
-    uintptr_t WindowInputState; // 0x2B0
+    uintptr_t WindowInputState; // 0x288
 };
 
 struct VehicleSeat {

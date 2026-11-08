@@ -2,9 +2,9 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  590
+/*  Total Offsets   :  592
 
-/*  Dumped At       : 04:36 08/11/2026 (GMT)
+/*  Dumped At       : 19:11 08/11/2026 (GMT)
 
 /*  Dumped In       : 3,2s
 
@@ -269,7 +269,7 @@ namespace Offsets {
     namespace Humanoid {
         inline constexpr uintptr_t AutoJumpEnabled = 0x1C8;
         inline constexpr uintptr_t AutoRotate = 0x1C9;
-        inline constexpr uintptr_t AutomaticScalingEnabled = 0x1CA;
+        inline constexpr uintptr_t AutomaticScalingEnabled = 0x95;
         inline constexpr uintptr_t BreakJointsOnDeath = 0x1CC;
         inline constexpr uintptr_t CameraOffset = 0x110;
         inline constexpr uintptr_t DisplayDistanceType = 0x174;
@@ -295,7 +295,7 @@ namespace Offsets {
         inline constexpr uintptr_t NameDisplayDistance = 0x1A4;
         inline constexpr uintptr_t NameOcclusion = 0x1A8;
         inline constexpr uintptr_t PlatformStand = 0x1D2;
-        inline constexpr uintptr_t PlatformStatePointer = 0xB97E6C1F;
+        inline constexpr uintptr_t PlatformStatePointer = 0x0;
         inline constexpr uintptr_t RequiresNeck = 0x1D3;
         inline constexpr uintptr_t RigType = 0x1B4;
         inline constexpr uintptr_t SeatPart = 0xF0;
@@ -360,7 +360,7 @@ namespace Offsets {
         inline constexpr uintptr_t SunPosition = 0x160;
     }
     namespace LocalScript {
-        inline constexpr uintptr_t ByteCode = 0x2E0;
+        inline constexpr uintptr_t ByteCode = 0x180;
         inline constexpr uintptr_t GUID = 0xB8;
         inline constexpr uintptr_t Hash = 0x188;
     }
@@ -487,7 +487,7 @@ namespace Offsets {
         inline constexpr uintptr_t Scale = 0x12C;
     }
     namespace ModuleScript {
-        inline constexpr uintptr_t ByteCode = 0x2E0;
+        inline constexpr uintptr_t ByteCode = 0x120;
         inline constexpr uintptr_t GUID = 0xB8;
         inline constexpr uintptr_t Hash = 0x348;
         inline constexpr uintptr_t IsCoreScript = 0x0;
@@ -497,6 +497,10 @@ namespace Offsets {
         inline constexpr uintptr_t InputObject2 = 0xF8;
         inline constexpr uintptr_t MousePosition = 0xBC;
         inline constexpr uintptr_t SensitivityPointer = 0x0;
+    }
+    namespace Offsets {
+        inline constexpr uintptr_t AirDensity = 0x18;
+        inline constexpr uintptr_t GlobalWind = 0x3C;
     }
     namespace ParticleEmitter {
         inline constexpr uintptr_t Acceleration = 0x1C8;
@@ -542,7 +546,7 @@ namespace Offsets {
         inline constexpr uintptr_t AssemblyAngularVelocity = 0xEC;
         inline constexpr uintptr_t AssemblyLinearVelocity = 0xE0;
         inline constexpr uintptr_t Flags = 0x1BE;
-        inline constexpr uintptr_t Material = 0x24E;
+        inline constexpr uintptr_t Material = 0x0;
         inline constexpr uintptr_t Owner = 0x218;
         inline constexpr uintptr_t Position = 0xD4;
         inline constexpr uintptr_t Rotation = 0xB0;
@@ -605,7 +609,7 @@ namespace Offsets {
     }
     namespace RunService {
         inline constexpr uintptr_t HeartbeatFPS = 0xF2;
-        inline constexpr uintptr_t HeartbeatTask = 0x1001;
+        inline constexpr uintptr_t HeartbeatTask = 0x14B80;
     }
     namespace Script {
         inline constexpr uintptr_t ByteCode = 0x0;
@@ -671,7 +675,7 @@ namespace Offsets {
         inline constexpr uintptr_t Scale = 0xAC;
     }
     namespace StatsItem {
-        inline constexpr uintptr_t Value = 0x20;
+        inline constexpr uintptr_t Value = 0x30E0;
     }
     namespace SunRaysEffect {
         inline constexpr uintptr_t Enabled = 0x98;
@@ -699,11 +703,11 @@ namespace Offsets {
         inline constexpr uintptr_t TaskWait = 0x435D1E0;
     }
     namespace TaskScheduler {
-        inline constexpr uintptr_t JobEnd = 0xA8;
-        inline constexpr uintptr_t JobName = 0x10;
-        inline constexpr uintptr_t JobStart = 0x1A8;
+        inline constexpr uintptr_t JobEnd = 0xD0;
+        inline constexpr uintptr_t JobName = 0x18;
+        inline constexpr uintptr_t JobStart = 0xC8;
         inline constexpr uintptr_t MaxFPS = 0xB0;
-        inline constexpr uintptr_t Pointer = 0x858F8E8;
+        inline constexpr uintptr_t Pointer = 0x8E4D7B8;
         inline constexpr uintptr_t StepFunction = 0x2A3E640;
     }
     namespace Team {
@@ -728,8 +732,8 @@ namespace Offsets {
         inline constexpr uintptr_t Texture_Texture = 0x1C8;
     }
     namespace Tool {
-        inline constexpr uintptr_t CanBeDropped = 0x4A0;
-        inline constexpr uintptr_t Enabled = 0x4A1;
+        inline constexpr uintptr_t CanBeDropped = 0x365;
+        inline constexpr uintptr_t Enabled = 0x95;
         inline constexpr uintptr_t Grip = 0x494;
         inline constexpr uintptr_t ManualActivationOnly = 0x4A2;
         inline constexpr uintptr_t RequiresHandle = 0x4A3;
@@ -740,7 +744,7 @@ namespace Offsets {
         inline constexpr uintptr_t AssetId = 0x2F8;
     }
     namespace UserInputService {
-        inline constexpr uintptr_t WindowInputState = 0x2B0;
+        inline constexpr uintptr_t WindowInputState = 0x288;
     }
     namespace VehicleSeat {
         inline constexpr uintptr_t MaxSpeed = 0x210;

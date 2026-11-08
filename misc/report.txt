@@ -2,18 +2,18 @@ SWC Dumper - rapport
 ====================
 
 Classe               Champ                          Valeur       Methode     Detail
-TaskScheduler        Pointer                        -            FAIL        ancre string introuvable
-FakeDataModel        Pointer                        -            FAIL        aucun candidat singleton pour RBX::DataModel
-VisualEngine         Pointer                        -            FAIL        aucun candidat singleton pour RBX::Graphics::VisualEngine
+TaskScheduler        Pointer                        0x8264260    STATIC      ancre string, cands=0x8264260, 0x8e4d9d0, 0x8e4d9e0
+FakeDataModel        Pointer                        0x84f4c38    STATIC      vftable=0x71acca8 score=1.6 accessors=1 refs=3 bonus=0 | top3=0x84f4c38, 0x84f5a38, 0x84f5a30
+VisualEngine         Pointer                        0x84f4c38    STATIC      vftable=0x71483a0 score=1.6 accessors=1 refs=3 bonus=0 | top3=0x84f4c38, 0x84f5a38, 0x84f5a30
 FFlags               NextGenReplicatorEnabledWrite4 -            FAIL        string/ref introuvable
 FFlags               S2PhysicsSenderRate            -            FAIL        string/ref introuvable
 Animator             ActiveAnimations               0xa80        STALE       fallback ancien dump: string propriete absente
-Attachment           Position                       0xb4         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+Attachment           Position                       0xc          REFLECTION  conf=0 cands=13 assoc=False top=0xc[n1,s0,l1]
 CachedItem           FileMeshData                   0x40         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-MemEnforcedLRUCache  Head                           0x8          STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-Seat                 Occupant                       0x208        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-StatsItem            Value                          0x1259       STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-Team                 BrickColor                     0xa8         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+MemEnforcedLRUCache  Head                           0x28         REFLECTION  conf=0 cands=5 assoc=False top=0x28[n1,s0,l1], 0x40[n1,s0,l1]
+Seat                 Occupant                       0x98         REFLECTION  conf=2 cands=1 assoc=False top=0x98[n2,s2,l0], 0xa8[n2,s2,l0], 0xc8[n2,s2,l0]
+StatsItem            Value                          0x18         REFLECTION  conf=2 cands=7 assoc=False top=0x18[n6,s4,l2], 0x20[n6,s4,l2], 0x8[n6,s3,l3]
+Team                 BrickColor                     0x8          REFLECTION  conf=2 cands=5 assoc=False top=0x8[n2,s1,l1], 0x30[n2,s1,l1], 0x60[n5,s0,l5]
 UnionOperation       AssetId                        0x300        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 UserInputService     WindowInputState               0x2b0        STALE       fallback ancien dump: string propriete absente
 LRUHolder            MemEnforcedLRUCache            0x20         STALE       fallback ancien dump (recette manquante)
@@ -21,4 +21,4 @@ MeshContentProvider  LRUHolder                      0xc8         STALE       fal
 PlayerConfigurer     Pointer                        0            STALE       fallback ancien dump (recette manquante)
 ScriptContext        RequireBypass                  0            STALE       fallback ancien dump (recette manquante)
 
-Total: FAIL=5, STALE=13
+Total: FAIL=2, REFLECTION=5, STALE=8, STATIC=3

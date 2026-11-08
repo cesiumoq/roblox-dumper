@@ -2,9 +2,9 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  590
+/*  Total Offsets   :  592
 
-/*  Dumped At       : 04:51 08/11/2026 (GMT)
+/*  Dumped At       : 19:11 08/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -305,7 +305,7 @@ namespace Offsets
     {
         public const long AutoJumpEnabled = 0x1c8;
         public const long AutoRotate = 0x1c9;
-        public const long AutomaticScalingEnabled = 0x1ca;
+        public const long AutomaticScalingEnabled = 0x95;
         public const long BreakJointsOnDeath = 0x1cc;
         public const long CameraOffset = 0x110;
         public const long DisplayDistanceType = 0x174;
@@ -331,7 +331,7 @@ namespace Offsets
         public const long NameDisplayDistance = 0x1a4;
         public const long NameOcclusion = 0x1a8;
         public const long PlatformStand = 0x1d2;
-        public const long PlatformStatePointer = 0xb97e6c1f;
+        public const long PlatformStatePointer = 0x0;
         public const long RequiresNeck = 0x1d3;
         public const long RigType = 0x1b4;
         public const long SeatPart = 0xf0;
@@ -401,7 +401,7 @@ namespace Offsets
     }
     public static class LocalScript
     {
-        public const long ByteCode = 0x2e0;
+        public const long ByteCode = 0x180;
         public const long GUID = 0xb8;
         public const long Hash = 0x188;
     }
@@ -541,7 +541,7 @@ namespace Offsets
     }
     public static class ModuleScript
     {
-        public const long ByteCode = 0x2e0;
+        public const long ByteCode = 0x120;
         public const long GUID = 0xb8;
         public const long Hash = 0x348;
         public const long IsCoreScript = 0x0;
@@ -552,6 +552,11 @@ namespace Offsets
         public const long InputObject2 = 0xf8;
         public const long MousePosition = 0xbc;
         public const long SensitivityPointer = 0x0;
+    }
+    public static class Offsets
+    {
+        public const long AirDensity = 0x18;
+        public const long GlobalWind = 0x3c;
     }
     public static class ParticleEmitter
     {
@@ -602,7 +607,7 @@ namespace Offsets
         public const long AssemblyAngularVelocity = 0xec;
         public const long AssemblyLinearVelocity = 0xe0;
         public const long Flags = 0x1be;
-        public const long Material = 0x24e;
+        public const long Material = 0x0;
         public const long Owner = 0x218;
         public const long Position = 0xd4;
         public const long Rotation = 0xb0;
@@ -674,7 +679,7 @@ namespace Offsets
     public static class RunService
     {
         public const long HeartbeatFPS = 0xf2;
-        public const long HeartbeatTask = 0x1001;
+        public const long HeartbeatTask = 0x14b80;
     }
     public static class Script
     {
@@ -749,7 +754,7 @@ namespace Offsets
     }
     public static class StatsItem
     {
-        public const long Value = 0x20;
+        public const long Value = 0x30e0;
     }
     public static class SunRaysEffect
     {
@@ -781,11 +786,11 @@ namespace Offsets
     }
     public static class TaskScheduler
     {
-        public const long JobEnd = 0xa8;
-        public const long JobName = 0x10;
-        public const long JobStart = 0x1a8;
+        public const long JobEnd = 0xd0;
+        public const long JobName = 0x18;
+        public const long JobStart = 0xc8;
         public const long MaxFPS = 0xb0;
-        public const long Pointer = 0x858f8e8;
+        public const long Pointer = 0x8e4d7b8;
         public const long StepFunction = 0x2a3e640;
     }
     public static class Team
@@ -815,8 +820,8 @@ namespace Offsets
     }
     public static class Tool
     {
-        public const long CanBeDropped = 0x4a0;
-        public const long Enabled = 0x4a1;
+        public const long CanBeDropped = 0x365;
+        public const long Enabled = 0x95;
         public const long Grip = 0x494;
         public const long ManualActivationOnly = 0x4a2;
         public const long RequiresHandle = 0x4a3;
@@ -829,7 +834,7 @@ namespace Offsets
     }
     public static class UserInputService
     {
-        public const long WindowInputState = 0x2b0;
+        public const long WindowInputState = 0x288;
     }
     public static class VehicleSeat
     {

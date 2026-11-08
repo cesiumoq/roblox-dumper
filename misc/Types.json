@@ -1,10 +1,13 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 05:36:01",
+ "time": "2026-11-08 20:11:42",
  "types": {
   "AirProperties": {
    "AirDensity": "uintptr_t",
    "GlobalWind": "uintptr_t"
+  },
+  "Alloc": {
+   "Malloc": "uintptr_t"
   },
   "AnimationTrack": {
    "Animation": "uintptr_t",
@@ -63,6 +66,10 @@
    "Enabled": "uintptr_t",
    "Size": "uintptr_t"
   },
+  "BoundFuncDescriptor": {
+   "Function": "uintptr_t",
+   "Name": "uintptr_t"
+  },
   "ByteCode": {
    "Pointer": "uintptr_t",
    "Size": "uintptr_t"
@@ -104,6 +111,15 @@
    "Enabled": "uintptr_t",
    "TonemapperPreset": "uintptr_t"
   },
+  "Coroutine": {
+   "create": "uintptr_t",
+   "finally": "uintptr_t",
+   "isyieldable": "uintptr_t",
+   "running": "uintptr_t",
+   "status": "uintptr_t",
+   "wrap": "uintptr_t",
+   "yield": "uintptr_t"
+  },
   "DataModel": {
    "CreatorId": "uintptr_t",
    "GameId": "uintptr_t",
@@ -126,6 +142,13 @@
    "InFocusRadius": "uintptr_t",
    "NearIntensity": "uintptr_t"
   },
+  "Descriptor": {
+   "Name": "uintptr_t"
+  },
+  "DeviceD3D11Gfx": {
+   "ContextObjVTableRva": "uintptr_t",
+   "VTableRva": "uintptr_t"
+  },
   "DragDetector": {
    "ActivatedCursorIcon": "uintptr_t",
    "CursorIcon": "uintptr_t",
@@ -143,6 +166,32 @@
    "Pointer": "uintptr_t",
    "RealDataModel": "uintptr_t"
   },
+  "FastCluster": {
+   "ClusterNode": "uintptr_t",
+   "MeshEntityVTableRva": "uintptr_t",
+   "VTableRva": "uintptr_t",
+   "VTableRvaSub": "uintptr_t",
+   "VTableRvaSubAlt": "uintptr_t"
+  },
+  "FastClusterBinding": {
+   "VTableRva": "uintptr_t"
+  },
+  "FastClusterEntity": {
+   "AlphaByte": "uintptr_t",
+   "BBoxMaxX": "uintptr_t",
+   "BBoxMaxY": "uintptr_t",
+   "BBoxMaxZ": "uintptr_t",
+   "BBoxMinX": "uintptr_t",
+   "BBoxMinY": "uintptr_t",
+   "BBoxMinZ": "uintptr_t",
+   "ContextPtr": "uintptr_t",
+   "DecalMaterialPtr": "uintptr_t",
+   "MaterialPtr": "uintptr_t",
+   "PrimitiveIndexArrayPtr": "uintptr_t",
+   "RenderQueueId": "uintptr_t",
+   "TechniqueArrayPtr": "uintptr_t",
+   "VTableRva": "uintptr_t"
+  },
   "FileMeshData": {
    "AABBMax": "uintptr_t",
    "AABBMin": "uintptr_t",
@@ -150,6 +199,37 @@
    "FacesEnd": "uintptr_t",
    "Vertices": "uintptr_t",
    "VerticesEnd": "uintptr_t"
+  },
+  "FunctionDescriptor": {
+   "Function": "uintptr_t"
+  },
+  "Functions": {
+   "Clone": "uintptr_t",
+   "Destroy": "uintptr_t",
+   "GlobalCollectGarbage": "uintptr_t",
+   "GlobalDelay": "uintptr_t",
+   "GlobalElapsedTime": "uintptr_t",
+   "GlobalGetFenv": "uintptr_t",
+   "GlobalLoadstring": "uintptr_t",
+   "GlobalPluginManager": "uintptr_t",
+   "GlobalPrint": "uintptr_t",
+   "GlobalRequire": "uintptr_t",
+   "GlobalSetFenv": "uintptr_t",
+   "GlobalSettings": "uintptr_t",
+   "GlobalSpawn": "uintptr_t",
+   "GlobalStats": "uintptr_t",
+   "GlobalTick": "uintptr_t",
+   "GlobalTime": "uintptr_t",
+   "GlobalUserSettings": "uintptr_t",
+   "GlobalVersion": "uintptr_t",
+   "GlobalWait": "uintptr_t",
+   "GlobalWarn": "uintptr_t",
+   "Print": "uintptr_t",
+   "PrintIdentity": "uintptr_t",
+   "Shapecast": "uintptr_t"
+  },
+  "GeometryD3D11": {
+   "VTableRva": "uintptr_t"
   },
   "GuiBase2D": {
    "AbsolutePosition": "uintptr_t",
@@ -270,6 +350,71 @@
    "GUID": "uintptr_t",
    "Hash": "uintptr_t"
   },
+  "LuaB": {
+   "LuaBAssert": "uintptr_t",
+   "LuaBError": "uintptr_t",
+   "LuaBGcinfo": "uintptr_t",
+   "LuaBGetfenv": "uintptr_t",
+   "LuaBGetmetatable": "uintptr_t",
+   "LuaBNewproxy": "uintptr_t",
+   "LuaBNext": "uintptr_t",
+   "LuaBPrint": "uintptr_t",
+   "LuaBRawequal": "uintptr_t",
+   "LuaBRawget": "uintptr_t",
+   "LuaBRawlen": "uintptr_t",
+   "LuaBRawset": "uintptr_t",
+   "LuaBSelect": "uintptr_t",
+   "LuaBSetfenv": "uintptr_t",
+   "LuaBSetmetatable": "uintptr_t",
+   "LuaBTonumber": "uintptr_t",
+   "LuaBTostring": "uintptr_t",
+   "LuaBType": "uintptr_t",
+   "LuaBTypeof": "uintptr_t"
+  },
+  "LuaCoroutine": {
+   "Create": "uintptr_t",
+   "Finally": "uintptr_t",
+   "Isyieldable": "uintptr_t",
+   "Running": "uintptr_t",
+   "Status": "uintptr_t",
+   "Wrap": "uintptr_t",
+   "Yield": "uintptr_t"
+  },
+  "LuaState": {
+   "Global": "uintptr_t"
+  },
+  "Luau": {
+   "Free": "uintptr_t",
+   "Step": "uintptr_t",
+   "luaB_assert": "uintptr_t",
+   "luaB_error": "uintptr_t",
+   "luaB_gcinfo": "uintptr_t",
+   "luaB_getfenv": "uintptr_t",
+   "luaB_getmetatable": "uintptr_t",
+   "luaB_newproxy": "uintptr_t",
+   "luaB_next": "uintptr_t",
+   "luaB_print": "uintptr_t",
+   "luaB_rawequal": "uintptr_t",
+   "luaB_rawget": "uintptr_t",
+   "luaB_rawlen": "uintptr_t",
+   "luaB_rawset": "uintptr_t",
+   "luaB_select": "uintptr_t",
+   "luaB_setfenv": "uintptr_t",
+   "luaB_setmetatable": "uintptr_t",
+   "luaB_tonumber": "uintptr_t",
+   "luaB_tostring": "uintptr_t",
+   "luaB_type": "uintptr_t",
+   "luaB_typeof": "uintptr_t",
+   "tclone": "uintptr_t"
+  },
+  "LuauGlobal": {
+   "GCthreshold": "uintptr_t",
+   "dummynode": "uintptr_t",
+   "gcstate": "uintptr_t",
+   "gray": "uintptr_t",
+   "grayagain": "uintptr_t",
+   "totalbytes": "uintptr_t"
+  },
   "MaterialColors": {
    "Asphalt": "uintptr_t",
    "Basalt": "uintptr_t",
@@ -292,6 +437,15 @@
    "Slate": "uintptr_t",
    "Snow": "uintptr_t",
    "WoodPlanks": "uintptr_t"
+  },
+  "MaterialLayer": {
+   "ColorData": "uintptr_t",
+   "CullMode": "uintptr_t",
+   "FillModeByte": "uintptr_t",
+   "Flags2": "uintptr_t",
+   "MatFlags": "uintptr_t",
+   "Param": "uintptr_t",
+   "Stride": "uintptr_t"
   },
   "MemEnforcedLRUCache": {
    "Head": "uintptr_t"
@@ -329,6 +483,10 @@
    "InputObject2": "uintptr_t",
    "MousePosition": "uintptr_t",
    "SensitivityPointer": "uintptr_t"
+  },
+  "Offsets": {
+   "AirDensity": "uintptr_t",
+   "GlobalWind": "uintptr_t"
   },
   "ParticleEmitter": {
    "Acceleration": "uintptr_t",
@@ -397,6 +555,33 @@
    "ObjectText": "uintptr_t",
    "RequiresLineOfSight": "uintptr_t"
   },
+  "RakNet": {
+   "ConvertItemEnumToString": "uintptr_t",
+   "RakPeerVirtualTable": "uintptr_t",
+   "ReportNetworkError": "uintptr_t"
+  },
+  "Raycast": {
+   "RaycastBoundFn": "uintptr_t"
+  },
+  "RbxTransport": {
+   "AppRTTI": "uintptr_t",
+   "AppVTable": "uintptr_t",
+   "ClientRTTI": "uintptr_t",
+   "ClientSend": "uintptr_t",
+   "ClientVTable": "uintptr_t",
+   "GetConnectionErrorName": "uintptr_t"
+  },
+  "RemoteEvent": {
+   "BaseVTableRva": "uintptr_t",
+   "DescBaseVTableRva": "uintptr_t",
+   "FireServerRva": "uintptr_t",
+   "HookSlot7RemoteEventFn": "uintptr_t",
+   "InstanceVTableRva": "uintptr_t",
+   "InvokeClient": "uintptr_t",
+   "InvokeServer": "uintptr_t",
+   "RemoteFuncVTableRva": "uintptr_t",
+   "VTableRva": "uintptr_t"
+  },
   "RenderJob": {
    "FakeDataModel": "uintptr_t",
    "RealDataModel": "uintptr_t",
@@ -431,6 +616,9 @@
   },
   "Seat": {
    "Occupant": "uintptr_t"
+  },
+  "ShaderManager": {
+   "VTableRva": "uintptr_t"
   },
   "Sky": {
    "DrawCubeCall": "uintptr_t",
@@ -491,6 +679,15 @@
    "NormalMap": "uintptr_t",
    "RoughnessMap": "uintptr_t"
   },
+  "Task": {
+   "TaskCancel": "uintptr_t",
+   "TaskDefer": "uintptr_t",
+   "TaskDelay": "uintptr_t",
+   "TaskDesynchronize": "uintptr_t",
+   "TaskSpawn": "uintptr_t",
+   "TaskSynchronize": "uintptr_t",
+   "TaskWait": "uintptr_t"
+  },
   "TaskScheduler": {
    "JobEnd": "uintptr_t",
    "JobName": "uintptr_t",
@@ -501,6 +698,11 @@
   },
   "Team": {
    "BrickColor": "uintptr_t"
+  },
+  "TechniqueArray": {
+   "BeginOffset": "uintptr_t",
+   "EndOffset": "uintptr_t",
+   "EntryStride": "uintptr_t"
   },
   "Terrain": {
    "GrassLength": "uintptr_t",
@@ -537,6 +739,9 @@
    "Torque": "uintptr_t",
    "TurnSpeed": "uintptr_t"
   },
+  "ViewBase": {
+   "VTableRva": "uintptr_t"
+  },
   "VisualEngine": {
    "Dimensions": "uintptr_t",
    "FakeDataModel": "uintptr_t",
@@ -569,90 +774,6 @@
    "Primitives": "uintptr_t",
    "worldStepsPerSec": "uintptr_t"
   },
-  "FunctionDescriptor": {
-   "Function": "uintptr_t"
-  },
-  "BoundFuncDescriptor": {
-   "Function": "uintptr_t",
-   "Name": "uintptr_t"
-  },
-  "TechniqueArray": {
-   "BeginOffset": "uintptr_t",
-   "EndOffset": "uintptr_t",
-   "EntryStride": "uintptr_t"
-  },
-  "MaterialLayer": {
-   "ColorData": "uintptr_t",
-   "CullMode": "uintptr_t",
-   "FillModeByte": "uintptr_t",
-   "Flags2": "uintptr_t",
-   "MatFlags": "uintptr_t",
-   "Param": "uintptr_t",
-   "Stride": "uintptr_t"
-  },
-  "FastCluster": {
-   "ClusterNode": "uintptr_t",
-   "MeshEntityVTableRva": "uintptr_t",
-   "VTableRva": "uintptr_t",
-   "VTableRvaSub": "uintptr_t",
-   "VTableRvaSubAlt": "uintptr_t"
-  },
-  "DeviceD3D11Gfx": {
-   "ContextObjVTableRva": "uintptr_t",
-   "VTableRva": "uintptr_t"
-  },
-  "GeometryD3D11": {
-   "VTableRva": "uintptr_t"
-  },
-  "FastClusterBinding": {
-   "VTableRva": "uintptr_t"
-  },
-  "FastClusterEntity": {
-   "AlphaByte": "uintptr_t",
-   "BBoxMaxX": "uintptr_t",
-   "BBoxMaxY": "uintptr_t",
-   "BBoxMaxZ": "uintptr_t",
-   "BBoxMinX": "uintptr_t",
-   "BBoxMinY": "uintptr_t",
-   "BBoxMinZ": "uintptr_t",
-   "ContextPtr": "uintptr_t",
-   "DecalMaterialPtr": "uintptr_t",
-   "MaterialPtr": "uintptr_t",
-   "PrimitiveIndexArrayPtr": "uintptr_t",
-   "RenderQueueId": "uintptr_t",
-   "TechniqueArrayPtr": "uintptr_t",
-   "VTableRva": "uintptr_t"
-  },
-  "RbxTransport": {
-   "AppRTTI": "uintptr_t",
-   "AppVTable": "uintptr_t",
-   "ClientRTTI": "uintptr_t",
-   "ClientSend": "uintptr_t",
-   "ClientVTable": "uintptr_t",
-   "GetConnectionErrorName": "uintptr_t"
-  },
-  "RemoteEvent": {
-   "BaseVTableRva": "uintptr_t",
-   "DescBaseVTableRva": "uintptr_t",
-   "FireServerRva": "uintptr_t",
-   "HookSlot7RemoteEventFn": "uintptr_t",
-   "InstanceVTableRva": "uintptr_t",
-   "InvokeClient": "uintptr_t",
-   "InvokeServer": "uintptr_t",
-   "RemoteFuncVTableRva": "uintptr_t",
-   "VTableRva": "uintptr_t"
-  },
-  "ShaderManager": {
-   "VTableRva": "uintptr_t"
-  },
-  "ViewBase": {
-   "VTableRva": "uintptr_t"
-  },
-  "RakNet": {
-   "ConvertItemEnumToString": "uintptr_t",
-   "RakPeerVirtualTable": "uintptr_t",
-   "ReportNetworkError": "uintptr_t"
-  },
   "WorldRoot": {
    "FindPartOnRayBoundFnRva": "uintptr_t",
    "FindPartOnRayWithIgnoreListBoundFnRva": "uintptr_t",
@@ -660,120 +781,6 @@
    "RaycastBoundFn": "uintptr_t",
    "RaycastBoundFnRva": "uintptr_t",
    "RaycastDescriptorVtableRva": "uintptr_t"
-  },
-  "Luau": {
-   "Free": "uintptr_t",
-   "Step": "uintptr_t",
-   "luaB_assert": "uintptr_t",
-   "luaB_error": "uintptr_t",
-   "luaB_gcinfo": "uintptr_t",
-   "luaB_getfenv": "uintptr_t",
-   "luaB_getmetatable": "uintptr_t",
-   "luaB_newproxy": "uintptr_t",
-   "luaB_next": "uintptr_t",
-   "luaB_print": "uintptr_t",
-   "luaB_rawequal": "uintptr_t",
-   "luaB_rawget": "uintptr_t",
-   "luaB_rawlen": "uintptr_t",
-   "luaB_rawset": "uintptr_t",
-   "luaB_select": "uintptr_t",
-   "luaB_setfenv": "uintptr_t",
-   "luaB_setmetatable": "uintptr_t",
-   "luaB_tonumber": "uintptr_t",
-   "luaB_tostring": "uintptr_t",
-   "luaB_type": "uintptr_t",
-   "luaB_typeof": "uintptr_t",
-   "tclone": "uintptr_t"
-  },
-  "Coroutine": {
-   "create": "uintptr_t",
-   "finally": "uintptr_t",
-   "isyieldable": "uintptr_t",
-   "running": "uintptr_t",
-   "status": "uintptr_t",
-   "wrap": "uintptr_t",
-   "yield": "uintptr_t"
-  },
-  "Raycast": {
-   "RaycastBoundFn": "uintptr_t"
-  },
-  "Functions": {
-   "Clone": "uintptr_t",
-   "Destroy": "uintptr_t",
-   "GlobalCollectGarbage": "uintptr_t",
-   "GlobalDelay": "uintptr_t",
-   "GlobalElapsedTime": "uintptr_t",
-   "GlobalGetFenv": "uintptr_t",
-   "GlobalLoadstring": "uintptr_t",
-   "GlobalPluginManager": "uintptr_t",
-   "GlobalPrint": "uintptr_t",
-   "GlobalRequire": "uintptr_t",
-   "GlobalSetFenv": "uintptr_t",
-   "GlobalSettings": "uintptr_t",
-   "GlobalSpawn": "uintptr_t",
-   "GlobalStats": "uintptr_t",
-   "GlobalTick": "uintptr_t",
-   "GlobalTime": "uintptr_t",
-   "GlobalUserSettings": "uintptr_t",
-   "GlobalVersion": "uintptr_t",
-   "GlobalWait": "uintptr_t",
-   "GlobalWarn": "uintptr_t",
-   "Print": "uintptr_t",
-   "PrintIdentity": "uintptr_t",
-   "Shapecast": "uintptr_t"
-  },
-  "LuauGlobal": {
-   "GCthreshold": "uintptr_t",
-   "dummynode": "uintptr_t",
-   "gcstate": "uintptr_t",
-   "gray": "uintptr_t",
-   "grayagain": "uintptr_t",
-   "totalbytes": "uintptr_t"
-  },
-  "LuaState": {
-   "Global": "uintptr_t"
-  },
-  "LuaCoroutine": {
-   "Create": "uintptr_t",
-   "Finally": "uintptr_t",
-   "Isyieldable": "uintptr_t",
-   "Running": "uintptr_t",
-   "Status": "uintptr_t",
-   "Wrap": "uintptr_t",
-   "Yield": "uintptr_t"
-  },
-  "LuaB": {
-   "LuaBAssert": "uintptr_t",
-   "LuaBError": "uintptr_t",
-   "LuaBGcinfo": "uintptr_t",
-   "LuaBGetfenv": "uintptr_t",
-   "LuaBGetmetatable": "uintptr_t",
-   "LuaBNewproxy": "uintptr_t",
-   "LuaBNext": "uintptr_t",
-   "LuaBPrint": "uintptr_t",
-   "LuaBRawequal": "uintptr_t",
-   "LuaBRawget": "uintptr_t",
-   "LuaBRawlen": "uintptr_t",
-   "LuaBRawset": "uintptr_t",
-   "LuaBSelect": "uintptr_t",
-   "LuaBSetfenv": "uintptr_t",
-   "LuaBSetmetatable": "uintptr_t",
-   "LuaBTonumber": "uintptr_t",
-   "LuaBTostring": "uintptr_t",
-   "LuaBType": "uintptr_t",
-   "LuaBTypeof": "uintptr_t"
-  },
-  "Task": {
-   "TaskCancel": "uintptr_t",
-   "TaskDefer": "uintptr_t",
-   "TaskDelay": "uintptr_t",
-   "TaskDesynchronize": "uintptr_t",
-   "TaskSpawn": "uintptr_t",
-   "TaskSynchronize": "uintptr_t",
-   "TaskWait": "uintptr_t"
-  },
-  "Alloc": {
-   "Malloc": "uintptr_t"
   },
   "highlight_manager": {
    "context_active": "uintptr_t",
@@ -786,9 +793,6 @@
    "fallback_fill": "uintptr_t",
    "fallback_outline": "uintptr_t",
    "manager": "uintptr_t"
-  },
-  "Descriptor": {
-   "Name": "uintptr_t"
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 05:51:20",
- "total": 590,
+ "time": "2026-11-08 20:11:45",
+ "total": 592,
  "classes": {
   "AirProperties": {
    "AirDensity": "0x18",
@@ -256,7 +256,7 @@
   "Humanoid": {
    "AutoJumpEnabled": "0x1C8",
    "AutoRotate": "0x1C9",
-   "AutomaticScalingEnabled": "0x1CA",
+   "AutomaticScalingEnabled": "0x95",
    "BreakJointsOnDeath": "0x1CC",
    "CameraOffset": "0x110",
    "DisplayDistanceType": "0x174",
@@ -282,7 +282,7 @@
    "NameDisplayDistance": "0x1A4",
    "NameOcclusion": "0x1A8",
    "PlatformStand": "0x1D2",
-   "PlatformStatePointer": "0xB97E6C1F",
+   "PlatformStatePointer": "0x0",
    "RequiresNeck": "0x1D3",
    "RigType": "0x1B4",
    "SeatPart": "0xF0",
@@ -347,7 +347,7 @@
    "SunPosition": "0x160"
   },
   "LocalScript": {
-   "ByteCode": "0x2E0",
+   "ByteCode": "0x180",
    "GUID": "0xB8",
    "Hash": "0x188"
   },
@@ -474,7 +474,7 @@
    "Scale": "0x12C"
   },
   "ModuleScript": {
-   "ByteCode": "0x2E0",
+   "ByteCode": "0x120",
    "GUID": "0xB8",
    "Hash": "0x348",
    "IsCoreScript": "0x0"
@@ -484,6 +484,10 @@
    "InputObject2": "0xF8",
    "MousePosition": "0xBC",
    "SensitivityPointer": "0x0"
+  },
+  "Offsets": {
+   "AirDensity": "0x18",
+   "GlobalWind": "0x3C"
   },
   "ParticleEmitter": {
    "Acceleration": "0x1C8",
@@ -529,7 +533,7 @@
    "AssemblyAngularVelocity": "0xEC",
    "AssemblyLinearVelocity": "0xE0",
    "Flags": "0x1BE",
-   "Material": "0x24E",
+   "Material": "0x0",
    "Owner": "0x218",
    "Position": "0xD4",
    "Rotation": "0xB0",
@@ -592,7 +596,7 @@
   },
   "RunService": {
    "HeartbeatFPS": "0xF2",
-   "HeartbeatTask": "0x1001"
+   "HeartbeatTask": "0x14B80"
   },
   "Script": {
    "ByteCode": "0x0",
@@ -658,7 +662,7 @@
    "Scale": "0xAC"
   },
   "StatsItem": {
-   "Value": "0x20"
+   "Value": "0x30E0"
   },
   "SunRaysEffect": {
    "Enabled": "0x98",
@@ -686,11 +690,11 @@
    "TaskWait": "0x435D1E0"
   },
   "TaskScheduler": {
-   "JobEnd": "0xA8",
-   "JobName": "0x10",
-   "JobStart": "0x1A8",
+   "JobEnd": "0xD0",
+   "JobName": "0x18",
+   "JobStart": "0xC8",
    "MaxFPS": "0xB0",
-   "Pointer": "0x858F8E8",
+   "Pointer": "0x8E4D7B8",
    "StepFunction": "0x2A3E640"
   },
   "Team": {
@@ -715,8 +719,8 @@
    "Texture_Texture": "0x1C8"
   },
   "Tool": {
-   "CanBeDropped": "0x4A0",
-   "Enabled": "0x4A1",
+   "CanBeDropped": "0x365",
+   "Enabled": "0x95",
    "Grip": "0x494",
    "ManualActivationOnly": "0x4A2",
    "RequiresHandle": "0x4A3",
@@ -727,7 +731,7 @@
    "AssetId": "0x2F8"
   },
   "UserInputService": {
-   "WindowInputState": "0x2B0"
+   "WindowInputState": "0x288"
   },
   "VehicleSeat": {
    "MaxSpeed": "0x210",

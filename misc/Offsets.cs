@@ -1,4 +1,4 @@
-// Genere par SWC Dumper (offline) - 2026-11-08 03:52
+// Genere par SWC Dumper (offline) - 2026-11-08 14:34
 using System;
 namespace Offsets
 {
@@ -12,11 +12,15 @@ namespace Offsets
     }
     public static class Attachment
     {
-        public const long Position = 0xb4; /* STALE (fallback ancien dump) */
+        public const long Position = 0xc;
     }
     public static class CachedItem
     {
         public const long FileMeshData = 0x40; /* STALE (fallback ancien dump) */
+    }
+    public static class FakeDataModel
+    {
+        public const long Pointer = 0x84f4c38;
     }
     public static class LRUHolder
     {
@@ -24,7 +28,7 @@ namespace Offsets
     }
     public static class MemEnforcedLRUCache
     {
-        public const long Head = 0x8; /* STALE (fallback ancien dump) */
+        public const long Head = 0x28;
     }
     public static class MeshContentProvider
     {
@@ -40,15 +44,19 @@ namespace Offsets
     }
     public static class Seat
     {
-        public const long Occupant = 0x208; /* STALE (fallback ancien dump) */
+        public const long Occupant = 0x98;
     }
     public static class StatsItem
     {
-        public const long Value = 0x1259; /* STALE (fallback ancien dump) */
+        public const long Value = 0x18;
+    }
+    public static class TaskScheduler
+    {
+        public const long Pointer = 0x8264260;
     }
     public static class Team
     {
-        public const long BrickColor = 0xa8; /* STALE (fallback ancien dump) */
+        public const long BrickColor = 0x8;
     }
     public static class UnionOperation
     {
@@ -57,5 +65,9 @@ namespace Offsets
     public static class UserInputService
     {
         public const long WindowInputState = 0x2b0; /* STALE (fallback ancien dump) */
+    }
+    public static class VisualEngine
+    {
+        public const long Pointer = 0x84f4c38;
     }
 }

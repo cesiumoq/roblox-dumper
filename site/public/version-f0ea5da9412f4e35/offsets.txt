@@ -2,9 +2,9 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  590
+/*  Total Offsets   :  592
 
-/*  Dumped At       : 04:51 08/11/2026 (GMT)
+/*  Dumped At       : 19:11 08/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -191,7 +191,7 @@ GuiObject.Visible = 0x575
 GuiObject.ZIndex = 0x56C
 Humanoid.AutoJumpEnabled = 0x1C8
 Humanoid.AutoRotate = 0x1C9
-Humanoid.AutomaticScalingEnabled = 0x1CA
+Humanoid.AutomaticScalingEnabled = 0x95
 Humanoid.BreakJointsOnDeath = 0x1CC
 Humanoid.CameraOffset = 0x110
 Humanoid.DisplayDistanceType = 0x174
@@ -217,7 +217,7 @@ Humanoid.MoveToPoint = 0x158
 Humanoid.NameDisplayDistance = 0x1A4
 Humanoid.NameOcclusion = 0x1A8
 Humanoid.PlatformStand = 0x1D2
-Humanoid.PlatformStatePointer = 0xB97E6C1F
+Humanoid.PlatformStatePointer = 0x0
 Humanoid.RequiresNeck = 0x1D3
 Humanoid.RigType = 0x1B4
 Humanoid.SeatPart = 0xF0
@@ -272,7 +272,7 @@ Lighting.OutdoorAmbient = 0xE8
 Lighting.Sky = 0x1B0
 Lighting.Source = 0x15C
 Lighting.SunPosition = 0x160
-LocalScript.ByteCode = 0x2E0
+LocalScript.ByteCode = 0x180
 LocalScript.GUID = 0xB8
 LocalScript.Hash = 0x188
 LuaB.LuaBAssert = 0x2699220
@@ -373,7 +373,7 @@ Misc.UnregisteredValueGetSet = 0x71DE240
 Misc.Value = 0xA0
 Model.PrimaryPart = 0x240
 Model.Scale = 0x12C
-ModuleScript.ByteCode = 0x2E0
+ModuleScript.ByteCode = 0x120
 ModuleScript.GUID = 0xB8
 ModuleScript.Hash = 0x348
 ModuleScript.IsCoreScript = 0x0
@@ -381,6 +381,8 @@ MouseService.InputObject = 0xE8
 MouseService.InputObject2 = 0xF8
 MouseService.MousePosition = 0xBC
 MouseService.SensitivityPointer = 0x0
+Offsets.AirDensity = 0x18
+Offsets.GlobalWind = 0x3C
 ParticleEmitter.Acceleration = 0x1C8
 ParticleEmitter.Brightness = 0x204
 ParticleEmitter.Drag = 0x208
@@ -416,7 +418,7 @@ PlayerMouse.Workspace = 0x138
 Primitive.AssemblyAngularVelocity = 0xEC
 Primitive.AssemblyLinearVelocity = 0xE0
 Primitive.Flags = 0x1BE
-Primitive.Material = 0x24E
+Primitive.Material = 0x0
 Primitive.Owner = 0x218
 Primitive.Position = 0xD4
 Primitive.Rotation = 0xB0
@@ -461,7 +463,7 @@ RenderView.LightingValid = 0x0
 RenderView.SkyValid = 0x0
 RenderView.VisualEngine = 0x0
 RunService.HeartbeatFPS = 0xF2
-RunService.HeartbeatTask = 0x1001
+RunService.HeartbeatTask = 0x14B80
 Script.ByteCode = 0x0
 Script.GUID = 0xB8
 Script.Hash = 0x188
@@ -509,7 +511,7 @@ SpawnLocation.Neutral = 0x1DA
 SpawnLocation.TeamColor = 0x1D4
 SpecialMesh.MeshId = 0xE0
 SpecialMesh.Scale = 0xAC
-StatsItem.Value = 0x20
+StatsItem.Value = 0x30E0
 SunRaysEffect.Enabled = 0x98
 SunRaysEffect.Intensity = 0xA0
 SunRaysEffect.Spread = 0xA4
@@ -529,11 +531,11 @@ Task.TaskDesynchronize = 0x435B700
 Task.TaskSpawn = 0x435C920
 Task.TaskSynchronize = 0x435B180
 Task.TaskWait = 0x435D1E0
-TaskScheduler.JobEnd = 0xA8
-TaskScheduler.JobName = 0x10
-TaskScheduler.JobStart = 0x1A8
+TaskScheduler.JobEnd = 0xD0
+TaskScheduler.JobName = 0x18
+TaskScheduler.JobStart = 0xC8
 TaskScheduler.MaxFPS = 0xB0
-TaskScheduler.Pointer = 0x858F8E8
+TaskScheduler.Pointer = 0x8E4D7B8
 TaskScheduler.StepFunction = 0x2A3E640
 Team.BrickColor = 0xA0
 TechniqueArray.BeginOffset = 0x0
@@ -548,15 +550,15 @@ Terrain.WaterWaveSize = 0x1E8
 Terrain.WaterWaveSpeed = 0x1EC
 Textures.Decal_Texture = 0x1C8
 Textures.Texture_Texture = 0x1C8
-Tool.CanBeDropped = 0x4A0
-Tool.Enabled = 0x4A1
+Tool.CanBeDropped = 0x365
+Tool.Enabled = 0x95
 Tool.Grip = 0x494
 Tool.ManualActivationOnly = 0x4A2
 Tool.RequiresHandle = 0x4A3
 Tool.TextureId = 0x348
 Tool.Tooltip = 0x450
 UnionOperation.AssetId = 0x2F8
-UserInputService.WindowInputState = 0x2B0
+UserInputService.WindowInputState = 0x288
 VehicleSeat.MaxSpeed = 0x210
 VehicleSeat.SteerFloat = 0x214
 VehicleSeat.ThrottleFloat = 0x218

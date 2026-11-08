@@ -1,10 +1,10 @@
 {
  "build_number": "f0ea5da9412f4e35",
- "generated_at": "2026-11-08T04:51:20Z",
+ "generated_at": "2026-11-08T19:11:45Z",
  "dump_seconds": 0,
  "valid": true,
  "offsets": {
-  "count": 590
+  "count": 592
  },
  "fflags": {
   "count": 15304
@@ -13,6 +13,6 @@
   "count": 11
  },
  "classes": {
-  "count": 99
+  "count": 100
  }
 }

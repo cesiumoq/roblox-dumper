@@ -1,26 +1,35 @@
 {
   "version": "version-f0ea5da9412f4e35",
   "offsets": {
+    "TaskScheduler": {
+      "Pointer": 136725088
+    },
+    "VisualEngine": {
+      "Pointer": 139414584
+    },
+    "FakeDataModel": {
+      "Pointer": 139414584
+    },
     "Animator": {
       "ActiveAnimations": 2688
     },
     "Attachment": {
-      "Position": 180
+      "Position": 12
     },
     "CachedItem": {
       "FileMeshData": 64
     },
     "MemEnforcedLRUCache": {
-      "Head": 8
+      "Head": 40
     },
     "Seat": {
-      "Occupant": 520
+      "Occupant": 152
     },
     "StatsItem": {
-      "Value": 4697
+      "Value": 24
     },
     "Team": {
-      "BrickColor": 168
+      "BrickColor": 8
     },
     "UnionOperation": {
       "AssetId": 768
