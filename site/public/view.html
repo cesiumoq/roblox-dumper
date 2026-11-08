@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Viewer</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #09090b; color: #fafafa; font: 14px/1.5 "Segoe UI", system-ui, sans-serif; min-height: 100vh; }
+  main { width: min(1100px, 100%); margin: 0 auto; padding: 26px 20px 60px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
+  h1 { margin: 0; font: 600 18px/1.2 Consolas, monospace; overflow-wrap: anywhere; }
+  .actions { display: flex; gap: 8px; flex: 0 0 auto; }
+  a, button { color: #06222c; background: #e5f6fb; border: 1px solid rgba(255,255,255,.45); border-radius: 8px; padding: 7px 11px; text-decoration: none; font: 12px Consolas, monospace; cursor: pointer; }
+  a:hover, button:hover { background: #fff; }
+  pre { margin: 0; padding: 18px; border-radius: 12px; overflow: auto; background: #071c26ee; border: 1px solid #ffffff33; color: #d9f2f8; font: 12.5px/1.55 Consolas, monospace; max-height: calc(100vh - 130px); white-space: pre-wrap; overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1 id="title">loading...</h1>
+    <div class="actions">
+      <a id="raw" href="#" target="_blank" rel="noreferrer">raw</a>
+      <a id="download" href="#" download>download</a>
+      <button type="button" id="copy">copy</button>
+      <button type="button" id="back">back</button>
+    </div>
+  </header>
+  <pre id="content">loading...</pre>
+</main>
+<script>
+  const params = new URLSearchParams(location.search);
+  const build = params.get("build") || "14194";
+  const file = params.get("file") || "offsets.hpp";
+  const url = (file.startsWith("api/") || file.startsWith("build-")) ? "./" + file : "./build-" + build + "/" + file;
+  const title = document.getElementById("title");
+  const raw = document.getElementById("raw");
+  const download = document.getElementById("download");
+  const content = document.getElementById("content");
+  const copy = document.getElementById("copy");
+  let current = "";
+  title.textContent = (file.startsWith("api/") || file.startsWith("build-")) ? file : "build-" + build + "/" + file;
+  raw.href = url;
+  download.href = url;
+  download.setAttribute("download", file.split("/").pop() || "dump.txt");
+  document.getElementById("back").addEventListener("click", () => {
+    if (history.length > 1 && document.referrer) history.back();
+    else location.href = "./";
+  });
+  copy.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(current);
+      copy.textContent = "copied";
+      setTimeout(() => { copy.textContent = "copy"; }, 1200);
+    } catch {
+      copy.textContent = "copy failed";
+    }
+  });
+  fetch(url, { cache: "no-store" })
+    .then((r) => {
+      if (!r.ok) throw new Error(r.status + " " + r.statusText);
+      return r.text();
+    })
+    .then((text) => { current = text; content.textContent = text; })
+    .catch((e) => { content.textContent = "unable to load " + url + "\n" + e.message; });
+</script>
+</body>
+</html>

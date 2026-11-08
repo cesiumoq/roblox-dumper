@@ -1,1 +1,19 @@
-{"outputDirectory": "site"}
+{
+  "buildCommand": "cd site && npm install --no-audit --no-fund && npm run build",
+  "outputDirectory": "site/dist",
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=60" }
+      ]
+    },
+    {
+      "source": "/version-(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ]
+}
