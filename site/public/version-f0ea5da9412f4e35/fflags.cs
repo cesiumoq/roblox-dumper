@@ -4,7 +4,7 @@
 
 /*  Total FFlags    :  15304
 
-/*  Dumped At       : 03:13 08/11/2026 (GMT)
+/*  Dumped At       : 03:54 08/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -17,9 +17,6 @@ namespace FFlagOffsets
     }
     public static class FFlagList
     {
-        public const long Pointer = 0x858f8e8;
-        public const long ToFlag = 0x30;
-        public const long ToValue = 0x20;
     }
     public static class FFlags
     {
