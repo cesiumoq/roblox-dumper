@@ -4,7 +4,7 @@
 
 /*  Total Offsets   :  590
 
-/*  Dumped At       : 03:54 08/11/2026 (GMT)
+/*  Dumped At       : 04:36 08/11/2026 (GMT)
 
 /*  Dumped In       : 3,2s
 
@@ -401,7 +401,7 @@ namespace Offsets
     }
     public static class LocalScript
     {
-        public const long ByteCode = 0x0;
+        public const long ByteCode = 0x2e0;
         public const long GUID = 0xb8;
         public const long Hash = 0x188;
     }
@@ -541,7 +541,7 @@ namespace Offsets
     }
     public static class ModuleScript
     {
-        public const long ByteCode = 0x0;
+        public const long ByteCode = 0x2e0;
         public const long GUID = 0xb8;
         public const long Hash = 0x348;
         public const long IsCoreScript = 0x0;

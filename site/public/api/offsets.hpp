@@ -4,7 +4,7 @@
 
 /*  Total Offsets   :  590
 
-/*  Dumped At       : 04:35 08/11/2026 (GMT)
+/*  Dumped At       : 04:36 08/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -360,7 +360,7 @@ namespace Offsets {
         inline constexpr uintptr_t SunPosition = 0x160;
     }
     namespace LocalScript {
-        inline constexpr uintptr_t ByteCode = 0x0;
+        inline constexpr uintptr_t ByteCode = 0x2E0;
         inline constexpr uintptr_t GUID = 0xB8;
         inline constexpr uintptr_t Hash = 0x188;
     }
@@ -487,7 +487,7 @@ namespace Offsets {
         inline constexpr uintptr_t Scale = 0x12C;
     }
     namespace ModuleScript {
-        inline constexpr uintptr_t ByteCode = 0x0;
+        inline constexpr uintptr_t ByteCode = 0x2E0;
         inline constexpr uintptr_t GUID = 0xB8;
         inline constexpr uintptr_t Hash = 0x348;
         inline constexpr uintptr_t IsCoreScript = 0x0;

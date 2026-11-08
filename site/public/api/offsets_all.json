@@ -1135,7 +1135,7 @@
   "LocalScript": [
    {
     "name": "ByteCode",
-    "rva": "0x0"
+    "rva": "0x2E0"
    },
    {
     "name": "GUID",
@@ -1565,7 +1565,7 @@
   "ModuleScript": [
    {
     "name": "ByteCode",
-    "rva": "0x0"
+    "rva": "0x2E0"
    },
    {
     "name": "GUID",

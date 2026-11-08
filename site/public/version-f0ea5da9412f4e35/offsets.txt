@@ -4,7 +4,7 @@
 
 /*  Total Offsets   :  590
 
-/*  Dumped At       : 04:35 08/11/2026 (GMT)
+/*  Dumped At       : 04:36 08/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -272,7 +272,7 @@ Lighting.OutdoorAmbient = 0xE8
 Lighting.Sky = 0x1B0
 Lighting.Source = 0x15C
 Lighting.SunPosition = 0x160
-LocalScript.ByteCode = 0x0
+LocalScript.ByteCode = 0x2E0
 LocalScript.GUID = 0xB8
 LocalScript.Hash = 0x188
 LuaB.LuaBAssert = 0x2699220
@@ -373,7 +373,7 @@ Misc.UnregisteredValueGetSet = 0x71DE240
 Misc.Value = 0xA0
 Model.PrimaryPart = 0x240
 Model.Scale = 0x12C
-ModuleScript.ByteCode = 0x0
+ModuleScript.ByteCode = 0x2E0
 ModuleScript.GUID = 0xB8
 ModuleScript.Hash = 0x348
 ModuleScript.IsCoreScript = 0x0

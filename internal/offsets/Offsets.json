@@ -1,6 +1,6 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 04:54:52",
+ "time": "2026-11-08 05:36:01",
  "total": 590,
  "classes": {
   "AirProperties": {
@@ -267,7 +267,7 @@
    "SunPosition": 352
   },
   "LocalScript": {
-   "ByteCode": 0,
+   "ByteCode": 736,
    "GUID": 184,
    "Hash": 392
   },
@@ -320,7 +320,7 @@
    "Scale": 300
   },
   "ModuleScript": {
-   "ByteCode": 0,
+   "ByteCode": 736,
    "GUID": 184,
    "Hash": 840,
    "IsCoreScript": 0

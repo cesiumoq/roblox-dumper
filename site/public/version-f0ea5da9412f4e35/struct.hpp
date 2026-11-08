@@ -4,7 +4,7 @@
 
 /*  Total Offsets   :  590
 
-/*  Dumped At       : 04:35 08/11/2026 (GMT)
+/*  Dumped At       : 04:36 08/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -398,9 +398,9 @@ struct Lighting {
 };
 
 struct LocalScript {
-    uintptr_t ByteCode; // 0x0
     uintptr_t GUID; // 0xB8
     uintptr_t Hash; // 0x188
+    uintptr_t ByteCode; // 0x2E0
 };
 
 struct LuaB {
@@ -538,9 +538,9 @@ struct Model {
 };
 
 struct ModuleScript {
-    uintptr_t ByteCode; // 0x0
     uintptr_t IsCoreScript; // 0x0
     uintptr_t GUID; // 0xB8
+    uintptr_t ByteCode; // 0x2E0
     uintptr_t Hash; // 0x348
 };
 
