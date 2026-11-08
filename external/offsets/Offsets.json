@@ -1,7 +1,7 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 03:41:25",
- "total": 406,
+ "time": "2026-11-08 03:53:30",
+ "total": 392,
  "classes": {
   "AirProperties": {
    "AirDensity": 24,
@@ -218,8 +218,6 @@
    "ClassBase": 432,
    "ClassDescriptor": 24,
    "ClassName": 8,
-   "FireTouchInterest": 10443040,
-   "InstanceIndex": 69171360,
    "Name": 0,
    "NameContainer": 104,
    "Parent": 96,
@@ -298,10 +296,7 @@
   "Misc": {
    "Adornee": 216,
    "AnimationId": 168,
-   "EnableLoadModule": 139841384,
-   "LockViolationScriptCrash": 122426384,
    "StringLength": 16,
-   "UnregisteredValueGetSet": 119398976,
    "Value": 160
   },
   "Model": {
@@ -414,11 +409,6 @@
    "Occupant": 512
   },
   "Sky": {
-   "DrawCubeCall": 59726048,
-   "DrawSkyEnv": 59726048,
-   "DrawSkyPixel": 59726048,
-   "DrawStars": 59734560,
-   "DrawSun": 59726048,
    "MoonAngularSize": 556,
    "MoonTextureId": 176,
    "SkyboxBk": 224,
@@ -548,16 +538,6 @@
    "Gravity": 536,
    "Primitives": 672,
    "worldStepsPerSec": 2152
-  },
-  "Task": {
-   "TaskWait": 70636000
-  },
-  "RbxTransport": {
-   "ClientSend": 61876592,
-   "GetConnectionErrorName": 87986288
-  },
-  "RakNet": {
-   "ConvertItemEnumToString": 76670496
   }
  }
 }

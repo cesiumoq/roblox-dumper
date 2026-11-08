@@ -2,11 +2,11 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  406
+/*  Total Offsets   :  392
 
-/*  Dumped At       : 02:41 08/11/2026 (GMT)
+/*  Dumped At       : 02:53 08/11/2026 (GMT)
 
-/*  Dumped In       : 64,3s
+/*  Dumped In       : 52,9s
 
 */
 #pragma once
@@ -231,8 +231,6 @@ namespace Offsets {
         inline constexpr uintptr_t ClassBase = 0x1B0;
         inline constexpr uintptr_t ClassDescriptor = 0x18;
         inline constexpr uintptr_t ClassName = 0x8;
-        inline constexpr uintptr_t FireTouchInterest = 0x9F5920;
-        inline constexpr uintptr_t InstanceIndex = 0x41F78A0;
         inline constexpr uintptr_t Name = 0x0;
         inline constexpr uintptr_t NameContainer = 0x68;
         inline constexpr uintptr_t Parent = 0x60;
@@ -311,10 +309,7 @@ namespace Offsets {
     namespace Misc {
         inline constexpr uintptr_t Adornee = 0xD8;
         inline constexpr uintptr_t AnimationId = 0xA8;
-        inline constexpr uintptr_t EnableLoadModule = 0x855CF68;
-        inline constexpr uintptr_t LockViolationScriptCrash = 0x74C1410;
         inline constexpr uintptr_t StringLength = 0x10;
-        inline constexpr uintptr_t UnregisteredValueGetSet = 0x71DE240;
         inline constexpr uintptr_t Value = 0xA0;
     }
     namespace Model {
@@ -400,13 +395,6 @@ namespace Offsets {
         inline constexpr uintptr_t ObjectText = 0xB8;
         inline constexpr uintptr_t RequiresLineOfSight = 0x11F;
     }
-    namespace RakNet {
-        inline constexpr uintptr_t ConvertItemEnumToString = 0x491E620;
-    }
-    namespace RbxTransport {
-        inline constexpr uintptr_t ClientSend = 0x3B02970;
-        inline constexpr uintptr_t GetConnectionErrorName = 0x53E9070;
-    }
     namespace RenderJob {
         inline constexpr uintptr_t FakeDataModel = 0x38;
         inline constexpr uintptr_t RealDataModel = 0x1F0;
@@ -434,11 +422,6 @@ namespace Offsets {
         inline constexpr uintptr_t Occupant = 0x200;
     }
     namespace Sky {
-        inline constexpr uintptr_t DrawCubeCall = 0x38F58E0;
-        inline constexpr uintptr_t DrawSkyEnv = 0x38F58E0;
-        inline constexpr uintptr_t DrawSkyPixel = 0x38F58E0;
-        inline constexpr uintptr_t DrawStars = 0x38F7A20;
-        inline constexpr uintptr_t DrawSun = 0x38F58E0;
         inline constexpr uintptr_t MoonAngularSize = 0x22C;
         inline constexpr uintptr_t MoonTextureId = 0xB0;
         inline constexpr uintptr_t SkyboxBk = 0xE0;
@@ -491,9 +474,6 @@ namespace Offsets {
         inline constexpr uintptr_t MetalnessMap = 0x110;
         inline constexpr uintptr_t NormalMap = 0x140;
         inline constexpr uintptr_t RoughnessMap = 0x170;
-    }
-    namespace Task {
-        inline constexpr uintptr_t TaskWait = 0x435D1E0;
     }
     namespace TaskScheduler {
         inline constexpr uintptr_t JobEnd = 0xD0;

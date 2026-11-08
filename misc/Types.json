@@ -1,6 +1,6 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 03:41:25",
+ "time": "2026-11-08 03:53:31",
  "types": {
   "AirProperties": {
    "AirDensity": "uintptr_t",
@@ -217,8 +217,6 @@
    "ClassBase": "uintptr_t",
    "ClassDescriptor": "uintptr_t",
    "ClassName": "uintptr_t",
-   "FireTouchInterest": "uintptr_t",
-   "InstanceIndex": "uintptr_t",
    "Name": "uintptr_t",
    "NameContainer": "uintptr_t",
    "Parent": "uintptr_t",
@@ -297,10 +295,7 @@
   "Misc": {
    "Adornee": "uintptr_t",
    "AnimationId": "uintptr_t",
-   "EnableLoadModule": "uintptr_t",
-   "LockViolationScriptCrash": "uintptr_t",
    "StringLength": "uintptr_t",
-   "UnregisteredValueGetSet": "uintptr_t",
    "Value": "uintptr_t"
   },
   "Model": {
@@ -413,11 +408,6 @@
    "Occupant": "uintptr_t"
   },
   "Sky": {
-   "DrawCubeCall": "uintptr_t",
-   "DrawSkyEnv": "uintptr_t",
-   "DrawSkyPixel": "uintptr_t",
-   "DrawStars": "uintptr_t",
-   "DrawSun": "uintptr_t",
    "MoonAngularSize": "uintptr_t",
    "MoonTextureId": "uintptr_t",
    "SkyboxBk": "uintptr_t",
@@ -547,16 +537,6 @@
    "Gravity": "uintptr_t",
    "Primitives": "uintptr_t",
    "worldStepsPerSec": "uintptr_t"
-  },
-  "Task": {
-   "TaskWait": "uintptr_t"
-  },
-  "RbxTransport": {
-   "ClientSend": "uintptr_t",
-   "GetConnectionErrorName": "uintptr_t"
-  },
-  "RakNet": {
-   "ConvertItemEnumToString": "uintptr_t"
   }
  }
 }

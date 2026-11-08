@@ -2,11 +2,11 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  406
+/*  Total Offsets   :  392
 
-/*  Dumped At       : 02:41 08/11/2026 (GMT)
+/*  Dumped At       : 02:53 08/11/2026 (GMT)
 
-/*  Dumped In       : 64,3s
+/*  Dumped In       : 52,9s
 
 */
 using System;
@@ -257,8 +257,6 @@ namespace Offsets
         public const long ClassBase = 0x1b0;
         public const long ClassDescriptor = 0x18;
         public const long ClassName = 0x8;
-        public const long FireTouchInterest = 0x9f5920;
-        public const long InstanceIndex = 0x41f78a0;
         public const long Name = 0x0;
         public const long NameContainer = 0x68;
         public const long Parent = 0x60;
@@ -346,10 +344,7 @@ namespace Offsets
     {
         public const long Adornee = 0xd8;
         public const long AnimationId = 0xa8;
-        public const long EnableLoadModule = 0x855cf68;
-        public const long LockViolationScriptCrash = 0x74c1410;
         public const long StringLength = 0x10;
-        public const long UnregisteredValueGetSet = 0x71de240;
         public const long Value = 0xa0;
     }
     public static class Model
@@ -445,15 +440,6 @@ namespace Offsets
         public const long ObjectText = 0xb8;
         public const long RequiresLineOfSight = 0x11f;
     }
-    public static class RakNet
-    {
-        public const long ConvertItemEnumToString = 0x491e620;
-    }
-    public static class RbxTransport
-    {
-        public const long ClientSend = 0x3b02970;
-        public const long GetConnectionErrorName = 0x53e9070;
-    }
     public static class RenderJob
     {
         public const long FakeDataModel = 0x38;
@@ -488,11 +474,6 @@ namespace Offsets
     }
     public static class Sky
     {
-        public const long DrawCubeCall = 0x38f58e0;
-        public const long DrawSkyEnv = 0x38f58e0;
-        public const long DrawSkyPixel = 0x38f58e0;
-        public const long DrawStars = 0x38f7a20;
-        public const long DrawSun = 0x38f58e0;
         public const long MoonAngularSize = 0x22c;
         public const long MoonTextureId = 0xb0;
         public const long SkyboxBk = 0xe0;
@@ -551,10 +532,6 @@ namespace Offsets
         public const long MetalnessMap = 0x110;
         public const long NormalMap = 0x140;
         public const long RoughnessMap = 0x170;
-    }
-    public static class Task
-    {
-        public const long TaskWait = 0x435d1e0;
     }
     public static class TaskScheduler
     {

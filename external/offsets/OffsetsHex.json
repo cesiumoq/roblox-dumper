@@ -1,7 +1,7 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 03:41:25",
- "total": 406,
+ "time": "2026-11-08 03:53:30",
+ "total": 392,
  "classes": {
   "AirProperties": {
    "AirDensity": "0x18",
@@ -218,8 +218,6 @@
    "ClassBase": "0x1B0",
    "ClassDescriptor": "0x18",
    "ClassName": "0x8",
-   "FireTouchInterest": "0x9F5920",
-   "InstanceIndex": "0x41F78A0",
    "Name": "0x0",
    "NameContainer": "0x68",
    "Parent": "0x60",
@@ -298,10 +296,7 @@
   "Misc": {
    "Adornee": "0xD8",
    "AnimationId": "0xA8",
-   "EnableLoadModule": "0x855CF68",
-   "LockViolationScriptCrash": "0x74C1410",
    "StringLength": "0x10",
-   "UnregisteredValueGetSet": "0x71DE240",
    "Value": "0xA0"
   },
   "Model": {
@@ -414,11 +409,6 @@
    "Occupant": "0x200"
   },
   "Sky": {
-   "DrawCubeCall": "0x38F58E0",
-   "DrawSkyEnv": "0x38F58E0",
-   "DrawSkyPixel": "0x38F58E0",
-   "DrawStars": "0x38F7A20",
-   "DrawSun": "0x38F58E0",
    "MoonAngularSize": "0x22C",
    "MoonTextureId": "0xB0",
    "SkyboxBk": "0xE0",
@@ -548,16 +538,6 @@
    "Gravity": "0x218",
    "Primitives": "0x2A0",
    "worldStepsPerSec": "0x868"
-  },
-  "Task": {
-   "TaskWait": "0x435D1E0"
-  },
-  "RbxTransport": {
-   "ClientSend": "0x3B02970",
-   "GetConnectionErrorName": "0x53E9070"
-  },
-  "RakNet": {
-   "ConvertItemEnumToString": "0x491E620"
   }
  }
 }

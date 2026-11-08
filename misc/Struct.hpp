@@ -2,11 +2,11 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  406
+/*  Total Offsets   :  392
 
-/*  Dumped At       : 02:41 08/11/2026 (GMT)
+/*  Dumped At       : 02:53 08/11/2026 (GMT)
 
-/*  Dumped In       : 64,3s
+/*  Dumped In       : 52,9s
 
 */
 #pragma once
@@ -258,8 +258,6 @@ struct Instance {
     uintptr_t NameContainer; // 0x68
     uintptr_t ChildrenStart; // 0x70
     uintptr_t ClassBase; // 0x1B0
-    uintptr_t FireTouchInterest; // 0x9F5920
-    uintptr_t InstanceIndex; // 0x41F78A0
 };
 
 struct LRUHolder {
@@ -345,9 +343,6 @@ struct Misc {
     uintptr_t Value; // 0xA0
     uintptr_t AnimationId; // 0xA8
     uintptr_t Adornee; // 0xD8
-    uintptr_t UnregisteredValueGetSet; // 0x71DE240
-    uintptr_t LockViolationScriptCrash; // 0x74C1410
-    uintptr_t EnableLoadModule; // 0x855CF68
 };
 
 struct Model {
@@ -443,15 +438,6 @@ struct ProximityPrompt {
     uintptr_t RequiresLineOfSight; // 0x11F
 };
 
-struct RakNet {
-    uintptr_t ConvertItemEnumToString; // 0x491E620
-};
-
-struct RbxTransport {
-    uintptr_t ClientSend; // 0x3B02970
-    uintptr_t GetConnectionErrorName; // 0x53E9070
-};
-
 struct RenderJob {
     uintptr_t FakeDataModel; // 0x38
     uintptr_t RenderView; // 0x1E0
@@ -497,11 +483,6 @@ struct Sky {
     uintptr_t SunAngularSize; // 0x224
     uintptr_t MoonAngularSize; // 0x22C
     uintptr_t StarCount; // 0x230
-    uintptr_t DrawCubeCall; // 0x38F58E0
-    uintptr_t DrawSkyEnv; // 0x38F58E0
-    uintptr_t DrawSkyPixel; // 0x38F58E0
-    uintptr_t DrawSun; // 0x38F58E0
-    uintptr_t DrawStars; // 0x38F7A20
 };
 
 struct Sound {
@@ -548,10 +529,6 @@ struct SurfaceAppearance {
     uintptr_t EmissiveTint; // 0x1CC
     uintptr_t AlphaMode; // 0x1D8
     uintptr_t EmissiveStrength; // 0x1DC
-};
-
-struct Task {
-    uintptr_t TaskWait; // 0x435D1E0
 };
 
 struct TaskScheduler {

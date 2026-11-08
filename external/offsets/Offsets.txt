@@ -2,11 +2,11 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  406
+/*  Total Offsets   :  392
 
-/*  Dumped At       : 02:41 08/11/2026 (GMT)
+/*  Dumped At       : 02:53 08/11/2026 (GMT)
 
-/*  Dumped In       : 64,3s
+/*  Dumped In       : 52,9s
 
 */
 AirProperties.AirDensity = 0x18
@@ -173,8 +173,6 @@ Instance.ChildrenStart = 0x70
 Instance.ClassBase = 0x1B0
 Instance.ClassDescriptor = 0x18
 Instance.ClassName = 0x8
-Instance.FireTouchInterest = 0x9F5920
-Instance.InstanceIndex = 0x41F78A0
 Instance.Name = 0x0
 Instance.NameContainer = 0x68
 Instance.Parent = 0x60
@@ -235,10 +233,7 @@ MeshPart.MeshId = 0x2F8
 MeshPart.Texture = 0x328
 Misc.Adornee = 0xD8
 Misc.AnimationId = 0xA8
-Misc.EnableLoadModule = 0x855CF68
-Misc.LockViolationScriptCrash = 0x74C1410
 Misc.StringLength = 0x10
-Misc.UnregisteredValueGetSet = 0x71DE240
 Misc.Value = 0xA0
 Model.PrimaryPart = 0x240
 Model.Scale = 0x12C
@@ -303,9 +298,6 @@ ProximityPrompt.KeyCode = 0x10C
 ProximityPrompt.MaxActivationDistance = 0x110
 ProximityPrompt.ObjectText = 0xB8
 ProximityPrompt.RequiresLineOfSight = 0x11F
-RakNet.ConvertItemEnumToString = 0x491E620
-RbxTransport.ClientSend = 0x3B02970
-RbxTransport.GetConnectionErrorName = 0x53E9070
 RenderJob.FakeDataModel = 0x38
 RenderJob.RealDataModel = 0x1F0
 RenderJob.RenderView = 0x1E0
@@ -320,11 +312,6 @@ Script.GUID = 0xB8
 Script.Hash = 0x188
 ScriptContext.RequireBypass = 0x0
 Seat.Occupant = 0x200
-Sky.DrawCubeCall = 0x38F58E0
-Sky.DrawSkyEnv = 0x38F58E0
-Sky.DrawSkyPixel = 0x38F58E0
-Sky.DrawStars = 0x38F7A20
-Sky.DrawSun = 0x38F58E0
 Sky.MoonAngularSize = 0x22C
 Sky.MoonTextureId = 0xB0
 Sky.SkyboxBk = 0xE0
@@ -365,7 +352,6 @@ SurfaceAppearance.EmissiveTint = 0x1CC
 SurfaceAppearance.MetalnessMap = 0x110
 SurfaceAppearance.NormalMap = 0x140
 SurfaceAppearance.RoughnessMap = 0x170
-Task.TaskWait = 0x435D1E0
 TaskScheduler.JobEnd = 0xD0
 TaskScheduler.JobName = 0x18
 TaskScheduler.JobStart = 0xC8
