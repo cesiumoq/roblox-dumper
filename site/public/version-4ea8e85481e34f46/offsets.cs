@@ -4,9 +4,9 @@
 
 /*  Total Offsets   :  405
 
-/*  Dumped At       : 19:38 11/11/2026 (GMT)
+/*  Dumped At       : 21:49 11/11/2026 (GMT)
 
-/*  Dumped In       : 179,1s
+/*  Dumped In       : 0,0s
 
 */
 using System;
@@ -189,7 +189,7 @@ namespace Offsets
     }
     public static class Functions
     {
-        public const long PrintIdentity = 0x4322690;
+        public const long PrintIdentity = 0x4380fd0;
     }
     public static class GuiBase2D
     {
@@ -489,8 +489,8 @@ namespace Offsets
         public const long LuaState = 0x200;
         public const long LuaStateAlt = 0x208;
         public const long RequireBypass = 0x0;
-        public const long VTable = 0x71b0fe8;
-        public const long VTableSub = 0x71b12c8;
+        public const long VTable = 0x7269f98;
+        public const long VTableSub = 0x726a228;
         public const long VTableSubSlot = 0x98;
     }
     public static class Seat

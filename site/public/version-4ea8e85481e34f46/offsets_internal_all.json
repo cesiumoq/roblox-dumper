@@ -467,7 +467,7 @@
   "Functions": [
    {
     "name": "PrintIdentity",
-    "rva": "0x4322690"
+    "rva": "0x4380FD0"
    }
   ],
   "GuiBase2D": [
@@ -1357,11 +1357,11 @@
    },
    {
     "name": "VTable",
-    "rva": "0x71B0FE8"
+    "rva": "0x7269F98"
    },
    {
     "name": "VTableSub",
-    "rva": "0x71B12C8"
+    "rva": "0x726A228"
    },
    {
     "name": "VTableSubSlot",

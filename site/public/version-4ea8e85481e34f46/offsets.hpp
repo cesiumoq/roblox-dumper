@@ -4,9 +4,9 @@
 
 /*  Total Offsets   :  405
 
-/*  Dumped At       : 19:38 11/11/2026 (GMT)
+/*  Dumped At       : 21:49 11/11/2026 (GMT)
 
-/*  Dumped In       : 179,1s
+/*  Dumped In       : 0,0s
 
 */
 #pragma once
@@ -166,7 +166,7 @@ namespace Offsets {
         inline constexpr uintptr_t VerticesEnd = 0x8;
     }
     namespace Functions {
-        inline constexpr uintptr_t PrintIdentity = 0x4322690;
+        inline constexpr uintptr_t PrintIdentity = 0x4380FD0;
     }
     namespace GuiBase2D {
         inline constexpr uintptr_t AbsolutePosition = 0xF4;
@@ -435,8 +435,8 @@ namespace Offsets {
         inline constexpr uintptr_t LuaState = 0x200;
         inline constexpr uintptr_t LuaStateAlt = 0x208;
         inline constexpr uintptr_t RequireBypass = 0x0;
-        inline constexpr uintptr_t VTable = 0x71B0FE8;
-        inline constexpr uintptr_t VTableSub = 0x71B12C8;
+        inline constexpr uintptr_t VTable = 0x7269F98;
+        inline constexpr uintptr_t VTableSub = 0x726A228;
         inline constexpr uintptr_t VTableSubSlot = 0x98;
     }
     namespace Seat {

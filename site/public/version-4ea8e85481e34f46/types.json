@@ -1,6 +1,6 @@
 {
  "version": "version-4ea8e85481e34f46",
- "time": "2026-11-11 20:38:31",
+ "time": "2026-11-11 22:49:40",
  "types": {
   "AirProperties": {
    "AirDensity": "uintptr_t",
@@ -150,6 +150,9 @@
    "FacesEnd": "uintptr_t",
    "Vertices": "uintptr_t",
    "VerticesEnd": "uintptr_t"
+  },
+  "Functions": {
+   "PrintIdentity": "uintptr_t"
   },
   "GuiBase2D": {
    "AbsolutePosition": "uintptr_t",
@@ -322,6 +325,10 @@
    "InputObject2": "uintptr_t",
    "MousePosition": "uintptr_t",
    "SensitivityPointer": "uintptr_t"
+  },
+  "Offsets": {
+   "AirDensity": "uintptr_t",
+   "GlobalWind": "uintptr_t"
   },
   "ParticleEmitter": {
    "Acceleration": "uintptr_t",
@@ -527,6 +534,10 @@
    "RenderView": "uintptr_t",
    "ViewMatrix": "uintptr_t"
   },
+  "Weld": {
+   "Part0": "uintptr_t",
+   "Part1": "uintptr_t"
+  },
   "WeldConstraint": {
    "Part0": "uintptr_t",
    "Part1": "uintptr_t"
@@ -547,17 +558,6 @@
    "Gravity": "uintptr_t",
    "Primitives": "uintptr_t",
    "worldStepsPerSec": "uintptr_t"
-  },
-  "Functions": {
-   "PrintIdentity": "uintptr_t"
-  },
-  "Offsets": {
-   "AirDensity": "uintptr_t",
-   "GlobalWind": "uintptr_t"
-  },
-  "Weld": {
-   "Part0": "uintptr_t",
-   "Part1": "uintptr_t"
   }
  }
 }

@@ -4,9 +4,9 @@
 
 /*  Total Offsets   :  405
 
-/*  Dumped At       : 19:38 11/11/2026 (GMT)
+/*  Dumped At       : 21:49 11/11/2026 (GMT)
 
-/*  Dumped In       : 179,1s
+/*  Dumped In       : 0,0s
 
 */
 #pragma once
@@ -186,7 +186,7 @@ struct FileMeshData {
 };
 
 struct Functions {
-    uintptr_t PrintIdentity; // 0x4322690
+    uintptr_t PrintIdentity; // 0x4380FD0
 };
 
 struct GuiBase2D {
@@ -487,8 +487,8 @@ struct ScriptContext {
     uintptr_t VTableSubSlot; // 0x98
     uintptr_t LuaState; // 0x200
     uintptr_t LuaStateAlt; // 0x208
-    uintptr_t VTable; // 0x71B0FE8
-    uintptr_t VTableSub; // 0x71B12C8
+    uintptr_t VTable; // 0x7269F98
+    uintptr_t VTableSub; // 0x726A228
 };
 
 struct Seat {

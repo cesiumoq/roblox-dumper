@@ -4,9 +4,9 @@
 
 /*  Total FFlags    :  15290
 
-/*  Dumped At       : 19:38 11/11/2026 (GMT)
+/*  Dumped At       : 21:49 11/11/2026 (GMT)
 
-/*  Dumped In       : 179,1s
+/*  Dumped In       : 0,0s
 
 */
 #pragma once
@@ -15,6 +15,11 @@
 namespace FFlagOffsets {
     inline std::string ClientVersion = "version-4ea8e85481e34f46";
 
+    namespace FFlagList {
+        inline constexpr uintptr_t Pointer = 0x865E868;
+        inline constexpr uintptr_t ToFlag = 0x30;
+        inline constexpr uintptr_t ToValue = 0x20;
+    }
         inline constexpr uintptr_t AANullRolloutTest = 0x827BD90;
         inline constexpr uintptr_t ACEAnimationFromVideoCreatorServiceWithAssetImport = 0x8250A30;
         inline constexpr uintptr_t ACSDeserializeSkipRobloxSerializable = 0x822F5F8;

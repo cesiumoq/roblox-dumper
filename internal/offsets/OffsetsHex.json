@@ -1,6 +1,6 @@
 {
  "version": "version-4ea8e85481e34f46",
- "time": "2026-11-11 20:38:31",
+ "time": "2026-11-11 22:49:40",
  "total": 405,
  "classes": {
   "AirProperties": {
@@ -151,6 +151,9 @@
    "FacesEnd": "0x38",
    "Vertices": "0x0",
    "VerticesEnd": "0x8"
+  },
+  "Functions": {
+   "PrintIdentity": "0x4380FD0"
   },
   "GuiBase2D": {
    "AbsolutePosition": "0xF4",
@@ -324,6 +327,10 @@
    "MousePosition": "0xBC",
    "SensitivityPointer": "0x0"
   },
+  "Offsets": {
+   "AirDensity": "0x18",
+   "GlobalWind": "0x3C"
+  },
   "ParticleEmitter": {
    "Acceleration": "0x1C8",
    "Brightness": "0x204",
@@ -415,8 +422,8 @@
    "LuaState": "0x200",
    "LuaStateAlt": "0x208",
    "RequireBypass": "0x0",
-   "VTable": "0x71B0FE8",
-   "VTableSub": "0x71B12C8",
+   "VTable": "0x7269F98",
+   "VTableSub": "0x726A228",
    "VTableSubSlot": "0x98"
   },
   "Seat": {
@@ -528,6 +535,10 @@
    "RenderView": "0xC50",
    "ViewMatrix": "0x1B0"
   },
+  "Weld": {
+   "Part0": "0x100",
+   "Part1": "0x110"
+  },
   "WeldConstraint": {
    "Part0": "0xA0",
    "Part1": "0xB0"
@@ -548,17 +559,6 @@
    "Gravity": "0x218",
    "Primitives": "0x2A0",
    "worldStepsPerSec": "0x868"
-  },
-  "Functions": {
-   "PrintIdentity": "0x4322690"
-  },
-  "Offsets": {
-   "AirDensity": "0x18",
-   "GlobalWind": "0x3C"
-  },
-  "Weld": {
-   "Part0": "0x100",
-   "Part1": "0x110"
   }
  }
 }
