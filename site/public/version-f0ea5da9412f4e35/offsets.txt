@@ -2,9 +2,9 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  592
+/*  Total Offsets   :  593
 
-/*  Dumped At       : 19:11 08/11/2026 (GMT)
+/*  Dumped At       : 14:43 11/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -472,7 +472,8 @@ ScriptContext.LuaState = 0x200
 ScriptContext.LuaStateAlt = 0x208
 ScriptContext.RequireBypass = 0x0
 ScriptContext.Resume = 0x431B1F0
-ScriptContext.VTable = 0x71B12C8
+ScriptContext.VTable = 0x71B0FE8
+ScriptContext.VTableSub = 0x71B12C8
 ScriptContext.VmWrapper = 0xA8
 ScriptContext.VmWrapper2 = 0x6C8
 ScriptContext.VmWrapperBig = 0x3B8

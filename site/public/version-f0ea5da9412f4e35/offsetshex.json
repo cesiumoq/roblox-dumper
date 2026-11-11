@@ -1,7 +1,7 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 20:11:45",
- "total": 592,
+ "time": "2026-11-11 15:43:57",
+ "total": 593,
  "classes": {
   "AirProperties": {
    "AirDensity": "0x18",
@@ -609,7 +609,8 @@
    "LuaStateAlt": "0x208",
    "RequireBypass": "0x0",
    "Resume": "0x431B1F0",
-   "VTable": "0x71B12C8",
+   "VTable": "0x71B0FE8",
+   "VTableSub": "0x71B12C8",
    "VmWrapper": "0xA8",
    "VmWrapper2": "0x6C8",
    "VmWrapperBig": "0x3B8",

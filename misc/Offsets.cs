@@ -1,10 +1,10 @@
-// Genere par SWC Dumper (offline) - 2026-11-11 13:04
+// Genere par SWC Dumper (offline) - 2026-11-08 14:34
 using System;
 namespace Offsets
 {
     public static class Info
     {
-        public const string ClientVersion = "version-4ea8e85481e34f46";
+        public const string ClientVersion = "version-f0ea5da9412f4e35";
     }
     public static class Animator
     {
@@ -12,7 +12,7 @@ namespace Offsets
     }
     public static class Attachment
     {
-        public const long Position = 0xb4; /* STALE (fallback ancien dump) */
+        public const long Position = 0xc;
     }
     public static class CachedItem
     {
@@ -44,11 +44,11 @@ namespace Offsets
     }
     public static class Seat
     {
-        public const long Occupant = 0x208; /* STALE (fallback ancien dump) */
+        public const long Occupant = 0x98;
     }
     public static class StatsItem
     {
-        public const long Value = 0x20;
+        public const long Value = 0x18;
     }
     public static class TaskScheduler
     {
@@ -56,7 +56,7 @@ namespace Offsets
     }
     public static class Team
     {
-        public const long BrickColor = 0xa8; /* STALE (fallback ancien dump) */
+        public const long BrickColor = 0x8;
     }
     public static class UnionOperation
     {

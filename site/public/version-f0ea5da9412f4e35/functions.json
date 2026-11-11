@@ -1,15 +1,24 @@
 {
  "functions": {
   "ClientSend": "0x3B02970",
-  "ConvertItemEnumToString": "0x491E620",
-  "DrawCubeCall": "0x38F58E0",
-  "DrawSkyEnv": "0x38F58E0",
-  "DrawSkyPixel": "0x38F58E0",
-  "DrawStars": "0x38F7A20",
-  "DrawSun": "0x38F58E0",
-  "FireTouchInterest": "0x9F5920",
-  "GetConnectionErrorName": "0x53E9070",
-  "InstanceIndex": "0x41F78A0",
-  "TaskWait": "0x435D1E0"
+  "ConvertItemEnumToString": "0x491EC20",
+  "CubeTextures": "0x38F2400",
+  "DrawCubeCall": "0x38F5EE0",
+  "DrawSkyEnv": "0x38F5EE0",
+  "DrawSkyPixel": "0x38F5EE0",
+  "DrawStars": "0x38F5EE0",
+  "DrawSun": "0x38F5EE0",
+  "FireAllClients": "0x34AB510",
+  "FireClient": "0x34AB310",
+  "FireServer": "0x34AB170",
+  "FireTouchInterest": "0x9F5990",
+  "GetConnectionErrorName": "0x53E9670",
+  "InstanceIndex": "0x41F7AA0",
+  "InvokeClient": "0x35834C0",
+  "InvokeServer": "0x35831C0",
+  "PrintIdentity": "0x4322690",
+  "ReportNetworkError": "0x49B6700",
+  "SkyThread": "0x38F26A0",
+  "TaskWait": "0x435CFB0"
  }
 }

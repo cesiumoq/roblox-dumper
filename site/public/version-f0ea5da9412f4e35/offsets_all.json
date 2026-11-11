@@ -1997,6 +1997,10 @@
    },
    {
     "name": "VTable",
+    "rva": "0x71B0FE8"
+   },
+   {
+    "name": "VTableSub",
     "rva": "0x71B12C8"
    },
    {

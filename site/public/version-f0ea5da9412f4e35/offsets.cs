@@ -2,9 +2,9 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  592
+/*  Total Offsets   :  593
 
-/*  Dumped At       : 19:11 08/11/2026 (GMT)
+/*  Dumped At       : 14:43 11/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -694,7 +694,8 @@ namespace Offsets
         public const long LuaStateAlt = 0x208;
         public const long RequireBypass = 0x0;
         public const long Resume = 0x431b1f0;
-        public const long VTable = 0x71b12c8;
+        public const long VTable = 0x71b0fe8;
+        public const long VTableSub = 0x71b12c8;
         public const long VmWrapper = 0xa8;
         public const long VmWrapper2 = 0x6c8;
         public const long VmWrapperBig = 0x3b8;

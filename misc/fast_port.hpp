@@ -1,12 +1,12 @@
-/* fast-port of the IDA dumper (no IDA) - 2026-11-08 03:41
+/* fast-port of the IDA dumper (no IDA) - 2026-11-11 15:00
 Roblox Version:   0.0.0.0
-Total Offsets:    14 */
+Total Offsets:    28 */
 
 namespace Task {
     // TaskDefer: only 0 xrefs
     // TaskSpawn: only 0 xrefs
     // TaskDelay: only 0 xrefs
-    TaskWait = REBASE(0x435D1E0);
+    TaskWait = REBASE(0x435CFB0);
     // TaskDesynchronize: NO STRING
     // TaskCancel: NO STRING
     // TaskSynchronize: NO STRING
@@ -19,9 +19,13 @@ namespace Instance {
     // InstanceFindFirstChild: only 0 xrefs
     // InstanceFindFirstChildOfClass: only 0 xrefs
     // InstanceGetChildren: only 0 xrefs
-    InstanceIndex = REBASE(0x41F78A0);
-    FireTouchInterest = REBASE(0x9F5920);
+    InstanceIndex = REBASE(0x41F7AA0);
+    FireTouchInterest = REBASE(0x9F5990);
     // FireProximityPrompt: only 0 xrefs
+}
+
+namespace ScriptContext {
+    VTable = REBASE(0x71B0FE8);
 }
 
 namespace EngineMisc {
@@ -31,58 +35,59 @@ namespace EngineMisc {
 namespace Raycast {
     // ShapeCast: NO STRING
     // SphereCast: NO STRING
-    // _7FastClusterEntity: NO VTBL
+    FastClusterEntity = REBASE(0x714CAF0);
 }
 
 namespace RbxTransport {
-    // _7RbxTransportConnection: NO VTBL
-    // _7RtcAppConnection: NO VTBL
+    RbxTransportConnection = REBASE(0x714D5B0);
+    RtcAppConnection = REBASE(0x70DB908);
     ClientSend = REBASE(0x3B02970);
     // AppReceive: NO STRING
     // AppReceiveMaxBytes: NO STRING
     // FailureFallbackToRbxTransport: NO GLOBAL
     // UseRbxTransportClient: NO GLOBAL
-    GetConnectionErrorName = REBASE(0x53E9070);
-    // _7RtcAppConnection: NO VTBL
+    GetConnectionErrorName = REBASE(0x53E9670);
+    RtcAppConnection = REBASE(0x70DB908);
 }
 
 namespace RemoteEvent {
-    // FireServer: only 0 xrefs
-    // FireClient: only 0 xrefs
-    // FireAllClients: only 0 xrefs
-    // InvokeServer: only 0 xrefs
-    // InvokeClient: only 0 xrefs
+    FireServer = REBASE(0x34AB170);
+    FireClient = REBASE(0x34AB310);
+    FireAllClients = REBASE(0x34AB510);
+    InvokeServer = REBASE(0x35831C0);
+    InvokeClient = REBASE(0x35834C0);
 }
 
 namespace Sky {
-    DrawCubeCall = REBASE(0x38F58E0);
-    DrawSkyPixel = REBASE(0x38F58E0);
-    DrawSkyEnv = REBASE(0x38F58E0);
-    DrawSun = REBASE(0x38F58E0);
-    DrawStars = REBASE(0x38F7A20);
-    // SkyThread: only 0 xrefs
-    // CubeTextures: only 0 xrefs
+    DrawCubeCall = REBASE(0x38F5EE0);
+    DrawSkyPixel = REBASE(0x38F5EE0);
+    DrawSkyEnv = REBASE(0x38F5EE0);
+    DrawSun = REBASE(0x38F5EE0);
+    DrawStars = REBASE(0x38F5EE0);
+    SkyThread = REBASE(0x38F26A0);
+    CubeTextures = REBASE(0x38F2400);
     // SkyGroup: NO STRING
 }
 
 namespace RakNet {
     // Receive: NO STRING
-    // ReportNetworkError: only 0 xrefs
+    ReportNetworkError = REBASE(0x49B6700);
     // HandleConnectionState: NO STRING
     // ProcessNetworkPacket: only 0 xrefs
     // SendPacketsToSelf: NO STRING
     // RakPeerReceive: NO STRING
-    // _7RakPeer: NO VTBL
-    ConvertItemEnumToString = REBASE(0x491E620);
+    RakPeer = REBASE(0x70E84B8);
+    ConvertItemEnumToString = REBASE(0x491EC20);
     // UpdateNetworkLoop: NO STRING
     // UpdateNetworkLoop: NO STRING
 }
 
 namespace Misc {
-    // _7RbxTransportConnection: NO VTBL
-    EnableLoadModule = REBASE(0x855CF68);
+    RbxTransportConnection = REBASE(0x714D5B0);
+    // EnableLoadModule: NO GLOBAL
     UnregisteredValueGetSet = REBASE(0x71DE240);
     // LockViolationInstanceCrash: NO GLOBAL
-    LockViolationScriptCrash = REBASE(0x74C1410);
+    // LockViolationScriptCrash: NO GLOBAL
+    PrintIdentity = REBASE(0x4322690);
 }
 

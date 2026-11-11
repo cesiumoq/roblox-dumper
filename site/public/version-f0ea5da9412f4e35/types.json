@@ -1,6 +1,6 @@
 {
  "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 20:11:45",
+ "time": "2026-11-11 15:43:57",
  "types": {
   "AirProperties": {
    "AirDensity": "uintptr_t",
@@ -609,6 +609,7 @@
    "RequireBypass": "uintptr_t",
    "Resume": "uintptr_t",
    "VTable": "uintptr_t",
+   "VTableSub": "uintptr_t",
    "VmWrapper": "uintptr_t",
    "VmWrapper2": "uintptr_t",
    "VmWrapperBig": "uintptr_t",

@@ -2,9 +2,9 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  592
+/*  Total Offsets   :  593
 
-/*  Dumped At       : 19:11 08/11/2026 (GMT)
+/*  Dumped At       : 14:43 11/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -622,7 +622,8 @@ namespace Offsets {
         inline constexpr uintptr_t LuaStateAlt = 0x208;
         inline constexpr uintptr_t RequireBypass = 0x0;
         inline constexpr uintptr_t Resume = 0x431B1F0;
-        inline constexpr uintptr_t VTable = 0x71B12C8;
+        inline constexpr uintptr_t VTable = 0x71B0FE8;
+        inline constexpr uintptr_t VTableSub = 0x71B12C8;
         inline constexpr uintptr_t VmWrapper = 0xA8;
         inline constexpr uintptr_t VmWrapper2 = 0x6C8;
         inline constexpr uintptr_t VmWrapperBig = 0x3B8;

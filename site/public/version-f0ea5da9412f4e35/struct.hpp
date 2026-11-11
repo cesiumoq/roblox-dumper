@@ -2,9 +2,9 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  592
+/*  Total Offsets   :  593
 
-/*  Dumped At       : 19:11 08/11/2026 (GMT)
+/*  Dumped At       : 14:43 11/11/2026 (GMT)
 
 /*  Dumped In       : 0,0s
 
@@ -695,7 +695,8 @@ struct ScriptContext {
     uintptr_t VmWrapperFn; // 0x1CF86E0
     uintptr_t GetGlobalState; // 0x42B3C80
     uintptr_t Resume; // 0x431B1F0
-    uintptr_t VTable; // 0x71B12C8
+    uintptr_t VTable; // 0x71B0FE8
+    uintptr_t VTableSub; // 0x71B12C8
 };
 
 struct Seat {

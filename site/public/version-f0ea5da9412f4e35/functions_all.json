@@ -6,43 +6,79 @@
   },
   {
    "name": "ConvertItemEnumToString",
-   "rva": "0x491E620"
+   "rva": "0x491EC20"
+  },
+  {
+   "name": "CubeTextures",
+   "rva": "0x38F2400"
   },
   {
    "name": "DrawCubeCall",
-   "rva": "0x38F58E0"
+   "rva": "0x38F5EE0"
   },
   {
    "name": "DrawSkyEnv",
-   "rva": "0x38F58E0"
+   "rva": "0x38F5EE0"
   },
   {
    "name": "DrawSkyPixel",
-   "rva": "0x38F58E0"
+   "rva": "0x38F5EE0"
   },
   {
    "name": "DrawStars",
-   "rva": "0x38F7A20"
+   "rva": "0x38F5EE0"
   },
   {
    "name": "DrawSun",
-   "rva": "0x38F58E0"
+   "rva": "0x38F5EE0"
+  },
+  {
+   "name": "FireAllClients",
+   "rva": "0x34AB510"
+  },
+  {
+   "name": "FireClient",
+   "rva": "0x34AB310"
+  },
+  {
+   "name": "FireServer",
+   "rva": "0x34AB170"
   },
   {
    "name": "FireTouchInterest",
-   "rva": "0x9F5920"
+   "rva": "0x9F5990"
   },
   {
    "name": "GetConnectionErrorName",
-   "rva": "0x53E9070"
+   "rva": "0x53E9670"
   },
   {
    "name": "InstanceIndex",
-   "rva": "0x41F78A0"
+   "rva": "0x41F7AA0"
+  },
+  {
+   "name": "InvokeClient",
+   "rva": "0x35834C0"
+  },
+  {
+   "name": "InvokeServer",
+   "rva": "0x35831C0"
+  },
+  {
+   "name": "PrintIdentity",
+   "rva": "0x4322690"
+  },
+  {
+   "name": "ReportNetworkError",
+   "rva": "0x49B6700"
+  },
+  {
+   "name": "SkyThread",
+   "rva": "0x38F26A0"
   },
   {
    "name": "TaskWait",
-   "rva": "0x435D1E0"
+   "rva": "0x435CFB0"
   }
  ]
 }
