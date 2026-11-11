@@ -1,14 +1,11 @@
 {
- "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-11 15:00:46",
- "total": 593,
+ "version": "version-4ea8e85481e34f46",
+ "time": "2026-11-11 20:26:44",
+ "total": 399,
  "classes": {
   "AirProperties": {
    "AirDensity": 24,
    "GlobalWind": 60
-  },
-  "Alloc": {
-   "Malloc": 78500688
   },
   "AnimationTrack": {
    "Animation": 160,
@@ -19,7 +16,7 @@
    "TimePosition": 192
   },
   "Animator": {
-   "ActiveAnimations": 2304
+   "ActiveAnimations": 2336
   },
   "Atmosphere": {
    "Color": 160,
@@ -67,12 +64,8 @@
    "Enabled": 152,
    "Size": 160
   },
-  "BoundFuncDescriptor": {
-   "Function": 144,
-   "Name": 8
-  },
   "ByteCode": {
-   "Pointer": 16,
+   "Pointer": 24,
    "Size": 40
   },
   "CachedItem": {
@@ -112,29 +105,20 @@
    "Enabled": 152,
    "TonemapperPreset": 160
   },
-  "Coroutine": {
-   "create": 94769120,
-   "finally": 94781680,
-   "isyieldable": 94771488,
-   "running": 94771376,
-   "status": 94759712,
-   "wrap": 94770560,
-   "yield": 94771280
-  },
   "DataModel": {
-   "CreatorId": 368,
-   "GameId": 376,
-   "GameLoaded": 1416,
+   "CreatorId": 400,
+   "GameId": 408,
+   "GameLoaded": 1464,
    "JobId": 264,
-   "PlaceId": 384,
-   "PlaceVersion": 412,
-   "PrimitiveCount": 1040,
+   "PlaceId": 416,
+   "PlaceVersion": 444,
+   "PrimitiveCount": 1072,
    "ScriptContext": 1088,
-   "ServerIP": 1392,
-   "ToRenderView1": 440,
+   "ServerIP": 1440,
+   "ToRenderView1": 472,
    "ToRenderView2": 8,
    "ToRenderView3": 40,
-   "Workspace": 328
+   "Workspace": 360
   },
   "DepthOfFieldEffect": {
    "Enabled": 152,
@@ -142,13 +126,6 @@
    "FocusDistance": 164,
    "InFocusRadius": 168,
    "NearIntensity": 172
-  },
-  "Descriptor": {
-   "Name": 8
-  },
-  "DeviceD3D11Gfx": {
-   "ContextObjVTableRva": 118389656,
-   "VTableRva": 118389152
   },
   "DragDetector": {
    "ActivatedCursorIcon": 392,
@@ -164,34 +141,8 @@
    "Responsiveness": 648
   },
   "FakeDataModel": {
-   "Pointer": 149645664,
+   "Pointer": 150530408,
    "RealDataModel": 504
-  },
-  "FastCluster": {
-   "ClusterNode": 392,
-   "MeshEntityVTableRva": 118803256,
-   "VTableRva": 118798432,
-   "VTableRvaSub": 118798400,
-   "VTableRvaSubAlt": 118800824
-  },
-  "FastClusterBinding": {
-   "VTableRva": 118802968
-  },
-  "FastClusterEntity": {
-   "AlphaByte": 20,
-   "BBoxMaxX": 164,
-   "BBoxMaxY": 168,
-   "BBoxMaxZ": 172,
-   "BBoxMinX": 152,
-   "BBoxMinY": 156,
-   "BBoxMinZ": 160,
-   "ContextPtr": 8,
-   "DecalMaterialPtr": 72,
-   "MaterialPtr": 32,
-   "PrimitiveIndexArrayPtr": 128,
-   "RenderQueueId": 16,
-   "TechniqueArrayPtr": 112,
-   "VTableRva": 118803184
   },
   "FileMeshData": {
    "AABBMax": 396,
@@ -201,118 +152,84 @@
    "Vertices": 0,
    "VerticesEnd": 8
   },
-  "FunctionDescriptor": {
-   "Function": 128
-  },
-  "Functions": {
-   "Clone": 5684224,
-   "Destroy": 5684640,
-   "GlobalCollectGarbage": 70388352,
-   "GlobalDelay": 70390528,
-   "GlobalElapsedTime": 70392448,
-   "GlobalGetFenv": 70406160,
-   "GlobalLoadstring": 70392576,
-   "GlobalPluginManager": 70394272,
-   "GlobalPrint": 70395504,
-   "GlobalRequire": 70395792,
-   "GlobalSetFenv": 70406480,
-   "GlobalSettings": 70397280,
-   "GlobalSpawn": 70398448,
-   "GlobalStats": 70400352,
-   "GlobalTick": 70401664,
-   "GlobalTime": 70401792,
-   "GlobalUserSettings": 70402304,
-   "GlobalVersion": 70403344,
-   "GlobalWait": 70403584,
-   "GlobalWarn": 70404096,
-   "Print": 70395504,
-   "PrintIdentity": 70395536,
-   "Shapecast": 14761664
-  },
-  "GeometryD3D11": {
-   "VTableRva": 118390464
-  },
   "GuiBase2D": {
    "AbsolutePosition": 244,
    "AbsoluteRotation": 208,
    "AbsoluteSize": 0
   },
   "GuiObject": {
-   "BackgroundColor3": 1288,
-   "BackgroundTransparency": 1300,
-   "BorderColor3": 1300,
-   "Image": 2472,
-   "LayoutOrder": 1348,
-   "Position": 1240,
-   "RichText": 2976,
+   "BackgroundColor3": 728,
+   "BackgroundTransparency": 740,
+   "BorderColor3": 740,
+   "Image": 1648,
+   "LayoutOrder": 788,
+   "Position": 680,
+   "RichText": 1992,
    "Rotation": 208,
-   "ScreenGui_Enabled": 1168,
-   "Size": 1272,
-   "Text": 3592,
-   "TextColor3": 3768,
-   "Visible": 1397,
-   "ZIndex": 1388
+   "ScreenGui_Enabled": 1037,
+   "Size": 712,
+   "Text": 2608,
+   "TextColor3": 2784,
+   "Visible": 1837,
+   "ZIndex": 828
+  },
+  "HandleAdornment": {
+   "CFrame": 256
   },
   "Humanoid": {
-   "AutoJumpEnabled": 456,
-   "AutoRotate": 457,
-   "AutomaticScalingEnabled": 149,
-   "BreakJointsOnDeath": 460,
+   "AutoJumpEnabled": 460,
+   "AutoRotate": 461,
+   "AutomaticScalingEnabled": 462,
+   "BreakJointsOnDeath": 464,
    "CameraOffset": 272,
    "DisplayDistanceType": 372,
    "DisplayName": 160,
-   "EvaluateStateMachine": 461,
+   "EvaluateStateMachine": 465,
    "FloorMaterial": 376,
    "Health": 388,
    "HealthDisplayDistance": 380,
    "HealthDisplayType": 384,
    "HipHeight": 392,
-   "HumanoidRootPart": 1120,
-   "HumanoidState": 2216,
+   "HumanoidRootPart": 1128,
+   "HumanoidState": 2224,
    "HumanoidStateID": 32,
-   "IsWalking": 2606,
-   "Jump": 464,
-   "JumpHeight": 404,
-   "JumpPower": 408,
-   "MaxHealth": 412,
-   "MaxSlopeAngle": 416,
+   "IsWalking": 2630,
+   "Jump": 468,
+   "JumpHeight": 408,
+   "JumpPower": 412,
+   "MaxHealth": 416,
+   "MaxSlopeAngle": 420,
    "MoveDirection": 308,
    "MoveToPart": 256,
    "MoveToPoint": 344,
-   "NameDisplayDistance": 420,
-   "NameOcclusion": 424,
-   "PlatformStand": 466,
+   "NameDisplayDistance": 424,
+   "NameOcclusion": 428,
+   "PlatformStand": 470,
    "PlatformStatePointer": 0,
-   "RequiresNeck": 467,
-   "RigType": 436,
+   "RequiresNeck": 471,
+   "RigType": 440,
    "SeatPart": 240,
-   "Sit": 467,
+   "Sit": 471,
    "TargetPoint": 320,
-   "UseJumpPower": 470,
-   "WalkTimer": 0,
-   "Walkspeed": 452,
-   "WalkspeedCheck": 924
+   "UseJumpPower": 474,
+   "WalkTimer": 1008,
+   "Walkspeed": 456,
+   "WalkspeedCheck": 932
   },
   "Instance": {
    "ChildrenEnd": 8,
    "ChildrenStart": 112,
-   "ChildrenStride": 16,
    "ClassBase": 432,
    "ClassDescriptor": 24,
    "ClassName": 8,
-   "FindFirstAncestorWhichIsA": 5686592,
-   "FindFirstChild": 5701872,
-   "FindFirstChildOfClass": 5687424,
-   "FindFirstChildWhichIsA": 5702432,
-   "FireTouchInterest": 10443040,
-   "GetAttribute": 5689760,
-   "GetChildren": 5692064,
-   "InstanceIndex": 69171360,
    "Name": 0,
    "NameContainer": 104,
    "Parent": 96,
-   "SetParent": 32589104,
    "This": 8
+  },
+  "JointInstance": {
+   "Part0": 256,
+   "Part1": 272
   },
   "LRUHolder": {
    "MemEnforcedLRUCache": 32
@@ -326,8 +243,8 @@
    "Ambient": 184,
    "Brightness": 256,
    "ClockTime": 176,
-   "ColorShift_Bottom": 208,
-   "ColorShift_Top": 196,
+   "ColorShift_Bottom": 196,
+   "ColorShift_Top": 208,
    "EnvironmentDiffuseScale": 260,
    "EnvironmentSpecularScale": 264,
    "ExposureCompensation": 268,
@@ -347,74 +264,9 @@
    "SunPosition": 352
   },
   "LocalScript": {
-   "ByteCode": 384,
+   "ByteCode": 376,
    "GUID": 184,
    "Hash": 392
-  },
-  "LuaB": {
-   "LuaBAssert": 40473120,
-   "LuaBError": 40450672,
-   "LuaBGcinfo": 40464544,
-   "LuaBGetfenv": 40457408,
-   "LuaBGetmetatable": 40454528,
-   "LuaBNewproxy": 40476160,
-   "LuaBNext": 40470384,
-   "LuaBPrint": 40449568,
-   "LuaBRawequal": 40458144,
-   "LuaBRawget": 40458416,
-   "LuaBRawlen": 40464384,
-   "LuaBRawset": 40461120,
-   "LuaBSelect": 40473296,
-   "LuaBSetfenv": 40457600,
-   "LuaBSetmetatable": 40454912,
-   "LuaBTonumber": 40449760,
-   "LuaBTostring": 40476064,
-   "LuaBType": 40464576,
-   "LuaBTypeof": 40467488
-  },
-  "LuaCoroutine": {
-   "Create": 94769120,
-   "Finally": 94781680,
-   "Isyieldable": 94771488,
-   "Running": 94771376,
-   "Status": 94759712,
-   "Wrap": 94770560,
-   "Yield": 94771280
-  },
-  "LuaState": {
-   "Global": 80
-  },
-  "Luau": {
-   "Free": 40227568,
-   "Step": 40229360,
-   "luaB_assert": 40473120,
-   "luaB_error": 40450672,
-   "luaB_gcinfo": 40464544,
-   "luaB_getfenv": 40457408,
-   "luaB_getmetatable": 40454528,
-   "luaB_newproxy": 40476160,
-   "luaB_next": 40470384,
-   "luaB_print": 40449568,
-   "luaB_rawequal": 40458144,
-   "luaB_rawget": 40458416,
-   "luaB_rawlen": 40464384,
-   "luaB_rawset": 40461120,
-   "luaB_select": 40473296,
-   "luaB_setfenv": 40457600,
-   "luaB_setmetatable": 40454912,
-   "luaB_tonumber": 40449760,
-   "luaB_tostring": 40476064,
-   "luaB_type": 40464576,
-   "luaB_typeof": 40467488,
-   "tclone": 40563120
-  },
-  "LuauGlobal": {
-   "GCthreshold": 56,
-   "dummynode": 112338464,
-   "gcstate": 2,
-   "gray": 168,
-   "grayagain": 112,
-   "totalbytes": 104
   },
   "MaterialColors": {
    "Asphalt": 48,
@@ -439,15 +291,6 @@
    "Snow": 30,
    "WoodPlanks": 21
   },
-  "MaterialLayer": {
-   "ColorData": 38,
-   "CullMode": 16,
-   "FillModeByte": 17,
-   "Flags2": 32,
-   "MatFlags": 24,
-   "Param": 28,
-   "Stride": 136
-  },
   "MemEnforcedLRUCache": {
    "Head": 8
   },
@@ -462,11 +305,7 @@
   "Misc": {
    "Adornee": 216,
    "AnimationId": 168,
-   "EnableLoadModule": 139841384,
-   "LockViolationScriptCrash": 122426384,
-   "PrintIdentity": 70395536,
    "StringLength": 16,
-   "UnregisteredValueGetSet": 119398976,
    "Value": 160
   },
   "Model": {
@@ -484,10 +323,6 @@
    "InputObject2": 248,
    "MousePosition": 188,
    "SensitivityPointer": 0
-  },
-  "Offsets": {
-   "AirDensity": 24,
-   "GlobalWind": 60
   },
   "ParticleEmitter": {
    "Acceleration": 456,
@@ -533,7 +368,7 @@
    "AssemblyAngularVelocity": 236,
    "AssemblyLinearVelocity": 224,
    "Flags": 446,
-   "Material": 0,
+   "Material": 590,
    "Owner": 536,
    "Position": 212,
    "Rotation": 176,
@@ -556,33 +391,6 @@
    "ObjectText": 184,
    "RequiresLineOfSight": 287
   },
-  "RakNet": {
-   "ConvertItemEnumToString": 76670496,
-   "RakPeerVirtualTable": 118391992,
-   "ReportNetworkError": 77293600
-  },
-  "Raycast": {
-   "RaycastBoundFn": 144
-  },
-  "RbxTransport": {
-   "AppRTTI": 138492576,
-   "AppVTable": 118339848,
-   "ClientRTTI": 138762392,
-   "ClientSend": 61876592,
-   "ClientVTable": 118805936,
-   "GetConnectionErrorName": 87986288
-  },
-  "RemoteEvent": {
-   "BaseVTableRva": 118747528,
-   "DescBaseVTableRva": 118746912,
-   "FireServerRva": 7408656,
-   "HookSlot7RemoteEventFn": 56128032,
-   "InstanceVTableRva": 118295400,
-   "InvokeClient": 56112992,
-   "InvokeServer": 56112096,
-   "RemoteFuncVTableRva": 118765296,
-   "VTableRva": 118765912
-  },
   "RenderJob": {
    "FakeDataModel": 56,
    "RealDataModel": 496,
@@ -595,39 +403,21 @@
    "VisualEngine": 0
   },
   "RunService": {
-   "HeartbeatFPS": 242,
-   "HeartbeatTask": 84864
+   "HeartbeatFPS": 200,
+   "HeartbeatTask": 10184
   },
   "Script": {
-   "ByteCode": 0,
+   "ByteCode": 376,
    "GUID": 184,
    "Hash": 392
   },
   "ScriptContext": {
-   "GetGlobalState": 69942400,
-   "LuaState": 512,
-   "LuaStateAlt": 520,
-   "RequireBypass": 0,
-   "Resume": 70365680,
-   "VTable": 119214056,
-   "VTableSub": 119214792,
-   "VmWrapper": 168,
-   "VmWrapper2": 1736,
-   "VmWrapperBig": 952,
-   "VmWrapperFn": 30377696
+   "RequireBypass": 0
   },
   "Seat": {
    "Occupant": 512
   },
-  "ShaderManager": {
-   "VTableRva": 118786976
-  },
   "Sky": {
-   "DrawCubeCall": 59726048,
-   "DrawSkyEnv": 59726048,
-   "DrawSkyPixel": 59726048,
-   "DrawStars": 59726048,
-   "DrawSun": 59726048,
    "MoonAngularSize": 556,
    "MoonTextureId": 176,
    "SkyboxBk": 224,
@@ -663,7 +453,7 @@
    "Scale": 172
   },
   "StatsItem": {
-   "Value": 12512
+   "Value": 59224
   },
   "SunRaysEffect": {
    "Enabled": 152,
@@ -681,30 +471,15 @@
    "NormalMap": 320,
    "RoughnessMap": 368
   },
-  "Task": {
-   "TaskCancel": 70636176,
-   "TaskDefer": 70632512,
-   "TaskDelay": 70634672,
-   "TaskDesynchronize": 70629120,
-   "TaskSpawn": 70633760,
-   "TaskSynchronize": 70627712,
-   "TaskWait": 70636000
-  },
   "TaskScheduler": {
    "JobEnd": 208,
    "JobName": 24,
    "JobStart": 200,
    "MaxFPS": 176,
-   "Pointer": 149215160,
-   "StepFunction": 44295744
+   "Pointer": 150070280
   },
   "Team": {
    "BrickColor": 160
-  },
-  "TechniqueArray": {
-   "BeginOffset": 0,
-   "EndOffset": 8,
-   "EntryStride": 136
   },
   "Terrain": {
    "GrassLength": 472,
@@ -720,8 +495,8 @@
    "Texture_Texture": 456
   },
   "Tool": {
-   "CanBeDropped": 869,
-   "Enabled": 149,
+   "CanBeDropped": 1184,
+   "Enabled": 1185,
    "Grip": 1172,
    "ManualActivationOnly": 1186,
    "RequiresHandle": 1187,
@@ -741,19 +516,12 @@
    "Torque": 540,
    "TurnSpeed": 544
   },
-  "ViewBase": {
-   "VTableRva": 118790872
-  },
   "VisualEngine": {
    "Dimensions": 2832,
    "FakeDataModel": 2800,
-   "Pointer": 143928888,
+   "Pointer": 144775176,
    "RenderView": 3152,
    "ViewMatrix": 432
-  },
-  "Weld": {
-   "Part0": 256,
-   "Part1": 272
   },
   "WeldConstraint": {
    "Part0": 160,
@@ -766,7 +534,7 @@
   "Workspace": {
    "CurrentCamera": 1184,
    "DistributedGameTime": 1216,
-   "ReadOnlyGravity": 2512,
+   "ReadOnlyGravity": 2504,
    "World": 1016
   },
   "World": {
@@ -776,25 +544,13 @@
    "Primitives": 672,
    "worldStepsPerSec": 2152
   },
-  "WorldRoot": {
-   "FindPartOnRayBoundFnRva": 4019856,
-   "FindPartOnRayWithIgnoreListBoundFnRva": 4020288,
-   "FindPartOnRayWithWhitelistBoundFnRva": 4020704,
-   "RaycastBoundFn": 144,
-   "RaycastBoundFnRva": 4010160,
-   "RaycastDescriptorVtableRva": 117707808
+  "Offsets": {
+   "AirDensity": 24,
+   "GlobalWind": 60
   },
-  "highlight_manager": {
-   "context_active": 1056,
-   "context_depth": 32,
-   "context_fill": 1312,
-   "context_outline": 5408,
-   "contexts": 256,
-   "fallback_active": 1336,
-   "fallback_depth": 312,
-   "fallback_fill": 1592,
-   "fallback_outline": 5688,
-   "manager": 3096
+  "Weld": {
+   "Part0": 256,
+   "Part1": 272
   }
  }
 }

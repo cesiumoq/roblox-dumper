@@ -2,11 +2,11 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total FFlags    :  15736
+/*  Total FFlags    :  15290
 
-/*  Dumped At       : 12:05 11/11/2026 (GMT)
+/*  Dumped At       : 19:26 11/11/2026 (GMT)
 
-/*  Dumped In       : 58,8s
+/*  Dumped In       : 181,3s
 
 */
 namespace FFlagOffsets
@@ -23,9 +23,7 @@ namespace FFlagOffsets
         public const long AANullRolloutTest = 0x827bd90;
         public const long ACEAnimationFromVideoCreatorServiceWithAssetImport = 0x8250a30;
         public const long ACSDeserializeSkipRobloxSerializable = 0x822f5f8;
-        public const long ACSDeserializeWithUnpublished = 0x815c928;
         public const long ACSGuardEmptyBatchTokenDetails = 0x822f5c8;
-        public const long ACSSerializeWithUnpublished = 0x815cb08;
         public const long AECRingBufferSizeTenthsMs = 0x827e830;
         public const long AEGIS2ActivateEnableChatButtonTelemetry = 0x827d050;
         public const long AESAddCreatorIdToSearch3 = 0x82539e0;
@@ -62,7 +60,6 @@ namespace FFlagOffsets
         public const long AbuseReportInExperienceStateCaptureMode = 0x8263840;
         public const long AbuseReportMaxChatMessages = 0x8253cc0;
         public const long AbuseReportV2Percentage = 0x82637c8;
-        public const long AccErrorDrainedThousandth = 0x81597b8;
         public const long AccelerationTimeThreshold = 0x82255a8;
         public const long AcceptJsonBoolLaunchParams = 0x827f000;
         public const long AccessCodeV2LegacyReserveResultGameCode = 0x826e190;
@@ -150,7 +147,6 @@ namespace FFlagOffsets
         public const long AddImageTranslationSupportedLocales = 0x822b088;
         public const long AddImpressionSourceInstanceAndLifecycleId = 0x8226388;
         public const long AddInstanceToStreamQueueMRDOptimization = 0x82715a0;
-        public const long AddIntegrityToReplicatorTelemetry = 0x819eb68;
         public const long AddIxpLayerEdpVirtualProductsRanking = 0x827f928;
         public const long AddIxpLayerUniversalAppUnifyShortcutBar = 0x827f940;
         public const long AddIxpLayerUniverseChatPresetChatBadgePresetFTUX = 0x827f970;
@@ -161,7 +157,6 @@ namespace FFlagOffsets
         public const long AddNetworkTypeToClientSessionSummaryStats = 0x8272a50;
         public const long AddOptionToGetAnimationClipIgnoringUniverseCheckAsync = 0x822eb88;
         public const long AddProfilerScopesForPerformanceControlStreaming = 0x8274220;
-        public const long AddProfilerTelemetryScopeForRakNet = 0x816c088;
         public const long AddRakNetDebugLogs = 0x823edd8;
         public const long AddRbxTransportServerPortToAnalytics = 0x82449e8;
         public const long AddReadabilityCheckCJK = 0x825c1f0;
@@ -229,7 +224,6 @@ namespace FFlagOffsets
         public const long AirAbsorptiondBPerSx1000 = 0x826fcd0;
         public const long AirControllerBalancingResponsiveness = 0x8225978;
         public const long AirControllerTurningResponsiveness = 0x8225990;
-        public const long AllocatorVulkanMemoryTelemetry2 = 0x81b8968;
         public const long AllowAlwaysCreateFile = 0x827be20;
         public const long AllowAudioRecorderInRobloxScripts = 0x826f2e8;
         public const long AllowAutoUpdateOnModifiedPackages = 0x8262f40;
@@ -263,9 +257,7 @@ namespace FFlagOffsets
         public const long AlternateChatKeyUnder13Vng = 0x82d5b30;
         public const long AlternateChatKeyWasRewritten = 0x82d5bb0;
         public const long Always = 0x827bd58;
-        public const long AlwaysAllowUIDragDetectorInNonMainWindows = 0x81932b0;
         public const long AlwaysFireEngineNetConfigSetSignal = 0x8255698;
-        public const long AlwaysSendRootMovingPrimitiveForChildPrimitive = 0x8182720;
         public const long AmpCanUseInExperienceChatV2Rollout2 = 0x8253188;
         public const long AmpCanUseInExperienceChatV2RolloutHundredthPercent2 = 0x8253170;
         public const long AmrAssetFetchCount = 0x82506b8;
@@ -372,7 +364,6 @@ namespace FFlagOffsets
         public const long AnimationGenerationOutputPath = 0x830ab00;
         public const long AnimationGraphCollectionRate = 0x8230bf8;
         public const long AnimationGraphGenericPoseNodeTelemetry = 0x8230b38;
-        public const long AnimationGraphMaxTelemetry = 0x815df10;
         public const long AnimationGraphMemoryTelemetry = 0x8230b20;
         public const long AnimationGraphParamRateLimiterAssertAmount = 0x822ea30;
         public const long AnimationGraphParamRateLimiterMaxAmount = 0x822e958;
@@ -434,7 +425,6 @@ namespace FFlagOffsets
         public const long AnimationRigValidateBinaryData = 0x82305e0;
         public const long AnimationSAAnimateScriptForCharacterController = 0x8264770;
         public const long AnimationSABindToAnimation = 0x82648e0;
-        public const long AnimationSAFixDidLoopEvent = 0x815be38;
         public const long AnimationSAIdleOnMovingPlatformFix = 0x82648f8;
         public const long AnimationSAStepBindToAnimation = 0x82648c8;
         public const long AnimationSAuthDurableTracks = 0x822e9a0;
@@ -511,7 +501,6 @@ namespace FFlagOffsets
         public const long AppendTranslatedTextSpecifyTextSizeFix = 0x822b1d8;
         public const long ApplicationFrameRate = 0x82454f0;
         public const long ApplicationFrameRateClampToDisplay = 0x82454d8;
-        public const long ApplicationFrameRatePolicy2 = 0x81727b0;
         public const long ApplicationFrameRatePolicy3 = 0x82454c0;
         public const long ApplyAvatarRulesCheckRigType = 0x822f1d0;
         public const long ApplyAvatarRulesRequireRootPart = 0x822f1b8;
@@ -650,7 +639,6 @@ namespace FFlagOffsets
         public const long AsyncCodecTraceVerbose = 0x8237d70;
         public const long AsyncHttpQueue = 0x8228c70;
         public const long AsyncHttpQueueLockClearRequestLists = 0x8228cd8;
-        public const long AsyncLoadRvSubsystem = 0x8164c70;
         public const long AsyncRenamesUsedInLuaApps = 0x824f320;
         public const long AtlasOverflowFrameCountThreshold = 0x825aa08;
         public const long AtlasOverflowReportHundredthsPercent2 = 0x825a9f0;
@@ -800,7 +788,6 @@ namespace FFlagOffsets
         public const long AuroraDebuggerAllowClient = 0x8255168;
         public const long AuroraDebuggerEnableFixedStepCount = 0x8255238;
         public const long AuroraDeferStopPrediction2 = 0x8255128;
-        public const long AuroraDeterministicGuidNonNegativeIndex = 0x8550fc2;
         public const long AuroraDisablePlatformSubscription = 0x822fe70;
         public const long AuroraFixAttributeHashCancellation = 0x82552f0;
         public const long AuroraHashUpdateBatchSize = 0x8255038;
@@ -815,7 +802,6 @@ namespace FFlagOffsets
         public const long AuroraInputSimplerBuffer = 0x8255308;
         public const long AuroraInstanceDiff = 0x82552e0;
         public const long AuroraLimit60HzRenderSim = 0x822be00;
-        public const long AuroraOrderIndependentAttributeHash = 0x8182410;
         public const long AuroraPhysicsToleranceMillistuds = 0x82550e0;
         public const long AuroraPhysicsVelocityToleranceMultiplier = 0x8255110;
         public const long AuroraReplication = 0x8271de8;
@@ -832,7 +818,6 @@ namespace FFlagOffsets
         public const long AuroraSnapshotBufferSize = 0x82550c8;
         public const long AuroraStopPredictionForDirtyMechanisms = 0x822c430;
         public const long AuroraUseCompareStateForMisprediction = 0x8255098;
-        public const long AuroraUsePhysicsSnapshotComparison = 0x8182028;
         public const long Auth2Cookie = 0x8296f40;
         public const long AuthCookie = 0x830d820;
         public const long AutoCanvasSizeShouldHaveLargeMaxSize2 = 0x8267340;
@@ -904,7 +889,6 @@ namespace FFlagOffsets
         public const long AvatarChatServiceEnableInvalidatesCache = 0x82304e0;
         public const long AvatarChatServiceExposeUserVerifiedForVoiceV2 = 0x8230480;
         public const long AvatarChatServiceFeaturesReplicationTimeoutMs = 0x8230390;
-        public const long AvatarChatServiceFixClientFeaturesCacheLeakV2 = 0x815d828;
         public const long AvatarChatServiceRateLimit = 0x8230498;
         public const long AvatarChatServiceRateLimitCapacity = 0x8264008;
         public const long AvatarChatServiceRateLimitDuration = 0x8263ff0;
@@ -961,7 +945,6 @@ namespace FFlagOffsets
         public const long AvatarGenerationEditableApiCheck = 0x822f658;
         public const long AvatarGenerationPollingMaxSeconds = 0x8233bb8;
         public const long AvatarGenerationSessionTime = 0x8231908;
-        public const long AvatarGenerationUseUploadImpl = 0x815ecc8;
         public const long AvatarJoinMetrics = 0x8270a40;
         public const long AvatarJointFriction = 0x8230598;
         public const long AvatarJointUpgrade = 0x82639d0;
@@ -999,7 +982,6 @@ namespace FFlagOffsets
         public const long AvatarSettings = 0x82302f0;
         public const long AvatarSettingsAdditionalWarnings = 0x8231460;
         public const long AvatarSettingsAnimationOverrideLua = 0x82647b8;
-        public const long AvatarSettingsApiCleanup = 0x815d518;
         public const long AvatarSettingsApiCleanup2 = 0x8230300;
         public const long AvatarSettingsApplyRulesKeepExplicitRules = 0x822f1e8;
         public const long AvatarSettingsApplyRulesScopedSkips = 0x82314f0;
@@ -1018,10 +1000,8 @@ namespace FFlagOffsets
         public const long AvatarSettingsCrouchSprintStrafe3 = 0x8230230;
         public const long AvatarSettingsCustomShorts = 0x8230348;
         public const long AvatarSettingsDiscardFiresRefreshLocally = 0x8230278;
-        public const long AvatarSettingsExcludeCollidersFromScaling = 0x815e838;
         public const long AvatarSettingsHitbox = 0x8230318;
         public const long AvatarSettingsIgnoreNonPositiveCustomWorldHeight = 0x8231508;
-        public const long AvatarSettingsInnerBoxPhysicsRestore = 0x815c518;
         public const long AvatarSettingsJustCoreAbilitiesWithSyncedState = 0x8230170;
         public const long AvatarSettingsOnUniverseLoadedEventThrottleHundredthsPercent = 0x8230218;
         public const long AvatarSettingsPerCharacterAnimationPacks = 0x8231370;
@@ -1030,7 +1010,6 @@ namespace FFlagOffsets
         public const long AvatarSettingsPreviewLayeredClothingRemovalRule = 0x8230360;
         public const long AvatarSettingsReachHold = 0x82301e8;
         public const long AvatarSettingsRelayPublishRefresh = 0x8230260;
-        public const long AvatarSettingsRestoreOnUnset3 = 0x815e718;
         public const long AvatarSettingsRestoreOnUnset4 = 0x8231490;
         public const long AvatarSettingsSingleColliderAllStates = 0x82313a0;
         public const long AvatarSettingsSingleColliderAnimatesByLegLength = 0x822f260;
@@ -1057,7 +1036,6 @@ namespace FFlagOffsets
         public const long AvatarsAttachmentsUseFindAncestorFindDescendant = 0x82314c0;
         public const long AverageResetWriteHeadOnResize = 0x822cde0;
         public const long AverageTimeSimulationBreakdownHundredthsPercentage = 0x822cfd0;
-        public const long AvoidExtraWorkOnComputeSimulationExtentsForTriangleMesh = 0x81596c8;
         public const long AvoidUnnecessaryQuadtreeLock = 0x8266698;
         public const long BackPressureThrottling = 0x82489d8;
         public const long BackendAdsProviderLog = 0x82264b0;
@@ -1196,7 +1174,6 @@ namespace FFlagOffsets
         public const long BootcampCLI198367 = 0x828f558;
         public const long BootcampCLI199100 = 0x828f630;
         public const long BootcampCLI199316 = 0x828f618;
-        public const long BootcampCLI199819 = 0x81bbf08;
         public const long BootcampCLI201569 = 0x828f5d0;
         public const long BootcampCLI203150 = 0x828f5e8;
         public const long BootcampCLI203621 = 0x828f300;
@@ -1268,13 +1245,9 @@ namespace FFlagOffsets
         public const long BootcampCLI226199Log = 0x828f058;
         public const long BootcampCLI226375 = 0x828f0c8;
         public const long BootcampCLI226375Log = 0x828f068;
-        public const long BootcampCLI226431 = 0x81bb5d8;
-        public const long BootcampCLI226431Log = 0x81bbab0;
         public const long BootcampCLI226477 = 0x828f0e0;
         public const long BootcampCLI226477Log = 0x828f0f8;
         public const long BootcampCLI226511 = 0x828f5a0;
-        public const long BootcampCLI226594 = 0x81bc0f8;
-        public const long BootcampCLI226594Log = 0x81bc0e8;
         public const long BootcampCLI227655 = 0x828f0b0;
         public const long BootcampCLI227655Log = 0x828f0a0;
         public const long BootcampCLI228759 = 0x828ea58;
@@ -1304,7 +1277,6 @@ namespace FFlagOffsets
         public const long BoxShapeIteratorShellStepStuds = 0x8275e98;
         public const long BrandProjectDecisionTelemetryThrottleHundredths = 0x822abb0;
         public const long BroadPhaseIslandAlwaysSimulateDepth = 0x822cb90;
-        public const long BroadPhaseIslandBufferZoneMinPartLimit = 0x8159508;
         public const long BroadPhaseIslandMaxPartLinearFactorTenth = 0x822c470;
         public const long BroadPhaseIslandMaxSortDepth = 0x822cbe8;
         public const long BrowserServiceDiagnose = 0x8250cb8;
@@ -1355,7 +1327,6 @@ namespace FFlagOffsets
         public const long CLI139085 = 0x823f2f8;
         public const long CLI148296HundredthsPercentage = 0x8257478;
         public const long CLI148296Max = 0x82574a8;
-        public const long CLI1533232 = 0x8196ff0;
         public const long CLI160771_ImproveTelemetry = 0x8260928;
         public const long CLI160771_SecurityContextString = 0x8260940;
         public const long CLI166502c = 0x8277d88;
@@ -1369,10 +1340,8 @@ namespace FFlagOffsets
         public const long CLI1831382 = 0x8272630;
         public const long CLI183138Post2 = 0x82344d8;
         public const long CLI183138Pre = 0x82344c0;
-        public const long CLI183642Enabled3 = 0x8191c70;
         public const long CLI183642EnabledRegions = 0x82f3170;
         public const long CLI183642UseLocalFallbackProperty = 0x82646f8;
-        public const long CLI184283 = 0x81618b0;
         public const long CLI1842832 = 0x8234508;
         public const long CLI184283Pre = 0x82344f0;
         public const long CLI188056 = 0x8282c48;
@@ -1444,7 +1413,6 @@ namespace FFlagOffsets
         public const long CLI216240SuppressSetPredictionModeServerWarning = 0x8256e70;
         public const long CLI219266 = 0x826e088;
         public const long CLI220331Enabled = 0x8270e58;
-        public const long CLI220815 = 0x8180730;
         public const long CLI221401Fix = 0x823b728;
         public const long CLI221489Fix = 0x825d3d0;
         public const long CLI221822 = 0x823f400;
@@ -1571,7 +1539,6 @@ namespace FFlagOffsets
         public const long CacheableContentProviderUsesRuntime = 0x82288e0;
         public const long CachedPatchLoadDelayMilliseconds = 0x822d708;
         public const long CachedThreadLimit = 0x8268d60;
-        public const long CafTelemetryIntegrationAppLaunchTelemetryThrottleHundredthsPercent = 0x818e670;
         public const long CageMeshFetchRequestFetchRetries = 0x8231878;
         public const long CallAdPlayerCallbackOnFailure = 0x822dfd0;
         public const long CallAnalytics = 0x828fa20;
@@ -1623,7 +1590,6 @@ namespace FFlagOffsets
         public const long CanvasGroupRenderPath_ReportHundredthsPercent = 0x8267310;
         public const long CanvasGroupSkipCacheForDefaults = 0x8266ea0;
         public const long CanvasGroupSkipCacheOrphansTexture2 = 0x8266e58;
-        public const long CanvasGroupStencilClip2 = 0x8194188;
         public const long CanvasGroupStencilClip3 = 0x8266e40;
         public const long CapabilityErrorDetailedEventIngestHundredthsPercentage = 0x8269628;
         public const long CapabilityErrorDetailedPointsHundredthsPercentage = 0x8269610;
@@ -1688,7 +1654,6 @@ namespace FFlagOffsets
         public const long ChangeHistoryHandleScriptOrigGUID = 0x8253880;
         public const long ChangeHistoryLoggingAndTelemetry = 0x82537f8;
         public const long ChangeHistoryPerformance = 0x8253828;
-        public const long ChangeHistoryRecordAssemblyCFrames = 0x8180950;
         public const long ChangeHistoryServiceMaxMemoryUsageInBytes = 0x8253850;
         public const long ChangeHistoryServicePerfReportingRate = 0x8253810;
         public const long ChangeHistoryServiceReportingRate = 0x8253838;
@@ -1762,7 +1727,6 @@ namespace FFlagOffsets
         public const long ClearInExperienceToastsOnGameLeave = 0x8280128;
         public const long ClearOtaPatchCacheOnVerificationFailure = 0x822d5a8;
         public const long ClearPackageOverridesOnLegacyRevert = 0x8262fe8;
-        public const long Cli227430 = 0x8195370;
         public const long CliMaxChRcv = 0x8263720;
         public const long CliMaxChSnd = 0x8263738;
         public const long CliMaxPayloadRcv = 0x8274bb8;
@@ -1929,8 +1893,6 @@ namespace FFlagOffsets
         public const long CollectAnalyticsForSystemMenu = 0x82466c8;
         public const long CollectDeprecatedGAAndEventStreamCalls = 0x8227178;
         public const long CollectIAdornableDestructorTelemetry = 0x8265f20;
-        public const long CollectISRPhysicsBandwidthUsage = 0x8189e70;
-        public const long CollectNumOfPrimitivesRate = 0x81590a8;
         public const long CollectSessionBatteryChargeCounter = 0x82452b8;
         public const long CollectSessionBatteryTelemetry = 0x82452e8;
         public const long CollectSessionScreenBrightness = 0x8245258;
@@ -1952,10 +1914,8 @@ namespace FFlagOffsets
         public const long CollectionStaleInstanceSafety = 0x82543d0;
         public const long CollectionTeardownConnectionSafety = 0x8253768;
         public const long CollectionTopLevelAccessors = 0x8253708;
-        public const long CollectionWatcherDirtyFlush = 0x8181500;
         public const long CollectionWatcherFilterSignals = 0x82543a0;
         public const long CollectionWatcherSelectorBacktracking = 0x8254388;
-        public const long CollectionWatcherTagSignals = 0x81814d0;
         public const long CollectionsBatchedIterate3 = 0x82536a8;
         public const long CollectionsLifetimeEventThrottleHundredthsPercent = 0x82536f0;
         public const long CollectionsQueryUsageTelemetryEnabled = 0x82536d8;
@@ -1968,7 +1928,6 @@ namespace FFlagOffsets
         public const long CollisionMeshCachingMaxRecorded = 0x82722d8;
         public const long CollisionMeshCachingSizeThreshold = 0x82722c0;
         public const long CollisionScalingDefaultStudTenths = 0x8224f80;
-        public const long CollisionSetupHandleHRPRotation = 0x815e880;
         public const long CollisionSoundCustomization = 0x826ea38;
         public const long CollisionSummaryCLI151929 = 0x8255410;
         public const long Color3ContrastMethods = 0x82680b8;
@@ -2024,7 +1983,6 @@ namespace FFlagOffsets
         public const long ConnectionClosedPlaceIdDiagnostics = 0x823aa20;
         public const long ConnectionClosedPlaceLaunchPointsThrottleHundredthsPercent = 0x823a990;
         public const long ConnectionClosedPlayerPointsThrottleHundredthsPercent = 0x823a8e8;
-        public const long ConnectionClosedPointsEnhancedDiagnostics = 0x8167b68;
         public const long ConnectionClosedPointsThrottleHundredthsPercent = 0x823a7f8;
         public const long ConnectionClosedPortPointsThrottleHundredthsPercent = 0x823a888;
         public const long ConnectionClosedProtocolPointsThrottleHundredthsPercent = 0x823a840;
@@ -2039,7 +1997,6 @@ namespace FFlagOffsets
         public const long ConnectionClosedSystemPointsThrottleHundredthsPercent = 0x823a8b8;
         public const long ConnectionClosedTeleportPointsThrottleHundredthsPercent = 0x823a9a8;
         public const long ConnectionClosedTimeSinceDiagnostics = 0x823a9c0;
-        public const long ConnectionClosedValidRxTimestamp = 0x8167b08;
         public const long ConnectionLostDisconnectReasonInfluxHundredthsPercentage = 0x8271f90;
         public const long ConnectionMTUSize = 0x823ed08;
         public const long ConnectionSendPushesTracerIdThrough = 0x8277338;
@@ -2085,7 +2042,6 @@ namespace FFlagOffsets
         public const long ContentPropertiesPartOperation = 0x82285b8;
         public const long ContentPropertiesPluginToolbarButton = 0x8228780;
         public const long ContentPropertiesScreenshotHud = 0x8228810;
-        public const long ContentPropertiesSky = 0x8155570;
         public const long ContentPropertiesTexturePack = 0x82286d8;
         public const long ContentPropertiesTrail = 0x8228870;
         public const long ContentProviderAssetLoadingDelayThrottleHundredthsPercent = 0x8228328;
@@ -2139,7 +2095,6 @@ namespace FFlagOffsets
         public const long CoreScripts = 0x825f730;
         public const long CoreScriptsAnalyticsHundredthsPercentage = 0x828f908;
         public const long CoreStrengthIsImportant = 0x8268558;
-        public const long CornerRadiusCleanup = 0x818a308;
         public const long CorrectAttachedBodyPartAJU = 0x8231310;
         public const long CorrectSdfSoftnessForSmoothScaleTextShadow = 0x825cf68;
         public const long CountDeletedBeforeReschedule = 0x82444d8;
@@ -2156,7 +2111,6 @@ namespace FFlagOffsets
         public const long CrashMetricStorageAddPostProcessing2 = 0x8244668;
         public const long CrashMetricStorageChainedPostProcessing = 0x82396e8;
         public const long CrashMetricStorageHundredthPercentageSent = 0x82396a0;
-        public const long CrashMetricStorageWritePlaySession = 0x8166ad8;
         public const long CrashOnInconsistentJoint = 0x822bd28;
         public const long CrashReasonFallbackFromException = 0x8283250;
         public const long CrashReportLog = 0x8283240;
@@ -2179,9 +2133,6 @@ namespace FFlagOffsets
         public const long CrashUploadToBacktraceXboxPlayerToken = 0x8319748;
         public const long CrashUploadToSentryHttpTimeoutEnabled = 0x82856f0;
         public const long CrashUploadToSentryHttpTimeoutMilliSec = 0x82856d8;
-        public const long CrashUploadToSentryIOSEnabled = 0x81b8ae0;
-        public const long CrashUploadToSentryIOSPercentage = 0x81b8b10;
-        public const long CrashUploadToSentryIOSRolloutMinimumPercentage = 0x81b8af8;
         public const long CrashUploadToSentryTelemetryEnabled = 0x8285708;
         public const long CrashWorldAssembleIfNoThreadLock = 0x822c010;
         public const long CrashingWhenThereIsNoCachedFont = 0x822dad8;
@@ -2305,13 +2256,11 @@ namespace FFlagOffsets
         public const long CursorRetryDelayMs = 0x8260200;
         public const long CursorTimeToLiveMs = 0x82601e8;
         public const long CurveAnimationMarkerLimit = 0x822e600;
-        public const long CurveAnimationNullChildrenCheck = 0x815ba20;
         public const long CurveAnimationSynthesizeEndKeyframeReached = 0x822e618;
         public const long CurveMarkerCheckerTelemetryEventsThrottleHundrethsPercent = 0x822e5d0;
         public const long CurvedSurfaceGuiRaycastRespectsEnabled = 0x82658e0;
         public const long CustomDspHandleChannelLayoutChanges = 0x82402b0;
         public const long CustomIdleTimeThresholdSeconds = 0x82641b8;
-        public const long CustomParticleFlipbookLayout3 = 0x817ec00;
         public const long CustomSystemIdleTimeSeconds = 0x82641a0;
         public const long CustomTitleBarM1Enabled9 = 0x8281540;
         public const long CustomTitleBarM1ExtraTelemetryIgnoreInvalidArg = 0x822de80;
@@ -2332,7 +2281,6 @@ namespace FFlagOffsets
         public const long D3D11DeviceRecoveryAdapterFallback2 = 0x823e278;
         public const long D3D11SharedTextureShaderResourceView = 0x823e4a8;
         public const long D3D11SwapChain = 0x823e2f0;
-        public const long D3D11TextureCrashOnDownloadOom = 0x816b7e8;
         public const long DEPRECATED_GetProductInfoSubscriptionCacheSecs = 0x8229d38;
         public const long DEV_EnableTrayLocalNotification = 0x82242c0;
         public const long DEV_VoiceUseStreamSwitchingRCC = 0x8284480;
@@ -2435,7 +2383,6 @@ namespace FFlagOffsets
         public const long DMChangeTrackerMinFreeMemoryMB = 0x82576e0;
         public const long DMChangeTrackerMinTotalMemoryMB = 0x8257758;
         public const long DMChangeTrackerUsableBandwidthCheck = 0x8257770;
-        public const long DMChangeTrackingDeterministicSerialization = 0x8195268;
         public const long DMChangeTrackingRecordRemoteEvents = 0x8234d88;
         public const long DMChangeTrackingReverseWriteInstanceType = 0x8234df8;
         public const long DMChangeTrackingSchemaDeserializationAllowMissingItems = 0x8267f38;
@@ -3010,8 +2957,6 @@ namespace FFlagOffsets
         public const long DebugExecuteScriptAsync = 0x8268470;
         public const long DebugExecutionCountersEnabled = 0x8269460;
         public const long DebugExperimentalAuroraServiceFrameUpdate = 0x82686f0;
-        public const long DebugExperimentalVSyncFramePacing = 0x8187338;
-        public const long DebugExperimentalVSyncFramePacingForce = 0x8187350;
         public const long DebugExportObjUsesSolidMesh = 0x8282fa0;
         public const long DebugExtendFramerateWidget = 0x8278cd0;
         public const long DebugFFlagOnlyHeadlessRealisticTurnover = 0x8274ee0;
@@ -3045,7 +2990,6 @@ namespace FFlagOffsets
         public const long DebugForceGenerateHSR = 0x822f2d8;
         public const long DebugForceGmaEligibilityAdUnitId = 0x829cf58;
         public const long DebugForceHandheldTesting = 0x8265988;
-        public const long DebugForceHumanoidSimulateAlways = 0x815d290;
         public const long DebugForceLocalPatchConfigVersion = 0x822d8b0;
         public const long DebugForceMSAASamples = 0x8258b50;
         public const long DebugForceModelMeshRendering = 0x825b950;
@@ -3076,7 +3020,6 @@ namespace FFlagOffsets
         public const long DebugFriendsCallingSfuUrl = 0x830d180;
         public const long DebugFriendsCallingStudioRoles = 0x827e740;
         public const long DebugFriendsCallingUserId = 0x830d160;
-        public const long DebugFriendsCallingVoice6 = 0x81a4810;
         public const long DebugFriendsCallingVoice7 = 0x8277848;
         public const long DebugGAReportThrottledSessions = 0x8274cd8;
         public const long DebugGCDumpMemoryStats = 0x8273e08;
@@ -3209,7 +3152,6 @@ namespace FFlagOffsets
         public const long DebugLuauBytecodeSlotAllocStats = 0x82f9850;
         public const long DebugLuauCodegenAll = 0x82682f0;
         public const long DebugLuauNoInline = 0x82b9280;
-        public const long DebugLuauParseExactTables = 0x81e59e0;
         public const long DebugLuauReportReturnTypeVariadicWithTypeSuffix = 0x82b9260;
         public const long DebugLuauUserDefinedClasses = 0x82b8f00;
         public const long DebugLuauUserDefinedClassesRuntime = 0x82b94a0;
@@ -3490,7 +3432,6 @@ namespace FFlagOffsets
         public const long DebugSendReplicatorJoinTimeStatPlaceSpecific = 0x8272c18;
         public const long DebugSendServerPerfInfoPlaceSpecific = 0x8275218;
         public const long DebugSendStreamingEnabledKeyStatsPlaceSpecific = 0x8272bd0;
-        public const long DebugSensorVisualizer = 0x8159ce0;
         public const long DebugServerAuthorityIntegrationTestingTweaks = 0x8268410;
         public const long DebugServerJoinsThresholdForProcessing = 0x82733a8;
         public const long DebugServerProfilerIdList = 0x82dc658;
@@ -3525,7 +3466,6 @@ namespace FFlagOffsets
         public const long DebugSimPrimalAddPositionalCorrectionCriteria = 0x822c280;
         public const long DebugSimPrimalAddVelocityAdaptiveCriteria2 = 0x822c3e8;
         public const long DebugSimPrimalAlign2AxesDeactivateHingeFriction = 0x8280a88;
-        public const long DebugSimPrimalBallSocketMidpointJacobian = 0x81ad688;
         public const long DebugSimPrimalCollisionPosStageMinComplianceE7 = 0x8249680;
         public const long DebugSimPrimalCollisionVelStageMinComplianceE7 = 0x8249668;
         public const long DebugSimPrimalConsistentAlign2Axes = 0x8280aa0;
@@ -3572,7 +3512,6 @@ namespace FFlagOffsets
         public const long DebugSimPrimalProfileLabels = 0x8280e00;
         public const long DebugSimPrimalRemoveIterationCriteria = 0x822c250;
         public const long DebugSimPrimalRespectSolverConfigCaching = 0x8280fe0;
-        public const long DebugSimPrimalScaleLDLPositionBounds = 0x81ad598;
         public const long DebugSimPrimalSkipFinalPositionDualUpdate = 0x8280f20;
         public const long DebugSimPrimalToleranceInv = 0x8249860;
         public const long DebugSimPrimalVelStageMinComplianceE7 = 0x82497a0;
@@ -3895,15 +3834,10 @@ namespace FFlagOffsets
         public const long DelayRewardedAdsInitialization = 0x82268e0;
         public const long DeltaRigidJointsOffset = 0x8255c18;
         public const long DenseCacheSampleFrequency = 0x8230d00;
-        public const long DeprecatableBroadcasts2 = 0x8161e18;
         public const long DeprecateDMSavePlaceAsync = 0x822d158;
         public const long DeprecateHttpServiceInvocationEvent = 0x8260520;
-        public const long DeprecateLegacyGameJoinUtilCounters = 0x81ac118;
-        public const long DeprecateLegacyGroupTeleportAnalytics = 0x8183280;
-        public const long DeprecateLegacyGroupTeleportCounters = 0x819b330;
         public const long DeprecateLegacyHttpServiceAnalyticsCounters = 0x8260a20;
         public const long DeprecateLegacyHttpServiceTelemetry = 0x8260a08;
-        public const long DeprecateLegacyMessagingServiceCounters = 0x817fc90;
         public const long DeprecateLegacyTelemetryCounters3 = 0x824acc0;
         public const long DeprecateLegacyTelemetryCountersDenyListAM = 0x82d19b8;
         public const long DeprecateLegacyTelemetryCountersDenyListNZ = 0x82d19d8;
@@ -3915,10 +3849,6 @@ namespace FFlagOffsets
         public const long DeprecateLegacyTelemetryStatsDenyListAM = 0x82d1900;
         public const long DeprecateLegacyTelemetryStatsDenyListNZ = 0x82d1920;
         public const long DeprecateLegacyTelemetryStatsReporting = 0x824ac48;
-        public const long DeprecateLegacyTeleportEphemeralCounters = 0x8183250;
-        public const long DeprecateLegacyTeleportFailedAnalytics = 0x8183298;
-        public const long DeprecateLegacyTeleportServiceCounters = 0x81834c0;
-        public const long DeprecateLegacyTeleportSuccessCounters = 0x81832b0;
         public const long DeprecateOnSimulateOnAnimate = 0x8253750;
         public const long DeprecateTimedOptionPurchases = 0x822a3b0;
         public const long DeprecateVectorInNS1 = 0x82348b0;
@@ -4107,7 +4037,6 @@ namespace FFlagOffsets
         public const long DisablePlayStationIAPManagerLegacyTelemetryMetrics = 0x824a078;
         public const long DisablePrefetchProtocol = 0x8260ac8;
         public const long DisablePreserveConstraintsLegacyTelemetryMetrics = 0x824a8d0;
-        public const long DisablePromptPurchaseBroadcasting = 0x8156db0;
         public const long DisableProximityPromptLegacyTelemetry = 0x824a7e0;
         public const long DisableProximityPromptServiceLegacyTelemetry = 0x824a780;
         public const long DisablePublishingHandshakeOperationLegacyTelemetry = 0x8249d78;
@@ -4199,7 +4128,6 @@ namespace FFlagOffsets
         public const long DomainAllowListCheckerErrorEventThrottleHundredthsPercent = 0x827fd08;
         public const long DomainAllowListKnownBlacklistRegex = 0x830f040;
         public const long DomainAllowListPassNonHttpSchemes = 0x827fcc8;
-        public const long DontDeserializeTrackerDataOnRcc2 = 0x819df58;
         public const long DontKickOnCoreGuiRenderOverflowForStudio = 0x8265c88;
         public const long DontOverwriteSettingsWithPartialSerialization = 0x822bba8;
         public const long DontRegisterCallbackToAccumulateStatsAnalytics = 0x8246708;
@@ -4323,7 +4251,6 @@ namespace FFlagOffsets
         public const long EditableImageFromRobloxScriptAcceptsMoreFormats = 0x8253458;
         public const long EditableImageInitLoggingHundredthsPercentage = 0x8253428;
         public const long EditableImagePublishLoggingHundredthsPercentage = 0x8253440;
-        public const long EditableImageSafeTrackPerformance = 0x8180510;
         public const long EditableImageSeedHolderFromCanvas = 0x8253470;
         public const long EditableImageSubtractImageCombineType = 0x8253410;
         public const long EditableMemoryTelemetryHundredthsPercentage = 0x828e0b8;
@@ -4337,7 +4264,6 @@ namespace FFlagOffsets
         public const long EditableMeshBatchSetGetValues = 0x823ba38;
         public const long EditableMeshBatchVertexFaceAttributes = 0x823b9f0;
         public const long EditableMeshExtentsUpdate = 0x823bbe8;
-        public const long EditableMeshFixStaleSkinWeight = 0x8168f58;
         public const long EditableMeshGlassRefractionFix2 = 0x8258258;
         public const long EditableMeshInitLoggingHundredthsPercentage = 0x825fbf8;
         public const long EditableMeshInitTrackingHundredthsPercentage = 0x825fc10;
@@ -4378,7 +4304,6 @@ namespace FFlagOffsets
         public const long EmaSampleRate = 0x8245e38;
         public const long EmergencyDeleteOfExperimentDummyFile = 0x827fe38;
         public const long EmitFSSizeTelemetry = 0x8269cb8;
-        public const long EmitFSUploadTelemetry = 0x8196f38;
         public const long EmitFinishInitLuaMilestonesUnconditionally = 0x827fe68;
         public const long EmitOpTypeInRCCTelemetry = 0x826a0b0;
         public const long EmitSSSnapSizeTelemetry = 0x8269cd0;
@@ -4421,7 +4346,6 @@ namespace FFlagOffsets
         public const long EnableAppRatingPrompt3 = 0x82815b0;
         public const long EnableAppRatingPromptAndroid2 = 0x82815c8;
         public const long EnableAppSessionStartEnd = 0x82452d0;
-        public const long EnableAppTracing3 = 0x81747e8;
         public const long EnableAssetIdValidation = 0x826e978;
         public const long EnableAssetProviderForThumbnailerRCC = 0x823cbb0;
         public const long EnableAudioPlayerTelemetry2 = 0x8270450;
@@ -4465,7 +4389,6 @@ namespace FFlagOffsets
         public const long EnableCameraByDefault = 0x8265898;
         public const long EnableCameraOnlyRecording2 = 0x8225d50;
         public const long EnableCanUsersTransferRobuxAsync = 0x8229f50;
-        public const long EnableCanvasGroupRenderPathTelemetry2 = 0x8194510;
         public const long EnableCaptureModeDontCaptureChatWindow = 0x8225e20;
         public const long EnableCaptureModeFilterOutNonVisibleGradients = 0x8225de0;
         public const long EnableCaptureModeNonTextGuiSelection = 0x8225e38;
@@ -4506,7 +4429,6 @@ namespace FFlagOffsets
         public const long EnableCppSoundTelemetry7 = 0x826fe68;
         public const long EnableCpuBenchmarking = 0x82839e0;
         public const long EnableCreateAssetAsync = 0x8254988;
-        public const long EnableCreateAssetAsyncAudioUpload = 0x8181a30;
         public const long EnableCreateAssetAsyncForRobloxScript = 0x8254680;
         public const long EnableCreateAssetAsyncMeshUpload = 0x8254710;
         public const long EnableCreateAssetAsyncModelUpload = 0x82546f8;
@@ -4526,8 +4448,6 @@ namespace FFlagOffsets
         public const long EnableCurveAnimationMarkerLimit = 0x822e5e8;
         public const long EnableDLICAdoptionTelemetry = 0x82837a8;
         public const long EnableDLICDesktopConsoleIngressSeeding = 0x8283600;
-        public const long EnableDLICEngineRegistry = 0x81b0180;
-        public const long EnableDLICInternalIngressSeeding3 = 0x8167260;
         public const long EnableDLICInternalIngressSeeding4 = 0x8239ef8;
         public const long EnableDLICPendingDeliveryState = 0x82836d0;
         public const long EnableDMCTInitAtStartup = 0x8233f20;
@@ -4597,7 +4517,6 @@ namespace FFlagOffsets
         public const long EnableFeatureRestrictionRealtimeRccSignalConnection = 0x82531f8;
         public const long EnableFilePickerProtocol = 0x8281528;
         public const long EnableFindFirstDescendant2 = 0x8234a88;
-        public const long EnableFleetSamplingProfiler = 0x8172ff0;
         public const long EnableFlipbook = 0x8250778;
         public const long EnableFloatingPointBaseMultiplier = 0x8244fd8;
         public const long EnableFmodRVideoOpusCodec = 0x8237be8;
@@ -4605,7 +4524,6 @@ namespace FFlagOffsets
         public const long EnableFmodRVideoOpusOggContainer = 0x8237c00;
         public const long EnableFmodRVideoOpusWebmContainer = 0x8237c60;
         public const long EnableFmodRecordingUnderrunMetrics = 0x8240720;
-        public const long EnableFontSubsystem11 = 0x8169478;
         public const long EnableFontSubsystem13 = 0x823bf28;
         public const long EnableForceOTAAnalytics = 0x822d660;
         public const long EnableForceSetDMRecorderFlag3 = 0x8233f38;
@@ -4619,7 +4537,6 @@ namespace FFlagOffsets
         public const long EnableGamepadInWebView = 0x822e100;
         public const long EnableGamepadInWebViewOnHandHeld = 0x822e0d0;
         public const long EnableGamepadKeycodeUsageTelemetry = 0x8260058;
-        public const long EnableGenerateModelAsyncImageCondition = 0x81a9848;
         public const long EnableGenerateModelAsyncStyleHint = 0x827c6a0;
         public const long EnableGeneratedAccessoryHandling2 = 0x82318a8;
         public const long EnableGenerationService = 0x827c718;
@@ -4631,7 +4548,6 @@ namespace FFlagOffsets
         public const long EnableGetLatestVersionUriAsync = 0x8254590;
         public const long EnableGlobalChat3pSummary2 = 0x827caf0;
         public const long EnableGlobalChatAbuseReportEnrichment = 0x827d470;
-        public const long EnableGuacV2UrlForIntlAuthCompliance = 0x81ac200;
         public const long EnableGuiDevEnv = 0x8250808;
         public const long EnableHandheldTouchInStudioEmulator = 0x825fec8;
         public const long EnableHomePageLoadFlowEsThrottle = 0x8260fc8;
@@ -4643,7 +4559,6 @@ namespace FFlagOffsets
         public const long EnableIabImpressionViewabilityCallbacks = 0x82263f8;
         public const long EnableImagePublish = 0x8254898;
         public const long EnableImmersiveAdHealthCounters = 0x82268b0;
-        public const long EnableImmersiveAdPerfDataPointsThrottle = 0x8153ca0;
         public const long EnableImprovedUIClipping = 0x8278508;
         public const long EnableInExpChatRewrite3 = 0x8251568;
         public const long EnableInExpChatSummary6 = 0x827d698;
@@ -4654,7 +4569,6 @@ namespace FFlagOffsets
         public const long EnableInputActionManager2 = 0x8250748;
         public const long EnableInputRecorder4 = 0x8225a58;
         public const long EnableInputRecorderBatchFiles = 0x8225aa0;
-        public const long EnableInternalCsmUnsubscribeOnDisconnect = 0x8180070;
         public const long EnableInvalidateRobloxSubscriptionDetailsCacheOnChange = 0x8229048;
         public const long EnableIrisRerouteToRCC2 = 0x8256860;
         public const long EnableJoinTicketV22 = 0x8275488;
@@ -4705,7 +4619,6 @@ namespace FFlagOffsets
         public const long EnableMultipartForSolidModel = 0x8257198;
         public const long EnableMultipartForVoxelFragment = 0x8257180;
         public const long EnableNCNNMLRuntimeBackend = 0x823bd70;
-        public const long EnableNativeAdsProtocol2 = 0x81aff28;
         public const long EnableNativeOmniPrefetch4 = 0x828ff10;
         public const long EnableNativePurchaseWithContext = 0x8229bf8;
         public const long EnableNativePurchaseWithPaymentSessionId = 0x8229be0;
@@ -4726,7 +4639,6 @@ namespace FFlagOffsets
         public const long EnableNonCollectiblePurchaseCounters = 0x8229cf8;
         public const long EnableNonNetworkDMToUseProfiler = 0x82684b8;
         public const long EnableNonReplicatingScriptScanner = 0x8275398;
-        public const long EnableObjectReplication13 = 0x8162020;
         public const long EnableObjectReplication14 = 0x8234c18;
         public const long EnableOmniSduiTreatmentTypes = 0x828ff40;
         public const long EnableOmniSduiTreatmentTypesForPrefetchProtocolCore = 0x828fef8;
@@ -4758,8 +4670,6 @@ namespace FFlagOffsets
         public const long EnablePerfPlaytestId = 0x8244ce8;
         public const long EnablePerfPlaytestIdTag = 0x8244910;
         public const long EnablePerfStatsAPI = 0x8259f28;
-        public const long EnablePerformSubscriptionPurchaseWithRobuxAsync = 0x8155f10;
-        public const long EnablePermissionCheckOnCreatingEditableAsset = 0x81818c8;
         public const long EnablePersistSplitPanePreference = 0x827efc0;
         public const long EnablePhoto2Avatar8 = 0x822f408;
         public const long EnablePinShortcutService3 = 0x82834b0;
@@ -4796,16 +4706,13 @@ namespace FFlagOffsets
         public const long EnableProcessedTextChatMessageEscaped = 0x827d758;
         public const long EnablePromptAgeCheck = 0x8264170;
         public const long EnablePromptRobloxSubscriptionPurchase = 0x82292d0;
-        public const long EnablePromptRobuxTransfer = 0x8157070;
         public const long EnablePromptRobuxTransferDedicatedUpsellEvent = 0x822a010;
         public const long EnablePromptSignalRobloxSubscriptionPurchaseFinished3 = 0x8229240;
         public const long EnablePromptVIPServerPurchase = 0x8229ef0;
         public const long EnablePublishEventsForEditableAndWD = 0x825fb80;
         public const long EnablePurchasePayload2 = 0x8229690;
         public const long EnableQuickGameLaunch = 0x82505f8;
-        public const long EnableRCADependencyRemovalApis = 0x8193cc0;
         public const long EnableRCCOpenCloudSessionAssetPublish = 0x8257030;
-        public const long EnableRIDE11651 = 0x817dbf0;
         public const long EnableRandomStatVerification = 0x827f590;
         public const long EnableRankProductsApi2 = 0x82298c0;
         public const long EnableRankProductsCache = 0x8229860;
@@ -4822,8 +4729,6 @@ namespace FFlagOffsets
         public const long EnableReferredByPlayerIdTelemetry2 = 0x8264110;
         public const long EnableReflectionCrashFixLoggingPercent = 0x8269088;
         public const long EnableRegisterImpressionSource3 = 0x8226868;
-        public const long EnableRemainInExperienceOnHandleDeepLinkUrl3 = 0x81b01c0;
-        public const long EnableRemoteProfiling = 0x8171640;
         public const long EnableRenderLimitedCheckForMaquettes = 0x8278670;
         public const long EnableRenderPipelineHundredthsPercent = 0x828b720;
         public const long EnableRenderingTestExtendedPerfStats = 0x8252628;
@@ -4835,14 +4740,11 @@ namespace FFlagOffsets
         public const long EnableRequestOrchestratorCacheGenerationGuard = 0x82295e8;
         public const long EnableRequireRbx = 0x8269010;
         public const long EnableRequireRbxAvatarAbilities = 0x8268e38;
-        public const long EnableRequireRbxClientServer = 0x8196348;
         public const long EnableRequireRbxLibMP = 0x8268ee0;
-        public const long EnableResponsiveUnit8 = 0x8192b98;
         public const long EnableResponsiveUnitInStudioEmulator = 0x8259f80;
         public const long EnableRobloxCNDomains = 0x8248218;
         public const long EnableRobloxCommerce2 = 0x822a2f0;
         public const long EnableRobloxLabsCnDomain = 0x8248230;
-        public const long EnableRobloxSubscriptionPurchaseEngineTelemetry = 0x81562b8;
         public const long EnableRobuxTransferReceiverSignal = 0x8229f38;
         public const long EnableRot = 0x82643e8;
         public const long EnableRunRenderJobCheck = 0x822b970;
@@ -4884,7 +4786,6 @@ namespace FFlagOffsets
         public const long EnableStudioTeleports = 0x8255e80;
         public const long EnableSubscriptionFreeTrialOfferDetails = 0x82290c0;
         public const long EnableSubscriptionPresenceTokenResultTelemetry = 0x8228e70;
-        public const long EnableSubscriptionPurchaseInstrumentation = 0x8155fe8;
         public const long EnableSubscriptionPurchaseReferrerId = 0x8228e88;
         public const long EnableSubscriptionPurchaseV2Resume = 0x8229270;
         public const long EnableSubscriptionStatusCacheEvictionOnConfirmTimeout = 0x8229258;
@@ -4902,9 +4803,7 @@ namespace FFlagOffsets
         public const long EnableTeamTestJoin = 0x827f0e8;
         public const long EnableTeamTestWebJoin = 0x827f6c8;
         public const long EnableTelemetryForSurfaceAppearanceMapTypes = 0x82546c8;
-        public const long EnableTelemetryIntegrationCheck2 = 0x818e658;
         public const long EnableTeleportGuiRootContainerCheck = 0x8255dc0;
-        public const long EnableTeleportInitFailedV2 = 0x8183268;
         public const long EnableTeleportInitiatedServerLifecycleEvent = 0x826e160;
         public const long EnableTeleportVIPBlackList = 0x8255f58;
         public const long EnableTeleportVIPWhiteList = 0x8255f70;
@@ -5054,7 +4953,6 @@ namespace FFlagOffsets
         public const long ExpChat3pSummaryIxpGateEnabled = 0x827d410;
         public const long ExpChat3pSummaryVariant = 0x830bbc0;
         public const long ExpChatChatActivityPollingTime = 0x827d950;
-        public const long ExpChatEnableLocalUserCount = 0x81a9d10;
         public const long ExpChatFixExcludedActionTypes = 0x8251580;
         public const long ExpChatGetActionsRequestInterval = 0x827d920;
         public const long ExpChatGetChatGroupsThrottlePermyriad = 0x827cb80;
@@ -5068,7 +4966,6 @@ namespace FFlagOffsets
         public const long ExpChatMinimizeMessageRenderedFields = 0x827cc70;
         public const long ExpChatNotAllowEmtpyUniqueIdToProcess = 0x827d9c0;
         public const long ExpChatPresetEligibilityCriteria2 = 0x827c278;
-        public const long ExpChatPresetsBypassSettingsDisabled = 0x817ebe8;
         public const long ExpChatRephraseSettingMaxRetries = 0x827c3a8;
         public const long ExpChatSendLoadSuccessEvent = 0x827cd48;
         public const long ExpChatStableFilterCacheKey = 0x8251920;
@@ -5162,12 +5059,9 @@ namespace FFlagOffsets
         public const long ExponentialDetectionMaxConsecutiveGenerations = 0x8269130;
         public const long ExponentialDetectionMinGenSize = 0x8269148;
         public const long ExportInterfaceObjBugfixes = 0x825b780;
-        public const long ExportInterfaceSkipCompositedDecals = 0x8188af0;
         public const long ExportInterfaceTimeOutMilliseconds = 0x825b750;
         public const long ExportInterfaceUseCorrectCFrame = 0x825b768;
         public const long ExportPathStringLimit = 0x8260e20;
-        public const long ExposeRuntimeContentAPI = 0x8183bc8;
-        public const long ExposeTextContentAPI = 0x8181690;
         public const long ExposeTextContentAPI2 = 0x8254aa0;
         public const long ExposeTextDocumentInstance = 0x8252268;
         public const long ExtendInitialExpiryTest = 0x8228e48;
@@ -5176,7 +5070,6 @@ namespace FFlagOffsets
         public const long ExternalIdentityDesktopBrowserOperationTimeoutSeconds = 0x82708f0;
         public const long ExternalIdentityProofOperationTimeoutSeconds = 0x82708d8;
         public const long ExtraFloorRaycastDistanceHipHeightPercent = 0x822cb30;
-        public const long ExtraLoggingForCLI36936_2 = 0x8159ba8;
         public const long ExtraWindowsWebviewLogging = 0x822e0a0;
         public const long ExtractPackageDefinition = 0x8253b58;
         public const long ExtractPackageDefinition_DebugForceDehydration = 0x8253be0;
@@ -5198,17 +5091,14 @@ namespace FFlagOffsets
         public const long ExtractPackageDefinition_Main = 0x8253af8;
         public const long ExtractPackageDefinition_MinInstances = 0x8253bb0;
         public const long ExtractStructuredStackTraces = 0x8268790;
-        public const long ExtractTweenEvaluation = 0x8161460;
         public const long ExtrapolateLODDistanceBuffer = 0x825a828;
         public const long EyesSeparateMesh = 0x822ee10;
         public const long FCCompositeTextureColorUpdate = 0x825b650;
         public const long FCFixProceduralAvatarCrashWithColorParametrization = 0x825b5a8;
         public const long FCFixProceduralAvatarTransparency = 0x825b5d8;
-        public const long FCFixSkinnedBatchInstanceOverflow = 0x81891b0;
         public const long FCGroupByModel2 = 0x825b5c0;
         public const long FCGroupMatFlagsCacheSize = 0x825b938;
         public const long FCReportBuiltStatsWithLCParts = 0x825b608;
-        public const long FCSkeletonBuiltReportTelemetry = 0x8160ed0;
         public const long FCSkeletonBuiltReportTelemetryStat = 0x8233ae0;
         public const long FCSkeletonIgnoreUnusedPartsMode3 = 0x8233450;
         public const long FCStudsPerTileFromFMD = 0x825bc80;
@@ -5276,7 +5166,6 @@ namespace FFlagOffsets
         public const long FaceAnimatorTelemetryTrace = 0x8233800;
         public const long FaceAnimatorThreadingTrace = 0x82336e0;
         public const long FaceAnimatorTrace = 0x82336f0;
-        public const long FaceAnimatorUseVideoBufferPool = 0x8160a70;
         public const long FaceChatDebugTrace = 0x822e798;
         public const long FaceControls = 0x8230148;
         public const long FaceTrackingLod = 0x822fcd0;
@@ -5295,7 +5184,6 @@ namespace FFlagOffsets
         public const long FacialAnimationStreamingUseEnableFlags2 = 0x8230070;
         public const long FacsJointTransformsPresizeMap = 0x823bcf8;
         public const long FacsMappingDenseJointsMappingMap = 0x823bd28;
-        public const long FacsPoseNameBoundsCheck = 0x81690b0;
         public const long FaeUpsellPhaseTwo = 0x82ea018;
         public const long FaeUpsellPhaseTwoHoldout = 0x82ea048;
         public const long FailedUrlExpiryTimeSeconds = 0x8228c90;
@@ -5303,10 +5191,7 @@ namespace FFlagOffsets
         public const long FairMixedPriorityAsymptoteMultSizeDistance = 0x82757b8;
         public const long FallHeightToggle = 0x8255c60;
         public const long FallbackThumbnailColorAsString = 0x82a02e0;
-        public const long FastBeamFill2 = 0x8188e10;
-        public const long FastBeamFillOffForTM2 = 0x8188db0;
         public const long FastClusterBuiltEventHundredthsPercentage = 0x825bc68;
-        public const long FastClusterBuiltReportTelemetryCounter = 0x8189080;
         public const long FastClusterBuiltReportTelemetryStat = 0x825bc50;
         public const long FastClusterEnableTransparentHighlights2 = 0x825bcb0;
         public const long FastClusterHumanoidWorstCaseBytes = 0x825b638;
@@ -5320,7 +5205,6 @@ namespace FFlagOffsets
         public const long FastGPULightCulling3 = 0x825b728;
         public const long FastLogValueChanged = 0x827bea8;
         public const long FastLogZeroSargBuffer = 0x827bd78;
-        public const long FastVideoFrameSamplerSeek = 0x81651b8;
         public const long FasterMrdDisconnect2 = 0x8273728;
         public const long FasterPreciseTime6 = 0x827bb90;
         public const long FeatureMatchingAcceleratorBudgetBytes = 0x8233d38;
@@ -5354,7 +5238,6 @@ namespace FFlagOffsets
         public const long FileCacheGuardLowDiskSpace = 0x823da18;
         public const long FileCacheMinDiskSpaceForWriteMB = 0x823d958;
         public const long FileCachePermReserveSize = 0x823da90;
-        public const long FileCacheRCCBytesRemovedFix = 0x816ac98;
         public const long FileCacheRemoveInvalidFiles = 0x823d988;
         public const long FileCacheReserveSize = 0x823da60;
         public const long FileCacheStatsReloadIntervalSeconds = 0x823d970;
@@ -5374,7 +5257,6 @@ namespace FFlagOffsets
         public const long FileMeshDataValidatorLogChannel = 0x823b930;
         public const long FilePickerCore = 0x8281518;
         public const long FileSyncExactClassMatch = 0x822d9c8;
-        public const long FileSyncSkipRobloxRcAndProxyPackages = 0x815ad58;
         public const long FileSystemGetCacheDirectoryPointerCacheResult = 0x8244e60;
         public const long FilterAndTranslateCacheFloodChcker = 0x8266140;
         public const long FilterAndTranslateChatMessage = 0x82515b0;
@@ -5390,8 +5272,6 @@ namespace FFlagOffsets
         public const long FinalizedLaunchCrossExpVoiceUtility = 0x8238778;
         public const long FinallyChainResume = 0x8268da8;
         public const long FinallyRefreshStatus = 0x8268d90;
-        public const long FindLadderPiercingRotMatOptimization = 0x8152668;
-        public const long FinishFetchingAssetsCorrectly = 0x815ccb0;
         public const long FinishedPollingInterval = 0x828f998;
         public const long FirebaseOdmIxpEnabled2 = 0x825be50;
         public const long FirebaseOdmIxpLayerName = 0x82e9d98;
@@ -5402,12 +5282,10 @@ namespace FFlagOffsets
         public const long FixAccoutrementWeldLC = 0x8253050;
         public const long FixAdsRaycastSchedulerPopHeap = 0x8226668;
         public const long FixAlwaysOnTopAdornTonemapping2 = 0x825b1b0;
-        public const long FixAndroidBackgroundedSession = 0x81abb98;
         public const long FixAnimationMemoryOverhead = 0x822e678;
         public const long FixAnimationTrackInfiniteSpeedStuck = 0x822eaa8;
         public const long FixAnimatorAnalyticsGetAnalytics = 0x8230af0;
         public const long FixAssetProviderSitetestThumbnails = 0x823ca30;
-        public const long FixAssetReaderMissingAssetNullptrDeref2 = 0x81551c0;
         public const long FixAudioOcclusionWorkerShutdown = 0x826fbd0;
         public const long FixAudioTelemetryReparentLostStop = 0x8270438;
         public const long FixAvatarAssetBatching = 0x8228400;
@@ -5423,7 +5301,6 @@ namespace FFlagOffsets
         public const long FixCanvasGroupMipUpdateStall = 0x825a3d0;
         public const long FixCapsuleCollisionSurfaceNormal = 0x82493b0;
         public const long FixCaptureContentIdPathResolution2 = 0x8227d60;
-        public const long FixCaptureModeSafeInsetViewport = 0x81ad268;
         public const long FixCaptureTempFileCheck = 0x8266bb8;
         public const long FixCharacterAppearanceLoaded = 0x8264970;
         public const long FixCharacterSnapshotBroadphaseRace = 0x82854c0;
@@ -5432,12 +5309,10 @@ namespace FFlagOffsets
         public const long FixCheckForRolloutsRespectFilters = 0x827bf38;
         public const long FixChecksOneRbxLibMP = 0x8268fc8;
         public const long FixChecksTwoRbxLibMP = 0x8268fb0;
-        public const long FixClientJoinResultTelemetryPointsThrottle = 0x8168698;
         public const long FixCopyPasteHistoryId = 0x8253dc8;
         public const long FixCoreScriptVersionTelemetryLifetime = 0x8244a18;
         public const long FixCoreUiDragDetectorWhileMenuOpen = 0x82662a8;
         public const long FixCreatorbug21352 = 0x8251cc0;
-        public const long FixCrossExperienceVoiceAdditionalDangle = 0x81acf70;
         public const long FixCullableQuerySwap = 0x825b180;
         public const long FixCurveAnimationGarbageChannelData = 0x8230d18;
         public const long FixCyclicReplicationRootDependencyStackOverflow = 0x822c800;
@@ -5464,7 +5339,6 @@ namespace FFlagOffsets
         public const long FixGlyphProviderLineGapScaling = 0x823c388;
         public const long FixGlyphProviderSizeDataMetrics = 0x823c428;
         public const long FixGlyphProviderThreadSafety = 0x822dbd8;
-        public const long FixGpuFrameTimeTelemetry = 0x8186f38;
         public const long FixGridListenerLifecycle = 0x827e208;
         public const long FixHastefulEdgeCase = 0x82476f0;
         public const long FixHttpStreamingCallbackUseAfterFree = 0x8247bf0;
@@ -5476,7 +5350,6 @@ namespace FFlagOffsets
         public const long FixIncorrectReferenceToPlaceIdIter = 0x8280098;
         public const long FixInfiniteInvokeForTeamTest = 0x8252c20;
         public const long FixInputReplicatorStaleActions = 0x8234220;
-        public const long FixInstanceCountStat = 0x8194390;
         public const long FixInvalidAssetIdInTelem2 = 0x823cce8;
         public const long FixInvisibleHighlightSunReflections = 0x825a6d8;
         public const long FixIpV6SubnetContainsLoopBound = 0x82858c0;
@@ -5520,12 +5393,9 @@ namespace FFlagOffsets
         public const long FixR6FaceReplacedByMakeupDecal = 0x8264958;
         public const long FixR6ToR15RetargetingADF = 0x822ec90;
         public const long FixR6ToR15RetargetingSourceRig = 0x822ecc0;
-        public const long FixRBXKeyCodeToOSXScanCodeUnknown = 0x81ac718;
-        public const long FixRUHandheldDetection2 = 0x8192f60;
         public const long FixRbxRandSignedOverflow = 0x827bdd8;
         public const long FixRebuildRigidConstraintParentLocked = 0x82530c8;
         public const long FixRegionSetsClumpOccupancyLeak = 0x8275f58;
-        public const long FixRegisterMotors = 0x8187148;
         public const long FixRemindMeButtonStall = 0x8250790;
         public const long FixRenderViewTimerPeriodImbalance = 0x8259c88;
         public const long FixRenderingTestScissorViewport = 0x8259dc0;
@@ -5548,7 +5418,6 @@ namespace FFlagOffsets
         public const long FixSetSoundEnabledFalse = 0x826e588;
         public const long FixSharedQueueItemsSentProfilerCount = 0x82719b8;
         public const long FixSimpleNullEngineContextCreationPaths = 0x8267660;
-        public const long FixSkinningLifetimeAndBugs15 = 0x8182e68;
         public const long FixSkinningLifetimeAndBugs16 = 0x8255cc0;
         public const long FixSlowDownRenderingTimer = 0x822b9a0;
         public const long FixSmallSurfaceGuiMouseInput = 0x8266200;
@@ -5569,13 +5438,10 @@ namespace FFlagOffsets
         public const long FixSubscriptionRequestCrash = 0x8228ea0;
         public const long FixTattletaleWhitelistFromInput = 0x8266188;
         public const long FixTeleportOptions = 0x826e178;
-        public const long FixTeleportStuckOnCustomGuiError = 0x81831c0;
         public const long FixTeleportThrottleEraseOnClientFailure = 0x8255e98;
         public const long FixTeleportToDisconnectedPlayer = 0x826e148;
-        public const long FixTeleportToReservedServerHang = 0x819b240;
         public const long FixTeleportToReservedServerPlayerHang = 0x826e208;
         public const long FixTestServiceStart = 0x8270bb8;
-        public const long FixTextEngineModuleRetinaScaleRU = 0x815af08;
         public const long FixTextMismatchAndOverlap = 0x8265e78;
         public const long FixTextboxSinkingInputOfOverlappingButtons2 = 0x8265e90;
         public const long FixTextureCompositorFramebufferManagement2 = 0x8259958;
@@ -5801,7 +5667,6 @@ namespace FFlagOffsets
         public const long FmodUseVoiceDriverIxpLayer = 0x82ea238;
         public const long FmodUseVoiceDriverIxpLayerParam = 0x82fc298;
         public const long FmodVorbisBackportUpstreamFixes = 0x8240448;
-        public const long FmodWasapiRecordBTHeadsetMatching3 = 0x816d6b0;
         public const long FmodWebAndroidDspBufferSize = 0x8240040;
         public const long FmodWebAndroidOverrideDspBufferSize = 0x8240058;
         public const long FocusDrivenReductionFromHealthState = 0x8271438;
@@ -5821,7 +5686,6 @@ namespace FFlagOffsets
         public const long ForceClientSecureAck = 0x8273c00;
         public const long ForceCloseOnMachineIdBanned = 0x827f0a0;
         public const long ForceCompressedFlagCacheWrite = 0x826e458;
-        public const long ForceDisableFontSubsystem = 0x81692c8;
         public const long ForceEnableGlobalChat3pSummary = 0x827d440;
         public const long ForceEnableInExpChatRewrite = 0x827d308;
         public const long ForceEnableRTLTextSupport = 0x8266230;
@@ -5900,8 +5764,6 @@ namespace FFlagOffsets
         public const long FrustumTargetInstancesPerDepthSlice = 0x82752d8;
         public const long FrustumVelocityAwareRadiusCoefHundredth = 0x82716d8;
         public const long FrustumVelocityAwareThresholdHP = 0x8275bd8;
-        public const long FtsThumbEnrollHeaderKey = 0x81fb7c0;
-        public const long FtsThumbEnrollHeaderVal = 0x81fb7f0;
         public const long FullRenderObjects = 0x825f7f0;
         public const long FullWindowMessages = 0x825f640;
         public const long FullscreenVolume = 0x8226ee0;
@@ -5909,8 +5771,6 @@ namespace FFlagOffsets
         public const long GAThrottlingEventThresholdHundredthCat1 = 0x8274c90;
         public const long GAThrottlingEventThresholdHundredthCat2 = 0x8274ca8;
         public const long GAThrottlingEventThresholdHundredthCat3 = 0x8274cc0;
-        public const long GCComputeExpansionBypassTimer = 0x81a11a8;
-        public const long GCComputeIntegration = 0x81a3260;
         public const long GCComputeIntegration2 = 0x8276220;
         public const long GCJobPartRemovalBudgetFramePercentHP = 0x8274298;
         public const long GCJobPerformGCBudgetFramePercentHP = 0x82742b0;
@@ -5923,7 +5783,6 @@ namespace FFlagOffsets
         public const long GDKCredentialsProtocol = 0x8223f40;
         public const long GDKDoNotCountOtherGDKErrorsAsInferredCrashes = 0x8223fe0;
         public const long GDKGracefulInitFailure = 0x8223f98;
-        public const long GDKReportInitializationFailuresToDifferentPoints = 0x8151068;
         public const long GDKResourcesManager = 0x8224040;
         public const long GDKRobuxUpsell = 0x8223d60;
         public const long GDKSessionManager = 0x8224068;
@@ -6013,7 +5872,6 @@ namespace FFlagOffsets
         public const long GamepadCursorRadius = 0x825ffc8;
         public const long GamepadMaxSelectionUSec = 0x82600b8;
         public const long GamepadMinAnalogChangeHundredths = 0x82600d0;
-        public const long GamepadNavigationAllowInclusionOfCurrentlySelectedObject = 0x818d2f0;
         public const long GamepadScrollPagesPerSecondThousandths = 0x82663c0;
         public const long GamepadSelectionRespectsInteractable = 0x825ffa0;
         public const long GamepadService = 0x825ffb8;
@@ -6032,7 +5890,6 @@ namespace FFlagOffsets
         public const long GenerationService = 0x827c5b8;
         public const long GenerationServiceAllowReplication = 0x827c640;
         public const long GenerationServiceBaseJobErrorEventThrottleHundredthsPercent = 0x827c838;
-        public const long GenerationServiceDeveloperMessageErrorMapping = 0x81a9a88;
         public const long GenerationServiceEnableGenerateAnimation = 0x827c5f8;
         public const long GenerationServiceEnableGenerateModel = 0x827c5e0;
         public const long GenerationServiceEventsThrottleHundredthsPercent = 0x827c988;
@@ -6125,11 +5982,9 @@ namespace FFlagOffsets
         public const long GlobalChatGetActionsDebouncePeriodMs = 0x827c058;
         public const long GlobalChatHistoryMaxSize = 0x827c200;
         public const long GlobalChatUseInternalTextChatAPIs = 0x827d530;
-        public const long GlobalUserBlockingInHasBlockedPlayer2 = 0x81918a8;
         public const long GlobalUserBlockingRetireLegacyBlockedUsers = 0x8264680;
         public const long GlobalUserBlockingVerboseLogging = 0x827c450;
         public const long GltfExportRetryFetchFailures = 0x8279200;
-        public const long GlyphAtlasUseSimdSqrtMasking = 0x8169638;
         public const long GlyphProviderCreation = 0x822dc20;
         public const long GlyphProviderCreationModernLogVersion = 0x822dc40;
         public const long GlyphRenderer = 0x825b000;
@@ -6156,7 +6011,6 @@ namespace FFlagOffsets
         public const long GraphicsClampInstanceDataInShaderGLESAllowList = 0x8318c08;
         public const long GraphicsClampInstanceDataSizeInShaderGLESBytes = 0x828b7b0;
         public const long GraphicsD3D11AssertOnNullSwapChain = 0x823e318;
-        public const long GraphicsD3D11ExtraInitLog = 0x816b5b8;
         public const long GraphicsD3D11FlipDiscard2 = 0x823e330;
         public const long GraphicsD3D11HardwareBufferTextures = 0x823e468;
         public const long GraphicsD3D11LogAdapters = 0x823e2c0;
@@ -6245,7 +6099,6 @@ namespace FFlagOffsets
         public const long GraphicsTextureReductionVulkan = 0x828bcd0;
         public const long GraphicsTextureValidateFormat = 0x823e1b8;
         public const long GraphicsVKEXTDeviceFault = 0x828bc10;
-        public const long GraphicsVideoCaptureWindow2 = 0x81b85e0;
         public const long GraphicsVulkanARMVaryingBufferMb = 0x828bc88;
         public const long GraphicsVulkanAnalyticsHundredthPercent = 0x828bca0;
         public const long GraphicsVulkanBlacklistDevicePattern = 0x8318da8;
@@ -6253,8 +6106,6 @@ namespace FFlagOffsets
         public const long GraphicsVulkanBlacklistVendorDeviceDriverIDs = 0x8318e08;
         public const long GraphicsVulkanBlacklistVendorDeviceDriverIDsV2 = 0x8318e38;
         public const long GraphicsVulkanCachedSamplersNoTextureFormat = 0x828bda0;
-        public const long GraphicsVulkanDeviceLostCrash = 0x81b8700;
-        public const long GraphicsVulkanExtendedDynamicState = 0x81b8748;
         public const long GraphicsVulkanExtendedDynamicState2 = 0x828bc28;
         public const long GraphicsVulkanFutureDenyPattern = 0x8318d78;
         public const long GraphicsVulkanHQShadersBlacklistV2 = 0x83191a8;
@@ -6280,12 +6131,10 @@ namespace FFlagOffsets
         public const long GroupObjectGetObjectManagerFromEngineContext2 = 0x8276fb0;
         public const long GroupObjectMapRawPointer = 0x82759e8;
         public const long GroupRolesExpirationTimeSeconds = 0x82530e0;
-        public const long GroupTeleportCounterV2 = 0x819b348;
         public const long GroupsApiUsageTelemetryEnabled = 0x8253110;
         public const long GroupsApiUsageTelemetryHundredthsPercent = 0x8253128;
         public const long GuacRefetchAppPolicyForAuthedUser = 0x8263588;
         public const long GuardGDKUserUsage = 0x8223ec8;
-        public const long GuardServiceCreationOfChildren = 0x816d398;
         public const long GuiClassUsageAnalytics = 0x8265d18;
         public const long GuiClassUsageAnalytics_ReportHundredthsPercent = 0x8265b40;
         public const long GuiHidingApiSupport2 = 0x8265c00;
@@ -6317,7 +6166,6 @@ namespace FFlagOffsets
         public const long HACDSpatialGridSizeTenths = 0x8246330;
         public const long HRJLFix = 0x8230ca0;
         public const long HSRClusterSymmetryDistancePercent = 0x82338d0;
-        public const long HSRForceClearOtherData = 0x815c6d8;
         public const long HSRGenerateOnCloudEditServer = 0x8231860;
         public const long HSRGenerationFaster = 0x82338b8;
         public const long HSRGenerationTelemetry = 0x8231818;
@@ -6400,7 +6248,6 @@ namespace FFlagOffsets
         public const long HeapProfilerShutdownFix = 0x82692f8;
         public const long HeapProfilerTimeoutSeconds = 0x82685e0;
         public const long HeartBeatFailure = 0x8256e48;
-        public const long HeartbeatForStreamingFrametime = 0x81a0278;
         public const long HeartbeatForStreamingFrametime2 = 0x8273178;
         public const long HeatmapBackendClient = 0x825fd68;
         public const long HeatmapNormalizationDiscardPercent = 0x825fd20;
@@ -6426,7 +6273,6 @@ namespace FFlagOffsets
         public const long HierarchicalLoggerSweepCooldownSeconds = 0x82573d0;
         public const long HierarchicalLoggerSweepPressureMarginMB = 0x82573e8;
         public const long HighlightMobileDepthFix = 0x82594c0;
-        public const long HighlightOutlinesOnMobile = 0x8185910;
         public const long HighlightsFixPrepareMobile = 0x8259990;
         public const long HistoricalHeatmapChunkFactor = 0x825fd50;
         public const long HitchRateFrameTimeTargetChangeMinimumCaptureMilliseconds = 0x82387f0;
@@ -6495,7 +6341,6 @@ namespace FFlagOffsets
         public const long HttpClientDetectInvalidRangeResponse = 0x8248358;
         public const long HttpClientDontSendDisableSignal = 0x8247c08;
         public const long HttpClientExternalTlsPeerVerificationFailHundrethsPercentage = 0x82485a0;
-        public const long HttpClientFirstPartyCdnExempt = 0x8175110;
         public const long HttpClientHandlerFixed = 0x8247bc0;
         public const long HttpClientIntCallHundrethsPercentage = 0x8247e90;
         public const long HttpClientMaxInternalIndefiniteRequests = 0x8248718;
@@ -6521,7 +6366,6 @@ namespace FFlagOffsets
         public const long HttpDownloadBandwidthInfluxHundredthsPercentage = 0x8227ba0;
         public const long HttpDownloadBandwidthInfluxHundredthsPercentageV2 = 0x8227c48;
         public const long HttpDownloadEpisodeInMs = 0x8247d70;
-        public const long HttpEnableTracing = 0x81753e0;
         public const long HttpExponetialRetryBaseInterval = 0x8248a78;
         public const long HttpGAFailureReportPercent = 0x8248200;
         public const long HttpGzipSizeWindowToBody = 0x82482e8;
@@ -6612,7 +6456,6 @@ namespace FFlagOffsets
         public const long HttpService = 0x8260968;
         public const long HttpServiceAggregateBandwidthMetricsIntervalSecs = 0x82605e0;
         public const long HttpServiceAggregateBandwidthReportThrottleHundredthsPercentage = 0x82605f8;
-        public const long HttpServiceAnalyticsCounterV2 = 0x818d9e0;
         public const long HttpServiceBandwidthReportThrottleHundredthsPercentage = 0x8260628;
         public const long HttpServiceBlockRawIpLiterals2 = 0x8260790;
         public const long HttpServiceEventReportThrottleHundredthPercent = 0x8260658;
@@ -6702,7 +6545,6 @@ namespace FFlagOffsets
         public const long HumanoidDescriptionSnapshotThrottle = 0x8285490;
         public const long HumanoidFixChangeStateNowNoStateMachine2 = 0x8255140;
         public const long HumanoidFixIsLayeredApplyDescription = 0x822f0e0;
-        public const long HumanoidFloorManualFrictionVelocityMultValue = 0x815c3e0;
         public const long HumanoidFloorProcess = 0x82317f0;
         public const long HumanoidFloorTeleportWeightValue = 0x822f248;
         public const long HumanoidGuidAsCompositeCacheKey2 = 0x8259478;
@@ -6751,7 +6593,6 @@ namespace FFlagOffsets
         public const long IECValidationViaVaaS = 0x822f4f0;
         public const long IECValidationViaVaaSIXPLayer = 0x82aa150;
         public const long IMESupportHighlight = 0x8265ef0;
-        public const long IOSUseMachExceptionRbxAssert = 0x81a8e70;
         public const long ISRAttributeReplicationRobustness = 0x8277260;
         public const long ISRAttributeSchemaCleanupTimestampBuffer = 0x82772f0;
         public const long ISRBandwidthSendLimiter = 0x8274560;
@@ -6878,7 +6719,6 @@ namespace FFlagOffsets
         public const long IgnoreLagOutsideStudio = 0x82718e0;
         public const long IgnoreLayeredClothingHandleScale = 0x825b4f0;
         public const long IgnoreLocalTimeForStaleFlags2 = 0x8227f90;
-        public const long IgnoreParentLockOnDataModelClose = 0x8184960;
         public const long IkControlConstraintSupportDefaultEnabled = 0x82557a0;
         public const long IkControlConstraintSupportProperty = 0x82553f8;
         public const long IkControlDeepProfile = 0x822e438;
@@ -7007,7 +6847,6 @@ namespace FFlagOffsets
         public const long InitCwndLimitMultiplier = 0x82b4ee8;
         public const long InitCwndRecommendedMultiplier = 0x82b4ed0;
         public const long InitTombstoneAfterBlockingFetch3 = 0x826e330;
-        public const long InitialAccelerationLatencyMultTenths = 0x81597a0;
         public const long InitialAudioAssetCacheSize = 0x828be58;
         public const long InitialCacheClustersBandwidthKBpS = 0x8271df8;
         public const long InitialCacheClustersMaxBytesPerSend = 0x8271e10;
@@ -7043,7 +6882,6 @@ namespace FFlagOffsets
         public const long InsertServiceReplaceUnsafeBlockingLoadInstance = 0x82576b0;
         public const long InsertServiceValidateInstancePermissionsReportHundredths = 0x82575b0;
         public const long InstallWebView2RuntimeTimeoutMs = 0x8285270;
-        public const long InstanceAttributes6 = 0x8161e48;
         public const long InstanceAttributesCloneKeepsExternalRefs = 0x827dae0;
         public const long InstanceAttributesRefReplicationTeamCreateOnly1 = 0x8234bd0;
         public const long InstanceIntentItemUEIntervalSeconds = 0x8275df0;
@@ -7107,21 +6945,16 @@ namespace FFlagOffsets
         public const long InterpolationAwareTargetTime = 0x822c9f8;
         public const long InterpolationAwareTargetTimeLerpHundredth = 0x822c8c0;
         public const long InterpolationDtLimitForLod = 0x822c4a0;
-        public const long InterpolationFramePositionThresholdMillionth = 0x8159b18;
-        public const long InterpolationFrameRotVelocityThresholdMillionth = 0x8159b48;
-        public const long InterpolationFrameVelocityThresholdMillionth = 0x8159b30;
         public const long InterpolationMaxDelayMSec = 0x822c8a8;
         public const long InterpolationMinAssemblyCount = 0x822c4b8;
         public const long InterpolationNumMechanismsBatchSize = 0x822c860;
         public const long InterpolationNumMechanismsPerTask = 0x822c890;
-        public const long InterpolationNumParallelTasks = 0x8159980;
         public const long InterpolationSelfHealingCount = 0x822c6c8;
         public const long InterpolationSelfHealingResetFix = 0x822c6f8;
         public const long InterpolationUseSelfHealing = 0x822c6e0;
         public const long IntersectingOthersCallsAllowedOnSpawn = 0x822cbd0;
         public const long InvalidEnumValueAttemptToReflect = 0x82681c0;
         public const long InvalidEnumValueAttemptToReflectReportHundredthsPercentage = 0x8268208;
-        public const long InvalidFocusHandling = 0x81a1590;
         public const long InvalidNumPropertyAssignReportHundredthsPercentage = 0x82681f0;
         public const long InvalidStringAtomReportHundredthsPercentage = 0x82687d8;
         public const long InvalidStringAtomWarningLimit = 0x82687a8;
@@ -7133,7 +6966,6 @@ namespace FFlagOffsets
         public const long IrisInviteInvokeRateLimitCapacity = 0x8263db0;
         public const long IrisInviteInvokeRateLimitDuration = 0x8263d98;
         public const long IrisMoreDetailedErrorResponse = 0x828f9c0;
-        public const long IsFriendsWithUsesAreFriendsEndpointV4 = 0x817ef38;
         public const long IsNonDMChildChangeTrackingEnabled = 0x8234de0;
         public const long IsPremiumRequestTimeoutMilliseconds = 0x822a110;
         public const long IsURLRegisteredUseNewRequestResponse = 0x8283760;
@@ -7190,7 +7022,6 @@ namespace FFlagOffsets
         public const long JoinTicketAPIsecurityToken = 0x8263440;
         public const long JoinTicketV2RolloutHundredthsPercentage = 0x82754b8;
         public const long JoinTicketV2TimestampToleranceSec = 0x82754a0;
-        public const long JoinTimeCounters = 0x819ddd8;
         public const long JoinTimeLog = 0x8270c40;
         public const long JointEnableSkinningProperty = 0x8225470;
         public const long JointInstanceLifetime = 0x825f820;
@@ -7265,7 +7096,6 @@ namespace FFlagOffsets
         public const long LargeReplicatorDynamicBandwidthIncreasePercent = 0x8274770;
         public const long LargeReplicatorMaxBandwidthUsageAllowedPercent = 0x8274758;
         public const long LargeReplicatorSerializerReadHashValidate = 0x827dbd0;
-        public const long LargeReplicatorShared = 0x8161b68;
         public const long LargeReplicatorTrace = 0x825c808;
         public const long LargeReplicatorUseDynamicBandwidthTarget2 = 0x823f880;
         public const long LargeReplicatorUseMaxClientBandwidth = 0x8274740;
@@ -7275,7 +7105,6 @@ namespace FFlagOffsets
         public const long LargeReplicatorValidateMigrateEx2 = 0x8254c10;
         public const long LargeReplicatorValidateMigrateThrottleHundredthsPercent = 0x8254c28;
         public const long LastTTTokenUpdateTimeDiagnostics = 0x8239888;
-        public const long LatencyErrorMultiplierTennths = 0x81597d0;
         public const long LatencyLogging1 = 0x8278020;
         public const long LatencyLoggingDumpLength = 0x8277fb0;
         public const long LatencyLoggingRemoteName = 0x8277fe0;
@@ -7288,7 +7117,6 @@ namespace FFlagOffsets
         public const long LayeredClothingWrapDeformedBundleId = 0x8233568;
         public const long LayoutErrors = 0x8266070;
         public const long LayoutTableLayoutImplUsesConstrainedSizeInsteadOfIntrinsicSize = 0x8267620;
-        public const long LcCacheOptDefaultEnabled3 = 0x8182a80;
         public const long LcCacheOptDefaultEnabled4 = 0x8255680;
         public const long LcCacheOptThreePhaseRolloutProperty4 = 0x8255668;
         public const long LcDeformerPropertySetEventHundredthsPercentageSentEventIngest = 0x8233330;
@@ -7345,11 +7173,9 @@ namespace FFlagOffsets
         public const long LibMpTelemetrySamplePermyriad = 0x8245f28;
         public const long LibMpTelemetryTwo = 0x8245ef8;
         public const long LibWebrtcImpl = 0x8285218;
-        public const long LightGridCPUShadowMaskBoundsCheck = 0x8188c40;
         public const long LightGridDarkWorldFix = 0x825b8c0;
         public const long LightingDefaultClearColorARGB = 0x8252e90;
         public const long LightingDefaultTechnologyFuture = 0x8252ec0;
-        public const long LightingTechnologyClientSideMigration = 0x82044f0;
         public const long LightingTechnologyUnifiedMigration = 0x82d7a28;
         public const long LightstepHTTPTransportUrlHost = 0x82ce248;
         public const long LightstepHTTPTransportUrlPath = 0x82ce278;
@@ -7424,7 +7250,6 @@ namespace FFlagOffsets
         public const long LocServiceUseNewAutoLocSettingEndpoint = 0x822b058;
         public const long LocServiceUseNewAutoLocSettingEndpointFix = 0x822b040;
         public const long LocServiceUseTrimmedCoreScriptLocTable = 0x822b130;
-        public const long LocalCharacterSkipStreamingLOD = 0x81a1a80;
         public const long LocalLightCountsInCompatibilityThrottlePerTenThousand = 0x8278fa8;
         public const long LocalStorage = 0x8243cf0;
         public const long LocalStorageArenaOptimization = 0x8243b28;
@@ -7638,7 +7463,6 @@ namespace FFlagOffsets
         public const long LuauBufferCage = 0x82b9360;
         public const long LuauBufferCageCrashDetection = 0x82696b0;
         public const long LuauBufferSweep = 0x82b99a8;
-        public const long LuauBytecodeCostModel2 = 0x8245150;
         public const long LuauBytecodeFold = 0x82f98b0;
         public const long LuauBytecodeSlotAlloc = 0x82f9890;
         public const long LuauCageRealloc = 0x82697d0;
@@ -7659,7 +7483,6 @@ namespace FFlagOffsets
         public const long LuauCodegenAggregateStatsEventCooldownSec = 0x8268e68;
         public const long LuauCodegenAggregateStatsEventHundredthsPercent = 0x8268f58;
         public const long LuauCodegenAutoPromote = 0x8268338;
-        public const long LuauCodegenBufferInteger = 0x8226618;
         public const long LuauCodegenCFrameArithmetic = 0x8269448;
         public const long LuauCodegenCmpAnySideEffecting = 0x82f96b0;
         public const long LuauCodegenDseTrackTagInvalidation = 0x82f96f0;
@@ -7667,14 +7490,11 @@ namespace FFlagOffsets
         public const long LuauCodegenFastcallAnalysisLimit = 0x82f9790;
         public const long LuauCodegenForwardSplitStore = 0x82f9610;
         public const long LuauCodegenImprovedExitSync = 0x82f9570;
-        public const long LuauCodegenInteger3 = 0x82262d8;
-        public const long LuauCodegenIntegerCompare = 0x8226598;
         public const long LuauCodegenIntelMacUnwind = 0x82f9550;
         public const long LuauCodegenMarkUsed = 0x82f9650;
         public const long LuauCodegenMetatableCache = 0x82f9670;
         public const long LuauCodegenMultiLaneDot = 0x82f9530;
         public const long LuauCodegenNopPadding = 0x82f94f0;
-        public const long LuauCodegenPropagateFallbackTags2 = 0x8226458;
         public const long LuauCodegenRuntimeFeedback = 0x82f93f0;
         public const long LuauCodegenStatsEventHundredthsPercent = 0x82682d8;
         public const long LuauCodegenUpdateSafeEnvList = 0x82f9690;
@@ -7682,9 +7502,6 @@ namespace FFlagOffsets
         public const long LuauCodegenUseOptionBuilder = 0x82683b0;
         public const long LuauCodegenUserdataDirect = 0x82f9770;
         public const long LuauCodegenX64ConflictCheck2 = 0x82f96d0;
-        public const long LuauCompileCallFbRemap = 0x8245130;
-        public const long LuauCompileFastpcall2 = 0x8245110;
-        public const long LuauCompileRefactorFeedback = 0x8245170;
         public const long LuauCoroutineFinally = 0x82b9300;
         public const long LuauCostModel = 0x82b9400;
         public const long LuauCoverageReporterLcovSkipV1 = 0x8269478;
@@ -7700,7 +7517,6 @@ namespace FFlagOffsets
         public const long LuauExpressionReferencesMethod = 0x826c1e0;
         public const long LuauExpressionServiceEnabled2 = 0x826c1f8;
         public const long LuauExpressionSupportTuples = 0x8249380;
-        public const long LuauFastpcall = 0x81e60c0;
         public const long LuauFixEnumPropertyAssignmentErrorType = 0x82681d8;
         public const long LuauGcActorProgressDelaySeconds = 0x8268958;
         public const long LuauGcFixpoint = 0x8268110;
@@ -7722,15 +7538,11 @@ namespace FFlagOffsets
         public const long LuauHeapProfilerTelemetryHundredthsPercentage = 0x82692b0;
         public const long LuauInlineHitsThreshold = 0x82b9480;
         public const long LuauInlinerNamecallSelfFromMove = 0x8318640;
-        public const long LuauIntegerLibrary = 0x82451f0;
-        public const long LuauIntegerOutput = 0x8195a08;
-        public const long LuauIntegerType2 = 0x81e5e40;
         public const long LuauIsYieldableSimplify = 0x82b9320;
         public const long LuauJitInlineSmallFunSize = 0x82f9810;
         public const long LuauJitInlineThreshold = 0x82f9870;
         public const long LuauJitInlineThresholdMaxBoost = 0x82f98d0;
         public const long LuauJitInlineTooLongFunSize = 0x82f9830;
-        public const long LuauJitInliner3 = 0x8195e28;
         public const long LuauJitInliner4 = 0x8268b08;
         public const long LuauLoadExplicitGcDisable = 0x82b9440;
         public const long LuauLoadRemapOptionalUserdata = 0x82b9420;
@@ -7745,7 +7557,6 @@ namespace FFlagOffsets
         public const long LuauNativeExecutionEventCooldownSec = 0x8268e80;
         public const long LuauNativeExecutionEventHundredthsPercent = 0x8268f70;
         public const long LuauNativeExecutionTimePeriodFrameCount = 0x8269070;
-        public const long LuauOpenIntegerLibrary = 0x8195df8;
         public const long LuauOptimizeStringGsub = 0x83186c0;
         public const long LuauOptimizeStringSplit = 0x83186e0;
         public const long LuauParseErrorLimit = 0x82b9220;
@@ -7757,7 +7568,6 @@ namespace FFlagOffsets
         public const long LuauRefinementTelemetryInfluxHundredthsPercentage = 0x8268010;
         public const long LuauRefinementTelemetryInfluxPriorityHundredthsPercentage = 0x8267ff8;
         public const long LuauRuntimeCodegen = 0x82682b0;
-        public const long LuauRuntimeFeedback = 0x81e5f60;
         public const long LuauRuntimeFeedback2 = 0x82b93a0;
         public const long LuauSaltedInterningTable = 0x82b93e0;
         public const long LuauSandboxFreezesVectorMetatable = 0x8318740;
@@ -7769,7 +7579,6 @@ namespace FFlagOffsets
         public const long LuauSolverV2 = 0x82b8e80;
         public const long LuauStartupGcSuppression = 0x827fdc8;
         public const long LuauTableFindImprovement = 0x82b99c8;
-        public const long LuauTableRobustOom = 0x81e6020;
         public const long LuauTelemetryParseReturnTypeVariadicWithTypeSuffixHundrethsPercentage = 0x8268808;
         public const long LuauTypeLengthLimit = 0x82b8f40;
         public const long LuobuDevPublishAnalyticsHundredthsPercentage = 0x8250a18;
@@ -7808,7 +7617,6 @@ namespace FFlagOffsets
         public const long MRFNoInterfaceUEThrottleHP = 0x82644c0;
         public const long MRSMessageSize = 0x8252c50;
         public const long MRSTopicNameLength = 0x8252c68;
-        public const long MSTVOnSkeletonInvalidated = 0x81b1f60;
         public const long MVTerrainDetilingParam = 0x825bbf0;
         public const long MVTerrainHeightMapBlendMax = 0x825bba8;
         public const long MVTerrainHeightMapBlendMin = 0x825bbc0;
@@ -7840,7 +7648,6 @@ namespace FFlagOffsets
         public const long MarketplacePurchaseDeepLinkAttribution2 = 0x822a0e0;
         public const long MarketplacePurchasePayload = 0x822a158;
         public const long MarketplaceReceiptErrorTelemetry = 0x8229a00;
-        public const long MarketplaceReceiptParseGuardCrash = 0x8156bb8;
         public const long MarketplaceRecommendationsApi = 0x82297c0;
         public const long MarketplaceShopApi = 0x8229300;
         public const long MarshalFutureResultToDmThread = 0x8226298;
@@ -7851,7 +7658,6 @@ namespace FFlagOffsets
         public const long MaterialVariantAlphaMode = 0x8251e80;
         public const long MaterialVariantAlphaModeRollout = 0x8251e68;
         public const long MaterialVariantAlphaModeRolloutHundredthPercent = 0x8251e98;
-        public const long MaxAcceptableUpdateDelay = 0x81599e0;
         public const long MaxActionPointerZValue = 0x827fb60;
         public const long MaxActiveAnimationTracks = 0x822e7f0;
         public const long MaxActiveAnimationTracksWithWeightThreshold = 0x8230c58;
@@ -7977,8 +7783,6 @@ namespace FFlagOffsets
         public const long MemoryPageFaultsIncludePlaceId = 0x8245a80;
         public const long MemoryPageFaultsIncludeUniverseId = 0x8245a68;
         public const long MemoryPageFaultsReportIntervalMs = 0x8245a98;
-        public const long MemoryPageFaultsTelemetryEnabled = 0x8172d28;
-        public const long MemoryPageFaultsTelemetryEnabledHundredthPercent = 0x8172d10;
         public const long MemoryPlaceIDReportThreshold = 0x8274cf0;
         public const long MemoryPressureTriggerCriticalMB = 0x8245168;
         public const long MemoryPressureTriggerFreeOverrideMB = 0x8245150;
@@ -7995,7 +7799,6 @@ namespace FFlagOffsets
         public const long MemoryProfilingTopLevelUsageMutex = 0x8245ac8;
         public const long MemoryReclamationTestV2 = 0x82393a0;
         public const long MemoryStore = 0x8265320;
-        public const long MemoryStoreCacheDataStructuresByName2 = 0x817fe68;
         public const long MemoryStoreCacheMaxSize = 0x8252d38;
         public const long MemoryStoreDistributedCounterEnabled = 0x8252d50;
         public const long MemoryStoreDistributedCounterInFlightRequestCap = 0x8252dc0;
@@ -8031,11 +7834,8 @@ namespace FFlagOffsets
         public const long MeshGenerationAPIBaseEndpoint = 0x830abe0;
         public const long MeshGenerationAPIOverride = 0x830ab80;
         public const long MeshGenerationAPIUseBaseEndpoint = 0x827c970;
-        public const long MeshLODBoundsCheckMaxSkinRadius = 0x8174ad8;
         public const long MeshLODClampNegativeSkinningWeights = 0x8247768;
-        public const long MeshLODClampVertexColors = 0x8174b08;
         public const long MeshLODDetails = 0x82477b0;
-        public const long MeshLODSkinWeightsUseJointMapper = 0x8174af0;
         public const long MeshLODTranscode2 = 0x82282c8;
         public const long MeshLODTranscodeDefaultFidelity = 0x829ee70;
         public const long MeshLODTranscodeDefaultFormat = 0x829ee10;
@@ -8053,7 +7853,6 @@ namespace FFlagOffsets
         public const long MeshSimplificationStats = 0x82478a8;
         public const long MeshSimplificationTelemetry = 0x82478d0;
         public const long MeshStreamingAndImprovedLodsDefaultEnabled = 0x82555c0;
-        public const long MeshStreamingAndImprovedLodsThreePhaseRolloutProperty = 0x8182cd8;
         public const long MeshStreamingLODTranscodeDefaultFormat = 0x82ddba0;
         public const long MeshStreamingLODTranscodeMajorVersion = 0x82ddb80;
         public const long MeshStreamingLODTranscodeRollout = 0x8257dc8;
@@ -8065,7 +7864,6 @@ namespace FFlagOffsets
         public const long MessageBusCrashOnInvalidJSON = 0x822b838;
         public const long MessagingService = 0x8252cc8;
         public const long MessagingServiceAnalysisPeriodSeconds = 0x8252c80;
-        public const long MessagingServiceCounterV2 = 0x817fc48;
         public const long MessagingServiceProxiedIpHeader = 0x8252b48;
         public const long MetalExposePresentTiming = 0x823dfa8;
         public const long MetricFlagsOverride = 0x82cc9a0;
@@ -8116,19 +7914,15 @@ namespace FFlagOffsets
         public const long MicroprofilerPerFrameCpuSpeed3 = 0x8245460;
         public const long MicroprofilerRecentDumpCount = 0x8245818;
         public const long MicroprofilerShowRecentDumps = 0x8245800;
-        public const long MidPhaseParallelPairsBatchSize = 0x81768b8;
-        public const long MidPhaseParallelPairsSerialCutoff = 0x81768d0;
         public const long MiddleTeardownTimeoutSeconds = 0x8267a00;
         public const long MigrateAceSdkTelemetryToV2 = 0x8249d48;
         public const long MigrateAnalyticsSharedTelemetryToV2 = 0x8244a00;
         public const long MigrateAndroidAnticheatServerTelemetryToV2 = 0x824a588;
         public const long MigrateAsyncComponentToAsyncBinding = 0x82353f8;
         public const long MigrateAudioWiringTelemetryTelemetryToV2 = 0x824a1c8;
-        public const long MigrateAvatarMetricsFromPlayerConfigurer = 0x819db28;
         public const long MigrateBaseRemoteEventLegacyTelemetry = 0x824a648;
         public const long MigrateClientReplicatorLegacyEventIngestTelemetry = 0x824a768;
         public const long MigrateClientReplicatorLegacyMetricsTelemetry = 0x824a5d0;
-        public const long MigrateCompatibilityOnClientDM2 = 0x817ffc0;
         public const long MigrateComponentManagerToRuntimeInjector13 = 0x8235378;
         public const long MigrateComponentManagerToRuntimeInjectorHundredthPercent = 0x8235390;
         public const long MigrateConsumerAppFoundationMessageBusTelemetryToV2 = 0x824aa50;
@@ -8291,8 +8085,6 @@ namespace FFlagOffsets
         public const long MotionBufferMagnitudeCuttoffCenti = 0x825b1e0;
         public const long MotionBuffers3 = 0x823e170;
         public const long MotionBuffersDebug = 0x8258940;
-        public const long MotionDiscontinuityThreshold = 0x815c3c8;
-        public const long Motor6DC0C1WriteTelemetry = 0x8152440;
         public const long Motor6DDesiredAngleEpsilon = 0x82254b8;
         public const long MouseCommand = 0x825f580;
         public const long MouseCommandLifetime = 0x825f550;
@@ -8326,7 +8118,6 @@ namespace FFlagOffsets
         public const long MultiPartUploadS3RequestTimeout = 0x825fce0;
         public const long MultiSurfaceAppearanceMeshAPI = 0x8252408;
         public const long MultiSurfaceAppearanceMeshFMD2 = 0x823b7f8;
-        public const long MultiSurfaceAppearanceMeshWMS = 0x8174a18;
         public const long MultiSurfaceAppearanceMeshWMS2 = 0x8247750;
         public const long MultipartUploadSemaphore = 0x825fca0;
         public const long MultipleKinematicParentsWarning = 0x8230730;
@@ -8536,9 +8327,7 @@ namespace FFlagOffsets
         public const long NetworkPacketsReceive = 0x8272790;
         public const long NetworkPauseLogging = 0x8264360;
         public const long NetworkPerfTestAnalysis5 = 0x8234610;
-        public const long NetworkPerfTestClientAnalysis5 = 0x8161910;
         public const long NetworkPerfTestClientAnalysis6 = 0x82345e0;
-        public const long NetworkPerfTestServerAnalysis5 = 0x8161928;
         public const long NetworkPerfTestServerAnalysis6 = 0x8234628;
         public const long NetworkPerfTestServerAnalysisStatus = 0x8272c30;
         public const long NetworkPerfTestStreamAnalysis = 0x8275050;
@@ -8601,7 +8390,6 @@ namespace FFlagOffsets
         public const long NewNetworkPhysicsLog = 0x822c7d0;
         public const long NewPDAltitudeNoForceZonePercent = 0x82317c0;
         public const long NewPDAltitudeWeakPushFinalDepressPercent = 0x82317a8;
-        public const long NewPDSteepSlopeSlidingWithGravityPercent = 0x815eb48;
         public const long NewProperties_Dev = 0x8250718;
         public const long NewRibbonIxpLayer = 0x82e98f8;
         public const long NewSettingsEndpointExceptionInfluxPermyriad = 0x826e300;
@@ -8611,7 +8399,6 @@ namespace FFlagOffsets
         public const long NewVRSystemHandPitch = 0x8259d60;
         public const long NewWebView2Browser = 0x822dfc0;
         public const long NextGenReplicationThreePhaseRolloutProperty2 = 0x82554d0;
-        public const long NextGenReplicatorEnabledRead3 = 0x8161628;
         public const long NextGenReplicatorEnabledWrite4 = 0x8234640;
         public const long NextGenReplicatorEnabledWriteServerSynchronized = 0x8234460;
         public const long NextGenerationPhysicsSolverThreePhaseRolloutProperty = 0x8255740;
@@ -8619,11 +8406,9 @@ namespace FFlagOffsets
         public const long NgrAttributeValidateOnReparent = 0x82734a8;
         public const long NoAvatarAutoSetupInputModelUpload = 0x8254868;
         public const long NoBandwidthForUnusedChannels = 0x8276858;
-        public const long NoContextFieldDependency = 0x8161d88;
         public const long NoDecompInGeoGen = 0x825b4d8;
         public const long NoOpChatAPI = 0x8263690;
         public const long NoOpWhisperAPI = 0x8263768;
-        public const long NonBlockingAnalyticsExit = 0x8173a70;
         public const long NonHLODCloudEditTerrainFullDetail = 0x8270fc0;
         public const long NonOwningClientsDontDeleteSeatWeld = 0x82336c8;
         public const long NonSolidFloorPercentForceApplication = 0x8231790;
@@ -8652,7 +8437,6 @@ namespace FFlagOffsets
         public const long NumConcurrentBatchRefreshWorkflowsPerAssetProviderInstance = 0x823ce20;
         public const long NumConcurrentBatchWorkflowsPerAssetProviderInstance = 0x823ce08;
         public const long NumFocusChangesBeforeResettingTargetRegionCount = 0x8276118;
-        public const long NumFramesAllowedToBeAboveError = 0x8159818;
         public const long NumFramesToCaptureCallStack = 0x8246850;
         public const long NumFramesToKeepAfterInterpolation = 0x822c920;
         public const long NumOffsetUpdatesBeforeWeTrust = 0x825c4f8;
@@ -8665,14 +8449,11 @@ namespace FFlagOffsets
         public const long NumTypesToReportIntervalBandwidthMetrics = 0x82758b8;
         public const long NumberOfBytesToLogForPktTracing = 0x823ea68;
         public const long NumberOfHops = 0x8277058;
-        public const long OCBoundsCheck = 0x8185f68;
-        public const long OCEvalFastTest = 0x8186028;
         public const long OCFixClipBadPoly = 0x8258c58;
         public const long OCFixZeroSize2 = 0x8258c70;
         public const long OCNewMT7 = 0x8258ce8;
         public const long OCNewMTFixStageSignal = 0x8258d00;
         public const long OCNewMTStackSize = 0x8258d18;
-        public const long OCNewTelem2 = 0x8185ed8;
         public const long OCUseDeferredFeedback4 = 0x8258c40;
         public const long ODARefreshIntervalMs = 0x8226280;
         public const long OOMMessageBoxSessionDisabledPercentHundredths = 0x82451e0;
@@ -8714,7 +8495,6 @@ namespace FFlagOffsets
         public const long OmniSupportedTreatmentTypes = 0x831b8a8;
         public const long OnCloseMiddleTimeoutInSeconds = 0x82679d0;
         public const long OnCloseTimeoutInSeconds = 0x8267a78;
-        public const long OnContactOwnerBufferTimeCentiSec = 0x81599f8;
         public const long OnDisconnectHTTPTimeout = 0x82709f8;
         public const long OnScreenKeyboardController = 0x8224108;
         public const long OnScreenKeyboardFixReleaseFocus = 0x8224130;
@@ -8769,8 +8549,6 @@ namespace FFlagOffsets
         public const long OptimizeHeatmapServiceStatsCollection = 0x825f0e8;
         public const long OptimizeManualNetworkOwnerCheck = 0x82754d0;
         public const long OptimizePartsInPart = 0x822ccf0;
-        public const long OptimizeStreamDataCacheInvalidation = 0x81a0568;
-        public const long OptimizeVRMatrices = 0x81a6190;
         public const long OptimizedContactPipelineSpatialHashOverlapToleranceMicro = 0x8280878;
         public const long OptimizedContactWakeDepth = 0x8280830;
         public const long OpusBridgePacketNotify = 0x8240870;
@@ -8788,7 +8566,6 @@ namespace FFlagOffsets
         public const long OsWarningNumMax = 0x82450f0;
         public const long OtaPatchSafeBackupCleanup = 0x822d560;
         public const long OtaPatchSkipCleanupWhenBackupDirMissing = 0x822d548;
-        public const long OutIsrMetricsInNetworkStats = 0x8161898;
         public const long OuterCageModulo = 0x8235020;
         public const long OuterCageResOver100 = 0x8235008;
         public const long Output = 0x827bd08;
@@ -8807,7 +8584,6 @@ namespace FFlagOffsets
         public const long PCGDKInitializationErrorThrottleHundredthsPercent = 0x8224010;
         public const long PCGDKPartyVoiceEnabled = 0x8224050;
         public const long PCGDKReportCredentialProtocolFailuresToPoints = 0x8223ee0;
-        public const long PCGDKReportSignInUserFailuresToPoints = 0x8150fe0;
         public const long PCGDKSignInUserErrorThrottleHundredthsPercent = 0x8223ff8;
         public const long PCGDKSkipXblCleanupAsync = 0x8223fc8;
         public const long PCGDKSystrayRespectSimplifiedUserModel = 0x8223f80;
@@ -8818,7 +8594,6 @@ namespace FFlagOffsets
         public const long PCLRefactorFixR6MissingHumanoid = 0x8264710;
         public const long PCLUsesApplyDescription4 = 0x8264728;
         public const long PCSCEVLaunchFeasibilityThrottleHundredthsPercent = 0x8295598;
-        public const long PGSJumpForceAdjustment = 0x8160980;
         public const long PGSSolverFileDump = 0x8281190;
         public const long PMDCrashOnBadInput = 0x82460d8;
         public const long PMDecoderTransformNotIdentityCrash = 0x8246428;
@@ -8860,10 +8635,8 @@ namespace FFlagOffsets
         public const long PageMilestoneRegistry = 0x8293610;
         public const long PannerStereoSpreadBlend = 0x826ffb8;
         public const long PannerSupportsVolumetricAudio2 = 0x826ffa0;
-        public const long ParallelBroadPhaseBatchSize = 0x8159ef0;
         public const long ParallelBroadPhaseNewBatchCount = 0x822ccc0;
         public const long ParallelBroadPhaseNewSerialCutoff = 0x822cc90;
-        public const long ParallelBroadPhaseSerialCutoff = 0x8159f20;
         public const long ParallelDynamicPartsFastClusterBatchSize = 0x825ab40;
         public const long ParallelDynamicPartsFastClusterCutoff = 0x825ab10;
         public const long ParallelForThreadStackSize = 0x82453a0;
@@ -8879,7 +8652,6 @@ namespace FFlagOffsets
         public const long ParallelResolveMetadata = 0x8273818;
         public const long ParallelResolveMetadataBatchSize = 0x8273638;
         public const long ParallelResolveMetadataMinReplicators = 0x8273650;
-        public const long ParallelTerrainBroadphase2 = 0x8158fa0;
         public const long ParallelizeAudioPlayers2 = 0x826f318;
         public const long ParallelizeInteractionGroups = 0x826fc70;
         public const long ParameterizeHandler = 0x822abf8;
@@ -8927,13 +8699,10 @@ namespace FFlagOffsets
         public const long PathMaxTxUdpPayloadSizeAggregationTimeThresholdInSeconds = 0x823b0b8;
         public const long PathMaxTxUdpPayloadSizeSampleEveryN = 0x823b1f0;
         public const long PathPrefetchBackwardGraceTicks = 0x8270f18;
-        public const long PathPrefetchColdTurnFloor = 0x81a3560;
         public const long PathPrefetchColdTurnMinDensityHundredths = 0x8276340;
         public const long PathPrefetchDistanceStuds = 0x82762e0;
         public const long PathPrefetchEnableSecondBranch = 0x8270f78;
-        public const long PathPrefetchEnabled = 0x819e1f8;
         public const long PathPrefetchEnabled2 = 0x8270e40;
-        public const long PathPrefetchGuardNonFiniteInput = 0x81a35a8;
         public const long PathPrefetchHeatmapYWindowRegions = 0x82762f8;
         public const long PathPrefetchLookaheadSeconds = 0x8275e68;
         public const long PathPrefetchMaxFoci = 0x8270ea0;
@@ -8947,17 +8716,10 @@ namespace FFlagOffsets
         public const long PathPrefetchMinForkRatioHundredths = 0x8270f30;
         public const long PathPrefetchMinSpeedStudsPerSec = 0x8275e38;
         public const long PathPrefetchOffPathTicks = 0x8270ed0;
-        public const long PathPrefetchReleaseBackwardFociPerSample = 0x819e2d0;
-        public const long PathPrefetchReleaseFociOnStop = 0x819e2e8;
-        public const long PathPrefetchReleaseOnCharacterAbsent = 0x819e240;
-        public const long PathPrefetchReleaseOnStreamCenterJump = 0x819e210;
         public const long PathPrefetchRequireTerminalDensity = 0x8270e88;
-        public const long PathPrefetchResolveServiceOffReplicator = 0x819e3a8;
-        public const long PathPrefetchRetireStreamedInFoci = 0x819e348;
         public const long PathPrefetchSymmetricWalkMode = 0x8276358;
         public const long PathPrefetchTTLSeconds = 0x8270eb8;
         public const long PathPrefetchTurnConfidenceThresholdHundredths = 0x8276328;
-        public const long PathPrefetchUnifiedWalk = 0x81a3500;
         public const long PathPrefetchVelocitySmoothingTicks = 0x8275e50;
         public const long PathfindingBuildCountourFailureThrottleHundrethsPercentPoints = 0x8224ba8;
         public const long PathfindingDetail = 0x8224370;
@@ -9102,7 +8864,6 @@ namespace FFlagOffsets
         public const long PerformanceControlDynamicFrameTimeTarget6 = 0x8238e60;
         public const long PerformanceControlEnableEnjoyabilityScoreInputs = 0x82730f0;
         public const long PerformanceControlEnableFTTTableGranularityScalar = 0x8238f38;
-        public const long PerformanceControlEnableMultiResourceOrchestrator2 = 0x81659b8;
         public const long PerformanceControlEnableSimulationBoundedness = 0x8239170;
         public const long PerformanceControlExcessCoolOffPeriodIncrease = 0x8238d10;
         public const long PerformanceControlExcessMeasurementToleranceHundredthsPercent = 0x8238cc8;
@@ -9161,7 +8922,6 @@ namespace FFlagOffsets
         public const long PerformanceControlPhysicsClientDutyPercentMinimum = 0x82632d8;
         public const long PerformanceControlPhysicsClientDutyStepSize = 0x8263320;
         public const long PerformanceControlPhysicsComputePrimaryEnabled = 0x82632a8;
-        public const long PerformanceControlPhysicsTunableEnabled = 0x8190470;
         public const long PerformanceControlQueryBatteryState = 0x8238868;
         public const long PerformanceControlService = 0x82955b0;
         public const long PerformanceControlSessionTrackingUpdateIntervalMs = 0x82392b8;
@@ -9195,7 +8955,6 @@ namespace FFlagOffsets
         public const long PerformanceControlThermalThrottleCompute = 0x82388f8;
         public const long PerformanceControlThermalThrottleExitCooldownSeconds = 0x8238950;
         public const long PerformanceControlThermalThrottleMemory = 0x8238910;
-        public const long PerformanceControlUpdateSystemState = 0x81668a8;
         public const long PerformanceControlUseDynamicFTT2 = 0x82788c8;
         public const long PerformanceControlUseExcessInBudgetCalculations = 0x8238cf8;
         public const long PerformanceControlUseExcessInBudgetCalculationsDebug = 0x8238ce0;
@@ -9223,7 +8982,6 @@ namespace FFlagOffsets
         public const long Physics = 0x8246518;
         public const long PhysicsAnalyticsHighFrequencyIntervalSec = 0x822d0e8;
         public const long PhysicsAnalyticsIntervalSec = 0x822d0d0;
-        public const long PhysicsAppTelemetryReporting = 0x815a4d8;
         public const long PhysicsAppTelemetryReportingV2 = 0x822d100;
         public const long PhysicsEMAInverseSmoothingFactor = 0x822be60;
         public const long PhysicsEMAInverseSmoothingFactorThrottling = 0x822be48;
@@ -9251,7 +9009,6 @@ namespace FFlagOffsets
         public const long PhysicsTelemetryServerAuthorityMode = 0x822bf98;
         public const long PhysicsTelemetryUniverseIdAndMemoryTotal = 0x822cee0;
         public const long PhysicsWorldStatsHundredth = 0x822cef8;
-        public const long PiercingLadderSensorTrussEarlyOut = 0x81526b0;
         public const long PinByUniqueIdApi = 0x8277938;
         public const long PinShortcutAddToStartMenu = 0x822dee0;
         public const long PinShortcutCore = 0x8283488;
@@ -9321,15 +9078,7 @@ namespace FFlagOffsets
         public const long PlayerCountryRegionCodePropertyFallbackValue = 0x82f25c0;
         public const long PlayerData = 0x8227560;
         public const long PlayerDataApisEnableAccess = 0x82646c8;
-        public const long PlayerDataJobFrequencySeconds = 0x8191908;
-        public const long PlayerDataMaxRecordConfigCount = 0x8191938;
-        public const long PlayerDataMaxRecordsCheckedOut = 0x81919b0;
         public const long PlayerDataMetricsIncludeUniverseIdAndPlaceId = 0x8227548;
-        public const long PlayerDataRecordFlushIntervalSeconds = 0x8191968;
-        public const long PlayerDataRecordLoadMaxWaitMs = 0x8191998;
-        public const long PlayerDataRecordLoadingIntervalMs = 0x81919c8;
-        public const long PlayerDataRecordReleaseIntervalMs = 0x8191980;
-        public const long PlayerDataRequestFlushPerMinLimit = 0x8191920;
         public const long PlayerDataServiceSkipShutdownWait = 0x82646e0;
         public const long PlayerDestroyDelaySeconds = 0x8263488;
         public const long PlayerDeviceTrust = 0x8252fa0;
@@ -9372,13 +9121,11 @@ namespace FFlagOffsets
         public const long PlayersApiUsageTelemetryHundredthsPercent = 0x82634a0;
         public const long PlayersGetFriendsAsyncEventsThrottleHundredthsPercent = 0x8263470;
         public const long PluginActivation = 0x8260de0;
-        public const long PluginGuiFixCloseCallbackUseAfterFree = 0x818e1e8;
         public const long PluginGuiResetsSelectionOnFocusLost = 0x8260e50;
         public const long PluginGuiServiceExplorerVerbsManIReallyHopeTheseAreTheLastOnes = 0x8260d30;
         public const long PluginKeyboardNavigation2 = 0x825ff70;
         public const long PluginLoadingEnhanced = 0x8260dd0;
         public const long PluginManifestV0 = 0x827dc00;
-        public const long PluginRenderSelectedObject = 0x8193958;
         public const long PluginSuspendOverrideAllowedBuiltins = 0x82ef9f0;
         public const long PluginTabSequentialNavigation2 = 0x825ff88;
         public const long PluginTesting = 0x8260d90;
@@ -9395,7 +9142,6 @@ namespace FFlagOffsets
         public const long PolicyServiceHttpErrorHundredthsPercentage = 0x822ab08;
         public const long PolicyServiceHttpErrorOnRetryHundredthsPercentage = 0x822aaf0;
         public const long PolicyServiceHttpRequestBackoffScale = 0x822aad8;
-        public const long PolicyServiceMigrationEndpointsEnabled2 = 0x8157bf8;
         public const long PolicyServiceReportDetailIsNotSubjectToChinaPolicies = 0x822ab80;
         public const long PolicyServiceReportDetailIsNotSubjectToChinaPoliciesHundredthsPercentage = 0x822ab68;
         public const long PolicyServiceReportFailureForLuobu = 0x822ab50;
@@ -9416,7 +9162,6 @@ namespace FFlagOffsets
         public const long PopLatencyProbeWarmupOnly = 0x827ca90;
         public const long PopLatencyProbeWarmupOnlyCleanup = 0x827ca78;
         public const long PopLatencyService = 0x822b800;
-        public const long PopLatencyUseAllRegionsTurnFromVoiceService = 0x81587d8;
         public const long PopulateCodecParVideoPropsFromWebmContainer = 0x8237ef8;
         public const long PopulatePlayerDataPing = 0x82729a8;
         public const long PopulatePlayerUser = 0x8270950;
@@ -9446,7 +9191,6 @@ namespace FFlagOffsets
         public const long PreStepSimulatorSidePassByRef = 0x822fea0;
         public const long PrebuiltR15MatchingIgnoreBones = 0x8230658;
         public const long PreciseTimeJumpMsec = 0x827bbf8;
-        public const long PrecomputeSetMoveRegionDelta2 = 0x81a2ff0;
         public const long PredictedOOM = 0x82451f8;
         public const long PredictedOOMContinueTestNoGuiServiceAccess = 0x8245080;
         public const long PredictedOOMExitContinuePercent = 0x82450d8;
@@ -9466,7 +9210,6 @@ namespace FFlagOffsets
         public const long PrefetchProtocol = 0x8260f10;
         public const long PrefetchRequestMismatchEventThrottleHundrethsPercent = 0x8260ef8;
         public const long PrefetchRequestSentEventThrottleHundrethsPercent = 0x828fec8;
-        public const long PrefetchWaitForAppStorage = 0x81ac4e0;
         public const long PreiumUpsellMembershipCheckDelay = 0x8229b50;
         public const long PreloadAllowedPlaceIds = 0x829bd08;
         public const long PreloadAsyncMeshMatchRenderRequest2 = 0x8228558;
@@ -9498,7 +9241,6 @@ namespace FFlagOffsets
         public const long PresetChatUseExpressionTrayOptionsEndpoint2 = 0x827d380;
         public const long PreventStreamInViaTools = 0x8273698;
         public const long PriceComponentTextSize = 0x8250550;
-        public const long PrimPairToJointCountRBXHashMap = 0x8159dd0;
         public const long PrimStatsGANumDelimited = 0x8274d20;
         public const long PrimalCollisionPenetrationResolutionDamping = 0x82811c0;
         public const long PrimalObjective = 0x82812f8;
@@ -9550,7 +9292,6 @@ namespace FFlagOffsets
         public const long PropertiesWidgetHideContentIds = 0x822f348;
         public const long PropertyRejectionCountTelemetry = 0x8273cd8;
         public const long PropertySet = 0x823e980;
-        public const long PropertySetSortUnorderedInstanceIds = 0x816b898;
         public const long PropsetCreationAttempts = 0x8278ef0;
         public const long PropsetCreationPerSecond = 0x8278e50;
         public const long ProtectClientsToUpdateAccess = 0x822e898;
@@ -9681,7 +9422,6 @@ namespace FFlagOffsets
         public const long RCCThumbnailReportPriorityHundredthsPercent = 0x8259090;
         public const long RCCUploadDataModelRequestTelemetryThrottleHundredthsPercent = 0x826a110;
         public const long RIDE11755 = 0x82682c0;
-        public const long RIDE12723 = 0x81965b8;
         public const long RIDE12959 = 0x8269310;
         public const long RLReceiveFailureAckDeserializeThreshold = 0x823fa18;
         public const long RLReceiveFailureAckRangeBadThreshold = 0x823fa00;
@@ -9734,7 +9474,6 @@ namespace FFlagOffsets
         public const long RUCalculation_ReportHundredthsPercent = 0x82659f8;
         public const long RUDryRunTelemetryHundredthsPercent = 0x82659b8;
         public const long RUFixColdStartViewportScale = 0x8259f68;
-        public const long RUHandheldDetectionDeviceFormOnly = 0x8192f30;
         public const long RUReportViewportSizeInMM = 0x82659e0;
         public const long RUUserScalePreference4 = 0x8265d88;
         public const long RVideoAudioTimingFixes = 0x8237c18;
@@ -9759,7 +9498,6 @@ namespace FFlagOffsets
         public const long RakNetBindTTokenToClientIp = 0x823f0d0;
         public const long RakNetCalculateApplicationFeedback2 = 0x823f7f0;
         public const long RakNetCapSplitPacketAllocation = 0x823f488;
-        public const long RakNetCapSplitPacketAllocationV2 = 0x816c7f8;
         public const long RakNetClockDriftAdjustmentPerPingMillisecond = 0x823e9c0;
         public const long RakNetConnectTrace = 0x823ec98;
         public const long RakNetConnectionFailureFallbackToRbxTransport = 0x8274a50;
@@ -9866,7 +9604,6 @@ namespace FFlagOffsets
         public const long RbfDiagonalEps = 0x8235098;
         public const long RbfLLTFasterKernelSafetyMargin = 0x82350b0;
         public const long RbfMinDistance = 0x8235080;
-        public const long RbsConfigAliasResolution2 = 0x81967b0;
         public const long RbsConfigAliasResolution3 = 0x82694d8;
         public const long RbsConfigModuleRequireTelemetry = 0x8268ff8;
         public const long RbsConfigParseCache = 0x82694f0;
@@ -9903,7 +9640,6 @@ namespace FFlagOffsets
         public const long RbxStorageDontQueryForNonPermanentCategorySizes = 0x823cf78;
         public const long RbxStorageDropCacheErrorsThreshold2 = 0x823d0b0;
         public const long RbxStorageEnableDbCacheSelfTest = 0x823d278;
-        public const long RbxStorageEnableFileCacheSelfTest = 0x816a240;
         public const long RbxStorageEnforceRodeoVideoDataLimitMBs = 0x823d438;
         public const long RbxStorageErrorLogHundredthsPercent = 0x8227470;
         public const long RbxStorageFCLocation = 0x823d690;
@@ -9930,12 +9666,7 @@ namespace FFlagOffsets
         public const long RbxStorageRemoveOnInitCleanupMiB = 0x823cfc0;
         public const long RbxStorageRemoveOnInitThresholdMiB = 0x823cfd8;
         public const long RbxStorageReportHitListOverflowMaxCount = 0x823d420;
-        public const long RbxStorageReportMaxReadWriteStats = 0x816a120;
-        public const long RbxStorageReportUniqueIDForAllPoints = 0x8154398;
         public const long RbxStorageRollingStatsHundredthsPercent = 0x8227488;
-        public const long RbxStorageRunInitBlockingCall = 0x816a5c8;
-        public const long RbxStorageRunInitInStdThread = 0x816a580;
-        public const long RbxStorageRunInitInStdThreadLatch = 0x816a598;
         public const long RbxStorageSQLiteL2MissCap = 0x8249b98;
         public const long RbxStorageSlowInitDelayMS = 0x823d1a0;
         public const long RbxStorageSlowReadHundredthsPercent = 0x8227440;
@@ -10017,7 +9748,6 @@ namespace FFlagOffsets
         public const long RbxTransportEndpointAddr = 0x8239f78;
         public const long RbxTransportEnforcePortRange = 0x8239c58;
         public const long RbxTransportEphemeralEarlyPubKeyPlayerClientLoadingThrottleHundredthsPercent = 0x8270ba0;
-        public const long RbxTransportFailClosedCapabilityNegotiation = 0x81670f0;
         public const long RbxTransportFallbackStudioMessage = 0x8302180;
         public const long RbxTransportFallbackToRakNetEventHundredthsPercentage = 0x82749c0;
         public const long RbxTransportFallbackToRakNetStatusHundredthsPercentage = 0x82749a8;
@@ -10039,7 +9769,6 @@ namespace FFlagOffsets
         public const long RbxTransportIoLibContext = 0x8239fd0;
         public const long RbxTransportIoPlayStationEpollWait = 0x823a098;
         public const long RbxTransportIoPlayStationNbio = 0x823a068;
-        public const long RbxTransportIpRateLimit = 0x8167018;
         public const long RbxTransportIpRateLimitMaxConns = 0x8239ca0;
         public const long RbxTransportIpRateLimitWindowMs = 0x8239ce8;
         public const long RbxTransportIsolateIdleTimeout = 0x82857e0;
@@ -10072,7 +9801,6 @@ namespace FFlagOffsets
         public const long RbxTransportPortRangeHigh = 0x8239cb8;
         public const long RbxTransportPortRangeLow = 0x8239c70;
         public const long RbxTransportProfileIoEventLoopThreads = 0x8239fa0;
-        public const long RbxTransportPureQuicSupport = 0x8166f78;
         public const long RbxTransportQuicActiveConnectionIdLimit = 0x823a2f8;
         public const long RbxTransportQuicClearHandlersOnClose = 0x823a280;
         public const long RbxTransportQuicClientPmtudFix = 0x823a3e8;
@@ -10081,7 +9809,6 @@ namespace FFlagOffsets
         public const long RbxTransportQuicConnection = 0x823a1f0;
         public const long RbxTransportQuicDeferConnectionClose = 0x823a328;
         public const long RbxTransportQuicDetailedLogging = 0x823a298;
-        public const long RbxTransportQuicEdgeDcRouting2 = 0x81679a8;
         public const long RbxTransportQuicEdgeDcRouting3 = 0x823a670;
         public const long RbxTransportQuicEmptyPayloadNoFinFix3 = 0x823a370;
         public const long RbxTransportQuicExtendMaxRemoteStreamsBidiCallback = 0x823a3b8;
@@ -10093,7 +9820,6 @@ namespace FFlagOffsets
         public const long RbxTransportQuicInitialPtoMs = 0x823a238;
         public const long RbxTransportQuicListenerSockBufSize = 0x8239c88;
         public const long RbxTransportQuicMigrationPerPathPmtud = 0x823a400;
-        public const long RbxTransportQuicOnewayShutdown = 0x81676d8;
         public const long RbxTransportQuicPacker = 0x823a688;
         public const long RbxTransportQuicPacketOverheadEstimateBytes = 0x823a268;
         public const long RbxTransportQuicPacketReaderCloseAfterRecvError = 0x823a0e8;
@@ -10104,7 +9830,6 @@ namespace FFlagOffsets
         public const long RbxTransportQuicReentrantStreamFlush = 0x823a388;
         public const long RbxTransportQuicRxTimestampFallback = 0x823a418;
         public const long RbxTransportQuicServerSocket = 0x823a200;
-        public const long RbxTransportQuicSetLastErrorOnLocalClose = 0x81675e8;
         public const long RbxTransportQuicSocket = 0x823a0d8;
         public const long RbxTransportQuicStableStreamContexts = 0x823a3a0;
         public const long RbxTransportQuicUnregisterRetiredCid = 0x823a310;
@@ -10146,7 +9871,6 @@ namespace FFlagOffsets
         public const long RbxTransportRtcIoMaxNetStreamPayloadBytes = 0x8239b90;
         public const long RbxTransportRtcIoSelfSignedCertRotation2 = 0x8239990;
         public const long RbxTransportRtcIoServerForceReliableChannels = 0x82398e8;
-        public const long RbxTransportRtcIoTrackPendingConnectionCloses = 0x81670d8;
         public const long RbxTransportRtcIoUseMultipleEventLoopThreads = 0x82397a0;
         public const long RbxTransportRtcioConnStartReentrant2 = 0x8239b48;
         public const long RbxTransportRtcioCreditChannelHeader = 0x8239918;
@@ -10157,7 +9881,6 @@ namespace FFlagOffsets
         public const long RbxTransportRtcioUnreliableRecvQueueSize = 0x8239ab8;
         public const long RbxTransportRtcioValidateApplicationEnum = 0x8239b78;
         public const long RbxTransportRuntime = 0x828b5f0;
-        public const long RbxTransportRxOverflowBuffer = 0x8166e00;
         public const long RbxTransportRxOverflowMaxBytes = 0x8239b00;
         public const long RbxTransportRxOverflowMaxItems = 0x8239ae8;
         public const long RbxTransportRxOverflowTelemetryThrottle = 0x8239b18;
@@ -10168,11 +9891,9 @@ namespace FFlagOffsets
         public const long RbxTransportSentinelWireChannelIdCheck = 0x823a190;
         public const long RbxTransportServerPort = 0x8275140;
         public const long RbxTransportServerStreamLimits = 0x8239870;
-        public const long RbxTransportSessionCrypto = 0x81a1d30;
         public const long RbxTransportSetNoSigPipe = 0x823a080;
         public const long RbxTransportShareRuppTokenProcessor = 0x8239c40;
         public const long RbxTransportSharedClientConfig = 0x8274b58;
-        public const long RbxTransportShiftPhysicsTimestamp = 0x819eb38;
         public const long RbxTransportSmoothBandwidthStats = 0x82721d0;
         public const long RbxTransportStatsPanel = 0x82721e8;
         public const long RbxTransportStunPopProbe = 0x827ca20;
@@ -10245,7 +9966,6 @@ namespace FFlagOffsets
         public const long ReactiveJoinReservedGameRolloutHundredthsPercentage = 0x8280010;
         public const long ReactiveJoinTeleportRolloutHundredthsPercentage = 0x827ffc8;
         public const long ReactiveJoinUserIdAllowlist = 0x830f378;
-        public const long ReadAgeChecked = 0x819def8;
         public const long ReadFileMeshUseOptions = 0x823b788;
         public const long ReadHasRobloxSubscription = 0x8270968;
         public const long ReadHasRobloxSubscriptionFromUserSettings = 0x8264158;
@@ -10347,7 +10067,6 @@ namespace FFlagOffsets
         public const long RefactorAdsInitializingAllPlatforms = 0x8226188;
         public const long RefactorBindBufferData2 = 0x823e1e8;
         public const long RefactorGlyphProviderInitializationProcedure4 = 0x822dbc0;
-        public const long RefactorIngressFlow = 0x8189a90;
         public const long RefactorPIPSAsyncMeshFetch = 0x8225158;
         public const long RefactorRCCModeName2 = 0x8243d00;
         public const long RefactorStudioTestAdPath = 0x8226840;
@@ -10420,19 +10139,16 @@ namespace FFlagOffsets
         public const long RemoteProfilerCaptureAtFlipUseXHtmlDump = 0x8273918;
         public const long RemoveBanKicks = 0x8263648;
         public const long RemoveCallbcakAfterTriggering = 0x8260ec8;
-        public const long RemoveCharacterNameLock = 0x8190d90;
         public const long RemoveCookieProtocolStorage = 0x8247c38;
         public const long RemoveDeprecatedSavePlaceAsync2 = 0x822d170;
         public const long RemoveHttpProcessQueueFromGuiBuilder = 0x8267138;
         public const long RemoveImmersiveAdHealthPoints = 0x8226898;
         public const long RemoveInExperienceGmaEligibilityCheck = 0x8226170;
-        public const long RemoveInertiaFromExclusionList = 0x81811f0;
         public const long RemoveInstanceStreamForModelMeshVertexDecal = 0x8258708;
         public const long RemoveLegacyChatCodeInNetwork = 0x8274dc8;
         public const long RemoveLegacyPackageAnalytics = 0x8263160;
         public const long RemoveLegacyRedundantPlayerCheck = 0x8263600;
         public const long RemoveNetworkFilterLegacyParentExceptions = 0x8277cf8;
-        public const long RemoveNonR15PlusHrd = 0x815c218;
         public const long RemovePermuteInEdgebreaker = 0x82464a0;
         public const long RemovePredelete = 0x8234178;
         public const long RemoveRenderCaps = 0x82586c0;
@@ -10441,7 +10157,6 @@ namespace FFlagOffsets
         public const long RemoveStyleEngineInstanceStyle = 0x822dde0;
         public const long RemoveTrayUserAgentKeyword = 0x8223a18;
         public const long RemoveUnassignedSystemAddress = 0x8274a38;
-        public const long RemoveUnnecessaryKick = 0x8190870;
         public const long RemoveUnnecessarySetExternalRequest = 0x827f028;
         public const long RemoveVideoStreamZeroResolutionLegacyCounter = 0x8261ca8;
         public const long RemoveVideoThumbnailLegacyCounter = 0x828fff8;
@@ -10475,7 +10190,6 @@ namespace FFlagOffsets
         public const long RenderDTMLowResPoolSize = 0x8259538;
         public const long RenderDeferCaptureUntilFrameSubmitted = 0x825a070;
         public const long RenderDepthPrepassDistanceScaler = 0x8258988;
-        public const long RenderDisableAoTransparent = 0x81867e8;
         public const long RenderDoc = 0x825b740;
         public const long RenderDx11CPUMemoryUsedByIntegratedGPUMB = 0x823e360;
         public const long RenderDx11IGPUDedicatedVideoMemoryThresholdMB = 0x823e378;
@@ -10483,10 +10197,7 @@ namespace FFlagOffsets
         public const long RenderDx11LowEndCoreCount = 0x823e3c0;
         public const long RenderEISAMixedWarning = 0x8259550;
         public const long RenderEditInPlace2 = 0x825a6b0;
-        public const long RenderEmitterOcclusionCulling = 0x8187740;
-        public const long RenderEnableGlobalInstancingD3D10 = 0x8187518;
         public const long RenderEnableGlobalInstancingOrbis2 = 0x823dfd8;
-        public const long RenderEnableGlobalInstancingOrbisDebugMode = 0x816b408;
         public const long RenderEnableGlobalInstancingVulkan = 0x825a108;
         public const long RenderEnableLateResourceBindOrbis = 0x823df48;
         public const long RenderEnableMultiVE = 0x8258378;
@@ -10495,11 +10206,9 @@ namespace FFlagOffsets
         public const long RenderEnableSubviewRendering = 0x82584f8;
         public const long RenderEnvMapPBR = 0x825abe8;
         public const long RenderFastCluster = 0x825b598;
-        public const long RenderFastClusterOcclusionCulling4 = 0x81889f0;
         public const long RenderFixCSGMeshCancelRace = 0x8257d68;
         public const long RenderFixCloudsXbox = 0x825b280;
         public const long RenderFixCullHandleTransfer = 0x825a780;
-        public const long RenderFixDofFramebufferDrawportSetting2 = 0x81b82e8;
         public const long RenderFixEditableMeshExtentsCFrameLifetime = 0x825a7e0;
         public const long RenderFixFogSkyboxOrientation = 0x8259fb0;
         public const long RenderFixMeshBatchHiQualCount = 0x8257c60;
@@ -10524,8 +10233,6 @@ namespace FFlagOffsets
         public const long RenderIGUploadBufferSize = 0x825a150;
         public const long RenderInstanceGlob = 0x825a168;
         public const long RenderInstancedCluster2 = 0x825a6c8;
-        public const long RenderLanczosSubpixel = 0x8185e30;
-        public const long RenderLanczosUpsamplingNonRinging2 = 0x8185e00;
         public const long RenderLightGrid = 0x825b8b0;
         public const long RenderLightGridAgeProportion = 0x825b8a0;
         public const long RenderLightGridAgeProportionBudget = 0x825b828;
@@ -10537,10 +10244,6 @@ namespace FFlagOffsets
         public const long RenderMaxShadowAtlasUsageBeforeDownscale = 0x825a918;
         public const long RenderMaxWaitForGpuD3D11TimeMsec = 0x823e3a8;
         public const long RenderMeshAllRequestDistancePriority = 0x8257c00;
-        public const long RenderMeshBudgetTier0MB = 0x8184fd0;
-        public const long RenderMeshBudgetTier1MB = 0x8184fe8;
-        public const long RenderMeshBudgetTier2MB = 0x8184f88;
-        public const long RenderMeshBudgetTier3MB = 0x8184fa0;
         public const long RenderMeshBulkUploadMaxCount = 0x82580c8;
         public const long RenderMeshBulkUploadMaxSize = 0x8258098;
         public const long RenderMeshBulkUploadMaxTimeMs = 0x8258080;
@@ -10564,7 +10267,6 @@ namespace FFlagOffsets
         public const long RenderMeshRetryMaxCount = 0x8257d20;
         public const long RenderMeshRetryStuckFrames = 0x8257d38;
         public const long RenderMeshStreamingLodGapTelemetry = 0x8257d98;
-        public const long RenderMeshUseTieredBudget = 0x8184f58;
         public const long RenderMeshVisibilityFrameThreshold = 0x8257d50;
         public const long RenderMobileNeonHighlightFix = 0x82594d8;
         public const long RenderModelMeshDecodeBoundsCheck = 0x8258e60;
@@ -10585,14 +10287,12 @@ namespace FFlagOffsets
         public const long RenderPerformanceOverlay = 0x82588f8;
         public const long RenderPipeline = 0x825bde0;
         public const long RenderPipelineSkinning = 0x825bdf0;
-        public const long RenderPipelineVersioningFlag7 = 0x81b82b8;
         public const long RenderPipelineVersioningFlag8 = 0x828b738;
         public const long RenderPointLightShadowPrecision = 0x825a990;
         public const long RenderPostFxBasePixelCount = 0x8258a60;
         public const long RenderProfilerReportDRSResolution = 0x8258b38;
         public const long RenderQueueSortByNearest = 0x825afe8;
         public const long RenderReleaseDeviceCacheOnGarbageCollect = 0x825a028;
-        public const long RenderReportOverdraw = 0x8185b30;
         public const long RenderReportShadowMapUpdateTimeDelayFrames = 0x825a8a0;
         public const long RenderReportShadowMapUpdateTimeHundredthPercent = 0x825a870;
         public const long RenderSSAOFrameIndexWrapFix = 0x825b310;
@@ -10610,7 +10310,6 @@ namespace FFlagOffsets
         public const long RenderShadowResolutionUseMemoryTierPolicy = 0x825a840;
         public const long RenderShadowmapBias = 0x825a888;
         public const long RenderSkipDisabledEmitterBoundings = 0x825b9c8;
-        public const long RenderSmootherStepUpsampling2 = 0x8185dd0;
         public const long RenderSolidAssetReceiveTelemetry = 0x8257d08;
         public const long RenderStarsAsQuads = 0x825b1f8;
         public const long RenderStarsWriteNormalColor = 0x825b258;
@@ -10740,7 +10439,6 @@ namespace FFlagOffsets
         public const long ReportAdditionalFieldsForBWMetrics = 0x8271838;
         public const long ReportAnimationReplicationTelemetry = 0x8230c40;
         public const long ReportAnimationTrackSpamInfluxHundrethsPercent = 0x8272ba0;
-        public const long ReportAssetRequestType = 0x8155250;
         public const long ReportAvatarAssetLoadTimesPerMyriad = 0x8264a18;
         public const long ReportBadGlyphProviderIdHundredthsPercent = 0x82583d8;
         public const long ReportBandwidthCapHit = 0x825c790;
@@ -10795,7 +10493,6 @@ namespace FFlagOffsets
         public const long ReportHumanoidRigPercentageHundredths = 0x822ef18;
         public const long ReportIASInputBindingsMappingSize = 0x8266348;
         public const long ReportIASInputBindingsMappingSizeThrottleHundrethsPercent = 0x8266248;
-        public const long ReportISRInputPing = 0x8189f60;
         public const long ReportIncomingRepLagWithStats = 0x8276720;
         public const long ReportInfiniteRadiusStreamJobStats = 0x8271498;
         public const long ReportInfiniteRadiusStreamJobStatsUpdate = 0x82712b8;
@@ -10814,7 +10511,6 @@ namespace FFlagOffsets
         public const long ReportJoinDataItemV2CacheEfficiencyHundrethsPercentage2 = 0x82767b0;
         public const long ReportJoinInstaceStatsToEventIngestHundredthsPercent = 0x8276780;
         public const long ReportJoinInstanceCountStreamingDataHundredthPercentage = 0x82767c8;
-        public const long ReportJoinStructureMismatchOnly = 0x81a09d0;
         public const long ReportJoinStructureMismatchThrottle = 0x82736e0;
         public const long ReportJointCountPerAnimator = 0x8230c70;
         public const long ReportKeyringVersionBeingUsed = 0x8247538;
@@ -10838,7 +10534,6 @@ namespace FFlagOffsets
         public const long ReportMeshLodTelemetry = 0x8258128;
         public const long ReportMeshManagerUsedUnusedTelemetry = 0x8257bd0;
         public const long ReportNIIStricterPrefilterTCHundredths = 0x8277c38;
-        public const long ReportNanRaycastResults = 0x8151e18;
         public const long ReportNavigationTileLastUsedDurationRateAllowed = 0x8224ad0;
         public const long ReportNavigationTileLastUsedDurationRateTotal = 0x8224aa0;
         public const long ReportNetAssetChecksStatsHundredths = 0x825c818;
@@ -10893,7 +10588,6 @@ namespace FFlagOffsets
         public const long ReportSecondVEHundredthsPercent2 = 0x82585a0;
         public const long ReportSendItemLimitMetricsStatsHundredths = 0x8276cd0;
         public const long ReportSendSpireSvidJwt = 0x8247d10;
-        public const long ReportSharedStringBreakdown3 = 0x81a36e0;
         public const long ReportSimulationToFBLatencyInfluxHundredthsPercentage = 0x8272b58;
         public const long ReportSoundAssetsAssetList = 0x82fc058;
         public const long ReportSoundAssetsRate = 0x826e8a0;
@@ -10967,7 +10661,6 @@ namespace FFlagOffsets
         public const long ResponsiveUnit = 0x82659d0;
         public const long ResponsiveUnitBaseSize2 = 0x8265940;
         public const long ResponsiveUnitDefaultIsEnabled = 0x8265a70;
-        public const long ResponsiveUnitHHLogicalBuckets = 0x8192f18;
         public const long RestartFmodRecordingCooldownMs = 0x82406f0;
         public const long RestoreLcVertexAveragingToleranceMillionths = 0x8235140;
         public const long RestrictSales2 = 0x8229ad8;
@@ -10985,7 +10678,6 @@ namespace FFlagOffsets
         public const long RetryNotProcessedReceiptsOnJoin = 0x8229c58;
         public const long ReturnEarlyFromEngineContextMismatchCheck = 0x8234bb8;
         public const long ReturnNullForImproperGetServiceAccess = 0x8240010;
-        public const long ReuseTerrainIteratorGridListener = 0x81a2d68;
         public const long RevampCoexperienceTelemetryTable = 0x827f330;
         public const long ReverbBackoffMaxRaysPerFrame = 0x826fd60;
         public const long ReverbBackoffMinRaysPerFrame = 0x826fd78;
@@ -11137,7 +10829,6 @@ namespace FFlagOffsets
         public const long RttVarMsAggregationTimeThresholdInSeconds = 0x823b070;
         public const long RttVarMsSampleEveryN = 0x823b1a8;
         public const long RunRbxmToCacheJobsSequentially = 0x822d2f8;
-        public const long RunningBaseGravityReductionFactorHundredth = 0x815eab8;
         public const long RuntimeContentLog = 0x8256dc8;
         public const long RuntimeContentPinArcKey = 0x8256c18;
         public const long RuntimeContentServiceEncapsulateDecodeEncodedImage = 0x8256a20;
@@ -11155,7 +10846,6 @@ namespace FFlagOffsets
         public const long RuppMissingTlvsPointsThrottleHundredthsPercent = 0x823ac50;
         public const long RuppSerializationErrorReportHundredthsPercent = 0x823ac20;
         public const long RuppTokEnPath = 0x82b5a00;
-        public const long RuppTokenAlgoTelemetry = 0x8168030;
         public const long RuppTokenClientLog2 = 0x823ac98;
         public const long RuppTokenLog = 0x823ad00;
         public const long RuppTokenOneBeeRcc = 0x823aca8;
@@ -11165,10 +10855,6 @@ namespace FFlagOffsets
         public const long S2PhysicsSenderRate = 0x8234688;
         public const long SAToolEquip = 0x8252208;
         public const long SAuthDontStepInterpolationDuringResim = 0x822bf80;
-        public const long SAuthHumanoidOnAncestorCrash = 0x815c560;
-        public const long SAuthLocallyCompressPVs = 0x815a0c8;
-        public const long SAuthLocallyCompressPVsIncludeCofmPV = 0x815a080;
-        public const long SAuthLocallyCompressPVsSolver = 0x815a038;
         public const long SAuthRequirePropertyDependenciesToggled = 0x82554b8;
         public const long SAuthWorkspaceFlagged4 = 0x82346b8;
         public const long SAuthWorkspacePropertyEnabled = 0x82554e8;
@@ -11202,7 +10888,6 @@ namespace FFlagOffsets
         public const long SLC2EnableOptimizations = 0x826ceb0;
         public const long SLC2FixAssetHashChangedRenderBinding = 0x826d240;
         public const long SLC2LoaderConsumeDebugInfoRequest = 0x826c840;
-        public const long SLC2LoaderEnableBakedLODs3 = 0x819aac8;
         public const long SLC2LoaderEnableBakedLODs4 = 0x826c768;
         public const long SLC2LoaderSkipGuiInfo = 0x826c828;
         public const long SONonEmtpyTerrainReserveLimit = 0x8275d10;
@@ -11279,10 +10964,8 @@ namespace FFlagOffsets
         public const long STTBitrate = 0x828f7e0;
         public const long STTRateLimitQps = 0x828f7b0;
         public const long STTRequestTimeoutMs = 0x828f738;
-        public const long STUDIOPLAT379362 = 0x8195748;
         public const long STUDIOPLAT42834PluginLoadPerfTelemetry = 0x8260e08;
         public const long STUDIOPLAT43198VersionedPluginOTA3 = 0x8260eb0;
-        public const long STUDIOPLAT43701EnableListPluginGuisAsync = 0x818e128;
         public const long STUDIOPLAT44513EnablePreinitHandoff = 0x8260ce8;
         public const long SabineTuning = 0x826fca0;
         public const long SafeAreaInsetChanges = 0x8265c78;
@@ -11326,7 +11009,6 @@ namespace FFlagOffsets
         public const long SaveMicroProfileScreenshotsInExternalStorage = 0x8259d78;
         public const long SavePlacePerMinute = 0x8267e40;
         public const long SceneAnalysisCollisionGeometryMemoryEnabled = 0x8256948;
-        public const long SceneAnalysisServiceEnabled = 0x8183b98;
         public const long SceneUpdaterProcessPendingPartsBudgetMs = 0x825ab28;
         public const long SchemaNetworkStreamSize = 0x82755d8;
         public const long ScopeCheckFailedEventThrottleHundredthPercent = 0x8253228;
@@ -11456,12 +11138,10 @@ namespace FFlagOffsets
         public const long SendReplicatorStatsFacsOverrideES = 0x8271f78;
         public const long SendRolloutFlagsUpdatedSignalToTelemetry3 = 0x824ace8;
         public const long SendScreenOrientationToEventIngestHundredthsPercentage = 0x82662d8;
-        public const long SendUserDisconnectOnShutdown = 0x819f680;
         public const long SendVideoCodecTelemetry = 0x8261d80;
         public const long SendWebViewUserAgentEnabled = 0x8226228;
         public const long SendWebViewUserAgentEnabledWindows = 0x8223d90;
         public const long SendsGoThroughConnection4 = 0x8234448;
-        public const long SensorDataParallelBatchSize = 0x8158fe8;
         public const long SentryEnvironmentOverridesEnabled = 0x8285660;
         public const long SentryEnvironmentTaggingEnabled = 0x82856c0;
         public const long SentryIxpEnrollmentsAsFeatureFlagsEnabled = 0x8285678;
@@ -11479,11 +11159,7 @@ namespace FFlagOffsets
         public const long SerializationServiceSerializeValue = 0x8252580;
         public const long SerializationTrace = 0x823bda0;
         public const long SerializeEditableModelWithOpaqueContent = 0x822f610;
-        public const long SerializeLuauInteger = 0x81aaeb8;
-        public const long SerializeLuauIntegerMetrics = 0x81aaff0;
-        public const long SerializeLuauIntegerMetricsEncodeUniverseId = 0x81ab008;
         public const long SerializeTweenInfo = 0x8234a28;
-        public const long SerializedNetworkedLuauInteger = 0x819ead8;
         public const long Serializer = 0x827dcd0;
         public const long SerializerBinaryReuseZstdDecompressContext = 0x827dc90;
         public const long SerializerDeferredRefOwnerLifetime = 0x827dfb8;
@@ -11491,7 +11167,6 @@ namespace FFlagOffsets
         public const long ServeMediaAdsTimeoutMs = 0x82833b0;
         public const long ServerAUthorityHumanoidSkipAnyCheck = 0x8254e98;
         public const long ServerAuthorityDisableExtraRounding = 0x8267880;
-        public const long ServerAuthorityDisableHumanoidReplicationSimpleFilter = 0x81a4f68;
         public const long ServerAuthorityEraseSmoothStepOffsetsOnPlayerRemoving = 0x8267898;
         public const long ServerAuthorityHumanoidDeterministicRaycast = 0x822eeb8;
         public const long ServerAuthorityPerPlayerInputBuffer = 0x82677c0;
@@ -11531,7 +11206,6 @@ namespace FFlagOffsets
         public const long ServerDelayDisconnectOnPlayerMoveSeconds = 0x8272398;
         public const long ServerDrivenObjectDeletion = 0x8234490;
         public const long ServerEnforcePropertyRecvNOO = 0x82763d0;
-        public const long ServerEquipToolTelemetryCollectionRate = 0x815c290;
         public const long ServerFramesBetweenJoins = 0x8273350;
         public const long ServerHandleIPV6Wildcard = 0x823a708;
         public const long ServerImmersiveBrandedAdCacheLimitReachedEventThrottleHundrethsPercent = 0x82262a8;
@@ -11602,7 +11276,6 @@ namespace FFlagOffsets
         public const long SessionReportSuccessEventIngestThrottleHundredthsPercent = 0x827f9d0;
         public const long SessionReportSuccessPointsThrottleHundredthsPercent = 0x8244ca8;
         public const long SessionService = 0x8283b60;
-        public const long SessionStreamTotalBytes = 0x819e4e0;
         public const long SessionStreamTotalStatsThrottleHP = 0x82716a8;
         public const long SessionSubscriberEventLog = 0x8283ba0;
         public const long SessionSystrayObserver = 0x8283ac0;
@@ -11627,7 +11300,6 @@ namespace FFlagOffsets
         public const long SetNetPermEventPlatform = 0x8277998;
         public const long SetSecurityIdentityAtBreakpoints = 0x8268688;
         public const long SetSizeMetricsMaxSetsToIterate = 0x8275fc8;
-        public const long SetStopOnInterrupt = 0x8162768;
         public const long SetTokenGenAlgo = 0x8274848;
         public const long SetTokenPepper = 0x8274830;
         public const long SetTokenValue = 0x8302280;
@@ -11637,7 +11309,6 @@ namespace FFlagOffsets
         public const long SettingsSaveOnChange2 = 0x8253a50;
         public const long ShaderProgramGLCacheVersion = 0x828b798;
         public const long ShadowFValuesEnabled = 0x827bb60;
-        public const long ShadowMapCacheScrollProfilerTokens = 0x8187d18;
         public const long ShadowMapExperimentDropLPM = 0x82584e0;
         public const long ShapeFit = 0x8235240;
         public const long ShapeFitAndersonAcceleration = 0x8235228;
@@ -11657,7 +11328,6 @@ namespace FFlagOffsets
         public const long ShouldSetTimeoutForBufferedPointsReporter = 0x8227a28;
         public const long ShowAttachmentsAsRecommended = 0x8225960;
         public const long ShowChatForUserAsyncWarning = 0x82661b8;
-        public const long ShowHSRMissingAssetIdWarnings = 0x815c620;
         public const long ShowImprovedPhysicsReplicationDisabledInStudio = 0x8255a68;
         public const long ShowImprovedPhysicsReplicationInStudio = 0x8255a50;
         public const long ShowIsInSandbox = 0x8268298;
@@ -11726,7 +11396,6 @@ namespace FFlagOffsets
         public const long SimAeroDedupCollisionTelemetryHundredthsPercentage = 0x822ce98;
         public const long SimAeroHashAlgorithm = 0x822ceb0;
         public const long SimAeroIncreaseStateMachineCoverage = 0x8249958;
-        public const long SimAeroLocalOffsetTransform = 0x815a1c8;
         public const long SimAeroOctantVolumeFractions2 = 0x8280890;
         public const long SimAeroReducedModelInversePhiDiffTolerance = 0x82498a8;
         public const long SimAeroSeparationAutoFidelity = 0x822ce68;
@@ -11735,7 +11404,6 @@ namespace FFlagOffsets
         public const long SimAeroVerifyGeometryEquality = 0x822ce80;
         public const long SimAeroYieldModInMeshProcessing = 0x82499c8;
         public const long SimAnimationConstraintParentedToBone = 0x8224da0;
-        public const long SimAnimationConstraintResponsiveness = 0x8151da0;
         public const long SimAnimationConstraintVisual = 0x8224d88;
         public const long SimAnimationConstraintWakeOnSetTransform = 0x8224d70;
         public const long SimAnimationConstraintZeroFrequencyNoOp = 0x8280a70;
@@ -11780,7 +11448,6 @@ namespace FFlagOffsets
         public const long SimClosedVoxelLinearScalarMilli = 0x8246500;
         public const long SimClosedVoxelMinMeshVolume = 0x82461f8;
         public const long SimClosedVoxelPlaneChoosing = 0x82464d0;
-        public const long SimCollisionGroupMaskTable = 0x815a008;
         public const long SimCollisionSummarySkipBuoyancyCLI231302 = 0x8280848;
         public const long SimConstraintDataCollectionRate3 = 0x822cd38;
         public const long SimConstraintDetailsBudget = 0x8224cf8;
@@ -11788,12 +11455,6 @@ namespace FFlagOffsets
         public const long SimConstraintMetricUseRootBodyGuid = 0x8280a58;
         public const long SimConstraintTorqueVisSpiralMaxWindings2 = 0x8224d40;
         public const long SimConstraintTorqueVisSpiralRadiusTimes10_2 = 0x8224d58;
-        public const long SimContactFiltering = 0x8159f50;
-        public const long SimContactFilteringCutoff = 0x8159f80;
-        public const long SimContactFilteringEpsilon = 0x8159f98;
-        public const long SimContactFilteringGrahamScan = 0x8159d88;
-        public const long SimContactFilteringNumBins = 0x8159fb0;
-        public const long SimContactFilteringProportionCutoff = 0x8159f68;
         public const long SimContactFilteringVisualize = 0x8225900;
         public const long SimContentTypePath = 0x82288a0;
         public const long SimControllerManagerCheapFirstPersonCheck = 0x8225740;
@@ -11845,18 +11506,14 @@ namespace FFlagOffsets
         public const long SimEditableMeshDisableRendering = 0x82253e0;
         public const long SimEditableMeshFastInvalidation = 0x825fa30;
         public const long SimEditableMeshLosslessRoundTrip = 0x823bc18;
-        public const long SimEditableMeshNonManifoldTwinRework3 = 0x8168d60;
         public const long SimEditableMeshQuads14 = 0x823bc60;
-        public const long SimEditableMeshRemoveFaceAndFindCornerHelpers = 0x8168d48;
         public const long SimEditableMeshTrackGPUMemoryAssignement = 0x823bc48;
         public const long SimEditableStoreUnresolvedAssetId = 0x825fb08;
         public const long SimEnableBindToAnimation = 0x8256e08;
-        public const long SimEnableEditablePermissionCheck = 0x8181ae8;
         public const long SimEnableInputLatencySimRadiusBalancing2 = 0x8263278;
         public const long SimEnablePhysicsActivitySensor = 0x82251e8;
         public const long SimEnablePhysicsStepLimitSignal = 0x8263290;
         public const long SimExecuteClientOnlyFallenParts = 0x8255930;
-        public const long SimFixAlignPositionNonFiniteTarget = 0x8152948;
         public const long SimFixDecodeRotationIdMatrix = 0x826c210;
         public const long SimFixLeftHandedJointCFrames = 0x822cae8;
         public const long SimFixLeftHandedPartCFrames = 0x82257a0;
@@ -11875,7 +11532,6 @@ namespace FFlagOffsets
         public const long SimGroundControllerClampedFrictionWeightCheck = 0x8225578;
         public const long SimGroundControllerFixBalanceRigidityEnabled = 0x8225500;
         public const long SimHeightfieldBuilderContactManagerFromCaller = 0x8224428;
-        public const long SimImprovedAnimationConstraintRollout2 = 0x8182570;
         public const long SimInvalidateContactsEveryFixedStep = 0x822c150;
         public const long SimLeftHandedCFrameSampleDenominator = 0x8225788;
         public const long SimLevitationConstraintMaxLegForce = 0x8280c20;
@@ -11897,9 +11553,6 @@ namespace FFlagOffsets
         public const long SimParentPrimSpacePVsRead = 0x8234670;
         public const long SimParentPrimSpacePVsWrite2 = 0x8275800;
         public const long SimPartOperationReplicateTriangleCount = 0x8250ec0;
-        public const long SimPartialSleepTelemetry = 0x8158ea8;
-        public const long SimPartialSleepTelemetryDelay = 0x8158e90;
-        public const long SimPartialSleepTelemetryHundredthsPercentage = 0x8158ef0;
         public const long SimPerContactManagerContactPool = 0x822bd88;
         public const long SimPhysicalConfigDataEngineAccessors = 0x8224fe0;
         public const long SimPhysicsActivitySensorHysteresisFrames = 0x8225200;
@@ -11920,15 +11573,12 @@ namespace FFlagOffsets
         public const long SimQueryRefreshViaAssemble = 0x822c040;
         public const long SimRadiusShrinkFactorHudredthsPercent = 0x8273f58;
         public const long SimRejectDisabledToolWeld = 0x8252168;
-        public const long SimRejectLeftHandedCFrames = 0x8152758;
-        public const long SimRemoveBodyFromConstraint = 0x81ad5c8;
         public const long SimRemoveBodyFromIslandizer = 0x8281178;
         public const long SimRemoveTargetStepsPerFrame = 0x82498f0;
         public const long SimReportAveWorldstepTimeEventIngestPercent = 0x822c028;
         public const long SimReportAveWorldstepTimePercent = 0x822bfc8;
         public const long SimReportLeftHandedCFrames = 0x8225918;
         public const long SimResimSkipExcludedContacts = 0x822cc30;
-        public const long SimResumeScriptsAfterPostSimulation = 0x8182660;
         public const long SimRuntimeContentAllowForkableForAPI = 0x82547f0;
         public const long SimRuntimeContentAllowForkableVar = 0x82547c0;
         public const long SimRuntimeContentAllowTeamCreate2 = 0x8256b70;
@@ -11941,7 +11591,6 @@ namespace FFlagOffsets
         public const long SimRuntimeContentCreationCaller2 = 0x8256a38;
         public const long SimRuntimeContentDisableUriConstructor = 0x8228678;
         public const long SimRuntimeContentDiskBudgetRCC = 0x8256a08;
-        public const long SimRuntimeContentEnforceLocalBudget = 0x8183f28;
         public const long SimRuntimeContentEnforceStudioServerBudget = 0x8256bd0;
         public const long SimRuntimeContentExtraChecks2 = 0x8271a60;
         public const long SimRuntimeContentForkableTelemetry2 = 0x82547d8;
@@ -11957,8 +11606,6 @@ namespace FFlagOffsets
         public const long SimRuntimeContentServiceNoDmLock = 0x8256c90;
         public const long SimRuntimeContentShutdownCleanupEraseAllChange = 0x8256a68;
         public const long SimRuntimeContentShutdownCleanupTelemetry2 = 0x8256c30;
-        public const long SimRuntimeContentStartUpCleanUp = 0x81811a8;
-        public const long SimRuntimeContentStorageAsync = 0x8183fd0;
         public const long SimRuntimeContentStorageImprove = 0x8265348;
         public const long SimRuntimeContentStorageTelemetryBytes = 0x82569c0;
         public const long SimRuntimeContentStudioServerBudget = 0x8256a98;
@@ -11972,7 +11619,6 @@ namespace FFlagOffsets
         public const long SimRuntimeContentTextureTranscodeMaxDim = 0x8256b10;
         public const long SimRuntimeContentTotalDiskBudgetRCC = 0x8256a50;
         public const long SimRuntimeContentTranscodeCatchInLambda = 0x8256d68;
-        public const long SimRuntimeContentTranscodeQueueTimeEstimator = 0x8183d18;
         public const long SimRuntimeContentTranscodeQueueTimeLimitMs = 0x8256cf0;
         public const long SimSAuthPredictGroundConstrainedAssemblies = 0x822c500;
         public const long SimScopeTime = 0x8256628;
@@ -11999,24 +11645,19 @@ namespace FFlagOffsets
         public const long SimSolverLevitationSurfaceExternalForcesToPlatform3 = 0x8280c80;
         public const long SimSolverNumTasksForLargeIslandCount = 0x82810d0;
         public const long SimSolverResponsiveness = 0x8225608;
-        public const long SimSolverSingleAxisSpringReducedMassFromBody = 0x81ad6a0;
         public const long SimSolverSnapshotCollection = 0x822bfe0;
         public const long SimSolverSnapshotTelemetry = 0x822d0b8;
         public const long SimSolverSnapshotTelemetryHundredthsPercentage = 0x822cfa0;
         public const long SimSolverSnapshotTelemetryTrace = 0x822d060;
-        public const long SimSolverSortConstraintByGuid = 0x81ad898;
         public const long SimSolverStatisticsHundrethsPercentage = 0x822d130;
         public const long SimSolverSyncServerThrottle = 0x822bea8;
-        public const long SimSolverUseGuidIndexOnBody = 0x81ad610;
         public const long SimSolverWakeDisplacementMultiplier = 0x82813c8;
         public const long SimSolverWakeDisplacementScalingNoContacts = 0x82813e0;
         public const long SimSpatialFilterRespectPredictionOff = 0x822c4d0;
-        public const long SimStepIkAfterPreSimulation = 0x8184220;
         public const long SimStepPhysicsFixSimulationDuringTeamCreate2 = 0x8224e48;
         public const long SimStepPhysicsStatsHundredthsPercentage = 0x8263260;
         public const long SimStoreMotor6DRotationAsQuaternion = 0x822caa0;
         public const long SimTelemetrizeSporadicFluidUsageHundredthsPercentage = 0x822cfe8;
-        public const long SimTerrainContactHoistPartProperties = 0x81ad448;
         public const long SimTimestepMultiplierDebounceCount = 0x8280968;
         public const long SimToInterBufferClearFactorTenths = 0x822c668;
         public const long SimTouchDebounceEntryLimit = 0x8260370;
@@ -12024,9 +11665,7 @@ namespace FFlagOffsets
         public const long SimTurbulentFlow6 = 0x8249a98;
         public const long SimUseWorldStepsPerFixedStep = 0x8249908;
         public const long SimViewportFrameMovingManager = 0x8225848;
-        public const long SimWakeBodiesOnFluidForcePropertyChange = 0x8159710;
         public const long SimWaterAwareAeroWake = 0x8280c98;
-        public const long SimWaterContactDragEnergyClamp = 0x81ade50;
         public const long SimWaterContactWaveDamping = 0x82499e0;
         public const long SimWorldModelReindexBorrowedCollisionGroups = 0x8224e18;
         public const long SimWorldStepLimit = 0x8263410;
@@ -12125,7 +11764,6 @@ namespace FFlagOffsets
         public const long SlimControllerLateInitializeTelemetry = 0x825b920;
         public const long SlimControllerSessionEventThrottleHundredthsPercent = 0x825bd50;
         public const long SlimControllerTelemetryReportACRRequestStatus4 = 0x826d228;
-        public const long SlimDebugAllowNonIMGUI = 0x81996e8;
         public const long SlimDebugTintAutoEnroll = 0x826cf40;
         public const long SlimDeriveBakedSkeletonInstanceHashes = 0x826d838;
         public const long SlimDisableAnimationInterpolation = 0x826c368;
@@ -12385,7 +12023,6 @@ namespace FFlagOffsets
         public const long SmoothClusterInvalidateShadowOnPcrChange2 = 0x825ba28;
         public const long SmoothClusterMeshTaskCountTimeOut = 0x825ada8;
         public const long SmoothClusterMeshTaskHeuristic = 0x825b3d0;
-        public const long SmoothClusterOcclusionCulling2 = 0x8188e58;
         public const long SmoothClusterReleaseStaleOccluder = 0x825b358;
         public const long SmoothClusterTaskQueueMaxParallelTasks = 0x825ace8;
         public const long SmoothClusterTaskQueueMsPerCycle = 0x825ad00;
@@ -12445,7 +12082,6 @@ namespace FFlagOffsets
         public const long SoundCacheMinBudgetMB = 0x826eb70;
         public const long SoundCacheReportEvictionMetrics = 0x828be88;
         public const long SoundCacheReportPlayLoadLatency = 0x828bed0;
-        public const long SoundCacheUseBlockingCall = 0x819b918;
         public const long SoundCacheUseBudgetUtilizationEstimator = 0x828be70;
         public const long SoundCheckResult = 0x8240658;
         public const long SoundFailedLoadMaxRetries = 0x826e528;
@@ -12479,7 +12115,6 @@ namespace FFlagOffsets
         public const long SpawnMaxSearchHeightCharacterMultiplier = 0x8263c98;
         public const long SpawnNameLimit = 0x8273a50;
         public const long SpawnStatsAcountForEnabled = 0x8271570;
-        public const long SpecialMeshMVFix = 0x8185240;
         public const long SpecialMeshMVFix2 = 0x8257e40;
         public const long SpecialShapeReverse = 0x825f940;
         public const long SpeechToText = 0x828f840;
@@ -12518,7 +12153,6 @@ namespace FFlagOffsets
         public const long StartupController = 0x827f7b0;
         public const long StartupMessageActionButtonEnabled = 0x82955c0;
         public const long StartupRobloxTelemetryFlagCacheUtils = 0x826e3c8;
-        public const long StartupTracingInfluxRollout = 0x81c01f0;
         public const long StateObjectSchemaMaxSlots = 0x8269698;
         public const long StateObjectSchemaMaxStringLength = 0x8269680;
         public const long StateRecorderEnableThrottling2 = 0x8225ab8;
@@ -12633,7 +12267,6 @@ namespace FFlagOffsets
         public const long StreamJobTimeMaxPercentHundredths = 0x82764c0;
         public const long StreamJobTimePerPlayerHundredths = 0x82764a8;
         public const long StreamJobTimePercentHundredths = 0x8276508;
-        public const long StreamJobTimeScalesWithPlayerCount = 0x81a3788;
         public const long StreamJobTimeScalingPlayerThreshold = 0x82764d8;
         public const long StreamJobTimeTotal = 0x8276520;
         public const long StreamJobTimeUsesCyclePeriod = 0x8276490;
@@ -12655,13 +12288,10 @@ namespace FFlagOffsets
         public const long StreamToMinimumScale = 0x82713c0;
         public const long StreamedRegionGCFactor = 0x8273e80;
         public const long StreamedRegionGCUrgentFactor = 0x8273e68;
-        public const long StreamingAdaptiveIdealCap = 0x81a3290;
-        public const long StreamingAdaptiveRadius2 = 0x816c590;
         public const long StreamingAdaptiveRadius3 = 0x823f238;
         public const long StreamingAdaptiveRadiusExpansionLookahead = 0x8276160;
         public const long StreamingAdaptiveRadiusGCBuffer = 0x82741c0;
         public const long StreamingAdaptiveRadiusMaxRegions = 0x82760b8;
-        public const long StreamingAdaptiveRadiusOverrideTarget2 = 0x81a2f48;
         public const long StreamingBandwidthQueueingLimitPercent = 0x82710a0;
         public const long StreamingCacheInitSize = 0x8275a70;
         public const long StreamingConversionStatsThrottleHP = 0x8273668;
@@ -12671,7 +12301,6 @@ namespace FFlagOffsets
         public const long StreamingDistanceTunableTotalTimeSpentForGcMicroSeconds = 0x82760e8;
         public const long StreamingDistanceUtilityCurveMaxUtility = 0x82387c0;
         public const long StreamingFinalizeRegionsBeforeProgressComplete = 0x8271468;
-        public const long StreamingFixLodIteratorShiftedExtents = 0x819e528;
         public const long StreamingFixLodIteratorShiftedExtents2 = 0x8271708;
         public const long StreamingFocusDeadCharacterHead = 0x8264258;
         public const long StreamingFrustumGCGracePeriodMs = 0x8275320;
@@ -12701,13 +12330,11 @@ namespace FFlagOffsets
         public const long StreamingMidRegionBudgetCheck2 = 0x8271180;
         public const long StreamingMinProtectGCAfterPrefetchMS = 0x8274030;
         public const long StreamingModelLodRadiusPercent = 0x8270f90;
-        public const long StreamingNullCheckSolverOnGcMessage = 0x819e700;
         public const long StreamingObserverDetailed = 0x8275dc8;
         public const long StreamingObserverDisconnectTaskBatchSize = 0x8275d58;
         public const long StreamingObserverGrowthRatePercentage = 0x8275d98;
         public const long StreamingObserverGrowthThresholdPercentage = 0x8275db0;
         public const long StreamingObserverInitialReplicatorCapacity = 0x8275dd8;
-        public const long StreamingObserverMemoryOptimization = 0x8161aa8;
         public const long StreamingObserverMemoryOptimization2 = 0x8234238;
         public const long StreamingObserverPrimitiveDetailed = 0x8275d88;
         public const long StreamingObserverStatsHP = 0x8275d28;
@@ -12790,7 +12417,6 @@ namespace FFlagOffsets
         public const long StudioLocalPlaytestT0InitialMinDelaySeconds = 0x826a010;
         public const long StudioLocalPlaytestT0MonitoringEnabled = 0x8269fc8;
         public const long StudioLocalPlaytestT0RolloutHundredthsPercent = 0x8269fe0;
-        public const long StudioLocalizationSingleLocaleLoading2 = 0x8157ed8;
         public const long StudioLogAssetDeliveryFailures = 0x82284b0;
         public const long StudioMeshStreamingExtendedLod = 0x825a738;
         public const long StudioMeshStreamingGreyOutRenderFidelity = 0x8225428;
@@ -12896,12 +12522,9 @@ namespace FFlagOffsets
         public const long SupportHeadlessDeviceVulkan = 0x823df78;
         public const long SupportISRSubChannels = 0x825ca88;
         public const long SupportMeshLOD = 0x823b740;
-        public const long SupportOrthoCamera3 = 0x81855b0;
         public const long SupportOrthoCamera4 = 0x8258300;
-        public const long SupportOrthoCameraApi = 0x8182480;
         public const long SupportOrthoCameraApi2 = 0x8255350;
         public const long SupportPacketHashes = 0x823f250;
-        public const long SupportSmoothScaleRichText5 = 0x815ad90;
         public const long SupportTextureArrayFramebuffersInGL = 0x828b8e8;
         public const long SupportTimedOptionsinPerformPurchase = 0x822a0b8;
         public const long SurfaceAppearanceTintMaskSelectable = 0x82523a8;
@@ -12955,7 +12578,6 @@ namespace FFlagOffsets
         public const long TM2FullResPropsetPreview = 0x8278df0;
         public const long TM2GuardDanglingContentProvider = 0x82592b8;
         public const long TM2MarkShadowTextures = 0x825afd0;
-        public const long TM2MoreAccurateBeamDistExtra = 0x8188dc8;
         public const long TM2NotSupportedSemanticMask = 0x82595e0;
         public const long TM2NotSupportedUserMask = 0x82595c8;
         public const long TM2RemoveInstancePointer = 0x8259360;
@@ -13013,7 +12635,6 @@ namespace FFlagOffsets
         public const long TaskSchedulerBackgroundCycleRateMs = 0x8244378;
         public const long TaskSchedulerBlockingShutdownInClients = 0x82440c0;
         public const long TaskSchedulerBlockingShutdownTimeoutInMs = 0x82440d8;
-        public const long TaskSchedulerDetachArbiters2 = 0x8171580;
         public const long TaskSchedulerDetachArbiters3 = 0x8244240;
         public const long TaskSchedulerInit = 0x827bd28;
         public const long TaskSchedulerJobDeadlineMs = 0x8244168;
@@ -13083,7 +12704,6 @@ namespace FFlagOffsets
         public const long TeamCreateViewerJoinStartTimeoutMs = 0x827f3f8;
         public const long TeamCreateViewerLaunchParams = 0x826dfd8;
         public const long TeamCreateViewerStreaming = 0x8267d60;
-        public const long TeamCreateWorkspaceInstanceAccess = 0x815a548;
         public const long TeamTest = 0x8274eb8;
         public const long TeamTestCoordinatorEvents = 0x8277540;
         public const long TeamTestCoordinatorMaxPendingRoutesPerRequester = 0x8277570;
@@ -13106,7 +12726,6 @@ namespace FFlagOffsets
         public const long TelemetryCacheSlowWriteIncrementThresholdMs = 0x823d348;
         public const long TelemetryCacheSlowWriteThresholdMs = 0x823d360;
         public const long TelemetryContextInfoMismatchThrottleHundredthPercent = 0x82449a0;
-        public const long TelemetryDataReArchCompressBodyData = 0x8178018;
         public const long TelemetryDropInvalidFields = 0x824abb8;
         public const long TelemetryEnableOnDynamicFlagsUpdated = 0x824ad00;
         public const long TelemetryEnableOnFlagsLoaded = 0x824ad18;
@@ -13197,7 +12816,6 @@ namespace FFlagOffsets
         public const long TeleportHistoryIXPParam1 = 0x830dac8;
         public const long TeleportHttpStatusToPlaceLauncherStateMap = 0x82dabc8;
         public const long TeleportInGameMenuOpenEventThrottleHundredthPercent = 0x8255e08;
-        public const long TeleportInsights = 0x81baef8;
         public const long TeleportInsightsFailedEventCounterThrottleHundredthsPercentage = 0x828e428;
         public const long TeleportInsightsGameFullQueueCounterThrottleHundredthsPercentage = 0x828e378;
         public const long TeleportInsightsMethodCounterThrottleHundredthsPercentage = 0x828e638;
@@ -13206,8 +12824,6 @@ namespace FFlagOffsets
         public const long TeleportInsightsTimingCounterThrottleHundredthsPercentage = 0x828e4d8;
         public const long TeleportInsightsTrustedCounterThrottleHundredthsPercentage = 0x828e6e8;
         public const long TeleportLifecycleEventThrottleHundredthsPercent = 0x826e130;
-        public const long TeleportPartyExpirationMillisecond = 0x8183100;
-        public const long TeleportPerUniverseErrorRateUniverseIdsCsv = 0x8207790;
         public const long TeleportPollinInterval = 0x8255d78;
         public const long TeleportPreloadingMetrics5 = 0x8254c58;
         public const long TeleportResumeTimeoutMs = 0x8255ec8;
@@ -13218,7 +12834,6 @@ namespace FFlagOffsets
         public const long TeleportSolution = 0x8266b88;
         public const long TeleportSpawnNameLimit = 0x8255da8;
         public const long TeleportSpawnNameLimitEnabled = 0x8255e68;
-        public const long TeleportStageLatencyV2 = 0x81834a8;
         public const long TeleportTimeClientLoadedFiltered = 0x8255ef8;
         public const long TeleportTimeClientLoadedFilteredMs = 0x8255e20;
         public const long TeleportTimeToSleepAdjustmentFix = 0x827f4a0;
@@ -13245,7 +12860,6 @@ namespace FFlagOffsets
         public const long TerrainDetailTurnOffOutput = 0x8251e50;
         public const long TerrainEditorGeneration = 0x8250658;
         public const long TerrainFinestWriteLevel = 0x827e130;
-        public const long TerrainFixBogusDataLodData = 0x81881d8;
         public const long TerrainFixWaterLevel = 0x827e388;
         public const long TerrainFixWaterLevelMax = 0x827e358;
         public const long TerrainFragmentStreamingFailureTelemetryPerMyriad = 0x8278078;
@@ -13266,7 +12880,6 @@ namespace FFlagOffsets
         public const long TerrainPhysicsDataDeferredSquaredBudgetTimeMicroSec = 0x822cc60;
         public const long TerrainPhysicsDeferredSquaredTimerCheckInverse = 0x822cca8;
         public const long TerrainPow2LodBiasPercent = 0x825ae08;
-        public const long TerrainRegionCopyValidation = 0x8183758;
         public const long TerrainRemoveOrphanedVertices = 0x825b388;
         public const long TerrainReplicationMaxMasks = 0x8271ed0;
         public const long TerrainSdfCellThreshold100 = 0x827e310;
@@ -13284,7 +12897,6 @@ namespace FFlagOffsets
         public const long TerrainVtBypassFeedback = 0x825aec8;
         public const long TerrainVtVistaSampling = 0x825af88;
         public const long TerrainWaterFlow = 0x827e580;
-        public const long Terrain_SimplifiedSDFMesher = 0x81ab568;
         public const long Terrain_UnpackOnDemand_MinCachedChunks = 0x827e3d0;
         public const long Terrain_UpdatePrepareBudgetMs = 0x825adc0;
         public const long TestCSGNewFunctionPublish = 0x8225278;
@@ -13457,7 +13069,6 @@ namespace FFlagOffsets
         public const long TextChatUserMessageReceivedSamplePermyriad = 0x827ccd0;
         public const long TextChatWindowEnabledPhase2 = 0x862045f;
         public const long TextChatWindowEnabledPhase3 = 0x862045e;
-        public const long TextChatWindowServiceProviderRegistration = 0x81aaa68;
         public const long TextChatWindowUseCache = 0x827d5a8;
         public const long TextChatWindowVisibleAncestorWalk = 0x827d878;
         public const long TextContentMaxSizeKB = 0x8254780;
@@ -13469,7 +13080,6 @@ namespace FFlagOffsets
         public const long TextFilterV2ApiHundredthPercent = 0x8251800;
         public const long TextGenerationSchemaSupport = 0x8252250;
         public const long TextGenerationTelemetry = 0x8252238;
-        public const long TextGenerationUserAuth = 0x817f3c8;
         public const long TextRenderNullCheckGlyphProvider = 0x822da30;
         public const long TextSafetyAnalyticsSender = 0x822a668;
         public const long TextSafetyAnalyticsSenderClientToHttpMinHundrethsPercent = 0x822a5c0;
@@ -13522,9 +13132,7 @@ namespace FFlagOffsets
         public const long TextToSpeechUsePlatformApi3 = 0x828c6b8;
         public const long TextUsageData_ReportHundredthsPercent = 0x82670a8;
         public const long TextUsageReportIntervalSeconds = 0x8265910;
-        public const long TextureAcrMajorVersionMax = 0x81b8ed8;
         public const long TextureAcrMajorVersionMaxOverride = 0x828c3b8;
-        public const long TextureAcrMajorVersionMin = 0x81b8ec0;
         public const long TextureAcrMajorVersionMinOverride = 0x828c3d0;
         public const long TextureCageProjection = 0x82334f8;
         public const long TextureCompositorActiveJobs = 0x82598c8;
@@ -13534,7 +13142,6 @@ namespace FFlagOffsets
         public const long TextureCompositorRebakeDelayMs = 0x82598f8;
         public const long TextureCompositorViewportMaxPriority = 0x8259940;
         public const long TextureFormatFilterString = 0x82e61e8;
-        public const long TextureHighPriorityUnknownMipTail = 0x81868f0;
         public const long TextureHighQNotSupportedSemanticMask = 0x82595b0;
         public const long TextureHighQNotSupportedUserMask = 0x82596a0;
         public const long TextureManager2 = 0x8258ea0;
@@ -13550,7 +13157,6 @@ namespace FFlagOffsets
         public const long TexturePackFixUncheckedEmptyMaps = 0x823b828;
         public const long TexturePackGameServerPropertySets = 0x8279218;
         public const long TexturePackGenerator = 0x8278e98;
-        public const long TexturePackGeneratorUseRaw = 0x81a60d8;
         public const long TexturePackMultiThreadedCompressionOutsideStudio = 0x828c3a0;
         public const long TexturePackPreviewAllUsages = 0x8278da8;
         public const long TexturePackPropsetFailureExpirySeconds = 0x82792a8;
@@ -13570,8 +13176,6 @@ namespace FFlagOffsets
         public const long TexturePackUsePropertySetAddresses = 0x823b8d0;
         public const long TexturePackUsePropertySetAddressesHundredthPercent = 0x823b8e8;
         public const long TexturePackValidateInValidNotSerialize = 0x823b810;
-        public const long TexturePacksFallbackReferenceManaged = 0x8186718;
-        public const long TexturePacksStreamableContent3 = 0x8186730;
         public const long TexturePriorityEnvOffset = 0x8259748;
         public const long TexturePriorityInvisibleOffset = 0x8259730;
         public const long TexturePriorityMipHeadOffset = 0x8259790;
@@ -13610,7 +13214,6 @@ namespace FFlagOffsets
         public const long ThumbnailVideoStreamEventThrottleHundrethsPercent = 0x8226148;
         public const long ThumbnailVideoStreamTrace = 0x8226160;
         public const long ThumbnailerCanUseBetterDefaultMousePos = 0x8260190;
-        public const long ThumbnailerUseRGBA16 = 0x8185e18;
         public const long ThumnailToCDNURLTimeTakenStatHundredthsPercent = 0x8228970;
         public const long TimeBetweenCheckingApiAccessMillis = 0x8227860;
         public const long TimeBetweenSendConnectionAttemptsMS = 0x8274890;
@@ -13754,7 +13357,6 @@ namespace FFlagOffsets
         public const long TtiIxpIntegrationCheckTelemetryThrottleHundredthsPercent = 0x825c010;
         public const long TtiIxpIntegrationTest = 0x825bfc8;
         public const long TtiIxpIntegrationTestLayer = 0x82ea3c8;
-        public const long TtiTelemetryIntegrationCheck = 0x818e688;
         public const long TurnApiClient = 0x822b7c0;
         public const long TurnOffNPPThrottling = 0x8250880;
         public const long TurnoffContentProviderTempIdReturnEmptyIdStudioHack = 0x82282f8;
@@ -13968,9 +13570,6 @@ namespace FFlagOffsets
         public const long UGCValidatePantsAccessoryNormalMapTextureLimit = 0x82324d8;
         public const long UGCValidatePantsAccessoryRoughnessMapTextureLimit = 0x82324f0;
         public const long UGCValidatePropertiesSensible2 = 0x8251fe8;
-        public const long UGCValidateRigAttachmentBoundsFull = 0x815f460;
-        public const long UGCValidateRigAttachmentBoundsInner = 0x815f280;
-        public const long UGCValidateRigAttachmentBoundsRework = 0x815f448;
         public const long UGCValidateRightArmColorMapTextureLimit = 0x8231ab8;
         public const long UGCValidateRightArmMetalnessMapTextureLimit = 0x8231cb0;
         public const long UGCValidateRightArmNormalMapTextureLimit = 0x8231c80;
@@ -14080,7 +13679,6 @@ namespace FFlagOffsets
         public const long UIBoundsTracking3 = 0x8278520;
         public const long UICornerStats_ReportHundredthsPercent = 0x8267298;
         public const long UIDDSelectable = 0x8265fc8;
-        public const long UIDDSelectablePreparations = 0x819d938;
         public const long UIDragDetectorDragAnalyticsThrottleHundredthsPercent = 0x8270808;
         public const long UIDragDetectorLog = 0x82707f8;
         public const long UIGpuGradient12 = 0x825cde8;
@@ -14109,9 +13707,7 @@ namespace FFlagOffsets
         public const long UIOcclusionMetricsUnibarLayerName = 0x82f58a0;
         public const long UIOcclusionMetricsUnibarMenuVerList = 0x82f5900;
         public const long UIOcclusionMetricsUnibarVersionVarName = 0x82f58d0;
-        public const long UIPageLayoutProperBounds = 0x8193388;
         public const long UIPageLayoutTicksPerPageHundreths = 0x8266058;
-        public const long UIParamStore = 0x818a1e8;
         public const long UIParticles = 0x82784f0;
         public const long UIPerfSplitCoreDevSampleIntervalSeconds = 0x8265b88;
         public const long UIPerfSplitCoreDev_ReportHundredthsPercent2 = 0x8265ba0;
@@ -14136,7 +13732,6 @@ namespace FFlagOffsets
         public const long UIStrokeClampTransparency = 0x8267560;
         public const long UIStylingUpdateTimeStat_ReportHundredthsPercent = 0x8265ae8;
         public const long UIStylingUpdateTime_ReportHundredthsPercent = 0x8265ad0;
-        public const long UITableLayoutSetsChildSizeAndPositionIfFillEmptySpace = 0x8194950;
         public const long UITextureCompressionDesktop = 0x82596d0;
         public const long UITextureFrameJobCount = 0x825a520;
         public const long UITextureGCFrameCount = 0x825a400;
@@ -14168,7 +13763,6 @@ namespace FFlagOffsets
         public const long UITextureRendererRedirectToMigration = 0x825a620;
         public const long UITextureReviveThresholdPercent = 0x825a3e8;
         public const long UITextureUncompressed = 0x8259688;
-        public const long UITextureUseDynamicRenderSettings = 0x81879a8;
         public const long UITextureUsingNewJobFlow7 = 0x82784d8;
         public const long UITimeOnGameLoadedReportFrameCount = 0x8265aa0;
         public const long UITimeOnGameLoaded_ReportHundredthsPercent = 0x8265b10;
@@ -14176,7 +13770,6 @@ namespace FFlagOffsets
         public const long US14116 = 0x825f8c0;
         public const long UgcExperienceController = 0x8280088;
         public const long UgcExperienceControllerSetViewportTask = 0x82800b0;
-        public const long UgcLocaleFromGameJoinEnabled = 0x8158080;
         public const long UnbatchedAssetDeliveryClientActiveReqsInitialCapacity = 0x823cb50;
         public const long UnbatchedAssetDeliveryClientFreeListInitialCapacity = 0x823cb68;
         public const long UnbatchedAssetDeliveryClientNumResponsesPerPage = 0x823cb98;
@@ -14199,11 +13792,8 @@ namespace FFlagOffsets
         public const long UnifiedMeshCacheSizeComputation = 0x8278550;
         public const long UnifiedRCCJobProfilingFlag = 0x8259d90;
         public const long UnifyCaptures2 = 0x8253898;
-        public const long UnifyCapturesRetrieval = 0x8193bd0;
         public const long UnifyConsoleUAPlayStationIxpLayer = 0x82ea468;
-        public const long UnifyConsoleUAPlayStationIxpLayerEnabled = 0x81892c8;
         public const long UnifyConsoleUAXboxIxpLayer = 0x82ea438;
-        public const long UnifyConsoleUAXboxIxpLayerEnabled = 0x8189298;
         public const long UnifyJoinRetryExpBackoff = 0x827f380;
         public const long UniqueIdCollisionDetectionHundredthsPercentage = 0x8267e70;
         public const long UniverseChatChannelMonitorHeartbeatSeconds = 0x8294040;
@@ -14247,7 +13837,6 @@ namespace FFlagOffsets
         public const long UseCbDataForDeeplinkDecodeLength = 0x8223a48;
         public const long UseClientContextForSubscriptionDetails = 0x8229120;
         public const long UseCommerceServiceApiRoutes = 0x822a350;
-        public const long UseCompressedPVSerialization = 0x816c5c0;
         public const long UseCompressedPVSerialization2 = 0x823f208;
         public const long UseConnectivityV2HttpRecoveryBridge = 0x8247af0;
         public const long UseContextInfoForRccHttpHeaders4 = 0x8248110;
@@ -14259,15 +13848,11 @@ namespace FFlagOffsets
         public const long UseFixedSimulationDefaultEnabled = 0x8255578;
         public const long UseForegroundTaskForRbxmToCacheJobs = 0x822d1e0;
         public const long UseFromRegion3Checking_ThrottleMs = 0x827e250;
-        public const long UseFtsThumbEnrollHeader2 = 0x8175230;
-        public const long UseFtsThumbEnrollHeaderHundredthPercent = 0x8175218;
         public const long UseGameTransactionsApiForReceipts = 0x8229920;
-        public const long UseGeneralizedFileCulling2 = 0x8172128;
         public const long UseGeomMeshOptimizer = 0x823b7e0;
         public const long UseGmaEligibilityCheckRefactor = 0x82266f8;
         public const long UseGroundControllerTurnPDStep = 0x82255c0;
         public const long UseIWebRTCInitFieldTrials = 0x826ecc0;
-        public const long UseImageTransformScaling = 0x8176680;
         public const long UseImprovedPhysicsReplicationConfig = 0x8255800;
         public const long UseInjectedEngineContext = 0x8233de8;
         public const long UseInputFileStreamToReadCachedRbxm = 0x822d1f8;
@@ -14277,8 +13862,6 @@ namespace FFlagOffsets
         public const long UseLowerFrequencyForISRPhysicsOnlyMode2 = 0x8234580;
         public const long UseMatchmakingApiClientStatus = 0x8252468;
         public const long UseMaxLocomotionForce = 0x8280b30;
-        public const long UseNewContentDeliveryDomain = 0x816a058;
-        public const long UseNewContentDeliveryDomainHundredthPercent = 0x816a040;
         public const long UseNewInvitePermissionsForSocialServiceRollout = 0x82567e8;
         public const long UseNewLoadStreamAnimationAPI = 0x822e8b0;
         public const long UseNewLuauTypeSolverDefaultEnabled = 0x8255948;
@@ -14300,7 +13883,6 @@ namespace FFlagOffsets
         public const long UseRemoteStudioClientOverAcceptsStudioClients = 0x82739d8;
         public const long UseRigAttachmentsForMotorPrePost = 0x8230760;
         public const long UseRigidConstraintForAccessories3 = 0x822f068;
-        public const long UseRootSpaceForSolveSmoothingGroups = 0x8162518;
         public const long UseScriptReplicationTarget = 0x8275290;
         public const long UseShareLinkHandler = 0x8283718;
         public const long UseSharedCsmTraceEvent = 0x8252b60;
@@ -14313,7 +13895,6 @@ namespace FFlagOffsets
         public const long UseSubscriptionRequest2 = 0x8229138;
         public const long UseTVRemoteRawKeycodes = 0x827fb90;
         public const long UseTaskSchedulerTimestampForRbxTransportClockTelemetry = 0x8255470;
-        public const long UseTeleportMethodEnum = 0x81838f0;
         public const long UseTeleportedPlacesBackHistory2 = 0x8252378;
         public const long UseTransportParamsParser = 0x8270d80;
         public const long UseTweenInfoWithCurveParamsNetworkSerialization = 0x8234088;
@@ -14784,7 +14365,6 @@ namespace FFlagOffsets
         public const long VideoCaptureSnapshotMinFrameTimeSecond = 0x82619b0;
         public const long VideoCaptureStatusOverPlaytimeThrottleHundrethsPercent = 0x8230928;
         public const long VideoCaptureStopOnAppHide = 0x8266d80;
-        public const long VideoCaptureStopOnAppHide2 = 0x8193ff0;
         public const long VideoCaptureStorageNoSizeBytes = 0x8265330;
         public const long VideoCaptureUseNewService6 = 0x8266d68;
         public const long VideoCaptureUseRenderResolutionDimension = 0x8259fe0;
@@ -14819,7 +14399,6 @@ namespace FFlagOffsets
         public const long VideoDriverMaxIncomingPackets = 0x8237db0;
         public const long VideoDriverMaxOutgoingFrames = 0x8237d98;
         public const long VideoEnableCaptureParamsInTestScripts = 0x8266bd0;
-        public const long VideoEnableEvx = 0x8164a18;
         public const long VideoEnableHevcDecode = 0x8237c78;
         public const long VideoEnableHevcEncode2 = 0x8237cd8;
         public const long VideoEnableMaximumResolutionProperty = 0x8261e10;
@@ -15010,7 +14589,6 @@ namespace FFlagOffsets
         public const long VideoUseAssetRequest = 0x82654c0;
         public const long VideoUseFullScreenResolutionConstraints = 0x8261c18;
         public const long VideoUseRenderBufferResolutionConstraint = 0x8261d38;
-        public const long VideoUseVideoServiceContentImplBase = 0x818eae0;
         public const long VideoUseVisibilityInAbr = 0x8261d98;
         public const long VideoUserContextDetailThrottleHundredthsPercent = 0x8290068;
         public const long VideoVP9HardwareDecoder = 0x8261ac0;
@@ -15122,7 +14700,6 @@ namespace FFlagOffsets
         public const long VoiceChatCullingJobStepIntervalMs = 0x8283e98;
         public const long VoiceChatCullingMaxAudibleStreams = 0x8284198;
         public const long VoiceChatCullingMaximumQueueSize = 0x8285068;
-        public const long VoiceChatCullingSetLastTimeCulledOnStateUpdate = 0x81b0a88;
         public const long VoiceChatCullingTimedLatchThresholdMs = 0x82841b0;
         public const long VoiceChatCullingTransactionsPerMessage = 0x8285038;
         public const long VoiceChatDeprecateRejoin = 0x8283fd0;
@@ -15152,7 +14729,6 @@ namespace FFlagOffsets
         public const long VoiceChatGetChatGroupsThrottlePermyriad = 0x8284378;
         public const long VoiceChatGrpClientHeartBeatIntervalMs = 0x8293bf8;
         public const long VoiceChatHandshakeWaitServerCompletionTimeoutMs = 0x8293ad8;
-        public const long VoiceChatIdempotentBlockUpdates = 0x81c0410;
         public const long VoiceChatInlineMuteMetadataState = 0x8293dc0;
         public const long VoiceChatInternalBlockingWaitUntilMs = 0x8284cd8;
         public const long VoiceChatJoinMigrationWaitState = 0x8293958;
@@ -15234,7 +14810,6 @@ namespace FFlagOffsets
         public const long VoiceChatServiceUpdateTurnAuthRequestRateLimitDuration = 0x82640e0;
         public const long VoiceChatSkipIceTrickleOperationEnabled_Client = 0x8277790;
         public const long VoiceChatSkipIceTrickleOperationEnabled_RCC = 0x82777a8;
-        public const long VoiceChatSkipLegacyDirectBlockUpdate = 0x8191878;
         public const long VoiceChatSkipPermissionCheckForTests = 0x82777c0;
         public const long VoiceChatStopFetchingAudioTimeoutSeconds = 0x82850c8;
         public const long VoiceChatSubscriptionDeduplicationRetainRerunOnFail = 0x8293d60;
@@ -15243,10 +14818,8 @@ namespace FFlagOffsets
         public const long VoiceChatUncategorizedEventReceivedThrottleHundredthsPercent = 0x8284548;
         public const long VoiceChatUnknownPlayerEventRejectedDetailThrottleHundredthsPercent = 0x8284530;
         public const long VoiceChatUpdateSourcesIntervalMs = 0x82850b0;
-        public const long VoiceChatUpdateSubscriptionsOnBlockListChanged = 0x81a4828;
         public const long VoiceChatUseRoomServerFromVoiceService = 0x8294018;
         public const long VoiceChatUseSubscriberAudioQualityFromVoiceService = 0x8293fe8;
-        public const long VoiceChatUseTurnAuthFromVoiceService = 0x81c0500;
         public const long VoiceChatV2AudioTrackName = 0x8316838;
         public const long VoiceChatV2CallStateMetricSendPeriodSeconds = 0x8295970;
         public const long VoiceChatV2CheckMicActivityMs = 0x8283ec8;
@@ -15262,7 +14835,6 @@ namespace FFlagOffsets
         public const long VoiceClientRebootOperationRetryLimit = 0x8283fa0;
         public const long VoiceClientRebootOperationRetryRateMs = 0x8283fb8;
         public const long VoiceConnectionApiEnableTearDownPeerConnectionFactoryOnSignalingThread = 0x8285008;
-        public const long VoiceConnectionApiSendSdpParsingErrorTelemetry = 0x81b1bc8;
         public const long VoiceConnectionInterruptionSlaMs = 0x82842a0;
         public const long VoiceConnectionInterruptionTracking2 = 0x8284000;
         public const long VoiceControlPlaneClientDependencyInjection = 0x8284360;
@@ -15288,7 +14860,6 @@ namespace FFlagOffsets
         public const long VoiceForceRunOnLeave = 0x8284390;
         public const long VoiceHandleSfuDetails = 0x8293f10;
         public const long VoiceMetricsDebugDrawEnabled4 = 0x8277628;
-        public const long VoiceMutexMigration = 0x81b1d30;
         public const long VoicePeerConnectionFactoryCleanupTimeoutMs = 0x8284e70;
         public const long VoicePerExperienceMetrics = 0x8293f40;
         public const long VoicePublishReliabilityEventThrottleHundredthsPercent = 0x8293f88;
@@ -15314,7 +14885,6 @@ namespace FFlagOffsets
         public const long VoiceRtcStatsSplitMaxRttMs = 0x8293e68;
         public const long VoiceRtcStatsSplitOmitSfuDetails = 0x8293e50;
         public const long VoiceSdpCompressionRemoteEventFieldReceivesOriginalSdp = 0x8284348;
-        public const long VoiceSdpCompressionRemoteEventFieldReceivesUnexpectedValue = 0x81b0f20;
         public const long VoiceSdpCompressionZstdCompressLevel = 0x8284590;
         public const long VoiceSendJoinedVoiceV2 = 0x82938f8;
         public const long VoiceSfuDeploymentIxpExposureEnabled = 0x8283f10;
@@ -15342,7 +14912,6 @@ namespace FFlagOffsets
         public const long VoiceTeardownWaitForAudioInit = 0x8284e58;
         public const long VoiceUpsellV2ExperimentLayerEngine = 0x830e818;
         public const long VoiceUseModularDeviceManager5 = 0x8284dc8;
-        public const long VoiceUseWebRTCSession2 = 0x81b1bb0;
         public const long VoiceUseWebRTCSession3 = 0x8284ff0;
         public const long VoiceUtilZstdCompressionLevel = 0x8277640;
         public const long VoiceVolumeControlsApplyGameSettingsVoiceVolume = 0x826fa98;
@@ -15396,7 +14965,6 @@ namespace FFlagOffsets
         public const long VoxelGridFixGetNonEmptyRegionsInside = 0x827e028;
         public const long VoxelGridFixMixedMaterialDownsampleOverflow = 0x827e550;
         public const long VoxelGridFixUnionOccupancyOverflow = 0x827e538;
-        public const long VoxelGridFixUpsample = 0x81ab6a0;
         public const long VoxelGridFragmentSerializationVersion = 0x827e160;
         public const long VoxelGridFragmentWritePolicy = 0x827e070;
         public const long VoxelGridJobsSkipErasedNode = 0x827e630;
@@ -15443,7 +15011,6 @@ namespace FFlagOffsets
         public const long VulkanDisableAfbcMinSavingPercent = 0x828bd10;
         public const long VulkanExposePresentTiming = 0x823dfc0;
         public const long VulkanLazilyAllocatedTextureSupport = 0x828ba48;
-        public const long VulkanTransitionResourceAllShaders = 0x81b8898;
         public const long WDNormalEpsilonExponent = 0x8233538;
         public const long WHAM17074 = 0x8269dd8;
         public const long WHAM1707A = 0x82387a8;
@@ -15490,8 +15057,6 @@ namespace FFlagOffsets
         public const long WebParserEncodeInvalidJsonInfNan = 0x827dd98;
         public const long WebParserEncodeInvalidJsonInfNanEvenOnSkip = 0x827ddc8;
         public const long WebParserEncodeInvalidJsonInfNanEvenOnSkipLua = 0x827de58;
-        public const long WebParserEncodeInvalidJsonInfNanLua = 0x81aaf60;
-        public const long WebParserInvalidJsonMetricsEnableUniverseIdLabel = 0x81ab068;
         public const long WebParserLimitsReportHundredthsPercentage = 0x827dea0;
         public const long WebParserLuauStackLimit = 0x827ded0;
         public const long WebParserMaxStackDepth = 0x827de88;
@@ -15548,7 +15113,6 @@ namespace FFlagOffsets
         public const long WhitelistFeaturedSearchAPI = 0x8260b50;
         public const long WhitelistFollowingsAndBadgesEndpoints = 0x8260b20;
         public const long WhitelistGameJoinEndpoint = 0x8260af8;
-        public const long WhitelistItemConfigurationForRCC = 0x818de70;
         public const long WhitelistThumbnailsAPI = 0x8260b38;
         public const long WhitelistedAssetIdsForSolidModeling = 0x8311cd8;
         public const long WhitelistedCreatorGroupIdsForCanUseAsset = 0x82d95e0;
@@ -15615,14 +15179,12 @@ namespace FFlagOffsets
         public const long WithDataModelContext = 0x828f880;
         public const long WndProcessCheck = 0x8223d70;
         public const long WorkspaceAnimatorRetargetingEnabledDefault = 0x82558c0;
-        public const long WorkspaceAuthorityModeUX = 0x8182a98;
         public const long WorkspaceFlaggabilityCASFix = 0x82678f8;
         public const long WorkspacePreserveAuthoredViewportCameras = 0x8255c90;
         public const long WorkspaceReplicationModeControls = 0x8274418;
         public const long WorkspaceUseRbxTransportPeerMonotonicClockDryRun = 0x8255c78;
         public const long WorldModelCrashFaster = 0x8224ec0;
         public const long WorldModelSkipEmptyStep = 0x822c138;
-        public const long WorldOwnsContactManagerUniquePtr = 0x8159228;
         public const long WorldRollbackUpdateControllers = 0x822bfb0;
         public const long WorldStepMax = 0x822c0d0;
         public const long WorldStepsBehind = 0x822c0f8;
@@ -15642,18 +15204,14 @@ namespace FFlagOffsets
         public const long WrapDeformerCoalesceStructuralInvalidationBeforeFetch = 0x822fa40;
         public const long WrapDeformerCreationLoggingHundredthsPercentage = 0x822fb58;
         public const long WrapDeformerDropSolvedContextOnUnregister = 0x822f920;
-        public const long WrapDeformerEditableMeshStoreMemoryAllocation = 0x815cee8;
         public const long WrapDeformerEfficientLayerMeshBuilding = 0x8233520;
         public const long WrapDeformerEventHundredthsPercentage = 0x8233390;
-        public const long WrapDeformerExpBackoff = 0x815cd58;
         public const long WrapDeformerLiveBodyScaleEdits = 0x822f8f0;
         public const long WrapDeformerMoveMap = 0x8234f90;
         public const long WrapDeformerOomHardening = 0x8234e28;
         public const long WrapDeformerPerLayerTelemetryId = 0x82333f0;
         public const long WrapDeformerPerOutfitTelemetryId = 0x8233408;
         public const long WrapDeformerPublishLoggingHundredthsPercentage = 0x822fba0;
-        public const long WrapDeformerReuseScratch = 0x81622f0;
-        public const long WrapDeformerStableLayerTieBreak = 0x8162458;
         public const long WrapDeformerUsesLayeredClothingBufferingFix = 0x822fbb8;
         public const long WrapDeformersSupportWrapLayers4 = 0x8233550;
         public const long WrapDispatcherMaxStateChangesPerHB = 0x8233318;
@@ -15671,7 +15229,6 @@ namespace FFlagOffsets
         public const long WrapTargetMeshFetchPollIntervalMs = 0x822fa98;
         public const long WrapTargetMeshFetchTimeoutMs = 0x822fab0;
         public const long WrapTextureTransferOnPerformTransferLoggingHundredthsPercentage = 0x822fa80;
-        public const long WrapUseShapeFit5 = 0x81623e0;
         public const long WrapUseShapeFit8 = 0x8234fa8;
         public const long WriteBodyToFile2 = 0x827be60;
         public const long WriteFlagCacheAfterDynamicFetch = 0x8227fc0;
@@ -15683,7 +15240,6 @@ namespace FFlagOffsets
         public const long WriteRequestingThreadLog = 0x8267ac0;
         public const long WriteTombstoneAfterDynamicFetch = 0x8227f78;
         public const long WriterInputCheckLength = 0x827bc40;
-        public const long WsClientClearPollsEveryLoop = 0x8175cc0;
         public const long WsClientIdleSleepMs = 0x8248920;
         public const long XBoxOneMemoryLimitPercentageEstimate12GB = 0x8245b28;
         public const long XBoxOneMemoryLimitPercentageEstimate8GB = 0x8245b10;
@@ -15700,9 +15256,7 @@ namespace FFlagOffsets
         public const long joinGameSuccessEventThrottleHundrethsPercent = 0x827f458;
         public const long kAssetsUploadApiFlowTelemetryEventLoggingPerMyriad = 0x8257250;
         public const long kAverageCageMeshDistance = 0x8316dd0;
-        public const long kCageHoleNum = 0x81b1e90;
         public const long kCageMeshDistanceSDCoeff = 0x8285288;
-        public const long kFullBodyCageVntsNum = 0x81b1ea8;
         public const long maxTextChannelChatHistory = 0x827d980;
         public const long mi_option_abandoned_page_purge = 0x827b938;
         public const long mi_option_allow_large_os_pages = 0x827bad0;

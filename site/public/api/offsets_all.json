@@ -10,12 +10,6 @@
     "rva": "0x3C"
    }
   ],
-  "Alloc": [
-   {
-    "name": "Malloc",
-    "rva": "0x4ADD350"
-   }
-  ],
   "AnimationTrack": [
    {
     "name": "Animation",
@@ -45,7 +39,7 @@
   "Animator": [
    {
     "name": "ActiveAnimations",
-    "rva": "0x900"
+    "rva": "0x920"
    }
   ],
   "Atmosphere": [
@@ -196,20 +190,10 @@
     "rva": "0xA0"
    }
   ],
-  "BoundFuncDescriptor": [
-   {
-    "name": "Function",
-    "rva": "0x90"
-   },
-   {
-    "name": "Name",
-    "rva": "0x8"
-   }
-  ],
   "ByteCode": [
    {
     "name": "Pointer",
-    "rva": "0x10"
+    "rva": "0x18"
    },
    {
     "name": "Size",
@@ -322,48 +306,18 @@
     "rva": "0xA0"
    }
   ],
-  "Coroutine": [
-   {
-    "name": "create",
-    "rva": "0x5A60FE0"
-   },
-   {
-    "name": "finally",
-    "rva": "0x5A640F0"
-   },
-   {
-    "name": "isyieldable",
-    "rva": "0x5A61920"
-   },
-   {
-    "name": "running",
-    "rva": "0x5A618B0"
-   },
-   {
-    "name": "status",
-    "rva": "0x5A5EB20"
-   },
-   {
-    "name": "wrap",
-    "rva": "0x5A61580"
-   },
-   {
-    "name": "yield",
-    "rva": "0x5A61850"
-   }
-  ],
   "DataModel": [
    {
     "name": "CreatorId",
-    "rva": "0x170"
+    "rva": "0x190"
    },
    {
     "name": "GameId",
-    "rva": "0x178"
+    "rva": "0x198"
    },
    {
     "name": "GameLoaded",
-    "rva": "0x588"
+    "rva": "0x5B8"
    },
    {
     "name": "JobId",
@@ -371,15 +325,15 @@
    },
    {
     "name": "PlaceId",
-    "rva": "0x180"
+    "rva": "0x1A0"
    },
    {
     "name": "PlaceVersion",
-    "rva": "0x19C"
+    "rva": "0x1BC"
    },
    {
     "name": "PrimitiveCount",
-    "rva": "0x410"
+    "rva": "0x430"
    },
    {
     "name": "ScriptContext",
@@ -387,11 +341,11 @@
    },
    {
     "name": "ServerIP",
-    "rva": "0x570"
+    "rva": "0x5A0"
    },
    {
     "name": "ToRenderView1",
-    "rva": "0x1B8"
+    "rva": "0x1D8"
    },
    {
     "name": "ToRenderView2",
@@ -403,7 +357,7 @@
    },
    {
     "name": "Workspace",
-    "rva": "0x148"
+    "rva": "0x168"
    }
   ],
   "DepthOfFieldEffect": [
@@ -426,22 +380,6 @@
    {
     "name": "NearIntensity",
     "rva": "0xAC"
-   }
-  ],
-  "Descriptor": [
-   {
-    "name": "Name",
-    "rva": "0x8"
-   }
-  ],
-  "DeviceD3D11Gfx": [
-   {
-    "name": "ContextObjVTableRva",
-    "rva": "0x70E7B98"
-   },
-   {
-    "name": "VTableRva",
-    "rva": "0x70E79A0"
    }
   ],
   "DragDetector": [
@@ -493,97 +431,11 @@
   "FakeDataModel": [
    {
     "name": "Pointer",
-    "rva": "0x8EB6960"
+    "rva": "0x8F8E968"
    },
    {
     "name": "RealDataModel",
     "rva": "0x1F8"
-   }
-  ],
-  "FastCluster": [
-   {
-    "name": "ClusterNode",
-    "rva": "0x188"
-   },
-   {
-    "name": "MeshEntityVTableRva",
-    "rva": "0x714CB38"
-   },
-   {
-    "name": "VTableRva",
-    "rva": "0x714B860"
-   },
-   {
-    "name": "VTableRvaSub",
-    "rva": "0x714B840"
-   },
-   {
-    "name": "VTableRvaSubAlt",
-    "rva": "0x714C1B8"
-   }
-  ],
-  "FastClusterBinding": [
-   {
-    "name": "VTableRva",
-    "rva": "0x714CA18"
-   }
-  ],
-  "FastClusterEntity": [
-   {
-    "name": "AlphaByte",
-    "rva": "0x14"
-   },
-   {
-    "name": "BBoxMaxX",
-    "rva": "0xA4"
-   },
-   {
-    "name": "BBoxMaxY",
-    "rva": "0xA8"
-   },
-   {
-    "name": "BBoxMaxZ",
-    "rva": "0xAC"
-   },
-   {
-    "name": "BBoxMinX",
-    "rva": "0x98"
-   },
-   {
-    "name": "BBoxMinY",
-    "rva": "0x9C"
-   },
-   {
-    "name": "BBoxMinZ",
-    "rva": "0xA0"
-   },
-   {
-    "name": "ContextPtr",
-    "rva": "0x8"
-   },
-   {
-    "name": "DecalMaterialPtr",
-    "rva": "0x48"
-   },
-   {
-    "name": "MaterialPtr",
-    "rva": "0x20"
-   },
-   {
-    "name": "PrimitiveIndexArrayPtr",
-    "rva": "0x80"
-   },
-   {
-    "name": "RenderQueueId",
-    "rva": "0x10"
-   },
-   {
-    "name": "TechniqueArrayPtr",
-    "rva": "0x70"
-   },
-   {
-    "name": "VTableRva",
-    "rva": "0x714CAF0"
    }
   ],
   "FileMeshData": [
@@ -612,112 +464,6 @@
     "rva": "0x8"
    }
   ],
-  "FunctionDescriptor": [
-   {
-    "name": "Function",
-    "rva": "0x80"
-   }
-  ],
-  "Functions": [
-   {
-    "name": "Clone",
-    "rva": "0x56BC00"
-   },
-   {
-    "name": "Destroy",
-    "rva": "0x56BDA0"
-   },
-   {
-    "name": "GlobalCollectGarbage",
-    "rva": "0x4320A80"
-   },
-   {
-    "name": "GlobalDelay",
-    "rva": "0x4321300"
-   },
-   {
-    "name": "GlobalElapsedTime",
-    "rva": "0x4321A80"
-   },
-   {
-    "name": "GlobalGetFenv",
-    "rva": "0x4325010"
-   },
-   {
-    "name": "GlobalLoadstring",
-    "rva": "0x4321B00"
-   },
-   {
-    "name": "GlobalPluginManager",
-    "rva": "0x43221A0"
-   },
-   {
-    "name": "GlobalPrint",
-    "rva": "0x4322670"
-   },
-   {
-    "name": "GlobalRequire",
-    "rva": "0x4322790"
-   },
-   {
-    "name": "GlobalSetFenv",
-    "rva": "0x4325150"
-   },
-   {
-    "name": "GlobalSettings",
-    "rva": "0x4322D60"
-   },
-   {
-    "name": "GlobalSpawn",
-    "rva": "0x43231F0"
-   },
-   {
-    "name": "GlobalStats",
-    "rva": "0x4323960"
-   },
-   {
-    "name": "GlobalTick",
-    "rva": "0x4323E80"
-   },
-   {
-    "name": "GlobalTime",
-    "rva": "0x4323F00"
-   },
-   {
-    "name": "GlobalUserSettings",
-    "rva": "0x4324100"
-   },
-   {
-    "name": "GlobalVersion",
-    "rva": "0x4324510"
-   },
-   {
-    "name": "GlobalWait",
-    "rva": "0x4324600"
-   },
-   {
-    "name": "GlobalWarn",
-    "rva": "0x4324800"
-   },
-   {
-    "name": "Print",
-    "rva": "0x4322670"
-   },
-   {
-    "name": "PrintIdentity",
-    "rva": "0x4322690"
-   },
-   {
-    "name": "Shapecast",
-    "rva": "0xE13EC0"
-   }
-  ],
-  "GeometryD3D11": [
-   {
-    "name": "VTableRva",
-    "rva": "0x70E7EC0"
-   }
-  ],
   "GuiBase2D": [
    {
     "name": "AbsolutePosition",
@@ -735,31 +481,31 @@
   "GuiObject": [
    {
     "name": "BackgroundColor3",
-    "rva": "0x508"
+    "rva": "0x2D8"
    },
    {
     "name": "BackgroundTransparency",
-    "rva": "0x514"
+    "rva": "0x2E4"
    },
    {
     "name": "BorderColor3",
-    "rva": "0x514"
+    "rva": "0x2E4"
    },
    {
     "name": "Image",
-    "rva": "0x9A8"
+    "rva": "0x670"
    },
    {
     "name": "LayoutOrder",
-    "rva": "0x544"
+    "rva": "0x314"
    },
    {
     "name": "Position",
-    "rva": "0x4D8"
+    "rva": "0x2A8"
    },
    {
     "name": "RichText",
-    "rva": "0xBA0"
+    "rva": "0x7C8"
    },
    {
     "name": "Rotation",
@@ -767,45 +513,51 @@
    },
    {
     "name": "ScreenGui_Enabled",
-    "rva": "0x490"
+    "rva": "0x40D"
    },
    {
     "name": "Size",
-    "rva": "0x4F8"
+    "rva": "0x2C8"
    },
    {
     "name": "Text",
-    "rva": "0xE08"
+    "rva": "0xA30"
    },
    {
     "name": "TextColor3",
-    "rva": "0xEB8"
+    "rva": "0xAE0"
    },
    {
     "name": "Visible",
-    "rva": "0x575"
+    "rva": "0x72D"
    },
    {
     "name": "ZIndex",
-    "rva": "0x56C"
+    "rva": "0x33C"
+   }
+  ],
+  "HandleAdornment": [
+   {
+    "name": "CFrame",
+    "rva": "0x100"
    }
   ],
   "Humanoid": [
    {
     "name": "AutoJumpEnabled",
-    "rva": "0x1C8"
+    "rva": "0x1CC"
    },
    {
     "name": "AutoRotate",
-    "rva": "0x1C9"
+    "rva": "0x1CD"
    },
    {
     "name": "AutomaticScalingEnabled",
-    "rva": "0x95"
+    "rva": "0x1CE"
    },
    {
     "name": "BreakJointsOnDeath",
-    "rva": "0x1CC"
+    "rva": "0x1D0"
    },
    {
     "name": "CameraOffset",
@@ -821,7 +573,7 @@
    },
    {
     "name": "EvaluateStateMachine",
-    "rva": "0x1CD"
+    "rva": "0x1D1"
    },
    {
     "name": "FloorMaterial",
@@ -845,11 +597,11 @@
    },
    {
     "name": "HumanoidRootPart",
-    "rva": "0x460"
+    "rva": "0x468"
    },
    {
     "name": "HumanoidState",
-    "rva": "0x8A8"
+    "rva": "0x8B0"
    },
    {
     "name": "HumanoidStateID",
@@ -857,27 +609,27 @@
    },
    {
     "name": "IsWalking",
-    "rva": "0xA2E"
+    "rva": "0xA46"
    },
    {
     "name": "Jump",
-    "rva": "0x1D0"
+    "rva": "0x1D4"
    },
    {
     "name": "JumpHeight",
-    "rva": "0x194"
-   },
-   {
-    "name": "JumpPower",
     "rva": "0x198"
    },
    {
-    "name": "MaxHealth",
+    "name": "JumpPower",
     "rva": "0x19C"
    },
    {
-    "name": "MaxSlopeAngle",
+    "name": "MaxHealth",
     "rva": "0x1A0"
+   },
+   {
+    "name": "MaxSlopeAngle",
+    "rva": "0x1A4"
    },
    {
     "name": "MoveDirection",
@@ -893,15 +645,15 @@
    },
    {
     "name": "NameDisplayDistance",
-    "rva": "0x1A4"
-   },
-   {
-    "name": "NameOcclusion",
     "rva": "0x1A8"
    },
    {
+    "name": "NameOcclusion",
+    "rva": "0x1AC"
+   },
+   {
     "name": "PlatformStand",
-    "rva": "0x1D2"
+    "rva": "0x1D6"
    },
    {
     "name": "PlatformStatePointer",
@@ -909,11 +661,11 @@
    },
    {
     "name": "RequiresNeck",
-    "rva": "0x1D3"
+    "rva": "0x1D7"
    },
    {
     "name": "RigType",
-    "rva": "0x1B4"
+    "rva": "0x1B8"
    },
    {
     "name": "SeatPart",
@@ -921,7 +673,7 @@
    },
    {
     "name": "Sit",
-    "rva": "0x1D3"
+    "rva": "0x1D7"
    },
    {
     "name": "TargetPoint",
@@ -929,19 +681,19 @@
    },
    {
     "name": "UseJumpPower",
-    "rva": "0x1D6"
+    "rva": "0x1DA"
    },
    {
     "name": "WalkTimer",
-    "rva": "0x0"
+    "rva": "0x3F0"
    },
    {
     "name": "Walkspeed",
-    "rva": "0x1C4"
+    "rva": "0x1C8"
    },
    {
     "name": "WalkspeedCheck",
-    "rva": "0x39C"
+    "rva": "0x3A4"
    }
   ],
   "Instance": [
@@ -952,10 +704,6 @@
    {
     "name": "ChildrenStart",
     "rva": "0x70"
-   },
-   {
-    "name": "ChildrenStride",
-    "rva": "0x10"
    },
    {
     "name": "ClassBase",
@@ -970,38 +718,6 @@
     "rva": "0x8"
    },
    {
-    "name": "FindFirstAncestorWhichIsA",
-    "rva": "0x56C540"
-   },
-   {
-    "name": "FindFirstChild",
-    "rva": "0x5700F0"
-   },
-   {
-    "name": "FindFirstChildOfClass",
-    "rva": "0x56C880"
-   },
-   {
-    "name": "FindFirstChildWhichIsA",
-    "rva": "0x570320"
-   },
-   {
-    "name": "FireTouchInterest",
-    "rva": "0x9F5920"
-   },
-   {
-    "name": "GetAttribute",
-    "rva": "0x56D1A0"
-   },
-   {
-    "name": "GetChildren",
-    "rva": "0x56DAA0"
-   },
-   {
-    "name": "InstanceIndex",
-    "rva": "0x41F78A0"
-   },
-   {
     "name": "Name",
     "rva": "0x0"
    },
@@ -1014,12 +730,18 @@
     "rva": "0x60"
    },
    {
-    "name": "SetParent",
-    "rva": "0x1F14530"
-   },
-   {
     "name": "This",
     "rva": "0x8"
+   }
+  ],
+  "JointInstance": [
+   {
+    "name": "Part0",
+    "rva": "0x100"
+   },
+   {
+    "name": "Part1",
+    "rva": "0x110"
    }
   ],
   "LRUHolder": [
@@ -1057,11 +779,11 @@
    },
    {
     "name": "ColorShift_Bottom",
-    "rva": "0xD0"
+    "rva": "0xC4"
    },
    {
     "name": "ColorShift_Top",
-    "rva": "0xC4"
+    "rva": "0xD0"
    },
    {
     "name": "EnvironmentDiffuseScale",
@@ -1135,7 +857,7 @@
   "LocalScript": [
    {
     "name": "ByteCode",
-    "rva": "0x180"
+    "rva": "0x178"
    },
    {
     "name": "GUID",
@@ -1144,236 +866,6 @@
    {
     "name": "Hash",
     "rva": "0x188"
-   }
-  ],
-  "LuaB": [
-   {
-    "name": "LuaBAssert",
-    "rva": "0x2699220"
-   },
-   {
-    "name": "LuaBError",
-    "rva": "0x2693A70"
-   },
-   {
-    "name": "LuaBGcinfo",
-    "rva": "0x26970A0"
-   },
-   {
-    "name": "LuaBGetfenv",
-    "rva": "0x26954C0"
-   },
-   {
-    "name": "LuaBGetmetatable",
-    "rva": "0x2694980"
-   },
-   {
-    "name": "LuaBNewproxy",
-    "rva": "0x2699E00"
-   },
-   {
-    "name": "LuaBNext",
-    "rva": "0x2698770"
-   },
-   {
-    "name": "LuaBPrint",
-    "rva": "0x2693620"
-   },
-   {
-    "name": "LuaBRawequal",
-    "rva": "0x26957A0"
-   },
-   {
-    "name": "LuaBRawget",
-    "rva": "0x26958B0"
-   },
-   {
-    "name": "LuaBRawlen",
-    "rva": "0x2697000"
-   },
-   {
-    "name": "LuaBRawset",
-    "rva": "0x2696340"
-   },
-   {
-    "name": "LuaBSelect",
-    "rva": "0x26992D0"
-   },
-   {
-    "name": "LuaBSetfenv",
-    "rva": "0x2695580"
-   },
-   {
-    "name": "LuaBSetmetatable",
-    "rva": "0x2694B00"
-   },
-   {
-    "name": "LuaBTonumber",
-    "rva": "0x26936E0"
-   },
-   {
-    "name": "LuaBTostring",
-    "rva": "0x2699DA0"
-   },
-   {
-    "name": "LuaBType",
-    "rva": "0x26970C0"
-   },
-   {
-    "name": "LuaBTypeof",
-    "rva": "0x2697C20"
-   }
-  ],
-  "LuaCoroutine": [
-   {
-    "name": "Create",
-    "rva": "0x5A60FE0"
-   },
-   {
-    "name": "Finally",
-    "rva": "0x5A640F0"
-   },
-   {
-    "name": "Isyieldable",
-    "rva": "0x5A61920"
-   },
-   {
-    "name": "Running",
-    "rva": "0x5A618B0"
-   },
-   {
-    "name": "Status",
-    "rva": "0x5A5EB20"
-   },
-   {
-    "name": "Wrap",
-    "rva": "0x5A61580"
-   },
-   {
-    "name": "Yield",
-    "rva": "0x5A61850"
-   }
-  ],
-  "LuaState": [
-   {
-    "name": "Global",
-    "rva": "0x50"
-   }
-  ],
-  "Luau": [
-   {
-    "name": "Free",
-    "rva": "0x265D2F0"
-   },
-   {
-    "name": "Step",
-    "rva": "0x265D9F0"
-   },
-   {
-    "name": "luaB_assert",
-    "rva": "0x2699220"
-   },
-   {
-    "name": "luaB_error",
-    "rva": "0x2693A70"
-   },
-   {
-    "name": "luaB_gcinfo",
-    "rva": "0x26970A0"
-   },
-   {
-    "name": "luaB_getfenv",
-    "rva": "0x26954C0"
-   },
-   {
-    "name": "luaB_getmetatable",
-    "rva": "0x2694980"
-   },
-   {
-    "name": "luaB_newproxy",
-    "rva": "0x2699E00"
-   },
-   {
-    "name": "luaB_next",
-    "rva": "0x2698770"
-   },
-   {
-    "name": "luaB_print",
-    "rva": "0x2693620"
-   },
-   {
-    "name": "luaB_rawequal",
-    "rva": "0x26957A0"
-   },
-   {
-    "name": "luaB_rawget",
-    "rva": "0x26958B0"
-   },
-   {
-    "name": "luaB_rawlen",
-    "rva": "0x2697000"
-   },
-   {
-    "name": "luaB_rawset",
-    "rva": "0x2696340"
-   },
-   {
-    "name": "luaB_select",
-    "rva": "0x26992D0"
-   },
-   {
-    "name": "luaB_setfenv",
-    "rva": "0x2695580"
-   },
-   {
-    "name": "luaB_setmetatable",
-    "rva": "0x2694B00"
-   },
-   {
-    "name": "luaB_tonumber",
-    "rva": "0x26936E0"
-   },
-   {
-    "name": "luaB_tostring",
-    "rva": "0x2699DA0"
-   },
-   {
-    "name": "luaB_type",
-    "rva": "0x26970C0"
-   },
-   {
-    "name": "luaB_typeof",
-    "rva": "0x2697C20"
-   },
-   {
-    "name": "tclone",
-    "rva": "0x26AF1B0"
-   }
-  ],
-  "LuauGlobal": [
-   {
-    "name": "GCthreshold",
-    "rva": "0x38"
-   },
-   {
-    "name": "dummynode",
-    "rva": "0x6B22620"
-   },
-   {
-    "name": "gcstate",
-    "rva": "0x2"
-   },
-   {
-    "name": "gray",
-    "rva": "0xA8"
-   },
-   {
-    "name": "grayagain",
-    "rva": "0x70"
-   },
-   {
-    "name": "totalbytes",
-    "rva": "0x68"
    }
   ],
   "MaterialColors": [
@@ -1462,36 +954,6 @@
     "rva": "0x15"
    }
   ],
-  "MaterialLayer": [
-   {
-    "name": "ColorData",
-    "rva": "0x26"
-   },
-   {
-    "name": "CullMode",
-    "rva": "0x10"
-   },
-   {
-    "name": "FillModeByte",
-    "rva": "0x11"
-   },
-   {
-    "name": "Flags2",
-    "rva": "0x20"
-   },
-   {
-    "name": "MatFlags",
-    "rva": "0x18"
-   },
-   {
-    "name": "Param",
-    "rva": "0x1C"
-   },
-   {
-    "name": "Stride",
-    "rva": "0x88"
-   }
-  ],
   "MemEnforcedLRUCache": [
    {
     "name": "Head",
@@ -1528,24 +990,8 @@
     "rva": "0xA8"
    },
    {
-    "name": "EnableLoadModule",
-    "rva": "0x855CF68"
-   },
-   {
-    "name": "LockViolationScriptCrash",
-    "rva": "0x74C1410"
-   },
-   {
-    "name": "PrintIdentity",
-    "rva": "0x4322690"
-   },
-   {
     "name": "StringLength",
     "rva": "0x10"
-   },
-   {
-    "name": "UnregisteredValueGetSet",
-    "rva": "0x71DE240"
    },
    {
     "name": "Value",
@@ -1596,16 +1042,6 @@
    {
     "name": "SensitivityPointer",
     "rva": "0x0"
-   }
-  ],
-  "Offsets": [
-   {
-    "name": "AirDensity",
-    "rva": "0x18"
-   },
-   {
-    "name": "GlobalWind",
-    "rva": "0x3C"
    }
   ],
   "ParticleEmitter": [
@@ -1759,7 +1195,7 @@
    },
    {
     "name": "Material",
-    "rva": "0x0"
+    "rva": "0x24E"
    },
    {
     "name": "Owner",
@@ -1834,90 +1270,6 @@
     "rva": "0x11F"
    }
   ],
-  "RakNet": [
-   {
-    "name": "ConvertItemEnumToString",
-    "rva": "0x491E620"
-   },
-   {
-    "name": "RakPeerVirtualTable",
-    "rva": "0x70E84B8"
-   },
-   {
-    "name": "ReportNetworkError",
-    "rva": "0x49B6820"
-   }
-  ],
-  "Raycast": [
-   {
-    "name": "RaycastBoundFn",
-    "rva": "0x90"
-   }
-  ],
-  "RbxTransport": [
-   {
-    "name": "AppRTTI",
-    "rva": "0x8413AA0"
-   },
-   {
-    "name": "AppVTable",
-    "rva": "0x70DB908"
-   },
-   {
-    "name": "ClientRTTI",
-    "rva": "0x8455898"
-   },
-   {
-    "name": "ClientSend",
-    "rva": "0x3B02970"
-   },
-   {
-    "name": "ClientVTable",
-    "rva": "0x714D5B0"
-   },
-   {
-    "name": "GetConnectionErrorName",
-    "rva": "0x53E9070"
-   }
-  ],
-  "RemoteEvent": [
-   {
-    "name": "BaseVTableRva",
-    "rva": "0x713F188"
-   },
-   {
-    "name": "DescBaseVTableRva",
-    "rva": "0x713EF20"
-   },
-   {
-    "name": "FireServerRva",
-    "rva": "0x710C10"
-   },
-   {
-    "name": "HookSlot7RemoteEventFn",
-    "rva": "0x3587220"
-   },
-   {
-    "name": "InstanceVTableRva",
-    "rva": "0x70D0B68"
-   },
-   {
-    "name": "InvokeClient",
-    "rva": "0x3583760"
-   },
-   {
-    "name": "InvokeServer",
-    "rva": "0x35833E0"
-   },
-   {
-    "name": "RemoteFuncVTableRva",
-    "rva": "0x71436F0"
-   },
-   {
-    "name": "VTableRva",
-    "rva": "0x7143958"
-   }
-  ],
   "RenderJob": [
    {
     "name": "FakeDataModel",
@@ -1953,17 +1305,17 @@
   "RunService": [
    {
     "name": "HeartbeatFPS",
-    "rva": "0xF2"
+    "rva": "0xC8"
    },
    {
     "name": "HeartbeatTask",
-    "rva": "0x14B80"
+    "rva": "0x27C8"
    }
   ],
   "Script": [
    {
     "name": "ByteCode",
-    "rva": "0x0"
+    "rva": "0x178"
    },
    {
     "name": "GUID",
@@ -1976,48 +1328,8 @@
   ],
   "ScriptContext": [
    {
-    "name": "GetGlobalState",
-    "rva": "0x42B3C80"
-   },
-   {
-    "name": "LuaState",
-    "rva": "0x200"
-   },
-   {
-    "name": "LuaStateAlt",
-    "rva": "0x208"
-   },
-   {
     "name": "RequireBypass",
     "rva": "0x0"
-   },
-   {
-    "name": "Resume",
-    "rva": "0x431B1F0"
-   },
-   {
-    "name": "VTable",
-    "rva": "0x71B0FE8"
-   },
-   {
-    "name": "VTableSub",
-    "rva": "0x71B12C8"
-   },
-   {
-    "name": "VmWrapper",
-    "rva": "0xA8"
-   },
-   {
-    "name": "VmWrapper2",
-    "rva": "0x6C8"
-   },
-   {
-    "name": "VmWrapperBig",
-    "rva": "0x3B8"
-   },
-   {
-    "name": "VmWrapperFn",
-    "rva": "0x1CF86E0"
    }
   ],
   "Seat": [
@@ -2026,33 +1338,7 @@
     "rva": "0x200"
    }
   ],
-  "ShaderManager": [
-   {
-    "name": "VTableRva",
-    "rva": "0x7148BA0"
-   }
-  ],
   "Sky": [
-   {
-    "name": "DrawCubeCall",
-    "rva": "0x38F58E0"
-   },
-   {
-    "name": "DrawSkyEnv",
-    "rva": "0x38F58E0"
-   },
-   {
-    "name": "DrawSkyPixel",
-    "rva": "0x38F58E0"
-   },
-   {
-    "name": "DrawStars",
-    "rva": "0x38F58E0"
-   },
-   {
-    "name": "DrawSun",
-    "rva": "0x38F58E0"
-   },
    {
     "name": "MoonAngularSize",
     "rva": "0x22C"
@@ -2171,7 +1457,7 @@
   "StatsItem": [
    {
     "name": "Value",
-    "rva": "0x30E0"
+    "rva": "0xE758"
    }
   ],
   "SunRaysEffect": [
@@ -2226,36 +1512,6 @@
     "rva": "0x170"
    }
   ],
-  "Task": [
-   {
-    "name": "TaskCancel",
-    "rva": "0x435D290"
-   },
-   {
-    "name": "TaskDefer",
-    "rva": "0x435C440"
-   },
-   {
-    "name": "TaskDelay",
-    "rva": "0x435CCB0"
-   },
-   {
-    "name": "TaskDesynchronize",
-    "rva": "0x435B700"
-   },
-   {
-    "name": "TaskSpawn",
-    "rva": "0x435C920"
-   },
-   {
-    "name": "TaskSynchronize",
-    "rva": "0x435B180"
-   },
-   {
-    "name": "TaskWait",
-    "rva": "0x435D1E0"
-   }
-  ],
   "TaskScheduler": [
    {
     "name": "JobEnd",
@@ -2275,31 +1531,13 @@
    },
    {
     "name": "Pointer",
-    "rva": "0x8E4D7B8"
-   },
-   {
-    "name": "StepFunction",
-    "rva": "0x2A3E640"
+    "rva": "0x8F1E408"
    }
   ],
   "Team": [
    {
     "name": "BrickColor",
     "rva": "0xA0"
-   }
-  ],
-  "TechniqueArray": [
-   {
-    "name": "BeginOffset",
-    "rva": "0x0"
-   },
-   {
-    "name": "EndOffset",
-    "rva": "0x8"
-   },
-   {
-    "name": "EntryStride",
-    "rva": "0x88"
    }
   ],
   "Terrain": [
@@ -2345,11 +1583,11 @@
   "Tool": [
    {
     "name": "CanBeDropped",
-    "rva": "0x365"
+    "rva": "0x4A0"
    },
    {
     "name": "Enabled",
-    "rva": "0x95"
+    "rva": "0x4A1"
    },
    {
     "name": "Grip",
@@ -2406,12 +1644,6 @@
     "rva": "0x220"
    }
   ],
-  "ViewBase": [
-   {
-    "name": "VTableRva",
-    "rva": "0x7149AD8"
-   }
-  ],
   "VisualEngine": [
    {
     "name": "Dimensions",
@@ -2423,7 +1655,7 @@
    },
    {
     "name": "Pointer",
-    "rva": "0x8942E38"
+    "rva": "0x8A11808"
    },
    {
     "name": "RenderView",
@@ -2432,16 +1664,6 @@
    {
     "name": "ViewMatrix",
     "rva": "0x1B0"
-   }
-  ],
-  "Weld": [
-   {
-    "name": "Part0",
-    "rva": "0x100"
-   },
-   {
-    "name": "Part1",
-    "rva": "0x110"
    }
   ],
   "WeldConstraint": [
@@ -2475,7 +1697,7 @@
    },
    {
     "name": "ReadOnlyGravity",
-    "rva": "0x9D0"
+    "rva": "0x9C8"
    },
    {
     "name": "World",
@@ -2502,74 +1724,6 @@
    {
     "name": "worldStepsPerSec",
     "rva": "0x868"
-   }
-  ],
-  "WorldRoot": [
-   {
-    "name": "FindPartOnRayBoundFnRva",
-    "rva": "0x3D5690"
-   },
-   {
-    "name": "FindPartOnRayWithIgnoreListBoundFnRva",
-    "rva": "0x3D5840"
-   },
-   {
-    "name": "FindPartOnRayWithWhitelistBoundFnRva",
-    "rva": "0x3D59E0"
-   },
-   {
-    "name": "RaycastBoundFn",
-    "rva": "0x90"
-   },
-   {
-    "name": "RaycastBoundFnRva",
-    "rva": "0x3D30B0"
-   },
-   {
-    "name": "RaycastDescriptorVtableRva",
-    "rva": "0x7041420"
-   }
-  ],
-  "highlight_manager": [
-   {
-    "name": "context_active",
-    "rva": "0x420"
-   },
-   {
-    "name": "context_depth",
-    "rva": "0x20"
-   },
-   {
-    "name": "context_fill",
-    "rva": "0x520"
-   },
-   {
-    "name": "context_outline",
-    "rva": "0x1520"
-   },
-   {
-    "name": "contexts",
-    "rva": "0x100"
-   },
-   {
-    "name": "fallback_active",
-    "rva": "0x538"
-   },
-   {
-    "name": "fallback_depth",
-    "rva": "0x138"
-   },
-   {
-    "name": "fallback_fill",
-    "rva": "0x638"
-   },
-   {
-    "name": "fallback_outline",
-    "rva": "0x1638"
-   },
-   {
-    "name": "manager",
-    "rva": "0xC18"
    }
   ]
  }

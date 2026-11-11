@@ -13,16 +13,8 @@
    "rva": "0x822F5F8"
   },
   {
-   "name": "ACSDeserializeWithUnpublished",
-   "rva": "0x815C928"
-  },
-  {
    "name": "ACSGuardEmptyBatchTokenDetails",
    "rva": "0x822F5C8"
-  },
-  {
-   "name": "ACSSerializeWithUnpublished",
-   "rva": "0x815CB08"
   },
   {
    "name": "AECRingBufferSizeTenthsMs",
@@ -167,10 +159,6 @@
   {
    "name": "AbuseReportV2Percentage",
    "rva": "0x82637C8"
-  },
-  {
-   "name": "AccErrorDrainedThousandth",
-   "rva": "0x81597B8"
   },
   {
    "name": "AccelerationTimeThreshold",
@@ -521,10 +509,6 @@
    "rva": "0x82715A0"
   },
   {
-   "name": "AddIntegrityToReplicatorTelemetry",
-   "rva": "0x819EB68"
-  },
-  {
    "name": "AddIxpLayerEdpVirtualProductsRanking",
    "rva": "0x827F928"
   },
@@ -563,10 +547,6 @@
   {
    "name": "AddProfilerScopesForPerformanceControlStreaming",
    "rva": "0x8274220"
-  },
-  {
-   "name": "AddProfilerTelemetryScopeForRakNet",
-   "rva": "0x816C088"
   },
   {
    "name": "AddRakNetDebugLogs",
@@ -837,10 +817,6 @@
    "rva": "0x8225990"
   },
   {
-   "name": "AllocatorVulkanMemoryTelemetry2",
-   "rva": "0x81B8968"
-  },
-  {
    "name": "AllowAlwaysCreateFile",
    "rva": "0x827BE20"
   },
@@ -973,16 +949,8 @@
    "rva": "0x827BD58"
   },
   {
-   "name": "AlwaysAllowUIDragDetectorInNonMainWindows",
-   "rva": "0x81932B0"
-  },
-  {
    "name": "AlwaysFireEngineNetConfigSetSignal",
    "rva": "0x8255698"
-  },
-  {
-   "name": "AlwaysSendRootMovingPrimitiveForChildPrimitive",
-   "rva": "0x8182720"
   },
   {
    "name": "AmpCanUseInExperienceChatV2Rollout2",
@@ -1409,10 +1377,6 @@
    "rva": "0x8230B38"
   },
   {
-   "name": "AnimationGraphMaxTelemetry",
-   "rva": "0x815DF10"
-  },
-  {
    "name": "AnimationGraphMemoryTelemetry",
    "rva": "0x8230B20"
   },
@@ -1655,10 +1619,6 @@
   {
    "name": "AnimationSABindToAnimation",
    "rva": "0x82648E0"
-  },
-  {
-   "name": "AnimationSAFixDidLoopEvent",
-   "rva": "0x815BE38"
   },
   {
    "name": "AnimationSAIdleOnMovingPlatformFix",
@@ -1963,10 +1923,6 @@
   {
    "name": "ApplicationFrameRateClampToDisplay",
    "rva": "0x82454D8"
-  },
-  {
-   "name": "ApplicationFrameRatePolicy2",
-   "rva": "0x81727B0"
   },
   {
    "name": "ApplicationFrameRatePolicy3",
@@ -2519,10 +2475,6 @@
   {
    "name": "AsyncHttpQueueLockClearRequestLists",
    "rva": "0x8228CD8"
-  },
-  {
-   "name": "AsyncLoadRvSubsystem",
-   "rva": "0x8164C70"
   },
   {
    "name": "AsyncRenamesUsedInLuaApps",
@@ -3121,10 +3073,6 @@
    "rva": "0x8255128"
   },
   {
-   "name": "AuroraDeterministicGuidNonNegativeIndex",
-   "rva": "0x8550FC2"
-  },
-  {
    "name": "AuroraDisablePlatformSubscription",
    "rva": "0x822FE70"
   },
@@ -3179,10 +3127,6 @@
   {
    "name": "AuroraLimit60HzRenderSim",
    "rva": "0x822BE00"
-  },
-  {
-   "name": "AuroraOrderIndependentAttributeHash",
-   "rva": "0x8182410"
   },
   {
    "name": "AuroraPhysicsToleranceMillistuds",
@@ -3247,10 +3191,6 @@
   {
    "name": "AuroraUseCompareStateForMisprediction",
    "rva": "0x8255098"
-  },
-  {
-   "name": "AuroraUsePhysicsSnapshotComparison",
-   "rva": "0x8182028"
   },
   {
    "name": "Auth2Cookie",
@@ -3537,10 +3477,6 @@
    "rva": "0x8230390"
   },
   {
-   "name": "AvatarChatServiceFixClientFeaturesCacheLeakV2",
-   "rva": "0x815D828"
-  },
-  {
    "name": "AvatarChatServiceRateLimit",
    "rva": "0x8230498"
   },
@@ -3765,10 +3701,6 @@
    "rva": "0x8231908"
   },
   {
-   "name": "AvatarGenerationUseUploadImpl",
-   "rva": "0x815ECC8"
-  },
-  {
    "name": "AvatarJoinMetrics",
    "rva": "0x8270A40"
   },
@@ -3917,10 +3849,6 @@
    "rva": "0x82647B8"
   },
   {
-   "name": "AvatarSettingsApiCleanup",
-   "rva": "0x815D518"
-  },
-  {
    "name": "AvatarSettingsApiCleanup2",
    "rva": "0x8230300"
   },
@@ -3993,20 +3921,12 @@
    "rva": "0x8230278"
   },
   {
-   "name": "AvatarSettingsExcludeCollidersFromScaling",
-   "rva": "0x815E838"
-  },
-  {
    "name": "AvatarSettingsHitbox",
    "rva": "0x8230318"
   },
   {
    "name": "AvatarSettingsIgnoreNonPositiveCustomWorldHeight",
    "rva": "0x8231508"
-  },
-  {
-   "name": "AvatarSettingsInnerBoxPhysicsRestore",
-   "rva": "0x815C518"
   },
   {
    "name": "AvatarSettingsJustCoreAbilitiesWithSyncedState",
@@ -4039,10 +3959,6 @@
   {
    "name": "AvatarSettingsRelayPublishRefresh",
    "rva": "0x8230260"
-  },
-  {
-   "name": "AvatarSettingsRestoreOnUnset3",
-   "rva": "0x815E718"
   },
   {
    "name": "AvatarSettingsRestoreOnUnset4",
@@ -4147,10 +4063,6 @@
   {
    "name": "AverageTimeSimulationBreakdownHundredthsPercentage",
    "rva": "0x822CFD0"
-  },
-  {
-   "name": "AvoidExtraWorkOnComputeSimulationExtentsForTriangleMesh",
-   "rva": "0x81596C8"
   },
   {
    "name": "AvoidUnnecessaryQuadtreeLock",
@@ -4705,10 +4617,6 @@
    "rva": "0x828F618"
   },
   {
-   "name": "BootcampCLI199819",
-   "rva": "0x81BBF08"
-  },
-  {
    "name": "BootcampCLI201569",
    "rva": "0x828F5D0"
   },
@@ -4993,14 +4901,6 @@
    "rva": "0x828F068"
   },
   {
-   "name": "BootcampCLI226431",
-   "rva": "0x81BB5D8"
-  },
-  {
-   "name": "BootcampCLI226431Log",
-   "rva": "0x81BBAB0"
-  },
-  {
    "name": "BootcampCLI226477",
    "rva": "0x828F0E0"
   },
@@ -5011,14 +4911,6 @@
   {
    "name": "BootcampCLI226511",
    "rva": "0x828F5A0"
-  },
-  {
-   "name": "BootcampCLI226594",
-   "rva": "0x81BC0F8"
-  },
-  {
-   "name": "BootcampCLI226594Log",
-   "rva": "0x81BC0E8"
   },
   {
    "name": "BootcampCLI227655",
@@ -5135,10 +5027,6 @@
   {
    "name": "BroadPhaseIslandAlwaysSimulateDepth",
    "rva": "0x822CB90"
-  },
-  {
-   "name": "BroadPhaseIslandBufferZoneMinPartLimit",
-   "rva": "0x8159508"
   },
   {
    "name": "BroadPhaseIslandMaxPartLinearFactorTenth",
@@ -5341,10 +5229,6 @@
    "rva": "0x82574A8"
   },
   {
-   "name": "CLI1533232",
-   "rva": "0x8196FF0"
-  },
-  {
    "name": "CLI160771_ImproveTelemetry",
    "rva": "0x8260928"
   },
@@ -5397,20 +5281,12 @@
    "rva": "0x82344C0"
   },
   {
-   "name": "CLI183642Enabled3",
-   "rva": "0x8191C70"
-  },
-  {
    "name": "CLI183642EnabledRegions",
    "rva": "0x82F3170"
   },
   {
    "name": "CLI183642UseLocalFallbackProperty",
    "rva": "0x82646F8"
-  },
-  {
-   "name": "CLI184283",
-   "rva": "0x81618B0"
   },
   {
    "name": "CLI1842832",
@@ -5695,10 +5571,6 @@
   {
    "name": "CLI220331Enabled",
    "rva": "0x8270E58"
-  },
-  {
-   "name": "CLI220815",
-   "rva": "0x8180730"
   },
   {
    "name": "CLI221401Fix",
@@ -6205,10 +6077,6 @@
    "rva": "0x8268D60"
   },
   {
-   "name": "CafTelemetryIntegrationAppLaunchTelemetryThrottleHundredthsPercent",
-   "rva": "0x818E670"
-  },
-  {
    "name": "CageMeshFetchRequestFetchRetries",
    "rva": "0x8231878"
   },
@@ -6411,10 +6279,6 @@
   {
    "name": "CanvasGroupSkipCacheOrphansTexture2",
    "rva": "0x8266E58"
-  },
-  {
-   "name": "CanvasGroupStencilClip2",
-   "rva": "0x8194188"
   },
   {
    "name": "CanvasGroupStencilClip3",
@@ -6671,10 +6535,6 @@
   {
    "name": "ChangeHistoryPerformance",
    "rva": "0x8253828"
-  },
-  {
-   "name": "ChangeHistoryRecordAssemblyCFrames",
-   "rva": "0x8180950"
   },
   {
    "name": "ChangeHistoryServiceMaxMemoryUsageInBytes",
@@ -6967,10 +6827,6 @@
   {
    "name": "ClearPackageOverridesOnLegacyRevert",
    "rva": "0x8262FE8"
-  },
-  {
-   "name": "Cli227430",
-   "rva": "0x8195370"
   },
   {
    "name": "CliMaxChRcv",
@@ -7637,14 +7493,6 @@
    "rva": "0x8265F20"
   },
   {
-   "name": "CollectISRPhysicsBandwidthUsage",
-   "rva": "0x8189E70"
-  },
-  {
-   "name": "CollectNumOfPrimitivesRate",
-   "rva": "0x81590A8"
-  },
-  {
    "name": "CollectSessionBatteryChargeCounter",
    "rva": "0x82452B8"
   },
@@ -7729,20 +7577,12 @@
    "rva": "0x8253708"
   },
   {
-   "name": "CollectionWatcherDirtyFlush",
-   "rva": "0x8181500"
-  },
-  {
    "name": "CollectionWatcherFilterSignals",
    "rva": "0x82543A0"
   },
   {
    "name": "CollectionWatcherSelectorBacktracking",
    "rva": "0x8254388"
-  },
-  {
-   "name": "CollectionWatcherTagSignals",
-   "rva": "0x81814D0"
   },
   {
    "name": "CollectionsBatchedIterate3",
@@ -7791,10 +7631,6 @@
   {
    "name": "CollisionScalingDefaultStudTenths",
    "rva": "0x8224F80"
-  },
-  {
-   "name": "CollisionSetupHandleHRPRotation",
-   "rva": "0x815E880"
   },
   {
    "name": "CollisionSoundCustomization",
@@ -8017,10 +7853,6 @@
    "rva": "0x823A8E8"
   },
   {
-   "name": "ConnectionClosedPointsEnhancedDiagnostics",
-   "rva": "0x8167B68"
-  },
-  {
    "name": "ConnectionClosedPointsThrottleHundredthsPercent",
    "rva": "0x823A7F8"
   },
@@ -8075,10 +7907,6 @@
   {
    "name": "ConnectionClosedTimeSinceDiagnostics",
    "rva": "0x823A9C0"
-  },
-  {
-   "name": "ConnectionClosedValidRxTimestamp",
-   "rva": "0x8167B08"
   },
   {
    "name": "ConnectionLostDisconnectReasonInfluxHundredthsPercentage",
@@ -8259,10 +8087,6 @@
   {
    "name": "ContentPropertiesScreenshotHud",
    "rva": "0x8228810"
-  },
-  {
-   "name": "ContentPropertiesSky",
-   "rva": "0x8155570"
   },
   {
    "name": "ContentPropertiesTexturePack",
@@ -8477,10 +8301,6 @@
    "rva": "0x8268558"
   },
   {
-   "name": "CornerRadiusCleanup",
-   "rva": "0x818A308"
-  },
-  {
    "name": "CorrectAttachedBodyPartAJU",
    "rva": "0x8231310"
   },
@@ -8543,10 +8363,6 @@
   {
    "name": "CrashMetricStorageHundredthPercentageSent",
    "rva": "0x82396A0"
-  },
-  {
-   "name": "CrashMetricStorageWritePlaySession",
-   "rva": "0x8166AD8"
   },
   {
    "name": "CrashOnInconsistentJoint",
@@ -8635,18 +8451,6 @@
   {
    "name": "CrashUploadToSentryHttpTimeoutMilliSec",
    "rva": "0x82856D8"
-  },
-  {
-   "name": "CrashUploadToSentryIOSEnabled",
-   "rva": "0x81B8AE0"
-  },
-  {
-   "name": "CrashUploadToSentryIOSPercentage",
-   "rva": "0x81B8B10"
-  },
-  {
-   "name": "CrashUploadToSentryIOSRolloutMinimumPercentage",
-   "rva": "0x81B8AF8"
   },
   {
    "name": "CrashUploadToSentryTelemetryEnabled",
@@ -9141,10 +8945,6 @@
    "rva": "0x822E600"
   },
   {
-   "name": "CurveAnimationNullChildrenCheck",
-   "rva": "0x815BA20"
-  },
-  {
    "name": "CurveAnimationSynthesizeEndKeyframeReached",
    "rva": "0x822E618"
   },
@@ -9163,10 +8963,6 @@
   {
    "name": "CustomIdleTimeThresholdSeconds",
    "rva": "0x82641B8"
-  },
-  {
-   "name": "CustomParticleFlipbookLayout3",
-   "rva": "0x817EC00"
   },
   {
    "name": "CustomSystemIdleTimeSeconds",
@@ -9247,10 +9043,6 @@
   {
    "name": "D3D11SwapChain",
    "rva": "0x823E2F0"
-  },
-  {
-   "name": "D3D11TextureCrashOnDownloadOom",
-   "rva": "0x816B7E8"
   },
   {
    "name": "DEPRECATED_GetProductInfoSubscriptionCacheSecs",
@@ -9659,10 +9451,6 @@
   {
    "name": "DMChangeTrackerUsableBandwidthCheck",
    "rva": "0x8257770"
-  },
-  {
-   "name": "DMChangeTrackingDeterministicSerialization",
-   "rva": "0x8195268"
   },
   {
    "name": "DMChangeTrackingRecordRemoteEvents",
@@ -11961,14 +11749,6 @@
    "rva": "0x82686F0"
   },
   {
-   "name": "DebugExperimentalVSyncFramePacing",
-   "rva": "0x8187338"
-  },
-  {
-   "name": "DebugExperimentalVSyncFramePacingForce",
-   "rva": "0x8187350"
-  },
-  {
    "name": "DebugExportObjUsesSolidMesh",
    "rva": "0x8282FA0"
   },
@@ -12101,10 +11881,6 @@
    "rva": "0x8265988"
   },
   {
-   "name": "DebugForceHumanoidSimulateAlways",
-   "rva": "0x815D290"
-  },
-  {
    "name": "DebugForceLocalPatchConfigVersion",
    "rva": "0x822D8B0"
   },
@@ -12223,10 +11999,6 @@
   {
    "name": "DebugFriendsCallingUserId",
    "rva": "0x830D160"
-  },
-  {
-   "name": "DebugFriendsCallingVoice6",
-   "rva": "0x81A4810"
   },
   {
    "name": "DebugFriendsCallingVoice7",
@@ -12755,10 +12527,6 @@
   {
    "name": "DebugLuauNoInline",
    "rva": "0x82B9280"
-  },
-  {
-   "name": "DebugLuauParseExactTables",
-   "rva": "0x81E59E0"
   },
   {
    "name": "DebugLuauReportReturnTypeVariadicWithTypeSuffix",
@@ -13881,10 +13649,6 @@
    "rva": "0x8272BD0"
   },
   {
-   "name": "DebugSensorVisualizer",
-   "rva": "0x8159CE0"
-  },
-  {
    "name": "DebugServerAuthorityIntegrationTestingTweaks",
    "rva": "0x8268410"
   },
@@ -14019,10 +13783,6 @@
   {
    "name": "DebugSimPrimalAlign2AxesDeactivateHingeFriction",
    "rva": "0x8280A88"
-  },
-  {
-   "name": "DebugSimPrimalBallSocketMidpointJacobian",
-   "rva": "0x81AD688"
   },
   {
    "name": "DebugSimPrimalCollisionPosStageMinComplianceE7",
@@ -14207,10 +13967,6 @@
   {
    "name": "DebugSimPrimalRespectSolverConfigCaching",
    "rva": "0x8280FE0"
-  },
-  {
-   "name": "DebugSimPrimalScaleLDLPositionBounds",
-   "rva": "0x81AD598"
   },
   {
    "name": "DebugSimPrimalSkipFinalPositionDualUpdate",
@@ -15501,10 +15257,6 @@
    "rva": "0x8230D00"
   },
   {
-   "name": "DeprecatableBroadcasts2",
-   "rva": "0x8161E18"
-  },
-  {
    "name": "DeprecateDMSavePlaceAsync",
    "rva": "0x822D158"
   },
@@ -15513,28 +15265,12 @@
    "rva": "0x8260520"
   },
   {
-   "name": "DeprecateLegacyGameJoinUtilCounters",
-   "rva": "0x81AC118"
-  },
-  {
-   "name": "DeprecateLegacyGroupTeleportAnalytics",
-   "rva": "0x8183280"
-  },
-  {
-   "name": "DeprecateLegacyGroupTeleportCounters",
-   "rva": "0x819B330"
-  },
-  {
    "name": "DeprecateLegacyHttpServiceAnalyticsCounters",
    "rva": "0x8260A20"
   },
   {
    "name": "DeprecateLegacyHttpServiceTelemetry",
    "rva": "0x8260A08"
-  },
-  {
-   "name": "DeprecateLegacyMessagingServiceCounters",
-   "rva": "0x817FC90"
   },
   {
    "name": "DeprecateLegacyTelemetryCounters3",
@@ -15579,22 +15315,6 @@
   {
    "name": "DeprecateLegacyTelemetryStatsReporting",
    "rva": "0x824AC48"
-  },
-  {
-   "name": "DeprecateLegacyTeleportEphemeralCounters",
-   "rva": "0x8183250"
-  },
-  {
-   "name": "DeprecateLegacyTeleportFailedAnalytics",
-   "rva": "0x8183298"
-  },
-  {
-   "name": "DeprecateLegacyTeleportServiceCounters",
-   "rva": "0x81834C0"
-  },
-  {
-   "name": "DeprecateLegacyTeleportSuccessCounters",
-   "rva": "0x81832B0"
   },
   {
    "name": "DeprecateOnSimulateOnAnimate",
@@ -16349,10 +16069,6 @@
    "rva": "0x824A8D0"
   },
   {
-   "name": "DisablePromptPurchaseBroadcasting",
-   "rva": "0x8156DB0"
-  },
-  {
    "name": "DisableProximityPromptLegacyTelemetry",
    "rva": "0x824A7E0"
   },
@@ -16715,10 +16431,6 @@
   {
    "name": "DomainAllowListPassNonHttpSchemes",
    "rva": "0x827FCC8"
-  },
-  {
-   "name": "DontDeserializeTrackerDataOnRcc2",
-   "rva": "0x819DF58"
   },
   {
    "name": "DontKickOnCoreGuiRenderOverflowForStudio",
@@ -17213,10 +16925,6 @@
    "rva": "0x8253440"
   },
   {
-   "name": "EditableImageSafeTrackPerformance",
-   "rva": "0x8180510"
-  },
-  {
    "name": "EditableImageSeedHolderFromCanvas",
    "rva": "0x8253470"
   },
@@ -17267,10 +16975,6 @@
   {
    "name": "EditableMeshExtentsUpdate",
    "rva": "0x823BBE8"
-  },
-  {
-   "name": "EditableMeshFixStaleSkinWeight",
-   "rva": "0x8168F58"
   },
   {
    "name": "EditableMeshGlassRefractionFix2",
@@ -17431,10 +17135,6 @@
   {
    "name": "EmitFSSizeTelemetry",
    "rva": "0x8269CB8"
-  },
-  {
-   "name": "EmitFSUploadTelemetry",
-   "rva": "0x8196F38"
   },
   {
    "name": "EmitFinishInitLuaMilestonesUnconditionally",
@@ -17603,10 +17303,6 @@
   {
    "name": "EnableAppSessionStartEnd",
    "rva": "0x82452D0"
-  },
-  {
-   "name": "EnableAppTracing3",
-   "rva": "0x81747E8"
   },
   {
    "name": "EnableAssetIdValidation",
@@ -17781,10 +17477,6 @@
    "rva": "0x8229F50"
   },
   {
-   "name": "EnableCanvasGroupRenderPathTelemetry2",
-   "rva": "0x8194510"
-  },
-  {
    "name": "EnableCaptureModeDontCaptureChatWindow",
    "rva": "0x8225E20"
   },
@@ -17945,10 +17637,6 @@
    "rva": "0x8254988"
   },
   {
-   "name": "EnableCreateAssetAsyncAudioUpload",
-   "rva": "0x8181A30"
-  },
-  {
    "name": "EnableCreateAssetAsyncForRobloxScript",
    "rva": "0x8254680"
   },
@@ -18023,14 +17711,6 @@
   {
    "name": "EnableDLICDesktopConsoleIngressSeeding",
    "rva": "0x8283600"
-  },
-  {
-   "name": "EnableDLICEngineRegistry",
-   "rva": "0x81B0180"
-  },
-  {
-   "name": "EnableDLICInternalIngressSeeding3",
-   "rva": "0x8167260"
   },
   {
    "name": "EnableDLICInternalIngressSeeding4",
@@ -18309,10 +17989,6 @@
    "rva": "0x8234A88"
   },
   {
-   "name": "EnableFleetSamplingProfiler",
-   "rva": "0x8172FF0"
-  },
-  {
    "name": "EnableFlipbook",
    "rva": "0x8250778"
   },
@@ -18339,10 +18015,6 @@
   {
    "name": "EnableFmodRecordingUnderrunMetrics",
    "rva": "0x8240720"
-  },
-  {
-   "name": "EnableFontSubsystem11",
-   "rva": "0x8169478"
   },
   {
    "name": "EnableFontSubsystem13",
@@ -18397,10 +18069,6 @@
    "rva": "0x8260058"
   },
   {
-   "name": "EnableGenerateModelAsyncImageCondition",
-   "rva": "0x81A9848"
-  },
-  {
    "name": "EnableGenerateModelAsyncStyleHint",
    "rva": "0x827C6A0"
   },
@@ -18443,10 +18111,6 @@
   {
    "name": "EnableGlobalChatAbuseReportEnrichment",
    "rva": "0x827D470"
-  },
-  {
-   "name": "EnableGuacV2UrlForIntlAuthCompliance",
-   "rva": "0x81AC200"
   },
   {
    "name": "EnableGuiDevEnv",
@@ -18493,10 +18157,6 @@
    "rva": "0x82268B0"
   },
   {
-   "name": "EnableImmersiveAdPerfDataPointsThrottle",
-   "rva": "0x8153CA0"
-  },
-  {
    "name": "EnableImprovedUIClipping",
    "rva": "0x8278508"
   },
@@ -18535,10 +18195,6 @@
   {
    "name": "EnableInputRecorderBatchFiles",
    "rva": "0x8225AA0"
-  },
-  {
-   "name": "EnableInternalCsmUnsubscribeOnDisconnect",
-   "rva": "0x8180070"
   },
   {
    "name": "EnableInvalidateRobloxSubscriptionDetailsCacheOnChange",
@@ -18741,10 +18397,6 @@
    "rva": "0x823BD70"
   },
   {
-   "name": "EnableNativeAdsProtocol2",
-   "rva": "0x81AFF28"
-  },
-  {
    "name": "EnableNativeOmniPrefetch4",
    "rva": "0x828FF10"
   },
@@ -18823,10 +18475,6 @@
   {
    "name": "EnableNonReplicatingScriptScanner",
    "rva": "0x8275398"
-  },
-  {
-   "name": "EnableObjectReplication13",
-   "rva": "0x8162020"
   },
   {
    "name": "EnableObjectReplication14",
@@ -18951,14 +18599,6 @@
   {
    "name": "EnablePerfStatsAPI",
    "rva": "0x8259F28"
-  },
-  {
-   "name": "EnablePerformSubscriptionPurchaseWithRobuxAsync",
-   "rva": "0x8155F10"
-  },
-  {
-   "name": "EnablePermissionCheckOnCreatingEditableAsset",
-   "rva": "0x81818C8"
   },
   {
    "name": "EnablePersistSplitPanePreference",
@@ -19105,10 +18745,6 @@
    "rva": "0x82292D0"
   },
   {
-   "name": "EnablePromptRobuxTransfer",
-   "rva": "0x8157070"
-  },
-  {
    "name": "EnablePromptRobuxTransferDedicatedUpsellEvent",
    "rva": "0x822A010"
   },
@@ -19133,16 +18769,8 @@
    "rva": "0x82505F8"
   },
   {
-   "name": "EnableRCADependencyRemovalApis",
-   "rva": "0x8193CC0"
-  },
-  {
    "name": "EnableRCCOpenCloudSessionAssetPublish",
    "rva": "0x8257030"
-  },
-  {
-   "name": "EnableRIDE11651",
-   "rva": "0x817DBF0"
   },
   {
    "name": "EnableRandomStatVerification",
@@ -19209,14 +18837,6 @@
    "rva": "0x8226868"
   },
   {
-   "name": "EnableRemainInExperienceOnHandleDeepLinkUrl3",
-   "rva": "0x81B01C0"
-  },
-  {
-   "name": "EnableRemoteProfiling",
-   "rva": "0x8171640"
-  },
-  {
    "name": "EnableRenderLimitedCheckForMaquettes",
    "rva": "0x8278670"
   },
@@ -19261,16 +18881,8 @@
    "rva": "0x8268E38"
   },
   {
-   "name": "EnableRequireRbxClientServer",
-   "rva": "0x8196348"
-  },
-  {
    "name": "EnableRequireRbxLibMP",
    "rva": "0x8268EE0"
-  },
-  {
-   "name": "EnableResponsiveUnit8",
-   "rva": "0x8192B98"
   },
   {
    "name": "EnableResponsiveUnitInStudioEmulator",
@@ -19287,10 +18899,6 @@
   {
    "name": "EnableRobloxLabsCnDomain",
    "rva": "0x8248230"
-  },
-  {
-   "name": "EnableRobloxSubscriptionPurchaseEngineTelemetry",
-   "rva": "0x81562B8"
   },
   {
    "name": "EnableRobuxTransferReceiverSignal",
@@ -19457,10 +19065,6 @@
    "rva": "0x8228E70"
   },
   {
-   "name": "EnableSubscriptionPurchaseInstrumentation",
-   "rva": "0x8155FE8"
-  },
-  {
    "name": "EnableSubscriptionPurchaseReferrerId",
    "rva": "0x8228E88"
   },
@@ -19529,16 +19133,8 @@
    "rva": "0x82546C8"
   },
   {
-   "name": "EnableTelemetryIntegrationCheck2",
-   "rva": "0x818E658"
-  },
-  {
    "name": "EnableTeleportGuiRootContainerCheck",
    "rva": "0x8255DC0"
-  },
-  {
-   "name": "EnableTeleportInitFailedV2",
-   "rva": "0x8183268"
   },
   {
    "name": "EnableTeleportInitiatedServerLifecycleEvent",
@@ -20137,10 +19733,6 @@
    "rva": "0x827D950"
   },
   {
-   "name": "ExpChatEnableLocalUserCount",
-   "rva": "0x81A9D10"
-  },
-  {
    "name": "ExpChatFixExcludedActionTypes",
    "rva": "0x8251580"
   },
@@ -20191,10 +19783,6 @@
   {
    "name": "ExpChatPresetEligibilityCriteria2",
    "rva": "0x827C278"
-  },
-  {
-   "name": "ExpChatPresetsBypassSettingsDisabled",
-   "rva": "0x817EBE8"
   },
   {
    "name": "ExpChatRephraseSettingMaxRetries",
@@ -20569,10 +20157,6 @@
    "rva": "0x825B780"
   },
   {
-   "name": "ExportInterfaceSkipCompositedDecals",
-   "rva": "0x8188AF0"
-  },
-  {
    "name": "ExportInterfaceTimeOutMilliseconds",
    "rva": "0x825B750"
   },
@@ -20583,14 +20167,6 @@
   {
    "name": "ExportPathStringLimit",
    "rva": "0x8260E20"
-  },
-  {
-   "name": "ExposeRuntimeContentAPI",
-   "rva": "0x8183BC8"
-  },
-  {
-   "name": "ExposeTextContentAPI",
-   "rva": "0x8181690"
   },
   {
    "name": "ExposeTextContentAPI2",
@@ -20623,10 +20199,6 @@
   {
    "name": "ExtraFloorRaycastDistanceHipHeightPercent",
    "rva": "0x822CB30"
-  },
-  {
-   "name": "ExtraLoggingForCLI36936_2",
-   "rva": "0x8159BA8"
   },
   {
    "name": "ExtraWindowsWebviewLogging",
@@ -20713,10 +20285,6 @@
    "rva": "0x8268790"
   },
   {
-   "name": "ExtractTweenEvaluation",
-   "rva": "0x8161460"
-  },
-  {
    "name": "ExtrapolateLODDistanceBuffer",
    "rva": "0x825A828"
   },
@@ -20737,10 +20305,6 @@
    "rva": "0x825B5D8"
   },
   {
-   "name": "FCFixSkinnedBatchInstanceOverflow",
-   "rva": "0x81891B0"
-  },
-  {
    "name": "FCGroupByModel2",
    "rva": "0x825B5C0"
   },
@@ -20751,10 +20315,6 @@
   {
    "name": "FCReportBuiltStatsWithLCParts",
    "rva": "0x825B608"
-  },
-  {
-   "name": "FCSkeletonBuiltReportTelemetry",
-   "rva": "0x8160ED0"
   },
   {
    "name": "FCSkeletonBuiltReportTelemetryStat",
@@ -21025,10 +20585,6 @@
    "rva": "0x82336F0"
   },
   {
-   "name": "FaceAnimatorUseVideoBufferPool",
-   "rva": "0x8160A70"
-  },
-  {
    "name": "FaceChatDebugTrace",
    "rva": "0x822E798"
   },
@@ -21101,10 +20657,6 @@
    "rva": "0x823BD28"
   },
   {
-   "name": "FacsPoseNameBoundsCheck",
-   "rva": "0x81690B0"
-  },
-  {
    "name": "FaeUpsellPhaseTwo",
    "rva": "0x82EA018"
   },
@@ -21133,20 +20685,8 @@
    "rva": "0x82A02E0"
   },
   {
-   "name": "FastBeamFill2",
-   "rva": "0x8188E10"
-  },
-  {
-   "name": "FastBeamFillOffForTM2",
-   "rva": "0x8188DB0"
-  },
-  {
    "name": "FastClusterBuiltEventHundredthsPercentage",
    "rva": "0x825BC68"
-  },
-  {
-   "name": "FastClusterBuiltReportTelemetryCounter",
-   "rva": "0x8189080"
   },
   {
    "name": "FastClusterBuiltReportTelemetryStat",
@@ -21199,10 +20739,6 @@
   {
    "name": "FastLogZeroSargBuffer",
    "rva": "0x827BD78"
-  },
-  {
-   "name": "FastVideoFrameSamplerSeek",
-   "rva": "0x81651B8"
   },
   {
    "name": "FasterMrdDisconnect2",
@@ -21337,10 +20873,6 @@
    "rva": "0x823DA90"
   },
   {
-   "name": "FileCacheRCCBytesRemovedFix",
-   "rva": "0x816AC98"
-  },
-  {
    "name": "FileCacheRemoveInvalidFiles",
    "rva": "0x823D988"
   },
@@ -21417,10 +20949,6 @@
    "rva": "0x822D9C8"
   },
   {
-   "name": "FileSyncSkipRobloxRcAndProxyPackages",
-   "rva": "0x815AD58"
-  },
-  {
    "name": "FileSystemGetCacheDirectoryPointerCacheResult",
    "rva": "0x8244E60"
   },
@@ -21481,14 +21009,6 @@
    "rva": "0x8268D90"
   },
   {
-   "name": "FindLadderPiercingRotMatOptimization",
-   "rva": "0x8152668"
-  },
-  {
-   "name": "FinishFetchingAssetsCorrectly",
-   "rva": "0x815CCB0"
-  },
-  {
    "name": "FinishedPollingInterval",
    "rva": "0x828F998"
   },
@@ -21529,10 +21049,6 @@
    "rva": "0x825B1B0"
   },
   {
-   "name": "FixAndroidBackgroundedSession",
-   "rva": "0x81ABB98"
-  },
-  {
    "name": "FixAnimationMemoryOverhead",
    "rva": "0x822E678"
   },
@@ -21547,10 +21063,6 @@
   {
    "name": "FixAssetProviderSitetestThumbnails",
    "rva": "0x823CA30"
-  },
-  {
-   "name": "FixAssetReaderMissingAssetNullptrDeref2",
-   "rva": "0x81551C0"
   },
   {
    "name": "FixAudioOcclusionWorkerShutdown",
@@ -21613,10 +21125,6 @@
    "rva": "0x8227D60"
   },
   {
-   "name": "FixCaptureModeSafeInsetViewport",
-   "rva": "0x81AD268"
-  },
-  {
    "name": "FixCaptureTempFileCheck",
    "rva": "0x8266BB8"
   },
@@ -21649,10 +21157,6 @@
    "rva": "0x8268FB0"
   },
   {
-   "name": "FixClientJoinResultTelemetryPointsThrottle",
-   "rva": "0x8168698"
-  },
-  {
    "name": "FixCopyPasteHistoryId",
    "rva": "0x8253DC8"
   },
@@ -21667,10 +21171,6 @@
   {
    "name": "FixCreatorbug21352",
    "rva": "0x8251CC0"
-  },
-  {
-   "name": "FixCrossExperienceVoiceAdditionalDangle",
-   "rva": "0x81ACF70"
   },
   {
    "name": "FixCullableQuerySwap",
@@ -21777,10 +21277,6 @@
    "rva": "0x822DBD8"
   },
   {
-   "name": "FixGpuFrameTimeTelemetry",
-   "rva": "0x8186F38"
-  },
-  {
    "name": "FixGridListenerLifecycle",
    "rva": "0x827E208"
   },
@@ -21823,10 +21319,6 @@
   {
    "name": "FixInputReplicatorStaleActions",
    "rva": "0x8234220"
-  },
-  {
-   "name": "FixInstanceCountStat",
-   "rva": "0x8194390"
   },
   {
    "name": "FixInvalidAssetIdInTelem2",
@@ -22001,14 +21493,6 @@
    "rva": "0x822ECC0"
   },
   {
-   "name": "FixRBXKeyCodeToOSXScanCodeUnknown",
-   "rva": "0x81AC718"
-  },
-  {
-   "name": "FixRUHandheldDetection2",
-   "rva": "0x8192F60"
-  },
-  {
    "name": "FixRbxRandSignedOverflow",
    "rva": "0x827BDD8"
   },
@@ -22019,10 +21503,6 @@
   {
    "name": "FixRegionSetsClumpOccupancyLeak",
    "rva": "0x8275F58"
-  },
-  {
-   "name": "FixRegisterMotors",
-   "rva": "0x8187148"
   },
   {
    "name": "FixRemindMeButtonStall",
@@ -22113,10 +21593,6 @@
    "rva": "0x8267660"
   },
   {
-   "name": "FixSkinningLifetimeAndBugs15",
-   "rva": "0x8182E68"
-  },
-  {
    "name": "FixSkinningLifetimeAndBugs16",
    "rva": "0x8255CC0"
   },
@@ -22197,10 +21673,6 @@
    "rva": "0x826E178"
   },
   {
-   "name": "FixTeleportStuckOnCustomGuiError",
-   "rva": "0x81831C0"
-  },
-  {
    "name": "FixTeleportThrottleEraseOnClientFailure",
    "rva": "0x8255E98"
   },
@@ -22209,20 +21681,12 @@
    "rva": "0x826E148"
   },
   {
-   "name": "FixTeleportToReservedServerHang",
-   "rva": "0x819B240"
-  },
-  {
    "name": "FixTeleportToReservedServerPlayerHang",
    "rva": "0x826E208"
   },
   {
    "name": "FixTestServiceStart",
    "rva": "0x8270BB8"
-  },
-  {
-   "name": "FixTextEngineModuleRetinaScaleRU",
-   "rva": "0x815AF08"
   },
   {
    "name": "FixTextMismatchAndOverlap",
@@ -23125,10 +22589,6 @@
    "rva": "0x8240448"
   },
   {
-   "name": "FmodWasapiRecordBTHeadsetMatching3",
-   "rva": "0x816D6B0"
-  },
-  {
    "name": "FmodWebAndroidDspBufferSize",
    "rva": "0x8240040"
   },
@@ -23203,10 +22663,6 @@
   {
    "name": "ForceCompressedFlagCacheWrite",
    "rva": "0x826E458"
-  },
-  {
-   "name": "ForceDisableFontSubsystem",
-   "rva": "0x81692C8"
   },
   {
    "name": "ForceEnableGlobalChat3pSummary",
@@ -23521,14 +22977,6 @@
    "rva": "0x8275BD8"
   },
   {
-   "name": "FtsThumbEnrollHeaderKey",
-   "rva": "0x81FB7C0"
-  },
-  {
-   "name": "FtsThumbEnrollHeaderVal",
-   "rva": "0x81FB7F0"
-  },
-  {
    "name": "FullRenderObjects",
    "rva": "0x825F7F0"
   },
@@ -23555,14 +23003,6 @@
   {
    "name": "GAThrottlingEventThresholdHundredthCat3",
    "rva": "0x8274CC0"
-  },
-  {
-   "name": "GCComputeExpansionBypassTimer",
-   "rva": "0x81A11A8"
-  },
-  {
-   "name": "GCComputeIntegration",
-   "rva": "0x81A3260"
   },
   {
    "name": "GCComputeIntegration2",
@@ -23611,10 +23051,6 @@
   {
    "name": "GDKGracefulInitFailure",
    "rva": "0x8223F98"
-  },
-  {
-   "name": "GDKReportInitializationFailuresToDifferentPoints",
-   "rva": "0x8151068"
   },
   {
    "name": "GDKResourcesManager",
@@ -23973,10 +23409,6 @@
    "rva": "0x82600D0"
   },
   {
-   "name": "GamepadNavigationAllowInclusionOfCurrentlySelectedObject",
-   "rva": "0x818D2F0"
-  },
-  {
    "name": "GamepadScrollPagesPerSecondThousandths",
    "rva": "0x82663C0"
   },
@@ -24047,10 +23479,6 @@
   {
    "name": "GenerationServiceBaseJobErrorEventThrottleHundredthsPercent",
    "rva": "0x827C838"
-  },
-  {
-   "name": "GenerationServiceDeveloperMessageErrorMapping",
-   "rva": "0x81A9A88"
   },
   {
    "name": "GenerationServiceEnableGenerateAnimation",
@@ -24421,10 +23849,6 @@
    "rva": "0x827D530"
   },
   {
-   "name": "GlobalUserBlockingInHasBlockedPlayer2",
-   "rva": "0x81918A8"
-  },
-  {
    "name": "GlobalUserBlockingRetireLegacyBlockedUsers",
    "rva": "0x8264680"
   },
@@ -24435,10 +23859,6 @@
   {
    "name": "GltfExportRetryFetchFailures",
    "rva": "0x8279200"
-  },
-  {
-   "name": "GlyphAtlasUseSimdSqrtMasking",
-   "rva": "0x8169638"
   },
   {
    "name": "GlyphProviderCreation",
@@ -24543,10 +23963,6 @@
   {
    "name": "GraphicsD3D11AssertOnNullSwapChain",
    "rva": "0x823E318"
-  },
-  {
-   "name": "GraphicsD3D11ExtraInitLog",
-   "rva": "0x816B5B8"
   },
   {
    "name": "GraphicsD3D11FlipDiscard2",
@@ -24901,10 +24317,6 @@
    "rva": "0x828BC10"
   },
   {
-   "name": "GraphicsVideoCaptureWindow2",
-   "rva": "0x81B85E0"
-  },
-  {
    "name": "GraphicsVulkanARMVaryingBufferMb",
    "rva": "0x828BC88"
   },
@@ -24931,14 +24343,6 @@
   {
    "name": "GraphicsVulkanCachedSamplersNoTextureFormat",
    "rva": "0x828BDA0"
-  },
-  {
-   "name": "GraphicsVulkanDeviceLostCrash",
-   "rva": "0x81B8700"
-  },
-  {
-   "name": "GraphicsVulkanExtendedDynamicState",
-   "rva": "0x81B8748"
   },
   {
    "name": "GraphicsVulkanExtendedDynamicState2",
@@ -25041,10 +24445,6 @@
    "rva": "0x82530E0"
   },
   {
-   "name": "GroupTeleportCounterV2",
-   "rva": "0x819B348"
-  },
-  {
    "name": "GroupsApiUsageTelemetryEnabled",
    "rva": "0x8253110"
   },
@@ -25059,10 +24459,6 @@
   {
    "name": "GuardGDKUserUsage",
    "rva": "0x8223EC8"
-  },
-  {
-   "name": "GuardServiceCreationOfChildren",
-   "rva": "0x816D398"
   },
   {
    "name": "GuiClassUsageAnalytics",
@@ -25187,10 +24583,6 @@
   {
    "name": "HSRClusterSymmetryDistancePercent",
    "rva": "0x82338D0"
-  },
-  {
-   "name": "HSRForceClearOtherData",
-   "rva": "0x815C6D8"
   },
   {
    "name": "HSRGenerateOnCloudEditServer",
@@ -25521,10 +24913,6 @@
    "rva": "0x8256E48"
   },
   {
-   "name": "HeartbeatForStreamingFrametime",
-   "rva": "0x81A0278"
-  },
-  {
    "name": "HeartbeatForStreamingFrametime2",
    "rva": "0x8273178"
   },
@@ -25623,10 +25011,6 @@
   {
    "name": "HighlightMobileDepthFix",
    "rva": "0x82594C0"
-  },
-  {
-   "name": "HighlightOutlinesOnMobile",
-   "rva": "0x8185910"
   },
   {
    "name": "HighlightsFixPrepareMobile",
@@ -25901,10 +25285,6 @@
    "rva": "0x82485A0"
   },
   {
-   "name": "HttpClientFirstPartyCdnExempt",
-   "rva": "0x8175110"
-  },
-  {
    "name": "HttpClientHandlerFixed",
    "rva": "0x8247BC0"
   },
@@ -26003,10 +25383,6 @@
   {
    "name": "HttpDownloadEpisodeInMs",
    "rva": "0x8247D70"
-  },
-  {
-   "name": "HttpEnableTracing",
-   "rva": "0x81753E0"
   },
   {
    "name": "HttpExponetialRetryBaseInterval",
@@ -26369,10 +25745,6 @@
    "rva": "0x82605F8"
   },
   {
-   "name": "HttpServiceAnalyticsCounterV2",
-   "rva": "0x818D9E0"
-  },
-  {
    "name": "HttpServiceBandwidthReportThrottleHundredthsPercentage",
    "rva": "0x8260628"
   },
@@ -26729,10 +26101,6 @@
    "rva": "0x822F0E0"
   },
   {
-   "name": "HumanoidFloorManualFrictionVelocityMultValue",
-   "rva": "0x815C3E0"
-  },
-  {
    "name": "HumanoidFloorProcess",
    "rva": "0x82317F0"
   },
@@ -26923,10 +26291,6 @@
   {
    "name": "IMESupportHighlight",
    "rva": "0x8265EF0"
-  },
-  {
-   "name": "IOSUseMachExceptionRbxAssert",
-   "rva": "0x81A8E70"
   },
   {
    "name": "ISRAttributeReplicationRobustness",
@@ -27431,10 +26795,6 @@
   {
    "name": "IgnoreLocalTimeForStaleFlags2",
    "rva": "0x8227F90"
-  },
-  {
-   "name": "IgnoreParentLockOnDataModelClose",
-   "rva": "0x8184960"
   },
   {
    "name": "IkControlConstraintSupportDefaultEnabled",
@@ -27949,10 +27309,6 @@
    "rva": "0x826E330"
   },
   {
-   "name": "InitialAccelerationLatencyMultTenths",
-   "rva": "0x81597A0"
-  },
-  {
    "name": "InitialAudioAssetCacheSize",
    "rva": "0x828BE58"
   },
@@ -28091,10 +27447,6 @@
   {
    "name": "InstallWebView2RuntimeTimeoutMs",
    "rva": "0x8285270"
-  },
-  {
-   "name": "InstanceAttributes6",
-   "rva": "0x8161E48"
   },
   {
    "name": "InstanceAttributesCloneKeepsExternalRefs",
@@ -28349,18 +27701,6 @@
    "rva": "0x822C4A0"
   },
   {
-   "name": "InterpolationFramePositionThresholdMillionth",
-   "rva": "0x8159B18"
-  },
-  {
-   "name": "InterpolationFrameRotVelocityThresholdMillionth",
-   "rva": "0x8159B48"
-  },
-  {
-   "name": "InterpolationFrameVelocityThresholdMillionth",
-   "rva": "0x8159B30"
-  },
-  {
    "name": "InterpolationMaxDelayMSec",
    "rva": "0x822C8A8"
   },
@@ -28375,10 +27715,6 @@
   {
    "name": "InterpolationNumMechanismsPerTask",
    "rva": "0x822C890"
-  },
-  {
-   "name": "InterpolationNumParallelTasks",
-   "rva": "0x8159980"
   },
   {
    "name": "InterpolationSelfHealingCount",
@@ -28403,10 +27739,6 @@
   {
    "name": "InvalidEnumValueAttemptToReflectReportHundredthsPercentage",
    "rva": "0x8268208"
-  },
-  {
-   "name": "InvalidFocusHandling",
-   "rva": "0x81A1590"
   },
   {
    "name": "InvalidNumPropertyAssignReportHundredthsPercentage",
@@ -28451,10 +27783,6 @@
   {
    "name": "IrisMoreDetailedErrorResponse",
    "rva": "0x828F9C0"
-  },
-  {
-   "name": "IsFriendsWithUsesAreFriendsEndpointV4",
-   "rva": "0x817EF38"
   },
   {
    "name": "IsNonDMChildChangeTrackingEnabled",
@@ -28679,10 +28007,6 @@
   {
    "name": "JoinTicketV2TimestampToleranceSec",
    "rva": "0x82754A0"
-  },
-  {
-   "name": "JoinTimeCounters",
-   "rva": "0x819DDD8"
   },
   {
    "name": "JoinTimeLog",
@@ -28981,10 +28305,6 @@
    "rva": "0x827DBD0"
   },
   {
-   "name": "LargeReplicatorShared",
-   "rva": "0x8161B68"
-  },
-  {
    "name": "LargeReplicatorTrace",
    "rva": "0x825C808"
   },
@@ -29019,10 +28339,6 @@
   {
    "name": "LastTTTokenUpdateTimeDiagnostics",
    "rva": "0x8239888"
-  },
-  {
-   "name": "LatencyErrorMultiplierTennths",
-   "rva": "0x81597D0"
   },
   {
    "name": "LatencyLogging1",
@@ -29071,10 +28387,6 @@
   {
    "name": "LayoutTableLayoutImplUsesConstrainedSizeInsteadOfIntrinsicSize",
    "rva": "0x8267620"
-  },
-  {
-   "name": "LcCacheOptDefaultEnabled3",
-   "rva": "0x8182A80"
   },
   {
    "name": "LcCacheOptDefaultEnabled4",
@@ -29301,10 +28613,6 @@
    "rva": "0x8285218"
   },
   {
-   "name": "LightGridCPUShadowMaskBoundsCheck",
-   "rva": "0x8188C40"
-  },
-  {
    "name": "LightGridDarkWorldFix",
    "rva": "0x825B8C0"
   },
@@ -29315,10 +28623,6 @@
   {
    "name": "LightingDefaultTechnologyFuture",
    "rva": "0x8252EC0"
-  },
-  {
-   "name": "LightingTechnologyClientSideMigration",
-   "rva": "0x82044F0"
   },
   {
    "name": "LightingTechnologyUnifiedMigration",
@@ -29615,10 +28919,6 @@
   {
    "name": "LocServiceUseTrimmedCoreScriptLocTable",
    "rva": "0x822B130"
-  },
-  {
-   "name": "LocalCharacterSkipStreamingLOD",
-   "rva": "0x81A1A80"
   },
   {
    "name": "LocalLightCountsInCompatibilityThrottlePerTenThousand",
@@ -30473,10 +29773,6 @@
    "rva": "0x82B99A8"
   },
   {
-   "name": "LuauBytecodeCostModel2",
-   "rva": "0x8245150"
-  },
-  {
    "name": "LuauBytecodeFold",
    "rva": "0x82F98B0"
   },
@@ -30557,10 +29853,6 @@
    "rva": "0x8268338"
   },
   {
-   "name": "LuauCodegenBufferInteger",
-   "rva": "0x8226618"
-  },
-  {
    "name": "LuauCodegenCFrameArithmetic",
    "rva": "0x8269448"
   },
@@ -30589,14 +29881,6 @@
    "rva": "0x82F9570"
   },
   {
-   "name": "LuauCodegenInteger3",
-   "rva": "0x82262D8"
-  },
-  {
-   "name": "LuauCodegenIntegerCompare",
-   "rva": "0x8226598"
-  },
-  {
    "name": "LuauCodegenIntelMacUnwind",
    "rva": "0x82F9550"
   },
@@ -30615,10 +29899,6 @@
   {
    "name": "LuauCodegenNopPadding",
    "rva": "0x82F94F0"
-  },
-  {
-   "name": "LuauCodegenPropagateFallbackTags2",
-   "rva": "0x8226458"
   },
   {
    "name": "LuauCodegenRuntimeFeedback",
@@ -30647,18 +29927,6 @@
   {
    "name": "LuauCodegenX64ConflictCheck2",
    "rva": "0x82F96D0"
-  },
-  {
-   "name": "LuauCompileCallFbRemap",
-   "rva": "0x8245130"
-  },
-  {
-   "name": "LuauCompileFastpcall2",
-   "rva": "0x8245110"
-  },
-  {
-   "name": "LuauCompileRefactorFeedback",
-   "rva": "0x8245170"
   },
   {
    "name": "LuauCoroutineFinally",
@@ -30719,10 +29987,6 @@
   {
    "name": "LuauExpressionSupportTuples",
    "rva": "0x8249380"
-  },
-  {
-   "name": "LuauFastpcall",
-   "rva": "0x81E60C0"
   },
   {
    "name": "LuauFixEnumPropertyAssignmentErrorType",
@@ -30809,18 +30073,6 @@
    "rva": "0x8318640"
   },
   {
-   "name": "LuauIntegerLibrary",
-   "rva": "0x82451F0"
-  },
-  {
-   "name": "LuauIntegerOutput",
-   "rva": "0x8195A08"
-  },
-  {
-   "name": "LuauIntegerType2",
-   "rva": "0x81E5E40"
-  },
-  {
    "name": "LuauIsYieldableSimplify",
    "rva": "0x82B9320"
   },
@@ -30839,10 +30091,6 @@
   {
    "name": "LuauJitInlineTooLongFunSize",
    "rva": "0x82F9830"
-  },
-  {
-   "name": "LuauJitInliner3",
-   "rva": "0x8195E28"
   },
   {
    "name": "LuauJitInliner4",
@@ -30901,10 +30149,6 @@
    "rva": "0x8269070"
   },
   {
-   "name": "LuauOpenIntegerLibrary",
-   "rva": "0x8195DF8"
-  },
-  {
    "name": "LuauOptimizeStringGsub",
    "rva": "0x83186C0"
   },
@@ -30949,10 +30193,6 @@
    "rva": "0x82682B0"
   },
   {
-   "name": "LuauRuntimeFeedback",
-   "rva": "0x81E5F60"
-  },
-  {
    "name": "LuauRuntimeFeedback2",
    "rva": "0x82B93A0"
   },
@@ -30995,10 +30235,6 @@
   {
    "name": "LuauTableFindImprovement",
    "rva": "0x82B99C8"
-  },
-  {
-   "name": "LuauTableRobustOom",
-   "rva": "0x81E6020"
   },
   {
    "name": "LuauTelemetryParseReturnTypeVariadicWithTypeSuffixHundrethsPercentage",
@@ -31153,10 +30389,6 @@
    "rva": "0x8252C68"
   },
   {
-   "name": "MSTVOnSkeletonInvalidated",
-   "rva": "0x81B1F60"
-  },
-  {
    "name": "MVTerrainDetilingParam",
    "rva": "0x825BBF0"
   },
@@ -31281,10 +30513,6 @@
    "rva": "0x8229A00"
   },
   {
-   "name": "MarketplaceReceiptParseGuardCrash",
-   "rva": "0x8156BB8"
-  },
-  {
    "name": "MarketplaceRecommendationsApi",
    "rva": "0x82297C0"
   },
@@ -31323,10 +30551,6 @@
   {
    "name": "MaterialVariantAlphaModeRolloutHundredthPercent",
    "rva": "0x8251E98"
-  },
-  {
-   "name": "MaxAcceptableUpdateDelay",
-   "rva": "0x81599E0"
   },
   {
    "name": "MaxActionPointerZValue",
@@ -31829,14 +31053,6 @@
    "rva": "0x8245A98"
   },
   {
-   "name": "MemoryPageFaultsTelemetryEnabled",
-   "rva": "0x8172D28"
-  },
-  {
-   "name": "MemoryPageFaultsTelemetryEnabledHundredthPercent",
-   "rva": "0x8172D10"
-  },
-  {
    "name": "MemoryPlaceIDReportThreshold",
    "rva": "0x8274CF0"
   },
@@ -31899,10 +31115,6 @@
   {
    "name": "MemoryStore",
    "rva": "0x8265320"
-  },
-  {
-   "name": "MemoryStoreCacheDataStructuresByName2",
-   "rva": "0x817FE68"
   },
   {
    "name": "MemoryStoreCacheMaxSize",
@@ -32045,24 +31257,12 @@
    "rva": "0x827C970"
   },
   {
-   "name": "MeshLODBoundsCheckMaxSkinRadius",
-   "rva": "0x8174AD8"
-  },
-  {
    "name": "MeshLODClampNegativeSkinningWeights",
    "rva": "0x8247768"
   },
   {
-   "name": "MeshLODClampVertexColors",
-   "rva": "0x8174B08"
-  },
-  {
    "name": "MeshLODDetails",
    "rva": "0x82477B0"
-  },
-  {
-   "name": "MeshLODSkinWeightsUseJointMapper",
-   "rva": "0x8174AF0"
   },
   {
    "name": "MeshLODTranscode2",
@@ -32133,10 +31333,6 @@
    "rva": "0x82555C0"
   },
   {
-   "name": "MeshStreamingAndImprovedLodsThreePhaseRolloutProperty",
-   "rva": "0x8182CD8"
-  },
-  {
    "name": "MeshStreamingLODTranscodeDefaultFormat",
    "rva": "0x82DDBA0"
   },
@@ -32179,10 +31375,6 @@
   {
    "name": "MessagingServiceAnalysisPeriodSeconds",
    "rva": "0x8252C80"
-  },
-  {
-   "name": "MessagingServiceCounterV2",
-   "rva": "0x817FC48"
   },
   {
    "name": "MessagingServiceProxiedIpHeader",
@@ -32385,14 +31577,6 @@
    "rva": "0x8245800"
   },
   {
-   "name": "MidPhaseParallelPairsBatchSize",
-   "rva": "0x81768B8"
-  },
-  {
-   "name": "MidPhaseParallelPairsSerialCutoff",
-   "rva": "0x81768D0"
-  },
-  {
    "name": "MiddleTeardownTimeoutSeconds",
    "rva": "0x8267A00"
   },
@@ -32417,10 +31601,6 @@
    "rva": "0x824A1C8"
   },
   {
-   "name": "MigrateAvatarMetricsFromPlayerConfigurer",
-   "rva": "0x819DB28"
-  },
-  {
    "name": "MigrateBaseRemoteEventLegacyTelemetry",
    "rva": "0x824A648"
   },
@@ -32431,10 +31611,6 @@
   {
    "name": "MigrateClientReplicatorLegacyMetricsTelemetry",
    "rva": "0x824A5D0"
-  },
-  {
-   "name": "MigrateCompatibilityOnClientDM2",
-   "rva": "0x817FFC0"
   },
   {
    "name": "MigrateComponentManagerToRuntimeInjector13",
@@ -33085,14 +32261,6 @@
    "rva": "0x8258940"
   },
   {
-   "name": "MotionDiscontinuityThreshold",
-   "rva": "0x815C3C8"
-  },
-  {
-   "name": "Motor6DC0C1WriteTelemetry",
-   "rva": "0x8152440"
-  },
-  {
    "name": "Motor6DDesiredAngleEpsilon",
    "rva": "0x82254B8"
   },
@@ -33223,10 +32391,6 @@
   {
    "name": "MultiSurfaceAppearanceMeshFMD2",
    "rva": "0x823B7F8"
-  },
-  {
-   "name": "MultiSurfaceAppearanceMeshWMS",
-   "rva": "0x8174A18"
   },
   {
    "name": "MultiSurfaceAppearanceMeshWMS2",
@@ -34065,16 +33229,8 @@
    "rva": "0x8234610"
   },
   {
-   "name": "NetworkPerfTestClientAnalysis5",
-   "rva": "0x8161910"
-  },
-  {
    "name": "NetworkPerfTestClientAnalysis6",
    "rva": "0x82345E0"
-  },
-  {
-   "name": "NetworkPerfTestServerAnalysis5",
-   "rva": "0x8161928"
   },
   {
    "name": "NetworkPerfTestServerAnalysis6",
@@ -34325,10 +33481,6 @@
    "rva": "0x82317A8"
   },
   {
-   "name": "NewPDSteepSlopeSlidingWithGravityPercent",
-   "rva": "0x815EB48"
-  },
-  {
    "name": "NewProperties_Dev",
    "rva": "0x8250718"
   },
@@ -34365,10 +33517,6 @@
    "rva": "0x82554D0"
   },
   {
-   "name": "NextGenReplicatorEnabledRead3",
-   "rva": "0x8161628"
-  },
-  {
    "name": "NextGenReplicatorEnabledWrite4",
    "rva": "0x8234640"
   },
@@ -34397,10 +33545,6 @@
    "rva": "0x8276858"
   },
   {
-   "name": "NoContextFieldDependency",
-   "rva": "0x8161D88"
-  },
-  {
    "name": "NoDecompInGeoGen",
    "rva": "0x825B4D8"
   },
@@ -34411,10 +33555,6 @@
   {
    "name": "NoOpWhisperAPI",
    "rva": "0x8263768"
-  },
-  {
-   "name": "NonBlockingAnalyticsExit",
-   "rva": "0x8173A70"
   },
   {
    "name": "NonHLODCloudEditTerrainFullDetail",
@@ -34529,10 +33669,6 @@
    "rva": "0x8276118"
   },
   {
-   "name": "NumFramesAllowedToBeAboveError",
-   "rva": "0x8159818"
-  },
-  {
    "name": "NumFramesToCaptureCallStack",
    "rva": "0x8246850"
   },
@@ -34581,14 +33717,6 @@
    "rva": "0x8277058"
   },
   {
-   "name": "OCBoundsCheck",
-   "rva": "0x8185F68"
-  },
-  {
-   "name": "OCEvalFastTest",
-   "rva": "0x8186028"
-  },
-  {
    "name": "OCFixClipBadPoly",
    "rva": "0x8258C58"
   },
@@ -34607,10 +33735,6 @@
   {
    "name": "OCNewMTStackSize",
    "rva": "0x8258D18"
-  },
-  {
-   "name": "OCNewTelem2",
-   "rva": "0x8185ED8"
   },
   {
    "name": "OCUseDeferredFeedback4",
@@ -34775,10 +33899,6 @@
   {
    "name": "OnCloseTimeoutInSeconds",
    "rva": "0x8267A78"
-  },
-  {
-   "name": "OnContactOwnerBufferTimeCentiSec",
-   "rva": "0x81599F8"
   },
   {
    "name": "OnDisconnectHTTPTimeout",
@@ -34997,14 +34117,6 @@
    "rva": "0x822CCF0"
   },
   {
-   "name": "OptimizeStreamDataCacheInvalidation",
-   "rva": "0x81A0568"
-  },
-  {
-   "name": "OptimizeVRMatrices",
-   "rva": "0x81A6190"
-  },
-  {
    "name": "OptimizedContactPipelineSpatialHashOverlapToleranceMicro",
    "rva": "0x8280878"
   },
@@ -35071,10 +34183,6 @@
   {
    "name": "OtaPatchSkipCleanupWhenBackupDirMissing",
    "rva": "0x822D548"
-  },
-  {
-   "name": "OutIsrMetricsInNetworkStats",
-   "rva": "0x8161898"
   },
   {
    "name": "OuterCageModulo",
@@ -35149,10 +34257,6 @@
    "rva": "0x8223EE0"
   },
   {
-   "name": "PCGDKReportSignInUserFailuresToPoints",
-   "rva": "0x8150FE0"
-  },
-  {
    "name": "PCGDKSignInUserErrorThrottleHundredthsPercent",
    "rva": "0x8223FF8"
   },
@@ -35191,10 +34295,6 @@
   {
    "name": "PCSCEVLaunchFeasibilityThrottleHundredthsPercent",
    "rva": "0x8295598"
-  },
-  {
-   "name": "PGSJumpForceAdjustment",
-   "rva": "0x8160980"
   },
   {
    "name": "PGSSolverFileDump",
@@ -35361,20 +34461,12 @@
    "rva": "0x826FFA0"
   },
   {
-   "name": "ParallelBroadPhaseBatchSize",
-   "rva": "0x8159EF0"
-  },
-  {
    "name": "ParallelBroadPhaseNewBatchCount",
    "rva": "0x822CCC0"
   },
   {
    "name": "ParallelBroadPhaseNewSerialCutoff",
    "rva": "0x822CC90"
-  },
-  {
-   "name": "ParallelBroadPhaseSerialCutoff",
-   "rva": "0x8159F20"
   },
   {
    "name": "ParallelDynamicPartsFastClusterBatchSize",
@@ -35435,10 +34527,6 @@
   {
    "name": "ParallelResolveMetadataMinReplicators",
    "rva": "0x8273650"
-  },
-  {
-   "name": "ParallelTerrainBroadphase2",
-   "rva": "0x8158FA0"
   },
   {
    "name": "ParallelizeAudioPlayers2",
@@ -35629,10 +34717,6 @@
    "rva": "0x8270F18"
   },
   {
-   "name": "PathPrefetchColdTurnFloor",
-   "rva": "0x81A3560"
-  },
-  {
    "name": "PathPrefetchColdTurnMinDensityHundredths",
    "rva": "0x8276340"
   },
@@ -35645,16 +34729,8 @@
    "rva": "0x8270F78"
   },
   {
-   "name": "PathPrefetchEnabled",
-   "rva": "0x819E1F8"
-  },
-  {
    "name": "PathPrefetchEnabled2",
    "rva": "0x8270E40"
-  },
-  {
-   "name": "PathPrefetchGuardNonFiniteInput",
-   "rva": "0x81A35A8"
   },
   {
    "name": "PathPrefetchHeatmapYWindowRegions",
@@ -35709,32 +34785,8 @@
    "rva": "0x8270ED0"
   },
   {
-   "name": "PathPrefetchReleaseBackwardFociPerSample",
-   "rva": "0x819E2D0"
-  },
-  {
-   "name": "PathPrefetchReleaseFociOnStop",
-   "rva": "0x819E2E8"
-  },
-  {
-   "name": "PathPrefetchReleaseOnCharacterAbsent",
-   "rva": "0x819E240"
-  },
-  {
-   "name": "PathPrefetchReleaseOnStreamCenterJump",
-   "rva": "0x819E210"
-  },
-  {
    "name": "PathPrefetchRequireTerminalDensity",
    "rva": "0x8270E88"
-  },
-  {
-   "name": "PathPrefetchResolveServiceOffReplicator",
-   "rva": "0x819E3A8"
-  },
-  {
-   "name": "PathPrefetchRetireStreamedInFoci",
-   "rva": "0x819E348"
   },
   {
    "name": "PathPrefetchSymmetricWalkMode",
@@ -35747,10 +34799,6 @@
   {
    "name": "PathPrefetchTurnConfidenceThresholdHundredths",
    "rva": "0x8276328"
-  },
-  {
-   "name": "PathPrefetchUnifiedWalk",
-   "rva": "0x81A3500"
   },
   {
    "name": "PathPrefetchVelocitySmoothingTicks",
@@ -36329,10 +35377,6 @@
    "rva": "0x8238F38"
   },
   {
-   "name": "PerformanceControlEnableMultiResourceOrchestrator2",
-   "rva": "0x81659B8"
-  },
-  {
    "name": "PerformanceControlEnableSimulationBoundedness",
    "rva": "0x8239170"
   },
@@ -36565,10 +35609,6 @@
    "rva": "0x82632A8"
   },
   {
-   "name": "PerformanceControlPhysicsTunableEnabled",
-   "rva": "0x8190470"
-  },
-  {
    "name": "PerformanceControlQueryBatteryState",
    "rva": "0x8238868"
   },
@@ -36701,10 +35741,6 @@
    "rva": "0x8238910"
   },
   {
-   "name": "PerformanceControlUpdateSystemState",
-   "rva": "0x81668A8"
-  },
-  {
    "name": "PerformanceControlUseDynamicFTT2",
    "rva": "0x82788C8"
   },
@@ -36813,10 +35849,6 @@
    "rva": "0x822D0D0"
   },
   {
-   "name": "PhysicsAppTelemetryReporting",
-   "rva": "0x815A4D8"
-  },
-  {
    "name": "PhysicsAppTelemetryReportingV2",
    "rva": "0x822D100"
   },
@@ -36923,10 +35955,6 @@
   {
    "name": "PhysicsWorldStatsHundredth",
    "rva": "0x822CEF8"
-  },
-  {
-   "name": "PiercingLadderSensorTrussEarlyOut",
-   "rva": "0x81526B0"
   },
   {
    "name": "PinByUniqueIdApi",
@@ -37205,40 +36233,8 @@
    "rva": "0x82646C8"
   },
   {
-   "name": "PlayerDataJobFrequencySeconds",
-   "rva": "0x8191908"
-  },
-  {
-   "name": "PlayerDataMaxRecordConfigCount",
-   "rva": "0x8191938"
-  },
-  {
-   "name": "PlayerDataMaxRecordsCheckedOut",
-   "rva": "0x81919B0"
-  },
-  {
    "name": "PlayerDataMetricsIncludeUniverseIdAndPlaceId",
    "rva": "0x8227548"
-  },
-  {
-   "name": "PlayerDataRecordFlushIntervalSeconds",
-   "rva": "0x8191968"
-  },
-  {
-   "name": "PlayerDataRecordLoadMaxWaitMs",
-   "rva": "0x8191998"
-  },
-  {
-   "name": "PlayerDataRecordLoadingIntervalMs",
-   "rva": "0x81919C8"
-  },
-  {
-   "name": "PlayerDataRecordReleaseIntervalMs",
-   "rva": "0x8191980"
-  },
-  {
-   "name": "PlayerDataRequestFlushPerMinLimit",
-   "rva": "0x8191920"
   },
   {
    "name": "PlayerDataServiceSkipShutdownWait",
@@ -37409,10 +36405,6 @@
    "rva": "0x8260DE0"
   },
   {
-   "name": "PluginGuiFixCloseCallbackUseAfterFree",
-   "rva": "0x818E1E8"
-  },
-  {
    "name": "PluginGuiResetsSelectionOnFocusLost",
    "rva": "0x8260E50"
   },
@@ -37431,10 +36423,6 @@
   {
    "name": "PluginManifestV0",
    "rva": "0x827DC00"
-  },
-  {
-   "name": "PluginRenderSelectedObject",
-   "rva": "0x8193958"
   },
   {
    "name": "PluginSuspendOverrideAllowedBuiltins",
@@ -37499,10 +36487,6 @@
   {
    "name": "PolicyServiceHttpRequestBackoffScale",
    "rva": "0x822AAD8"
-  },
-  {
-   "name": "PolicyServiceMigrationEndpointsEnabled2",
-   "rva": "0x8157BF8"
   },
   {
    "name": "PolicyServiceReportDetailIsNotSubjectToChinaPolicies",
@@ -37583,10 +36567,6 @@
   {
    "name": "PopLatencyService",
    "rva": "0x822B800"
-  },
-  {
-   "name": "PopLatencyUseAllRegionsTurnFromVoiceService",
-   "rva": "0x81587D8"
   },
   {
    "name": "PopulateCodecParVideoPropsFromWebmContainer",
@@ -37705,10 +36685,6 @@
    "rva": "0x827BBF8"
   },
   {
-   "name": "PrecomputeSetMoveRegionDelta2",
-   "rva": "0x81A2FF0"
-  },
-  {
    "name": "PredictedOOM",
    "rva": "0x82451F8"
   },
@@ -37783,10 +36759,6 @@
   {
    "name": "PrefetchRequestSentEventThrottleHundrethsPercent",
    "rva": "0x828FEC8"
-  },
-  {
-   "name": "PrefetchWaitForAppStorage",
-   "rva": "0x81AC4E0"
   },
   {
    "name": "PreiumUpsellMembershipCheckDelay",
@@ -37911,10 +36883,6 @@
   {
    "name": "PriceComponentTextSize",
    "rva": "0x8250550"
-  },
-  {
-   "name": "PrimPairToJointCountRBXHashMap",
-   "rva": "0x8159DD0"
   },
   {
    "name": "PrimStatsGANumDelimited",
@@ -38119,10 +37087,6 @@
   {
    "name": "PropertySet",
    "rva": "0x823E980"
-  },
-  {
-   "name": "PropertySetSortUnorderedInstanceIds",
-   "rva": "0x816B898"
   },
   {
    "name": "PropsetCreationAttempts",
@@ -38645,10 +37609,6 @@
    "rva": "0x82682C0"
   },
   {
-   "name": "RIDE12723",
-   "rva": "0x81965B8"
-  },
-  {
    "name": "RIDE12959",
    "rva": "0x8269310"
   },
@@ -38857,10 +37817,6 @@
    "rva": "0x8259F68"
   },
   {
-   "name": "RUHandheldDetectionDeviceFormOnly",
-   "rva": "0x8192F30"
-  },
-  {
    "name": "RUReportViewportSizeInMM",
    "rva": "0x82659E0"
   },
@@ -38955,10 +37911,6 @@
   {
    "name": "RakNetCapSplitPacketAllocation",
    "rva": "0x823F488"
-  },
-  {
-   "name": "RakNetCapSplitPacketAllocationV2",
-   "rva": "0x816C7F8"
   },
   {
    "name": "RakNetClockDriftAdjustmentPerPingMillisecond",
@@ -39385,10 +38337,6 @@
    "rva": "0x8235080"
   },
   {
-   "name": "RbsConfigAliasResolution2",
-   "rva": "0x81967B0"
-  },
-  {
    "name": "RbsConfigAliasResolution3",
    "rva": "0x82694D8"
   },
@@ -39533,10 +38481,6 @@
    "rva": "0x823D278"
   },
   {
-   "name": "RbxStorageEnableFileCacheSelfTest",
-   "rva": "0x816A240"
-  },
-  {
    "name": "RbxStorageEnforceRodeoVideoDataLimitMBs",
    "rva": "0x823D438"
   },
@@ -39641,28 +38585,8 @@
    "rva": "0x823D420"
   },
   {
-   "name": "RbxStorageReportMaxReadWriteStats",
-   "rva": "0x816A120"
-  },
-  {
-   "name": "RbxStorageReportUniqueIDForAllPoints",
-   "rva": "0x8154398"
-  },
-  {
    "name": "RbxStorageRollingStatsHundredthsPercent",
    "rva": "0x8227488"
-  },
-  {
-   "name": "RbxStorageRunInitBlockingCall",
-   "rva": "0x816A5C8"
-  },
-  {
-   "name": "RbxStorageRunInitInStdThread",
-   "rva": "0x816A580"
-  },
-  {
-   "name": "RbxStorageRunInitInStdThreadLatch",
-   "rva": "0x816A598"
   },
   {
    "name": "RbxStorageSQLiteL2MissCap",
@@ -39989,10 +38913,6 @@
    "rva": "0x8270BA0"
   },
   {
-   "name": "RbxTransportFailClosedCapabilityNegotiation",
-   "rva": "0x81670F0"
-  },
-  {
    "name": "RbxTransportFallbackStudioMessage",
    "rva": "0x8302180"
   },
@@ -40075,10 +38995,6 @@
   {
    "name": "RbxTransportIoPlayStationNbio",
    "rva": "0x823A068"
-  },
-  {
-   "name": "RbxTransportIpRateLimit",
-   "rva": "0x8167018"
   },
   {
    "name": "RbxTransportIpRateLimitMaxConns",
@@ -40209,10 +39125,6 @@
    "rva": "0x8239FA0"
   },
   {
-   "name": "RbxTransportPureQuicSupport",
-   "rva": "0x8166F78"
-  },
-  {
    "name": "RbxTransportQuicActiveConnectionIdLimit",
    "rva": "0x823A2F8"
   },
@@ -40243,10 +39155,6 @@
   {
    "name": "RbxTransportQuicDetailedLogging",
    "rva": "0x823A298"
-  },
-  {
-   "name": "RbxTransportQuicEdgeDcRouting2",
-   "rva": "0x81679A8"
   },
   {
    "name": "RbxTransportQuicEdgeDcRouting3",
@@ -40293,10 +39201,6 @@
    "rva": "0x823A400"
   },
   {
-   "name": "RbxTransportQuicOnewayShutdown",
-   "rva": "0x81676D8"
-  },
-  {
    "name": "RbxTransportQuicPacker",
    "rva": "0x823A688"
   },
@@ -40335,10 +39239,6 @@
   {
    "name": "RbxTransportQuicServerSocket",
    "rva": "0x823A200"
-  },
-  {
-   "name": "RbxTransportQuicSetLastErrorOnLocalClose",
-   "rva": "0x81675E8"
   },
   {
    "name": "RbxTransportQuicSocket",
@@ -40505,10 +39405,6 @@
    "rva": "0x82398E8"
   },
   {
-   "name": "RbxTransportRtcIoTrackPendingConnectionCloses",
-   "rva": "0x81670D8"
-  },
-  {
    "name": "RbxTransportRtcIoUseMultipleEventLoopThreads",
    "rva": "0x82397A0"
   },
@@ -40547,10 +39443,6 @@
   {
    "name": "RbxTransportRuntime",
    "rva": "0x828B5F0"
-  },
-  {
-   "name": "RbxTransportRxOverflowBuffer",
-   "rva": "0x8166E00"
   },
   {
    "name": "RbxTransportRxOverflowMaxBytes",
@@ -40593,10 +39485,6 @@
    "rva": "0x8239870"
   },
   {
-   "name": "RbxTransportSessionCrypto",
-   "rva": "0x81A1D30"
-  },
-  {
    "name": "RbxTransportSetNoSigPipe",
    "rva": "0x823A080"
   },
@@ -40607,10 +39495,6 @@
   {
    "name": "RbxTransportSharedClientConfig",
    "rva": "0x8274B58"
-  },
-  {
-   "name": "RbxTransportShiftPhysicsTimestamp",
-   "rva": "0x819EB38"
   },
   {
    "name": "RbxTransportSmoothBandwidthStats",
@@ -40899,10 +39783,6 @@
   {
    "name": "ReactiveJoinUserIdAllowlist",
    "rva": "0x830F378"
-  },
-  {
-   "name": "ReadAgeChecked",
-   "rva": "0x819DEF8"
   },
   {
    "name": "ReadFileMeshUseOptions",
@@ -41309,10 +40189,6 @@
    "rva": "0x822DBC0"
   },
   {
-   "name": "RefactorIngressFlow",
-   "rva": "0x8189A90"
-  },
-  {
    "name": "RefactorPIPSAsyncMeshFetch",
    "rva": "0x8225158"
   },
@@ -41601,10 +40477,6 @@
    "rva": "0x8260EC8"
   },
   {
-   "name": "RemoveCharacterNameLock",
-   "rva": "0x8190D90"
-  },
-  {
    "name": "RemoveCookieProtocolStorage",
    "rva": "0x8247C38"
   },
@@ -41625,10 +40497,6 @@
    "rva": "0x8226170"
   },
   {
-   "name": "RemoveInertiaFromExclusionList",
-   "rva": "0x81811F0"
-  },
-  {
    "name": "RemoveInstanceStreamForModelMeshVertexDecal",
    "rva": "0x8258708"
   },
@@ -41647,10 +40515,6 @@
   {
    "name": "RemoveNetworkFilterLegacyParentExceptions",
    "rva": "0x8277CF8"
-  },
-  {
-   "name": "RemoveNonR15PlusHrd",
-   "rva": "0x815C218"
   },
   {
    "name": "RemovePermuteInEdgebreaker",
@@ -41683,10 +40547,6 @@
   {
    "name": "RemoveUnassignedSystemAddress",
    "rva": "0x8274A38"
-  },
-  {
-   "name": "RemoveUnnecessaryKick",
-   "rva": "0x8190870"
   },
   {
    "name": "RemoveUnnecessarySetExternalRequest",
@@ -41821,10 +40681,6 @@
    "rva": "0x8258988"
   },
   {
-   "name": "RenderDisableAoTransparent",
-   "rva": "0x81867E8"
-  },
-  {
    "name": "RenderDoc",
    "rva": "0x825B740"
   },
@@ -41853,20 +40709,8 @@
    "rva": "0x825A6B0"
   },
   {
-   "name": "RenderEmitterOcclusionCulling",
-   "rva": "0x8187740"
-  },
-  {
-   "name": "RenderEnableGlobalInstancingD3D10",
-   "rva": "0x8187518"
-  },
-  {
    "name": "RenderEnableGlobalInstancingOrbis2",
    "rva": "0x823DFD8"
-  },
-  {
-   "name": "RenderEnableGlobalInstancingOrbisDebugMode",
-   "rva": "0x816B408"
   },
   {
    "name": "RenderEnableGlobalInstancingVulkan",
@@ -41901,10 +40745,6 @@
    "rva": "0x825B598"
   },
   {
-   "name": "RenderFastClusterOcclusionCulling4",
-   "rva": "0x81889F0"
-  },
-  {
    "name": "RenderFixCSGMeshCancelRace",
    "rva": "0x8257D68"
   },
@@ -41915,10 +40755,6 @@
   {
    "name": "RenderFixCullHandleTransfer",
    "rva": "0x825A780"
-  },
-  {
-   "name": "RenderFixDofFramebufferDrawportSetting2",
-   "rva": "0x81B82E8"
   },
   {
    "name": "RenderFixEditableMeshExtentsCFrameLifetime",
@@ -42017,14 +40853,6 @@
    "rva": "0x825A6C8"
   },
   {
-   "name": "RenderLanczosSubpixel",
-   "rva": "0x8185E30"
-  },
-  {
-   "name": "RenderLanczosUpsamplingNonRinging2",
-   "rva": "0x8185E00"
-  },
-  {
    "name": "RenderLightGrid",
    "rva": "0x825B8B0"
   },
@@ -42067,22 +40895,6 @@
   {
    "name": "RenderMeshAllRequestDistancePriority",
    "rva": "0x8257C00"
-  },
-  {
-   "name": "RenderMeshBudgetTier0MB",
-   "rva": "0x8184FD0"
-  },
-  {
-   "name": "RenderMeshBudgetTier1MB",
-   "rva": "0x8184FE8"
-  },
-  {
-   "name": "RenderMeshBudgetTier2MB",
-   "rva": "0x8184F88"
-  },
-  {
-   "name": "RenderMeshBudgetTier3MB",
-   "rva": "0x8184FA0"
   },
   {
    "name": "RenderMeshBulkUploadMaxCount",
@@ -42177,10 +40989,6 @@
    "rva": "0x8257D98"
   },
   {
-   "name": "RenderMeshUseTieredBudget",
-   "rva": "0x8184F58"
-  },
-  {
    "name": "RenderMeshVisibilityFrameThreshold",
    "rva": "0x8257D50"
   },
@@ -42261,10 +41069,6 @@
    "rva": "0x825BDF0"
   },
   {
-   "name": "RenderPipelineVersioningFlag7",
-   "rva": "0x81B82B8"
-  },
-  {
    "name": "RenderPipelineVersioningFlag8",
    "rva": "0x828B738"
   },
@@ -42287,10 +41091,6 @@
   {
    "name": "RenderReleaseDeviceCacheOnGarbageCollect",
    "rva": "0x825A028"
-  },
-  {
-   "name": "RenderReportOverdraw",
-   "rva": "0x8185B30"
   },
   {
    "name": "RenderReportShadowMapUpdateTimeDelayFrames",
@@ -42359,10 +41159,6 @@
   {
    "name": "RenderSkipDisabledEmitterBoundings",
    "rva": "0x825B9C8"
-  },
-  {
-   "name": "RenderSmootherStepUpsampling2",
-   "rva": "0x8185DD0"
   },
   {
    "name": "RenderSolidAssetReceiveTelemetry",
@@ -42881,10 +41677,6 @@
    "rva": "0x8272BA0"
   },
   {
-   "name": "ReportAssetRequestType",
-   "rva": "0x8155250"
-  },
-  {
    "name": "ReportAvatarAssetLoadTimesPerMyriad",
    "rva": "0x8264A18"
   },
@@ -43101,10 +41893,6 @@
    "rva": "0x8266248"
   },
   {
-   "name": "ReportISRInputPing",
-   "rva": "0x8189F60"
-  },
-  {
    "name": "ReportIncomingRepLagWithStats",
    "rva": "0x8276720"
   },
@@ -43175,10 +41963,6 @@
   {
    "name": "ReportJoinInstanceCountStreamingDataHundredthPercentage",
    "rva": "0x82767C8"
-  },
-  {
-   "name": "ReportJoinStructureMismatchOnly",
-   "rva": "0x81A09D0"
   },
   {
    "name": "ReportJoinStructureMismatchThrottle",
@@ -43271,10 +42055,6 @@
   {
    "name": "ReportNIIStricterPrefilterTCHundredths",
    "rva": "0x8277C38"
-  },
-  {
-   "name": "ReportNanRaycastResults",
-   "rva": "0x8151E18"
   },
   {
    "name": "ReportNavigationTileLastUsedDurationRateAllowed",
@@ -43491,10 +42271,6 @@
   {
    "name": "ReportSendSpireSvidJwt",
    "rva": "0x8247D10"
-  },
-  {
-   "name": "ReportSharedStringBreakdown3",
-   "rva": "0x81A36E0"
   },
   {
    "name": "ReportSimulationToFBLatencyInfluxHundredthsPercentage",
@@ -43789,10 +42565,6 @@
    "rva": "0x8265A70"
   },
   {
-   "name": "ResponsiveUnitHHLogicalBuckets",
-   "rva": "0x8192F18"
-  },
-  {
    "name": "RestartFmodRecordingCooldownMs",
    "rva": "0x82406F0"
   },
@@ -43859,10 +42631,6 @@
   {
    "name": "ReturnNullForImproperGetServiceAccess",
    "rva": "0x8240010"
-  },
-  {
-   "name": "ReuseTerrainIteratorGridListener",
-   "rva": "0x81A2D68"
   },
   {
    "name": "RevampCoexperienceTelemetryTable",
@@ -44469,10 +43237,6 @@
    "rva": "0x822D2F8"
   },
   {
-   "name": "RunningBaseGravityReductionFactorHundredth",
-   "rva": "0x815EAB8"
-  },
-  {
    "name": "RuntimeContentLog",
    "rva": "0x8256DC8"
   },
@@ -44541,10 +43305,6 @@
    "rva": "0x82B5A00"
   },
   {
-   "name": "RuppTokenAlgoTelemetry",
-   "rva": "0x8168030"
-  },
-  {
    "name": "RuppTokenClientLog2",
    "rva": "0x823AC98"
   },
@@ -44579,22 +43339,6 @@
   {
    "name": "SAuthDontStepInterpolationDuringResim",
    "rva": "0x822BF80"
-  },
-  {
-   "name": "SAuthHumanoidOnAncestorCrash",
-   "rva": "0x815C560"
-  },
-  {
-   "name": "SAuthLocallyCompressPVs",
-   "rva": "0x815A0C8"
-  },
-  {
-   "name": "SAuthLocallyCompressPVsIncludeCofmPV",
-   "rva": "0x815A080"
-  },
-  {
-   "name": "SAuthLocallyCompressPVsSolver",
-   "rva": "0x815A038"
   },
   {
    "name": "SAuthRequirePropertyDependenciesToggled",
@@ -44727,10 +43471,6 @@
   {
    "name": "SLC2LoaderConsumeDebugInfoRequest",
    "rva": "0x826C840"
-  },
-  {
-   "name": "SLC2LoaderEnableBakedLODs3",
-   "rva": "0x819AAC8"
   },
   {
    "name": "SLC2LoaderEnableBakedLODs4",
@@ -45037,20 +43777,12 @@
    "rva": "0x828F738"
   },
   {
-   "name": "STUDIOPLAT379362",
-   "rva": "0x8195748"
-  },
-  {
    "name": "STUDIOPLAT42834PluginLoadPerfTelemetry",
    "rva": "0x8260E08"
   },
   {
    "name": "STUDIOPLAT43198VersionedPluginOTA3",
    "rva": "0x8260EB0"
-  },
-  {
-   "name": "STUDIOPLAT43701EnableListPluginGuisAsync",
-   "rva": "0x818E128"
   },
   {
    "name": "STUDIOPLAT44513EnablePreinitHandoff",
@@ -45223,10 +43955,6 @@
   {
    "name": "SceneAnalysisCollisionGeometryMemoryEnabled",
    "rva": "0x8256948"
-  },
-  {
-   "name": "SceneAnalysisServiceEnabled",
-   "rva": "0x8183B98"
   },
   {
    "name": "SceneUpdaterProcessPendingPartsBudgetMs",
@@ -45745,10 +44473,6 @@
    "rva": "0x82662D8"
   },
   {
-   "name": "SendUserDisconnectOnShutdown",
-   "rva": "0x819F680"
-  },
-  {
    "name": "SendVideoCodecTelemetry",
    "rva": "0x8261D80"
   },
@@ -45763,10 +44487,6 @@
   {
    "name": "SendsGoThroughConnection4",
    "rva": "0x8234448"
-  },
-  {
-   "name": "SensorDataParallelBatchSize",
-   "rva": "0x8158FE8"
   },
   {
    "name": "SentryEnvironmentOverridesEnabled",
@@ -45837,24 +44557,8 @@
    "rva": "0x822F610"
   },
   {
-   "name": "SerializeLuauInteger",
-   "rva": "0x81AAEB8"
-  },
-  {
-   "name": "SerializeLuauIntegerMetrics",
-   "rva": "0x81AAFF0"
-  },
-  {
-   "name": "SerializeLuauIntegerMetricsEncodeUniverseId",
-   "rva": "0x81AB008"
-  },
-  {
    "name": "SerializeTweenInfo",
    "rva": "0x8234A28"
-  },
-  {
-   "name": "SerializedNetworkedLuauInteger",
-   "rva": "0x819EAD8"
   },
   {
    "name": "Serializer",
@@ -45883,10 +44587,6 @@
   {
    "name": "ServerAuthorityDisableExtraRounding",
    "rva": "0x8267880"
-  },
-  {
-   "name": "ServerAuthorityDisableHumanoidReplicationSimpleFilter",
-   "rva": "0x81A4F68"
   },
   {
    "name": "ServerAuthorityEraseSmoothStepOffsetsOnPlayerRemoving",
@@ -46043,10 +44743,6 @@
   {
    "name": "ServerEnforcePropertyRecvNOO",
    "rva": "0x82763D0"
-  },
-  {
-   "name": "ServerEquipToolTelemetryCollectionRate",
-   "rva": "0x815C290"
   },
   {
    "name": "ServerFramesBetweenJoins",
@@ -46329,10 +45025,6 @@
    "rva": "0x8283B60"
   },
   {
-   "name": "SessionStreamTotalBytes",
-   "rva": "0x819E4E0"
-  },
-  {
    "name": "SessionStreamTotalStatsThrottleHP",
    "rva": "0x82716A8"
   },
@@ -46429,10 +45121,6 @@
    "rva": "0x8275FC8"
   },
   {
-   "name": "SetStopOnInterrupt",
-   "rva": "0x8162768"
-  },
-  {
    "name": "SetTokenGenAlgo",
    "rva": "0x8274848"
   },
@@ -46467,10 +45155,6 @@
   {
    "name": "ShadowFValuesEnabled",
    "rva": "0x827BB60"
-  },
-  {
-   "name": "ShadowMapCacheScrollProfilerTokens",
-   "rva": "0x8187D18"
   },
   {
    "name": "ShadowMapExperimentDropLPM",
@@ -46547,10 +45231,6 @@
   {
    "name": "ShowChatForUserAsyncWarning",
    "rva": "0x82661B8"
-  },
-  {
-   "name": "ShowHSRMissingAssetIdWarnings",
-   "rva": "0x815C620"
   },
   {
    "name": "ShowImprovedPhysicsReplicationDisabledInStudio",
@@ -46825,10 +45505,6 @@
    "rva": "0x8249958"
   },
   {
-   "name": "SimAeroLocalOffsetTransform",
-   "rva": "0x815A1C8"
-  },
-  {
    "name": "SimAeroOctantVolumeFractions2",
    "rva": "0x8280890"
   },
@@ -46859,10 +45535,6 @@
   {
    "name": "SimAnimationConstraintParentedToBone",
    "rva": "0x8224DA0"
-  },
-  {
-   "name": "SimAnimationConstraintResponsiveness",
-   "rva": "0x8151DA0"
   },
   {
    "name": "SimAnimationConstraintVisual",
@@ -47041,10 +45713,6 @@
    "rva": "0x82464D0"
   },
   {
-   "name": "SimCollisionGroupMaskTable",
-   "rva": "0x815A008"
-  },
-  {
    "name": "SimCollisionSummarySkipBuoyancyCLI231302",
    "rva": "0x8280848"
   },
@@ -47071,30 +45739,6 @@
   {
    "name": "SimConstraintTorqueVisSpiralRadiusTimes10_2",
    "rva": "0x8224D58"
-  },
-  {
-   "name": "SimContactFiltering",
-   "rva": "0x8159F50"
-  },
-  {
-   "name": "SimContactFilteringCutoff",
-   "rva": "0x8159F80"
-  },
-  {
-   "name": "SimContactFilteringEpsilon",
-   "rva": "0x8159F98"
-  },
-  {
-   "name": "SimContactFilteringGrahamScan",
-   "rva": "0x8159D88"
-  },
-  {
-   "name": "SimContactFilteringNumBins",
-   "rva": "0x8159FB0"
-  },
-  {
-   "name": "SimContactFilteringProportionCutoff",
-   "rva": "0x8159F68"
   },
   {
    "name": "SimContactFilteringVisualize",
@@ -47301,16 +45945,8 @@
    "rva": "0x823BC18"
   },
   {
-   "name": "SimEditableMeshNonManifoldTwinRework3",
-   "rva": "0x8168D60"
-  },
-  {
    "name": "SimEditableMeshQuads14",
    "rva": "0x823BC60"
-  },
-  {
-   "name": "SimEditableMeshRemoveFaceAndFindCornerHelpers",
-   "rva": "0x8168D48"
   },
   {
    "name": "SimEditableMeshTrackGPUMemoryAssignement",
@@ -47323,10 +45959,6 @@
   {
    "name": "SimEnableBindToAnimation",
    "rva": "0x8256E08"
-  },
-  {
-   "name": "SimEnableEditablePermissionCheck",
-   "rva": "0x8181AE8"
   },
   {
    "name": "SimEnableInputLatencySimRadiusBalancing2",
@@ -47343,10 +45975,6 @@
   {
    "name": "SimExecuteClientOnlyFallenParts",
    "rva": "0x8255930"
-  },
-  {
-   "name": "SimFixAlignPositionNonFiniteTarget",
-   "rva": "0x8152948"
   },
   {
    "name": "SimFixDecodeRotationIdMatrix",
@@ -47419,10 +46047,6 @@
   {
    "name": "SimHeightfieldBuilderContactManagerFromCaller",
    "rva": "0x8224428"
-  },
-  {
-   "name": "SimImprovedAnimationConstraintRollout2",
-   "rva": "0x8182570"
   },
   {
    "name": "SimInvalidateContactsEveryFixedStep",
@@ -47509,18 +46133,6 @@
    "rva": "0x8250EC0"
   },
   {
-   "name": "SimPartialSleepTelemetry",
-   "rva": "0x8158EA8"
-  },
-  {
-   "name": "SimPartialSleepTelemetryDelay",
-   "rva": "0x8158E90"
-  },
-  {
-   "name": "SimPartialSleepTelemetryHundredthsPercentage",
-   "rva": "0x8158EF0"
-  },
-  {
    "name": "SimPerContactManagerContactPool",
    "rva": "0x822BD88"
   },
@@ -47601,14 +46213,6 @@
    "rva": "0x8252168"
   },
   {
-   "name": "SimRejectLeftHandedCFrames",
-   "rva": "0x8152758"
-  },
-  {
-   "name": "SimRemoveBodyFromConstraint",
-   "rva": "0x81AD5C8"
-  },
-  {
    "name": "SimRemoveBodyFromIslandizer",
    "rva": "0x8281178"
   },
@@ -47631,10 +46235,6 @@
   {
    "name": "SimResimSkipExcludedContacts",
    "rva": "0x822CC30"
-  },
-  {
-   "name": "SimResumeScriptsAfterPostSimulation",
-   "rva": "0x8182660"
   },
   {
    "name": "SimRuntimeContentAllowForkableForAPI",
@@ -47683,10 +46283,6 @@
   {
    "name": "SimRuntimeContentDiskBudgetRCC",
    "rva": "0x8256A08"
-  },
-  {
-   "name": "SimRuntimeContentEnforceLocalBudget",
-   "rva": "0x8183F28"
   },
   {
    "name": "SimRuntimeContentEnforceStudioServerBudget",
@@ -47749,14 +46345,6 @@
    "rva": "0x8256C30"
   },
   {
-   "name": "SimRuntimeContentStartUpCleanUp",
-   "rva": "0x81811A8"
-  },
-  {
-   "name": "SimRuntimeContentStorageAsync",
-   "rva": "0x8183FD0"
-  },
-  {
    "name": "SimRuntimeContentStorageImprove",
    "rva": "0x8265348"
   },
@@ -47807,10 +46395,6 @@
   {
    "name": "SimRuntimeContentTranscodeCatchInLambda",
    "rva": "0x8256D68"
-  },
-  {
-   "name": "SimRuntimeContentTranscodeQueueTimeEstimator",
-   "rva": "0x8183D18"
   },
   {
    "name": "SimRuntimeContentTranscodeQueueTimeLimitMs",
@@ -47917,10 +46501,6 @@
    "rva": "0x8225608"
   },
   {
-   "name": "SimSolverSingleAxisSpringReducedMassFromBody",
-   "rva": "0x81AD6A0"
-  },
-  {
    "name": "SimSolverSnapshotCollection",
    "rva": "0x822BFE0"
   },
@@ -47937,20 +46517,12 @@
    "rva": "0x822D060"
   },
   {
-   "name": "SimSolverSortConstraintByGuid",
-   "rva": "0x81AD898"
-  },
-  {
    "name": "SimSolverStatisticsHundrethsPercentage",
    "rva": "0x822D130"
   },
   {
    "name": "SimSolverSyncServerThrottle",
    "rva": "0x822BEA8"
-  },
-  {
-   "name": "SimSolverUseGuidIndexOnBody",
-   "rva": "0x81AD610"
   },
   {
    "name": "SimSolverWakeDisplacementMultiplier",
@@ -47963,10 +46535,6 @@
   {
    "name": "SimSpatialFilterRespectPredictionOff",
    "rva": "0x822C4D0"
-  },
-  {
-   "name": "SimStepIkAfterPreSimulation",
-   "rva": "0x8184220"
   },
   {
    "name": "SimStepPhysicsFixSimulationDuringTeamCreate2",
@@ -47983,10 +46551,6 @@
   {
    "name": "SimTelemetrizeSporadicFluidUsageHundredthsPercentage",
    "rva": "0x822CFE8"
-  },
-  {
-   "name": "SimTerrainContactHoistPartProperties",
-   "rva": "0x81AD448"
   },
   {
    "name": "SimTimestepMultiplierDebounceCount",
@@ -48017,16 +46581,8 @@
    "rva": "0x8225848"
   },
   {
-   "name": "SimWakeBodiesOnFluidForcePropertyChange",
-   "rva": "0x8159710"
-  },
-  {
    "name": "SimWaterAwareAeroWake",
    "rva": "0x8280C98"
-  },
-  {
-   "name": "SimWaterContactDragEnergyClamp",
-   "rva": "0x81ADE50"
   },
   {
    "name": "SimWaterContactWaveDamping",
@@ -48419,10 +46975,6 @@
   {
    "name": "SlimControllerTelemetryReportACRRequestStatus4",
    "rva": "0x826D228"
-  },
-  {
-   "name": "SlimDebugAllowNonIMGUI",
-   "rva": "0x81996E8"
   },
   {
    "name": "SlimDebugTintAutoEnroll",
@@ -49461,10 +48013,6 @@
    "rva": "0x825B3D0"
   },
   {
-   "name": "SmoothClusterOcclusionCulling2",
-   "rva": "0x8188E58"
-  },
-  {
    "name": "SmoothClusterReleaseStaleOccluder",
    "rva": "0x825B358"
   },
@@ -49701,10 +48249,6 @@
    "rva": "0x828BED0"
   },
   {
-   "name": "SoundCacheUseBlockingCall",
-   "rva": "0x819B918"
-  },
-  {
    "name": "SoundCacheUseBudgetUtilizationEstimator",
    "rva": "0x828BE70"
   },
@@ -49835,10 +48379,6 @@
   {
    "name": "SpawnStatsAcountForEnabled",
    "rva": "0x8271570"
-  },
-  {
-   "name": "SpecialMeshMVFix",
-   "rva": "0x8185240"
   },
   {
    "name": "SpecialMeshMVFix2",
@@ -49991,10 +48531,6 @@
   {
    "name": "StartupRobloxTelemetryFlagCacheUtils",
    "rva": "0x826E3C8"
-  },
-  {
-   "name": "StartupTracingInfluxRollout",
-   "rva": "0x81C01F0"
   },
   {
    "name": "StateObjectSchemaMaxSlots",
@@ -50453,10 +48989,6 @@
    "rva": "0x8276508"
   },
   {
-   "name": "StreamJobTimeScalesWithPlayerCount",
-   "rva": "0x81A3788"
-  },
-  {
    "name": "StreamJobTimeScalingPlayerThreshold",
    "rva": "0x82764D8"
   },
@@ -50541,14 +49073,6 @@
    "rva": "0x8273E68"
   },
   {
-   "name": "StreamingAdaptiveIdealCap",
-   "rva": "0x81A3290"
-  },
-  {
-   "name": "StreamingAdaptiveRadius2",
-   "rva": "0x816C590"
-  },
-  {
    "name": "StreamingAdaptiveRadius3",
    "rva": "0x823F238"
   },
@@ -50563,10 +49087,6 @@
   {
    "name": "StreamingAdaptiveRadiusMaxRegions",
    "rva": "0x82760B8"
-  },
-  {
-   "name": "StreamingAdaptiveRadiusOverrideTarget2",
-   "rva": "0x81A2F48"
   },
   {
    "name": "StreamingBandwidthQueueingLimitPercent",
@@ -50603,10 +49123,6 @@
   {
    "name": "StreamingFinalizeRegionsBeforeProgressComplete",
    "rva": "0x8271468"
-  },
-  {
-   "name": "StreamingFixLodIteratorShiftedExtents",
-   "rva": "0x819E528"
   },
   {
    "name": "StreamingFixLodIteratorShiftedExtents2",
@@ -50725,10 +49241,6 @@
    "rva": "0x8270F90"
   },
   {
-   "name": "StreamingNullCheckSolverOnGcMessage",
-   "rva": "0x819E700"
-  },
-  {
    "name": "StreamingObserverDetailed",
    "rva": "0x8275DC8"
   },
@@ -50747,10 +49259,6 @@
   {
    "name": "StreamingObserverInitialReplicatorCapacity",
    "rva": "0x8275DD8"
-  },
-  {
-   "name": "StreamingObserverMemoryOptimization",
-   "rva": "0x8161AA8"
   },
   {
    "name": "StreamingObserverMemoryOptimization2",
@@ -51079,10 +49587,6 @@
   {
    "name": "StudioLocalPlaytestT0RolloutHundredthsPercent",
    "rva": "0x8269FE0"
-  },
-  {
-   "name": "StudioLocalizationSingleLocaleLoading2",
-   "rva": "0x8157ED8"
   },
   {
    "name": "StudioLogAssetDeliveryFailures",
@@ -51505,16 +50009,8 @@
    "rva": "0x823B740"
   },
   {
-   "name": "SupportOrthoCamera3",
-   "rva": "0x81855B0"
-  },
-  {
    "name": "SupportOrthoCamera4",
    "rva": "0x8258300"
-  },
-  {
-   "name": "SupportOrthoCameraApi",
-   "rva": "0x8182480"
   },
   {
    "name": "SupportOrthoCameraApi2",
@@ -51523,10 +50019,6 @@
   {
    "name": "SupportPacketHashes",
    "rva": "0x823F250"
-  },
-  {
-   "name": "SupportSmoothScaleRichText5",
-   "rva": "0x815AD90"
   },
   {
    "name": "SupportTextureArrayFramebuffersInGL",
@@ -51739,10 +50231,6 @@
   {
    "name": "TM2MarkShadowTextures",
    "rva": "0x825AFD0"
-  },
-  {
-   "name": "TM2MoreAccurateBeamDistExtra",
-   "rva": "0x8188DC8"
   },
   {
    "name": "TM2NotSupportedSemanticMask",
@@ -51971,10 +50459,6 @@
   {
    "name": "TaskSchedulerBlockingShutdownTimeoutInMs",
    "rva": "0x82440D8"
-  },
-  {
-   "name": "TaskSchedulerDetachArbiters2",
-   "rva": "0x8171580"
   },
   {
    "name": "TaskSchedulerDetachArbiters3",
@@ -52253,10 +50737,6 @@
    "rva": "0x8267D60"
   },
   {
-   "name": "TeamCreateWorkspaceInstanceAccess",
-   "rva": "0x815A548"
-  },
-  {
    "name": "TeamTest",
    "rva": "0x8274EB8"
   },
@@ -52343,10 +50823,6 @@
   {
    "name": "TelemetryContextInfoMismatchThrottleHundredthPercent",
    "rva": "0x82449A0"
-  },
-  {
-   "name": "TelemetryDataReArchCompressBodyData",
-   "rva": "0x8178018"
   },
   {
    "name": "TelemetryDropInvalidFields",
@@ -52709,10 +51185,6 @@
    "rva": "0x8255E08"
   },
   {
-   "name": "TeleportInsights",
-   "rva": "0x81BAEF8"
-  },
-  {
    "name": "TeleportInsightsFailedEventCounterThrottleHundredthsPercentage",
    "rva": "0x828E428"
   },
@@ -52743,14 +51215,6 @@
   {
    "name": "TeleportLifecycleEventThrottleHundredthsPercent",
    "rva": "0x826E130"
-  },
-  {
-   "name": "TeleportPartyExpirationMillisecond",
-   "rva": "0x8183100"
-  },
-  {
-   "name": "TeleportPerUniverseErrorRateUniverseIdsCsv",
-   "rva": "0x8207790"
   },
   {
    "name": "TeleportPollinInterval",
@@ -52791,10 +51255,6 @@
   {
    "name": "TeleportSpawnNameLimitEnabled",
    "rva": "0x8255E68"
-  },
-  {
-   "name": "TeleportStageLatencyV2",
-   "rva": "0x81834A8"
   },
   {
    "name": "TeleportTimeClientLoadedFiltered",
@@ -52901,10 +51361,6 @@
    "rva": "0x827E130"
   },
   {
-   "name": "TerrainFixBogusDataLodData",
-   "rva": "0x81881D8"
-  },
-  {
    "name": "TerrainFixWaterLevel",
    "rva": "0x827E388"
   },
@@ -52985,10 +51441,6 @@
    "rva": "0x825AE08"
   },
   {
-   "name": "TerrainRegionCopyValidation",
-   "rva": "0x8183758"
-  },
-  {
    "name": "TerrainRemoveOrphanedVertices",
    "rva": "0x825B388"
   },
@@ -53055,10 +51507,6 @@
   {
    "name": "TerrainWaterFlow",
    "rva": "0x827E580"
-  },
-  {
-   "name": "Terrain_SimplifiedSDFMesher",
-   "rva": "0x81AB568"
   },
   {
    "name": "Terrain_UnpackOnDemand_MinCachedChunks",
@@ -53749,10 +52197,6 @@
    "rva": "0x862045E"
   },
   {
-   "name": "TextChatWindowServiceProviderRegistration",
-   "rva": "0x81AAA68"
-  },
-  {
    "name": "TextChatWindowUseCache",
    "rva": "0x827D5A8"
   },
@@ -53795,10 +52239,6 @@
   {
    "name": "TextGenerationTelemetry",
    "rva": "0x8252238"
-  },
-  {
-   "name": "TextGenerationUserAuth",
-   "rva": "0x817F3C8"
   },
   {
    "name": "TextRenderNullCheckGlyphProvider",
@@ -54009,16 +52449,8 @@
    "rva": "0x8265910"
   },
   {
-   "name": "TextureAcrMajorVersionMax",
-   "rva": "0x81B8ED8"
-  },
-  {
    "name": "TextureAcrMajorVersionMaxOverride",
    "rva": "0x828C3B8"
-  },
-  {
-   "name": "TextureAcrMajorVersionMin",
-   "rva": "0x81B8EC0"
   },
   {
    "name": "TextureAcrMajorVersionMinOverride",
@@ -54055,10 +52487,6 @@
   {
    "name": "TextureFormatFilterString",
    "rva": "0x82E61E8"
-  },
-  {
-   "name": "TextureHighPriorityUnknownMipTail",
-   "rva": "0x81868F0"
   },
   {
    "name": "TextureHighQNotSupportedSemanticMask",
@@ -54119,10 +52547,6 @@
   {
    "name": "TexturePackGenerator",
    "rva": "0x8278E98"
-  },
-  {
-   "name": "TexturePackGeneratorUseRaw",
-   "rva": "0x81A60D8"
   },
   {
    "name": "TexturePackMultiThreadedCompressionOutsideStudio",
@@ -54199,14 +52623,6 @@
   {
    "name": "TexturePackValidateInValidNotSerialize",
    "rva": "0x823B810"
-  },
-  {
-   "name": "TexturePacksFallbackReferenceManaged",
-   "rva": "0x8186718"
-  },
-  {
-   "name": "TexturePacksStreamableContent3",
-   "rva": "0x8186730"
   },
   {
    "name": "TexturePriorityEnvOffset",
@@ -54359,10 +52775,6 @@
   {
    "name": "ThumbnailerCanUseBetterDefaultMousePos",
    "rva": "0x8260190"
-  },
-  {
-   "name": "ThumbnailerUseRGBA16",
-   "rva": "0x8185E18"
   },
   {
    "name": "ThumnailToCDNURLTimeTakenStatHundredthsPercent",
@@ -54935,10 +53347,6 @@
   {
    "name": "TtiIxpIntegrationTestLayer",
    "rva": "0x82EA3C8"
-  },
-  {
-   "name": "TtiTelemetryIntegrationCheck",
-   "rva": "0x818E688"
   },
   {
    "name": "TurnApiClient",
@@ -55793,18 +54201,6 @@
    "rva": "0x8251FE8"
   },
   {
-   "name": "UGCValidateRigAttachmentBoundsFull",
-   "rva": "0x815F460"
-  },
-  {
-   "name": "UGCValidateRigAttachmentBoundsInner",
-   "rva": "0x815F280"
-  },
-  {
-   "name": "UGCValidateRigAttachmentBoundsRework",
-   "rva": "0x815F448"
-  },
-  {
    "name": "UGCValidateRightArmColorMapTextureLimit",
    "rva": "0x8231AB8"
   },
@@ -56241,10 +54637,6 @@
    "rva": "0x8265FC8"
   },
   {
-   "name": "UIDDSelectablePreparations",
-   "rva": "0x819D938"
-  },
-  {
    "name": "UIDragDetectorDragAnalyticsThrottleHundredthsPercent",
    "rva": "0x8270808"
   },
@@ -56357,16 +54749,8 @@
    "rva": "0x82F58D0"
   },
   {
-   "name": "UIPageLayoutProperBounds",
-   "rva": "0x8193388"
-  },
-  {
    "name": "UIPageLayoutTicksPerPageHundreths",
    "rva": "0x8266058"
-  },
-  {
-   "name": "UIParamStore",
-   "rva": "0x818A1E8"
   },
   {
    "name": "UIParticles",
@@ -56463,10 +54847,6 @@
   {
    "name": "UIStylingUpdateTime_ReportHundredthsPercent",
    "rva": "0x8265AD0"
-  },
-  {
-   "name": "UITableLayoutSetsChildSizeAndPositionIfFillEmptySpace",
-   "rva": "0x8194950"
   },
   {
    "name": "UITextureCompressionDesktop",
@@ -56593,10 +54973,6 @@
    "rva": "0x8259688"
   },
   {
-   "name": "UITextureUseDynamicRenderSettings",
-   "rva": "0x81879A8"
-  },
-  {
    "name": "UITextureUsingNewJobFlow7",
    "rva": "0x82784D8"
   },
@@ -56623,10 +54999,6 @@
   {
    "name": "UgcExperienceControllerSetViewportTask",
    "rva": "0x82800B0"
-  },
-  {
-   "name": "UgcLocaleFromGameJoinEnabled",
-   "rva": "0x8158080"
   },
   {
    "name": "UnbatchedAssetDeliveryClientActiveReqsInitialCapacity",
@@ -56717,24 +55089,12 @@
    "rva": "0x8253898"
   },
   {
-   "name": "UnifyCapturesRetrieval",
-   "rva": "0x8193BD0"
-  },
-  {
    "name": "UnifyConsoleUAPlayStationIxpLayer",
    "rva": "0x82EA468"
   },
   {
-   "name": "UnifyConsoleUAPlayStationIxpLayerEnabled",
-   "rva": "0x81892C8"
-  },
-  {
    "name": "UnifyConsoleUAXboxIxpLayer",
    "rva": "0x82EA438"
-  },
-  {
-   "name": "UnifyConsoleUAXboxIxpLayerEnabled",
-   "rva": "0x8189298"
   },
   {
    "name": "UnifyJoinRetryExpBackoff",
@@ -56909,10 +55269,6 @@
    "rva": "0x822A350"
   },
   {
-   "name": "UseCompressedPVSerialization",
-   "rva": "0x816C5C0"
-  },
-  {
    "name": "UseCompressedPVSerialization2",
    "rva": "0x823F208"
   },
@@ -56957,20 +55313,8 @@
    "rva": "0x827E250"
   },
   {
-   "name": "UseFtsThumbEnrollHeader2",
-   "rva": "0x8175230"
-  },
-  {
-   "name": "UseFtsThumbEnrollHeaderHundredthPercent",
-   "rva": "0x8175218"
-  },
-  {
    "name": "UseGameTransactionsApiForReceipts",
    "rva": "0x8229920"
-  },
-  {
-   "name": "UseGeneralizedFileCulling2",
-   "rva": "0x8172128"
   },
   {
    "name": "UseGeomMeshOptimizer",
@@ -56987,10 +55331,6 @@
   {
    "name": "UseIWebRTCInitFieldTrials",
    "rva": "0x826ECC0"
-  },
-  {
-   "name": "UseImageTransformScaling",
-   "rva": "0x8176680"
   },
   {
    "name": "UseImprovedPhysicsReplicationConfig",
@@ -57027,14 +55367,6 @@
   {
    "name": "UseMaxLocomotionForce",
    "rva": "0x8280B30"
-  },
-  {
-   "name": "UseNewContentDeliveryDomain",
-   "rva": "0x816A058"
-  },
-  {
-   "name": "UseNewContentDeliveryDomainHundredthPercent",
-   "rva": "0x816A040"
   },
   {
    "name": "UseNewInvitePermissionsForSocialServiceRollout",
@@ -57121,10 +55453,6 @@
    "rva": "0x822F068"
   },
   {
-   "name": "UseRootSpaceForSolveSmoothingGroups",
-   "rva": "0x8162518"
-  },
-  {
    "name": "UseScriptReplicationTarget",
    "rva": "0x8275290"
   },
@@ -57171,10 +55499,6 @@
   {
    "name": "UseTaskSchedulerTimestampForRbxTransportClockTelemetry",
    "rva": "0x8255470"
-  },
-  {
-   "name": "UseTeleportMethodEnum",
-   "rva": "0x81838F0"
   },
   {
    "name": "UseTeleportedPlacesBackHistory2",
@@ -59057,10 +57381,6 @@
    "rva": "0x8266D80"
   },
   {
-   "name": "VideoCaptureStopOnAppHide2",
-   "rva": "0x8193FF0"
-  },
-  {
    "name": "VideoCaptureStorageNoSizeBytes",
    "rva": "0x8265330"
   },
@@ -59195,10 +57515,6 @@
   {
    "name": "VideoEnableCaptureParamsInTestScripts",
    "rva": "0x8266BD0"
-  },
-  {
-   "name": "VideoEnableEvx",
-   "rva": "0x8164A18"
   },
   {
    "name": "VideoEnableHevcDecode",
@@ -59961,10 +58277,6 @@
    "rva": "0x8261D38"
   },
   {
-   "name": "VideoUseVideoServiceContentImplBase",
-   "rva": "0x818EAE0"
-  },
-  {
    "name": "VideoUseVisibilityInAbr",
    "rva": "0x8261D98"
   },
@@ -60409,10 +58721,6 @@
    "rva": "0x8285068"
   },
   {
-   "name": "VoiceChatCullingSetLastTimeCulledOnStateUpdate",
-   "rva": "0x81B0A88"
-  },
-  {
    "name": "VoiceChatCullingTimedLatchThresholdMs",
    "rva": "0x82841B0"
   },
@@ -60527,10 +58835,6 @@
   {
    "name": "VoiceChatHandshakeWaitServerCompletionTimeoutMs",
    "rva": "0x8293AD8"
-  },
-  {
-   "name": "VoiceChatIdempotentBlockUpdates",
-   "rva": "0x81C0410"
   },
   {
    "name": "VoiceChatInlineMuteMetadataState",
@@ -60857,10 +59161,6 @@
    "rva": "0x82777A8"
   },
   {
-   "name": "VoiceChatSkipLegacyDirectBlockUpdate",
-   "rva": "0x8191878"
-  },
-  {
    "name": "VoiceChatSkipPermissionCheckForTests",
    "rva": "0x82777C0"
   },
@@ -60893,20 +59193,12 @@
    "rva": "0x82850B0"
   },
   {
-   "name": "VoiceChatUpdateSubscriptionsOnBlockListChanged",
-   "rva": "0x81A4828"
-  },
-  {
    "name": "VoiceChatUseRoomServerFromVoiceService",
    "rva": "0x8294018"
   },
   {
    "name": "VoiceChatUseSubscriberAudioQualityFromVoiceService",
    "rva": "0x8293FE8"
-  },
-  {
-   "name": "VoiceChatUseTurnAuthFromVoiceService",
-   "rva": "0x81C0500"
   },
   {
    "name": "VoiceChatV2AudioTrackName",
@@ -60967,10 +59259,6 @@
   {
    "name": "VoiceConnectionApiEnableTearDownPeerConnectionFactoryOnSignalingThread",
    "rva": "0x8285008"
-  },
-  {
-   "name": "VoiceConnectionApiSendSdpParsingErrorTelemetry",
-   "rva": "0x81B1BC8"
   },
   {
    "name": "VoiceConnectionInterruptionSlaMs",
@@ -61073,10 +59361,6 @@
    "rva": "0x8277628"
   },
   {
-   "name": "VoiceMutexMigration",
-   "rva": "0x81B1D30"
-  },
-  {
    "name": "VoicePeerConnectionFactoryCleanupTimeoutMs",
    "rva": "0x8284E70"
   },
@@ -61175,10 +59459,6 @@
   {
    "name": "VoiceSdpCompressionRemoteEventFieldReceivesOriginalSdp",
    "rva": "0x8284348"
-  },
-  {
-   "name": "VoiceSdpCompressionRemoteEventFieldReceivesUnexpectedValue",
-   "rva": "0x81B0F20"
   },
   {
    "name": "VoiceSdpCompressionZstdCompressLevel",
@@ -61287,10 +59567,6 @@
   {
    "name": "VoiceUseModularDeviceManager5",
    "rva": "0x8284DC8"
-  },
-  {
-   "name": "VoiceUseWebRTCSession2",
-   "rva": "0x81B1BB0"
   },
   {
    "name": "VoiceUseWebRTCSession3",
@@ -61505,10 +59781,6 @@
    "rva": "0x827E538"
   },
   {
-   "name": "VoxelGridFixUpsample",
-   "rva": "0x81AB6A0"
-  },
-  {
    "name": "VoxelGridFragmentSerializationVersion",
    "rva": "0x827E160"
   },
@@ -61693,10 +59965,6 @@
    "rva": "0x828BA48"
   },
   {
-   "name": "VulkanTransitionResourceAllShaders",
-   "rva": "0x81B8898"
-  },
-  {
    "name": "WDNormalEpsilonExponent",
    "rva": "0x8233538"
   },
@@ -61879,14 +60147,6 @@
   {
    "name": "WebParserEncodeInvalidJsonInfNanEvenOnSkipLua",
    "rva": "0x827DE58"
-  },
-  {
-   "name": "WebParserEncodeInvalidJsonInfNanLua",
-   "rva": "0x81AAF60"
-  },
-  {
-   "name": "WebParserInvalidJsonMetricsEnableUniverseIdLabel",
-   "rva": "0x81AB068"
   },
   {
    "name": "WebParserLimitsReportHundredthsPercentage",
@@ -62111,10 +60371,6 @@
   {
    "name": "WhitelistGameJoinEndpoint",
    "rva": "0x8260AF8"
-  },
-  {
-   "name": "WhitelistItemConfigurationForRCC",
-   "rva": "0x818DE70"
   },
   {
    "name": "WhitelistThumbnailsAPI",
@@ -62381,10 +60637,6 @@
    "rva": "0x82558C0"
   },
   {
-   "name": "WorkspaceAuthorityModeUX",
-   "rva": "0x8182A98"
-  },
-  {
    "name": "WorkspaceFlaggabilityCASFix",
    "rva": "0x82678F8"
   },
@@ -62407,10 +60659,6 @@
   {
    "name": "WorldModelSkipEmptyStep",
    "rva": "0x822C138"
-  },
-  {
-   "name": "WorldOwnsContactManagerUniquePtr",
-   "rva": "0x8159228"
   },
   {
    "name": "WorldRollbackUpdateControllers",
@@ -62489,20 +60737,12 @@
    "rva": "0x822F920"
   },
   {
-   "name": "WrapDeformerEditableMeshStoreMemoryAllocation",
-   "rva": "0x815CEE8"
-  },
-  {
    "name": "WrapDeformerEfficientLayerMeshBuilding",
    "rva": "0x8233520"
   },
   {
    "name": "WrapDeformerEventHundredthsPercentage",
    "rva": "0x8233390"
-  },
-  {
-   "name": "WrapDeformerExpBackoff",
-   "rva": "0x815CD58"
   },
   {
    "name": "WrapDeformerLiveBodyScaleEdits",
@@ -62527,14 +60767,6 @@
   {
    "name": "WrapDeformerPublishLoggingHundredthsPercentage",
    "rva": "0x822FBA0"
-  },
-  {
-   "name": "WrapDeformerReuseScratch",
-   "rva": "0x81622F0"
-  },
-  {
-   "name": "WrapDeformerStableLayerTieBreak",
-   "rva": "0x8162458"
   },
   {
    "name": "WrapDeformerUsesLayeredClothingBufferingFix",
@@ -62605,10 +60837,6 @@
    "rva": "0x822FA80"
   },
   {
-   "name": "WrapUseShapeFit5",
-   "rva": "0x81623E0"
-  },
-  {
    "name": "WrapUseShapeFit8",
    "rva": "0x8234FA8"
   },
@@ -62651,10 +60879,6 @@
   {
    "name": "WriterInputCheckLength",
    "rva": "0x827BC40"
-  },
-  {
-   "name": "WsClientClearPollsEveryLoop",
-   "rva": "0x8175CC0"
   },
   {
    "name": "WsClientIdleSleepMs",
@@ -62721,16 +60945,8 @@
    "rva": "0x8316DD0"
   },
   {
-   "name": "kCageHoleNum",
-   "rva": "0x81B1E90"
-  },
-  {
    "name": "kCageMeshDistanceSDCoeff",
    "rva": "0x8285288"
-  },
-  {
-   "name": "kFullBodyCageVntsNum",
-   "rva": "0x81B1EA8"
   },
   {
    "name": "maxTextChannelChatHistory",

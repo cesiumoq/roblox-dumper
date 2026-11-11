@@ -1,6 +1,6 @@
 /* fast-port of the IDA dumper (no IDA) - 2026-11-11 15:00
 Roblox Version:   0.0.0.0
-Total Offsets:    28 */
+Total Offsets:    29 */
 
 namespace Task {
     // TaskDefer: only 0 xrefs
@@ -44,7 +44,7 @@ namespace RbxTransport {
     ClientSend = REBASE(0x3B02970);
     // AppReceive: NO STRING
     // AppReceiveMaxBytes: NO STRING
-    // FailureFallbackToRbxTransport: NO GLOBAL
+    FailureFallbackToRbxTransport = REBASE(0x6789155);
     // UseRbxTransportClient: NO GLOBAL
     GetConnectionErrorName = REBASE(0x53E9670);
     RtcAppConnection = REBASE(0x70DB908);
