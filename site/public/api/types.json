@@ -1,6 +1,6 @@
 {
  "version": "version-4ea8e85481e34f46",
- "time": "2026-11-11 20:26:45",
+ "time": "2026-11-11 20:38:31",
  "types": {
   "AirProperties": {
    "AirDensity": "uintptr_t",
@@ -411,7 +411,12 @@
    "Hash": "uintptr_t"
   },
   "ScriptContext": {
-   "RequireBypass": "uintptr_t"
+   "LuaState": "uintptr_t",
+   "LuaStateAlt": "uintptr_t",
+   "RequireBypass": "uintptr_t",
+   "VTable": "uintptr_t",
+   "VTableSub": "uintptr_t",
+   "VTableSubSlot": "uintptr_t"
   },
   "Seat": {
    "Occupant": "uintptr_t"
@@ -542,6 +547,17 @@
    "Gravity": "uintptr_t",
    "Primitives": "uintptr_t",
    "worldStepsPerSec": "uintptr_t"
+  },
+  "Functions": {
+   "PrintIdentity": "uintptr_t"
+  },
+  "Offsets": {
+   "AirDensity": "uintptr_t",
+   "GlobalWind": "uintptr_t"
+  },
+  "Weld": {
+   "Part0": "uintptr_t",
+   "Part1": "uintptr_t"
   }
  }
 }

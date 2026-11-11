@@ -13,7 +13,7 @@
 #include <cstdint>
 
 namespace Functions {
-    inline std::string ClientVersion = "version-f0ea5da9412f4e35";
+    inline std::string ClientVersion = "version-4ea8e85481e34f46";
 
     inline constexpr uintptr_t ClientSend = 0x3B02970;
     inline constexpr uintptr_t ConvertItemEnumToString = 0x491EC20;

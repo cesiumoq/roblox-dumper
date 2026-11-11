@@ -2,11 +2,11 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  395
+/*  Total Offsets   :  405
 
-/*  Dumped At       : 19:26 11/11/2026 (GMT)
+/*  Dumped At       : 19:38 11/11/2026 (GMT)
 
-/*  Dumped In       : 181,3s
+/*  Dumped In       : 179,1s
 
 */
 using System;
@@ -186,6 +186,10 @@ namespace Offsets
         public const long FacesEnd = 0x38;
         public const long Vertices = 0x0;
         public const long VerticesEnd = 0x8;
+    }
+    public static class Functions
+    {
+        public const long PrintIdentity = 0x4322690;
     }
     public static class GuiBase2D
     {
@@ -377,6 +381,11 @@ namespace Offsets
         public const long MousePosition = 0xbc;
         public const long SensitivityPointer = 0x0;
     }
+    public static class Offsets
+    {
+        public const long AirDensity = 0x18;
+        public const long GlobalWind = 0x3c;
+    }
     public static class ParticleEmitter
     {
         public const long Acceleration = 0x1c8;
@@ -477,7 +486,12 @@ namespace Offsets
     }
     public static class ScriptContext
     {
+        public const long LuaState = 0x200;
+        public const long LuaStateAlt = 0x208;
         public const long RequireBypass = 0x0;
+        public const long VTable = 0x71b0fe8;
+        public const long VTableSub = 0x71b12c8;
+        public const long VTableSubSlot = 0x98;
     }
     public static class Seat
     {
@@ -604,6 +618,11 @@ namespace Offsets
         public const long Pointer = 0x8a11808;
         public const long RenderView = 0xc50;
         public const long ViewMatrix = 0x1b0;
+    }
+    public static class Weld
+    {
+        public const long Part0 = 0x100;
+        public const long Part1 = 0x110;
     }
     public static class WeldConstraint
     {

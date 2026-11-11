@@ -2,11 +2,11 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  395
+/*  Total Offsets   :  405
 
-/*  Dumped At       : 19:26 11/11/2026 (GMT)
+/*  Dumped At       : 19:38 11/11/2026 (GMT)
 
-/*  Dumped In       : 181,3s
+/*  Dumped In       : 179,1s
 
 */
 #pragma once
@@ -164,6 +164,9 @@ namespace Offsets {
         inline constexpr uintptr_t FacesEnd = 0x38;
         inline constexpr uintptr_t Vertices = 0x0;
         inline constexpr uintptr_t VerticesEnd = 0x8;
+    }
+    namespace Functions {
+        inline constexpr uintptr_t PrintIdentity = 0x4322690;
     }
     namespace GuiBase2D {
         inline constexpr uintptr_t AbsolutePosition = 0xF4;
@@ -337,6 +340,10 @@ namespace Offsets {
         inline constexpr uintptr_t MousePosition = 0xBC;
         inline constexpr uintptr_t SensitivityPointer = 0x0;
     }
+    namespace Offsets {
+        inline constexpr uintptr_t AirDensity = 0x18;
+        inline constexpr uintptr_t GlobalWind = 0x3C;
+    }
     namespace ParticleEmitter {
         inline constexpr uintptr_t Acceleration = 0x1C8;
         inline constexpr uintptr_t Brightness = 0x204;
@@ -425,7 +432,12 @@ namespace Offsets {
         inline constexpr uintptr_t Hash = 0x188;
     }
     namespace ScriptContext {
+        inline constexpr uintptr_t LuaState = 0x200;
+        inline constexpr uintptr_t LuaStateAlt = 0x208;
         inline constexpr uintptr_t RequireBypass = 0x0;
+        inline constexpr uintptr_t VTable = 0x71B0FE8;
+        inline constexpr uintptr_t VTableSub = 0x71B12C8;
+        inline constexpr uintptr_t VTableSubSlot = 0x98;
     }
     namespace Seat {
         inline constexpr uintptr_t Occupant = 0x200;
@@ -535,6 +547,10 @@ namespace Offsets {
         inline constexpr uintptr_t Pointer = 0x8A11808;
         inline constexpr uintptr_t RenderView = 0xC50;
         inline constexpr uintptr_t ViewMatrix = 0x1B0;
+    }
+    namespace Weld {
+        inline constexpr uintptr_t Part0 = 0x100;
+        inline constexpr uintptr_t Part1 = 0x110;
     }
     namespace WeldConstraint {
         inline constexpr uintptr_t Part0 = 0xA0;

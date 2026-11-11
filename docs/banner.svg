@@ -10,11 +10,11 @@
   <text x="64" y="74" font-family="Segoe UI, Arial" font-size="38" font-weight="700" fill="#ffffff">Roblox Dump</text>
   <text x="64" y="102" font-family="Consolas, monospace" font-size="14" fill="#8b93a7">VERSION-4EA8E85481E34F46</text>
   <text x="64" y="138" font-family="Consolas, monospace" font-size="11" fill="#71717a" letter-spacing="1.5">EXTERNAL</text>
-<text x="64" y="166" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">399</text><text x="117" y="166" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> offsets</text>
+<text x="64" y="166" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">405</text><text x="117" y="166" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> offsets</text>
 <text x="314" y="166" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">15290</text><text x="393" y="166" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> fflags</text>
 <text x="64" y="200" font-family="Consolas, monospace" font-size="11" fill="#71717a" letter-spacing="1.5">INTERNAL</text>
-<text x="64" y="228" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">419</text><text x="117" y="228" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> offsets incl. functions</text>
+<text x="64" y="228" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">425</text><text x="117" y="228" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> offsets incl. functions</text>
 <text x="314" y="228" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">20</text><text x="354" y="228" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> functions</text>
 
-  <text x="64" y="280" font-family="Consolas, monospace" font-size="13" fill="#8b93a7">roblox-dump.vercel.app / updated 11/11/2026 20:26</text>
+  <text x="64" y="280" font-family="Consolas, monospace" font-size="13" fill="#8b93a7">roblox-dump.vercel.app / updated 11/11/2026 20:38</text>
 </svg>

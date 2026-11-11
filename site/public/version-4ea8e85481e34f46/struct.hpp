@@ -2,11 +2,11 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  395
+/*  Total Offsets   :  405
 
-/*  Dumped At       : 19:26 11/11/2026 (GMT)
+/*  Dumped At       : 19:38 11/11/2026 (GMT)
 
-/*  Dumped In       : 181,3s
+/*  Dumped In       : 179,1s
 
 */
 #pragma once
@@ -183,6 +183,10 @@ struct FileMeshData {
     uintptr_t FacesEnd; // 0x38
     uintptr_t AABBMin; // 0x180
     uintptr_t AABBMax; // 0x18C
+};
+
+struct Functions {
+    uintptr_t PrintIdentity; // 0x4322690
 };
 
 struct GuiBase2D {
@@ -375,6 +379,11 @@ struct MouseService {
     uintptr_t InputObject2; // 0xF8
 };
 
+struct Offsets {
+    uintptr_t AirDensity; // 0x18
+    uintptr_t GlobalWind; // 0x3C
+};
+
 struct ParticleEmitter {
     uintptr_t Texture; // 0x1A8
     uintptr_t Acceleration; // 0x1C8
@@ -475,6 +484,11 @@ struct Script {
 
 struct ScriptContext {
     uintptr_t RequireBypass; // 0x0
+    uintptr_t VTableSubSlot; // 0x98
+    uintptr_t LuaState; // 0x200
+    uintptr_t LuaStateAlt; // 0x208
+    uintptr_t VTable; // 0x71B0FE8
+    uintptr_t VTableSub; // 0x71B12C8
 };
 
 struct Seat {
@@ -601,6 +615,11 @@ struct VisualEngine {
     uintptr_t Dimensions; // 0xB10
     uintptr_t RenderView; // 0xC50
     uintptr_t Pointer; // 0x8A11808
+};
+
+struct Weld {
+    uintptr_t Part0; // 0x100
+    uintptr_t Part1; // 0x110
 };
 
 struct WeldConstraint {

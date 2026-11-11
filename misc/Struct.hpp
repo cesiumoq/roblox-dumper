@@ -2,11 +2,11 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  399
+/*  Total Offsets   :  405
 
-/*  Dumped At       : 19:26 11/11/2026 (GMT)
+/*  Dumped At       : 19:38 11/11/2026 (GMT)
 
-/*  Dumped In       : 181,0s
+/*  Dumped In       : 178,9s
 
 */
 #pragma once
@@ -183,6 +183,10 @@ struct FileMeshData {
     uintptr_t FacesEnd; // 0x38
     uintptr_t AABBMin; // 0x180
     uintptr_t AABBMax; // 0x18C
+};
+
+struct Functions {
+    uintptr_t PrintIdentity; // 0x4322690
 };
 
 struct GuiBase2D {
@@ -480,6 +484,11 @@ struct Script {
 
 struct ScriptContext {
     uintptr_t RequireBypass; // 0x0
+    uintptr_t VTableSubSlot; // 0x98
+    uintptr_t LuaState; // 0x200
+    uintptr_t LuaStateAlt; // 0x208
+    uintptr_t VTable; // 0x71B0FE8
+    uintptr_t VTableSub; // 0x71B12C8
 };
 
 struct Seat {

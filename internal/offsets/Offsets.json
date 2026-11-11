@@ -1,7 +1,7 @@
 {
  "version": "version-4ea8e85481e34f46",
- "time": "2026-11-11 20:26:44",
- "total": 399,
+ "time": "2026-11-11 20:38:31",
+ "total": 405,
  "classes": {
   "AirProperties": {
    "AirDensity": 24,
@@ -412,7 +412,12 @@
    "Hash": 392
   },
   "ScriptContext": {
-   "RequireBypass": 0
+   "LuaState": 512,
+   "LuaStateAlt": 520,
+   "RequireBypass": 0,
+   "VTable": 119214056,
+   "VTableSub": 119214792,
+   "VTableSubSlot": 152
   },
   "Seat": {
    "Occupant": 512
@@ -543,6 +548,9 @@
    "Gravity": 536,
    "Primitives": 672,
    "worldStepsPerSec": 2152
+  },
+  "Functions": {
+   "PrintIdentity": 70395536
   },
   "Offsets": {
    "AirDensity": 24,

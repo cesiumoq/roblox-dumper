@@ -1,4 +1,4 @@
-// Genere par SWC Dumper (offline) - 2026-11-11 20:26
+// Genere par SWC Dumper (offline) - 2026-11-11 20:37
 using System;
 namespace Offsets
 {

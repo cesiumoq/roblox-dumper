@@ -2,11 +2,11 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  399
+/*  Total Offsets   :  405
 
-/*  Dumped At       : 19:26 11/11/2026 (GMT)
+/*  Dumped At       : 19:38 11/11/2026 (GMT)
 
-/*  Dumped In       : 181,0s
+/*  Dumped In       : 178,9s
 
 */
 using System;
@@ -186,6 +186,10 @@ namespace Offsets
         public const long FacesEnd = 0x38;
         public const long Vertices = 0x0;
         public const long VerticesEnd = 0x8;
+    }
+    public static class Functions
+    {
+        public const long PrintIdentity = 0x4322690;
     }
     public static class GuiBase2D
     {
@@ -482,7 +486,12 @@ namespace Offsets
     }
     public static class ScriptContext
     {
+        public const long LuaState = 0x200;
+        public const long LuaStateAlt = 0x208;
         public const long RequireBypass = 0x0;
+        public const long VTable = 0x71b0fe8;
+        public const long VTableSub = 0x71b12c8;
+        public const long VTableSubSlot = 0x98;
     }
     public static class Seat
     {
