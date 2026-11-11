@@ -1,5 +1,5 @@
 {
-  "version": "version-f0ea5da9412f4e35",
+  "version": "version-4ea8e85481e34f46",
   "offsets": {
     "TaskScheduler": {
       "Pointer": 136725088
@@ -14,7 +14,7 @@
       "ActiveAnimations": 2688
     },
     "Attachment": {
-      "Position": 12
+      "Position": 180
     },
     "CachedItem": {
       "FileMeshData": 64
@@ -23,13 +23,13 @@
       "Head": 40
     },
     "Seat": {
-      "Occupant": 152
+      "Occupant": 520
     },
     "StatsItem": {
-      "Value": 24
+      "Value": 32
     },
     "Team": {
-      "BrickColor": 8
+      "BrickColor": 168
     },
     "UnionOperation": {
       "AssetId": 768

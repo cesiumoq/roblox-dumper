@@ -1,14 +1,11 @@
 {
- "version": "version-f0ea5da9412f4e35",
- "time": "2026-11-08 20:11:42",
- "total": 592,
+ "version": "version-4ea8e85481e34f46",
+ "time": "2026-11-11 13:05:15",
+ "total": 399,
  "classes": {
   "AirProperties": {
    "AirDensity": "0x18",
    "GlobalWind": "0x3C"
-  },
-  "Alloc": {
-   "Malloc": "0x4ADD350"
   },
   "AnimationTrack": {
    "Animation": "0xA0",
@@ -19,7 +16,7 @@
    "TimePosition": "0xC0"
   },
   "Animator": {
-   "ActiveAnimations": "0x900"
+   "ActiveAnimations": "0x920"
   },
   "Atmosphere": {
    "Color": "0xA0",
@@ -67,12 +64,8 @@
    "Enabled": "0x98",
    "Size": "0xA0"
   },
-  "BoundFuncDescriptor": {
-   "Function": "0x90",
-   "Name": "0x8"
-  },
   "ByteCode": {
-   "Pointer": "0x10",
+   "Pointer": "0x18",
    "Size": "0x28"
   },
   "CachedItem": {
@@ -112,29 +105,20 @@
    "Enabled": "0x98",
    "TonemapperPreset": "0xA0"
   },
-  "Coroutine": {
-   "create": "0x5A60FE0",
-   "finally": "0x5A640F0",
-   "isyieldable": "0x5A61920",
-   "running": "0x5A618B0",
-   "status": "0x5A5EB20",
-   "wrap": "0x5A61580",
-   "yield": "0x5A61850"
-  },
   "DataModel": {
-   "CreatorId": "0x170",
-   "GameId": "0x178",
-   "GameLoaded": "0x588",
+   "CreatorId": "0x190",
+   "GameId": "0x198",
+   "GameLoaded": "0x5B8",
    "JobId": "0x108",
-   "PlaceId": "0x180",
-   "PlaceVersion": "0x19C",
-   "PrimitiveCount": "0x410",
+   "PlaceId": "0x1A0",
+   "PlaceVersion": "0x1BC",
+   "PrimitiveCount": "0x430",
    "ScriptContext": "0x440",
-   "ServerIP": "0x570",
-   "ToRenderView1": "0x1B8",
+   "ServerIP": "0x5A0",
+   "ToRenderView1": "0x1D8",
    "ToRenderView2": "0x8",
    "ToRenderView3": "0x28",
-   "Workspace": "0x148"
+   "Workspace": "0x168"
   },
   "DepthOfFieldEffect": {
    "Enabled": "0x98",
@@ -142,13 +126,6 @@
    "FocusDistance": "0xA4",
    "InFocusRadius": "0xA8",
    "NearIntensity": "0xAC"
-  },
-  "Descriptor": {
-   "Name": "0x8"
-  },
-  "DeviceD3D11Gfx": {
-   "ContextObjVTableRva": "0x70E7B98",
-   "VTableRva": "0x70E79A0"
   },
   "DragDetector": {
    "ActivatedCursorIcon": "0x188",
@@ -164,34 +141,8 @@
    "Responsiveness": "0x288"
   },
   "FakeDataModel": {
-   "Pointer": "0x8EB6960",
+   "Pointer": "0x8F8E968",
    "RealDataModel": "0x1F8"
-  },
-  "FastCluster": {
-   "ClusterNode": "0x188",
-   "MeshEntityVTableRva": "0x714CB38",
-   "VTableRva": "0x714B860",
-   "VTableRvaSub": "0x714B840",
-   "VTableRvaSubAlt": "0x714C1B8"
-  },
-  "FastClusterBinding": {
-   "VTableRva": "0x714CA18"
-  },
-  "FastClusterEntity": {
-   "AlphaByte": "0x14",
-   "BBoxMaxX": "0xA4",
-   "BBoxMaxY": "0xA8",
-   "BBoxMaxZ": "0xAC",
-   "BBoxMinX": "0x98",
-   "BBoxMinY": "0x9C",
-   "BBoxMinZ": "0xA0",
-   "ContextPtr": "0x8",
-   "DecalMaterialPtr": "0x48",
-   "MaterialPtr": "0x20",
-   "PrimitiveIndexArrayPtr": "0x80",
-   "RenderQueueId": "0x10",
-   "TechniqueArrayPtr": "0x70",
-   "VTableRva": "0x714CAF0"
   },
   "FileMeshData": {
    "AABBMax": "0x18C",
@@ -201,118 +152,84 @@
    "Vertices": "0x0",
    "VerticesEnd": "0x8"
   },
-  "FunctionDescriptor": {
-   "Function": "0x80"
-  },
-  "Functions": {
-   "Clone": "0x56BC00",
-   "Destroy": "0x56BDA0",
-   "GlobalCollectGarbage": "0x4320A80",
-   "GlobalDelay": "0x4321300",
-   "GlobalElapsedTime": "0x4321A80",
-   "GlobalGetFenv": "0x4325010",
-   "GlobalLoadstring": "0x4321B00",
-   "GlobalPluginManager": "0x43221A0",
-   "GlobalPrint": "0x4322670",
-   "GlobalRequire": "0x4322790",
-   "GlobalSetFenv": "0x4325150",
-   "GlobalSettings": "0x4322D60",
-   "GlobalSpawn": "0x43231F0",
-   "GlobalStats": "0x4323960",
-   "GlobalTick": "0x4323E80",
-   "GlobalTime": "0x4323F00",
-   "GlobalUserSettings": "0x4324100",
-   "GlobalVersion": "0x4324510",
-   "GlobalWait": "0x4324600",
-   "GlobalWarn": "0x4324800",
-   "Print": "0x4322670",
-   "PrintIdentity": "0x4322690",
-   "Shapecast": "0xE13EC0"
-  },
-  "GeometryD3D11": {
-   "VTableRva": "0x70E7EC0"
-  },
   "GuiBase2D": {
    "AbsolutePosition": "0xF4",
    "AbsoluteRotation": "0xD0",
    "AbsoluteSize": "0x0"
   },
   "GuiObject": {
-   "BackgroundColor3": "0x508",
-   "BackgroundTransparency": "0x514",
-   "BorderColor3": "0x514",
-   "Image": "0x9A8",
-   "LayoutOrder": "0x544",
-   "Position": "0x4D8",
-   "RichText": "0xBA0",
+   "BackgroundColor3": "0x2D8",
+   "BackgroundTransparency": "0x2E4",
+   "BorderColor3": "0x2E4",
+   "Image": "0x670",
+   "LayoutOrder": "0x314",
+   "Position": "0x2A8",
+   "RichText": "0x7C8",
    "Rotation": "0xD0",
-   "ScreenGui_Enabled": "0x490",
-   "Size": "0x4F8",
-   "Text": "0xE08",
-   "TextColor3": "0xEB8",
-   "Visible": "0x575",
-   "ZIndex": "0x56C"
+   "ScreenGui_Enabled": "0x40D",
+   "Size": "0x2C8",
+   "Text": "0xA30",
+   "TextColor3": "0xAE0",
+   "Visible": "0x72D",
+   "ZIndex": "0x33C"
+  },
+  "HandleAdornment": {
+   "CFrame": "0x100"
   },
   "Humanoid": {
-   "AutoJumpEnabled": "0x1C8",
-   "AutoRotate": "0x1C9",
-   "AutomaticScalingEnabled": "0x95",
-   "BreakJointsOnDeath": "0x1CC",
+   "AutoJumpEnabled": "0x1CC",
+   "AutoRotate": "0x1CD",
+   "AutomaticScalingEnabled": "0x1CE",
+   "BreakJointsOnDeath": "0x1D0",
    "CameraOffset": "0x110",
    "DisplayDistanceType": "0x174",
    "DisplayName": "0xA0",
-   "EvaluateStateMachine": "0x1CD",
+   "EvaluateStateMachine": "0x1D1",
    "FloorMaterial": "0x178",
    "Health": "0x184",
    "HealthDisplayDistance": "0x17C",
    "HealthDisplayType": "0x180",
    "HipHeight": "0x188",
-   "HumanoidRootPart": "0x460",
-   "HumanoidState": "0x8A8",
+   "HumanoidRootPart": "0x468",
+   "HumanoidState": "0x8B0",
    "HumanoidStateID": "0x20",
-   "IsWalking": "0xA2E",
-   "Jump": "0x1D0",
-   "JumpHeight": "0x194",
-   "JumpPower": "0x198",
-   "MaxHealth": "0x19C",
-   "MaxSlopeAngle": "0x1A0",
+   "IsWalking": "0xA46",
+   "Jump": "0x1D4",
+   "JumpHeight": "0x198",
+   "JumpPower": "0x19C",
+   "MaxHealth": "0x1A0",
+   "MaxSlopeAngle": "0x1A4",
    "MoveDirection": "0x134",
    "MoveToPart": "0x100",
    "MoveToPoint": "0x158",
-   "NameDisplayDistance": "0x1A4",
-   "NameOcclusion": "0x1A8",
-   "PlatformStand": "0x1D2",
+   "NameDisplayDistance": "0x1A8",
+   "NameOcclusion": "0x1AC",
+   "PlatformStand": "0x1D6",
    "PlatformStatePointer": "0x0",
-   "RequiresNeck": "0x1D3",
-   "RigType": "0x1B4",
+   "RequiresNeck": "0x1D7",
+   "RigType": "0x1B8",
    "SeatPart": "0xF0",
-   "Sit": "0x1D3",
+   "Sit": "0x1D7",
    "TargetPoint": "0x140",
-   "UseJumpPower": "0x1D6",
-   "WalkTimer": "0x0",
-   "Walkspeed": "0x1C4",
-   "WalkspeedCheck": "0x39C"
+   "UseJumpPower": "0x1DA",
+   "WalkTimer": "0x3F0",
+   "Walkspeed": "0x1C8",
+   "WalkspeedCheck": "0x3A4"
   },
   "Instance": {
    "ChildrenEnd": "0x8",
    "ChildrenStart": "0x70",
-   "ChildrenStride": "0x10",
    "ClassBase": "0x1B0",
    "ClassDescriptor": "0x18",
    "ClassName": "0x8",
-   "FindFirstAncestorWhichIsA": "0x56C540",
-   "FindFirstChild": "0x5700F0",
-   "FindFirstChildOfClass": "0x56C880",
-   "FindFirstChildWhichIsA": "0x570320",
-   "FireTouchInterest": "0x9F5920",
-   "GetAttribute": "0x56D1A0",
-   "GetChildren": "0x56DAA0",
-   "InstanceIndex": "0x41F78A0",
    "Name": "0x0",
    "NameContainer": "0x68",
    "Parent": "0x60",
-   "SetParent": "0x1F14530",
    "This": "0x8"
+  },
+  "JointInstance": {
+   "Part0": "0x100",
+   "Part1": "0x110"
   },
   "LRUHolder": {
    "MemEnforcedLRUCache": "0x20"
@@ -326,8 +243,8 @@
    "Ambient": "0xB8",
    "Brightness": "0x100",
    "ClockTime": "0xB0",
-   "ColorShift_Bottom": "0xD0",
-   "ColorShift_Top": "0xC4",
+   "ColorShift_Bottom": "0xC4",
+   "ColorShift_Top": "0xD0",
    "EnvironmentDiffuseScale": "0x104",
    "EnvironmentSpecularScale": "0x108",
    "ExposureCompensation": "0x10C",
@@ -347,74 +264,9 @@
    "SunPosition": "0x160"
   },
   "LocalScript": {
-   "ByteCode": "0x180",
+   "ByteCode": "0x178",
    "GUID": "0xB8",
    "Hash": "0x188"
-  },
-  "LuaB": {
-   "LuaBAssert": "0x2699220",
-   "LuaBError": "0x2693A70",
-   "LuaBGcinfo": "0x26970A0",
-   "LuaBGetfenv": "0x26954C0",
-   "LuaBGetmetatable": "0x2694980",
-   "LuaBNewproxy": "0x2699E00",
-   "LuaBNext": "0x2698770",
-   "LuaBPrint": "0x2693620",
-   "LuaBRawequal": "0x26957A0",
-   "LuaBRawget": "0x26958B0",
-   "LuaBRawlen": "0x2697000",
-   "LuaBRawset": "0x2696340",
-   "LuaBSelect": "0x26992D0",
-   "LuaBSetfenv": "0x2695580",
-   "LuaBSetmetatable": "0x2694B00",
-   "LuaBTonumber": "0x26936E0",
-   "LuaBTostring": "0x2699DA0",
-   "LuaBType": "0x26970C0",
-   "LuaBTypeof": "0x2697C20"
-  },
-  "LuaCoroutine": {
-   "Create": "0x5A60FE0",
-   "Finally": "0x5A640F0",
-   "Isyieldable": "0x5A61920",
-   "Running": "0x5A618B0",
-   "Status": "0x5A5EB20",
-   "Wrap": "0x5A61580",
-   "Yield": "0x5A61850"
-  },
-  "LuaState": {
-   "Global": "0x50"
-  },
-  "Luau": {
-   "Free": "0x265D2F0",
-   "Step": "0x265D9F0",
-   "luaB_assert": "0x2699220",
-   "luaB_error": "0x2693A70",
-   "luaB_gcinfo": "0x26970A0",
-   "luaB_getfenv": "0x26954C0",
-   "luaB_getmetatable": "0x2694980",
-   "luaB_newproxy": "0x2699E00",
-   "luaB_next": "0x2698770",
-   "luaB_print": "0x2693620",
-   "luaB_rawequal": "0x26957A0",
-   "luaB_rawget": "0x26958B0",
-   "luaB_rawlen": "0x2697000",
-   "luaB_rawset": "0x2696340",
-   "luaB_select": "0x26992D0",
-   "luaB_setfenv": "0x2695580",
-   "luaB_setmetatable": "0x2694B00",
-   "luaB_tonumber": "0x26936E0",
-   "luaB_tostring": "0x2699DA0",
-   "luaB_type": "0x26970C0",
-   "luaB_typeof": "0x2697C20",
-   "tclone": "0x26AF1B0"
-  },
-  "LuauGlobal": {
-   "GCthreshold": "0x38",
-   "dummynode": "0x6B22620",
-   "gcstate": "0x2",
-   "gray": "0xA8",
-   "grayagain": "0x70",
-   "totalbytes": "0x68"
   },
   "MaterialColors": {
    "Asphalt": "0x30",
@@ -439,15 +291,6 @@
    "Snow": "0x1E",
    "WoodPlanks": "0x15"
   },
-  "MaterialLayer": {
-   "ColorData": "0x26",
-   "CullMode": "0x10",
-   "FillModeByte": "0x11",
-   "Flags2": "0x20",
-   "MatFlags": "0x18",
-   "Param": "0x1C",
-   "Stride": "0x88"
-  },
   "MemEnforcedLRUCache": {
    "Head": "0x8"
   },
@@ -462,11 +305,7 @@
   "Misc": {
    "Adornee": "0xD8",
    "AnimationId": "0xA8",
-   "EnableLoadModule": "0x855CF68",
-   "LockViolationScriptCrash": "0x74C1410",
-   "PrintIdentity": "0x4322690",
    "StringLength": "0x10",
-   "UnregisteredValueGetSet": "0x71DE240",
    "Value": "0xA0"
   },
   "Model": {
@@ -484,10 +323,6 @@
    "InputObject2": "0xF8",
    "MousePosition": "0xBC",
    "SensitivityPointer": "0x0"
-  },
-  "Offsets": {
-   "AirDensity": "0x18",
-   "GlobalWind": "0x3C"
   },
   "ParticleEmitter": {
    "Acceleration": "0x1C8",
@@ -533,7 +368,7 @@
    "AssemblyAngularVelocity": "0xEC",
    "AssemblyLinearVelocity": "0xE0",
    "Flags": "0x1BE",
-   "Material": "0x0",
+   "Material": "0x24E",
    "Owner": "0x218",
    "Position": "0xD4",
    "Rotation": "0xB0",
@@ -556,33 +391,6 @@
    "ObjectText": "0xB8",
    "RequiresLineOfSight": "0x11F"
   },
-  "RakNet": {
-   "ConvertItemEnumToString": "0x491E620",
-   "RakPeerVirtualTable": "0x70E84B8",
-   "ReportNetworkError": "0x49B6820"
-  },
-  "Raycast": {
-   "RaycastBoundFn": "0x90"
-  },
-  "RbxTransport": {
-   "AppRTTI": "0x8413AA0",
-   "AppVTable": "0x70DB908",
-   "ClientRTTI": "0x8455898",
-   "ClientSend": "0x3B02970",
-   "ClientVTable": "0x714D5B0",
-   "GetConnectionErrorName": "0x53E9070"
-  },
-  "RemoteEvent": {
-   "BaseVTableRva": "0x713F188",
-   "DescBaseVTableRva": "0x713EF20",
-   "FireServerRva": "0x710C10",
-   "HookSlot7RemoteEventFn": "0x3587220",
-   "InstanceVTableRva": "0x70D0B68",
-   "InvokeClient": "0x3583760",
-   "InvokeServer": "0x35833E0",
-   "RemoteFuncVTableRva": "0x71436F0",
-   "VTableRva": "0x7143958"
-  },
   "RenderJob": {
    "FakeDataModel": "0x38",
    "RealDataModel": "0x1F0",
@@ -595,38 +403,21 @@
    "VisualEngine": "0x0"
   },
   "RunService": {
-   "HeartbeatFPS": "0xF2",
-   "HeartbeatTask": "0x14B80"
+   "HeartbeatFPS": "0xC8",
+   "HeartbeatTask": "0x27C8"
   },
   "Script": {
-   "ByteCode": "0x0",
+   "ByteCode": "0x178",
    "GUID": "0xB8",
    "Hash": "0x188"
   },
   "ScriptContext": {
-   "GetGlobalState": "0x42B3C80",
-   "LuaState": "0x200",
-   "LuaStateAlt": "0x208",
-   "RequireBypass": "0x0",
-   "Resume": "0x431B1F0",
-   "VTable": "0x71B12C8",
-   "VmWrapper": "0xA8",
-   "VmWrapper2": "0x6C8",
-   "VmWrapperBig": "0x3B8",
-   "VmWrapperFn": "0x1CF86E0"
+   "RequireBypass": "0x0"
   },
   "Seat": {
    "Occupant": "0x200"
   },
-  "ShaderManager": {
-   "VTableRva": "0x7148BA0"
-  },
   "Sky": {
-   "DrawCubeCall": "0x38F58E0",
-   "DrawSkyEnv": "0x38F58E0",
-   "DrawSkyPixel": "0x38F58E0",
-   "DrawStars": "0x38F58E0",
-   "DrawSun": "0x38F58E0",
    "MoonAngularSize": "0x22C",
    "MoonTextureId": "0xB0",
    "SkyboxBk": "0xE0",
@@ -662,7 +453,7 @@
    "Scale": "0xAC"
   },
   "StatsItem": {
-   "Value": "0x30E0"
+   "Value": "0xE758"
   },
   "SunRaysEffect": {
    "Enabled": "0x98",
@@ -680,30 +471,15 @@
    "NormalMap": "0x140",
    "RoughnessMap": "0x170"
   },
-  "Task": {
-   "TaskCancel": "0x435D290",
-   "TaskDefer": "0x435C440",
-   "TaskDelay": "0x435CCB0",
-   "TaskDesynchronize": "0x435B700",
-   "TaskSpawn": "0x435C920",
-   "TaskSynchronize": "0x435B180",
-   "TaskWait": "0x435D1E0"
-  },
   "TaskScheduler": {
    "JobEnd": "0xD0",
    "JobName": "0x18",
    "JobStart": "0xC8",
    "MaxFPS": "0xB0",
-   "Pointer": "0x8E4D7B8",
-   "StepFunction": "0x2A3E640"
+   "Pointer": "0x8F1E408"
   },
   "Team": {
    "BrickColor": "0xA0"
-  },
-  "TechniqueArray": {
-   "BeginOffset": "0x0",
-   "EndOffset": "0x8",
-   "EntryStride": "0x88"
   },
   "Terrain": {
    "GrassLength": "0x1D8",
@@ -719,8 +495,8 @@
    "Texture_Texture": "0x1C8"
   },
   "Tool": {
-   "CanBeDropped": "0x365",
-   "Enabled": "0x95",
+   "CanBeDropped": "0x4A0",
+   "Enabled": "0x4A1",
    "Grip": "0x494",
    "ManualActivationOnly": "0x4A2",
    "RequiresHandle": "0x4A3",
@@ -740,19 +516,12 @@
    "Torque": "0x21C",
    "TurnSpeed": "0x220"
   },
-  "ViewBase": {
-   "VTableRva": "0x7149AD8"
-  },
   "VisualEngine": {
    "Dimensions": "0xB10",
    "FakeDataModel": "0xAF0",
-   "Pointer": "0x8942E38",
+   "Pointer": "0x8A11808",
    "RenderView": "0xC50",
    "ViewMatrix": "0x1B0"
-  },
-  "Weld": {
-   "Part0": "0x100",
-   "Part1": "0x110"
   },
   "WeldConstraint": {
    "Part0": "0xA0",
@@ -765,7 +534,7 @@
   "Workspace": {
    "CurrentCamera": "0x4A0",
    "DistributedGameTime": "0x4C0",
-   "ReadOnlyGravity": "0x9D0",
+   "ReadOnlyGravity": "0x9C8",
    "World": "0x3F8"
   },
   "World": {
@@ -775,25 +544,13 @@
    "Primitives": "0x2A0",
    "worldStepsPerSec": "0x868"
   },
-  "WorldRoot": {
-   "FindPartOnRayBoundFnRva": "0x3D5690",
-   "FindPartOnRayWithIgnoreListBoundFnRva": "0x3D5840",
-   "FindPartOnRayWithWhitelistBoundFnRva": "0x3D59E0",
-   "RaycastBoundFn": "0x90",
-   "RaycastBoundFnRva": "0x3D30B0",
-   "RaycastDescriptorVtableRva": "0x7041420"
+  "Offsets": {
+   "AirDensity": "0x18",
+   "GlobalWind": "0x3C"
   },
-  "highlight_manager": {
-   "context_active": "0x420",
-   "context_depth": "0x20",
-   "context_fill": "0x520",
-   "context_outline": "0x1520",
-   "contexts": "0x100",
-   "fallback_active": "0x538",
-   "fallback_depth": "0x138",
-   "fallback_fill": "0x638",
-   "fallback_outline": "0x1638",
-   "manager": "0xC18"
+  "Weld": {
+   "Part0": "0x100",
+   "Part1": "0x110"
   }
  }
 }

@@ -1,15 +1,3 @@
 {
- "functions": {
-  "ClientSend": "0x3B02970",
-  "ConvertItemEnumToString": "0x491E620",
-  "DrawCubeCall": "0x38F58E0",
-  "DrawSkyEnv": "0x38F58E0",
-  "DrawSkyPixel": "0x38F58E0",
-  "DrawStars": "0x38F7A20",
-  "DrawSun": "0x38F58E0",
-  "FireTouchInterest": "0x9F5920",
-  "GetConnectionErrorName": "0x53E9070",
-  "InstanceIndex": "0x41F78A0",
-  "TaskWait": "0x435D1E0"
- }
+ "functions": {}
 }

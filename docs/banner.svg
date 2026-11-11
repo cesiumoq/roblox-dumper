@@ -8,13 +8,13 @@
   <rect width="1080" height="302" rx="14" fill="url(#g)"/>
   <rect x="1" y="1" width="1078" height="300" rx="13" fill="none" stroke="#232a3b" stroke-width="2"/>
   <text x="64" y="74" font-family="Segoe UI, Arial" font-size="38" font-weight="700" fill="#ffffff">Roblox Dump</text>
-  <text x="64" y="102" font-family="Consolas, monospace" font-size="14" fill="#8b93a7">VERSION-F0EA5DA9412F4E35</text>
+  <text x="64" y="102" font-family="Consolas, monospace" font-size="14" fill="#8b93a7">VERSION-4EA8E85481E34F46</text>
   <text x="64" y="138" font-family="Consolas, monospace" font-size="11" fill="#71717a" letter-spacing="1.5">EXTERNAL</text>
-<text x="64" y="166" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">592</text><text x="117" y="166" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> offsets</text>
-<text x="314" y="166" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">15304</text><text x="393" y="166" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> fflags</text>
+<text x="64" y="166" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">399</text><text x="117" y="166" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> offsets</text>
+<text x="314" y="166" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">15736</text><text x="393" y="166" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> fflags</text>
 <text x="64" y="200" font-family="Consolas, monospace" font-size="11" fill="#71717a" letter-spacing="1.5">INTERNAL</text>
-<text x="64" y="228" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">603</text><text x="117" y="228" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> offsets incl. functions</text>
-<text x="314" y="228" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">11</text><text x="354" y="228" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> functions</text>
+<text x="64" y="228" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">399</text><text x="117" y="228" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> offsets incl. functions</text>
+<text x="314" y="228" font-family="Consolas, monospace" font-size="21" font-weight="700" fill="#e6e9f0">0</text><text x="341" y="228" font-family="Consolas, monospace" font-size="14" fill="#8b93a7"> functions</text>
 
-  <text x="64" y="280" font-family="Consolas, monospace" font-size="13" fill="#8b93a7">roblox-dump.vercel.app / updated 08/11/2026 20:12</text>
+  <text x="64" y="280" font-family="Consolas, monospace" font-size="13" fill="#8b93a7">roblox-dump.vercel.app / updated 11/11/2026 13:05</text>
 </svg>
