@@ -1,7 +1,11 @@
 {
- "version": "version-unknown",
- "time": "2026-11-20 04:07:26",
+ "version": "version-2c6fd5e09aaf4cfa",
+ "time": "2026-11-20 04:23:35",
  "types": {
+  "AirProperties": {
+   "AirDensity": "uintptr_t",
+   "GlobalWind": "uintptr_t"
+  },
   "AnimationTrack": {
    "Animation": "uintptr_t",
    "Animator": "uintptr_t",
@@ -139,9 +143,6 @@
    "Pointer": "uintptr_t",
    "RealDataModel": "uintptr_t"
   },
-  "Functions": {
-   "PrintIdentity": "uintptr_t"
-  },
   "FileMeshData": {
    "AABBMax": "uintptr_t",
    "AABBMin": "uintptr_t",
@@ -170,6 +171,9 @@
    "TextColor3": "uintptr_t",
    "Visible": "uintptr_t",
    "ZIndex": "uintptr_t"
+  },
+  "HandleAdornment": {
+   "CFrame": "uintptr_t"
   },
   "Humanoid": {
    "AutoJumpEnabled": "uintptr_t",
@@ -221,6 +225,10 @@
    "NameContainer": "uintptr_t",
    "Parent": "uintptr_t",
    "This": "uintptr_t"
+  },
+  "JointInstance": {
+   "Part0": "uintptr_t",
+   "Part1": "uintptr_t"
   },
   "LRUHolder": {
    "MemEnforcedLRUCache": "uintptr_t"
@@ -290,6 +298,7 @@
   },
   "MeshPart": {
    "MeshId": "uintptr_t",
+   "MeshSize": "uintptr_t",
    "Texture": "uintptr_t"
   },
   "Misc": {
@@ -313,10 +322,6 @@
    "InputObject2": "uintptr_t",
    "MousePosition": "uintptr_t",
    "SensitivityPointer": "uintptr_t"
-  },
-  "Offsets": {
-   "AirDensity": "uintptr_t",
-   "GlobalWind": "uintptr_t"
   },
   "ParticleEmitter": {
    "Acceleration": "uintptr_t",
@@ -522,10 +527,6 @@
    "RenderView": "uintptr_t",
    "ViewMatrix": "uintptr_t"
   },
-  "Weld": {
-   "Part0": "uintptr_t",
-   "Part1": "uintptr_t"
-  },
   "WeldConstraint": {
    "Part0": "uintptr_t",
    "Part1": "uintptr_t"
@@ -546,6 +547,17 @@
    "Gravity": "uintptr_t",
    "Primitives": "uintptr_t",
    "worldStepsPerSec": "uintptr_t"
+  },
+  "Functions": {
+   "PrintIdentity": "uintptr_t"
+  },
+  "Offsets": {
+   "AirDensity": "uintptr_t",
+   "GlobalWind": "uintptr_t"
+  },
+  "Weld": {
+   "Part0": "uintptr_t",
+   "Part1": "uintptr_t"
   }
  }
 }

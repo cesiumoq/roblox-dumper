@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="Roblox Dump version-unknown" width="100%">
+  <img src="docs/banner.svg" alt="Roblox Dump version-2c6fd5e09aaf4cfa" width="100%">
 </p>
 
 <p align="center">
   <a href="https://roblox-dump.vercel.app">roblox-dump.vercel.app</a><br>
-  <sub>Last updated 20/11/2026 04:07</sub>
+  <sub>Last updated 20/11/2026 04:23</sub>
 </p>
 
 ## Output
@@ -23,7 +23,7 @@ misc/
   report.txt
 ```
 
-The same files are generated to `dump/version-unknown/` on every run.
+The same files are generated to `dump/version-2c6fd5e09aaf4cfa/` on every run.
 
 ## Repository layout
 

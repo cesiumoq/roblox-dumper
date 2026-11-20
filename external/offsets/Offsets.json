@@ -1,18 +1,22 @@
 {
- "version": "version-unknown",
- "time": "2026-11-20 04:07:24",
- "total": 399,
+ "version": "version-2c6fd5e09aaf4cfa",
+ "time": "2026-11-20 04:23:34",
+ "total": 405,
  "classes": {
+  "AirProperties": {
+   "AirDensity": 24,
+   "GlobalWind": 60
+  },
   "AnimationTrack": {
    "Animation": 160,
    "Animator": 248,
-   "IsPlaying": 2576,
+   "IsPlaying": 2624,
    "Looped": 205,
    "Speed": 188,
    "TimePosition": 192
   },
   "Animator": {
-   "ActiveAnimations": 2304
+   "ActiveAnimations": 2336
   },
   "Atmosphere": {
    "Color": 160,
@@ -61,7 +65,7 @@
    "Size": 160
   },
   "ByteCode": {
-   "Pointer": 16,
+   "Pointer": 24,
    "Size": 40
   },
   "CachedItem": {
@@ -92,29 +96,29 @@
    "Template": 232
   },
   "ColorCorrectionEffect": {
-   "Brightness": 172,
-   "Contrast": 176,
+   "Brightness": 220,
+   "Contrast": 228,
    "Enabled": 152,
-   "TintColor": 160
+   "TintColor": 208
   },
   "ColorGradingEffect": {
    "Enabled": 152,
    "TonemapperPreset": 160
   },
   "DataModel": {
-   "CreatorId": 368,
-   "GameId": 376,
-   "GameLoaded": 1416,
+   "CreatorId": 400,
+   "GameId": 408,
+   "GameLoaded": 1464,
    "JobId": 264,
-   "PlaceId": 384,
-   "PlaceVersion": 412,
-   "PrimitiveCount": 1040,
+   "PlaceId": 416,
+   "PlaceVersion": 444,
+   "PrimitiveCount": 1072,
    "ScriptContext": 1088,
-   "ServerIP": 1392,
-   "ToRenderView1": 440,
+   "ServerIP": 1440,
+   "ToRenderView1": 472,
    "ToRenderView2": 8,
    "ToRenderView3": 40,
-   "Workspace": 328
+   "Workspace": 360
   },
   "DepthOfFieldEffect": {
    "Enabled": 152,
@@ -137,11 +141,8 @@
    "Responsiveness": 648
   },
   "FakeDataModel": {
-   "Pointer": 149645664,
+   "Pointer": 148988776,
    "RealDataModel": 504
-  },
-  "Functions": {
-   "PrintIdentity": 70782928
   },
   "FileMeshData": {
    "AABBMax": 396,
@@ -157,30 +158,33 @@
    "AbsoluteSize": 0
   },
   "GuiObject": {
-   "BackgroundColor3": 1288,
-   "BackgroundTransparency": 1300,
-   "BorderColor3": 1300,
-   "Image": 2472,
-   "LayoutOrder": 1348,
-   "Position": 1240,
-   "RichText": 2976,
+   "BackgroundColor3": 728,
+   "BackgroundTransparency": 740,
+   "BorderColor3": 740,
+   "Image": 1648,
+   "LayoutOrder": 788,
+   "Position": 680,
+   "RichText": 1992,
    "Rotation": 208,
-   "ScreenGui_Enabled": 1168,
-   "Size": 1272,
-   "Text": 3592,
-   "TextColor3": 3768,
-   "Visible": 1397,
-   "ZIndex": 1388
+   "ScreenGui_Enabled": 1037,
+   "Size": 712,
+   "Text": 2608,
+   "TextColor3": 2784,
+   "Visible": 1840,
+   "ZIndex": 828
+  },
+  "HandleAdornment": {
+   "CFrame": 256
   },
   "Humanoid": {
-   "AutoJumpEnabled": 456,
-   "AutoRotate": 457,
-   "AutomaticScalingEnabled": 149,
-   "BreakJointsOnDeath": 460,
+   "AutoJumpEnabled": 460,
+   "AutoRotate": 461,
+   "AutomaticScalingEnabled": 462,
+   "BreakJointsOnDeath": 464,
    "CameraOffset": 272,
    "DisplayDistanceType": 372,
    "DisplayName": 160,
-   "EvaluateStateMachine": 461,
+   "EvaluateStateMachine": 465,
    "FloorMaterial": 376,
    "Health": 388,
    "HealthDisplayDistance": 380,
@@ -189,39 +193,43 @@
    "HumanoidRootPart": 1120,
    "HumanoidState": 2216,
    "HumanoidStateID": 32,
-   "IsWalking": 2606,
-   "Jump": 464,
-   "JumpHeight": 404,
-   "JumpPower": 408,
-   "MaxHealth": 412,
-   "MaxSlopeAngle": 416,
+   "IsWalking": 2622,
+   "Jump": 468,
+   "JumpHeight": 408,
+   "JumpPower": 412,
+   "MaxHealth": 416,
+   "MaxSlopeAngle": 420,
    "MoveDirection": 308,
    "MoveToPart": 256,
    "MoveToPoint": 344,
-   "NameDisplayDistance": 420,
-   "NameOcclusion": 424,
-   "PlatformStand": 466,
+   "NameDisplayDistance": 424,
+   "NameOcclusion": 428,
+   "PlatformStand": 469,
    "PlatformStatePointer": 0,
-   "RequiresNeck": 467,
-   "RigType": 436,
+   "RequiresNeck": 470,
+   "RigType": 440,
    "SeatPart": 240,
-   "Sit": 467,
+   "Sit": 470,
    "TargetPoint": 320,
-   "UseJumpPower": 470,
+   "UseJumpPower": 473,
    "WalkTimer": 0,
-   "Walkspeed": 452,
+   "Walkspeed": 456,
    "WalkspeedCheck": 924
   },
   "Instance": {
    "ChildrenEnd": 8,
    "ChildrenStart": 112,
-   "ClassBase": 432,
+   "ClassBase": 440,
    "ClassDescriptor": 24,
    "ClassName": 8,
    "Name": 0,
    "NameContainer": 104,
    "Parent": 96,
    "This": 8
+  },
+  "JointInstance": {
+   "Part0": 256,
+   "Part1": 272
   },
   "LRUHolder": {
    "MemEnforcedLRUCache": 32
@@ -235,8 +243,8 @@
    "Ambient": 184,
    "Brightness": 256,
    "ClockTime": 176,
-   "ColorShift_Bottom": 208,
-   "ColorShift_Top": 196,
+   "ColorShift_Bottom": 196,
+   "ColorShift_Top": 208,
    "EnvironmentDiffuseScale": 260,
    "EnvironmentSpecularScale": 264,
    "ExposureCompensation": 268,
@@ -244,16 +252,16 @@
    "FogEnd": 276,
    "FogStart": 280,
    "GeographicLatitude": 284,
-   "GlobalShadows": 300,
-   "GradientBottom": 376,
-   "GradientTop": 312,
-   "LightColor": 324,
-   "LightDirection": 336,
-   "MoonPosition": 364,
+   "GlobalShadows": 306,
+   "GradientBottom": 384,
+   "GradientTop": 320,
+   "LightColor": 332,
+   "LightDirection": 344,
+   "MoonPosition": 372,
    "OutdoorAmbient": 232,
-   "Sky": 432,
-   "Source": 348,
-   "SunPosition": 352
+   "Sky": 440,
+   "Source": 356,
+   "SunPosition": 360
   },
   "LocalScript": {
    "ByteCode": 0,
@@ -291,6 +299,7 @@
   },
   "MeshPart": {
    "MeshId": 760,
+   "MeshSize": 528,
    "Texture": 808
   },
   "Misc": {
@@ -306,7 +315,7 @@
   "ModuleScript": {
    "ByteCode": 0,
    "GUID": 184,
-   "Hash": 840,
+   "Hash": 0,
    "IsCoreScript": 0
   },
   "MouseService": {
@@ -314,10 +323,6 @@
    "InputObject2": 248,
    "MousePosition": 188,
    "SensitivityPointer": 0
-  },
-  "Offsets": {
-   "AirDensity": 24,
-   "GlobalWind": 60
   },
   "ParticleEmitter": {
    "Acceleration": 456,
@@ -346,7 +351,7 @@
    "MaxZoomDistance": 880,
    "MinZoomDistance": 884,
    "ModelInstance": 672,
-   "Mouse": 4592,
+   "Mouse": 4728,
    "NameDisplayDistance": 944,
    "Team": 736,
    "TeamColor": 952,
@@ -363,8 +368,8 @@
    "AssemblyAngularVelocity": 236,
    "AssemblyLinearVelocity": 224,
    "Flags": 446,
-   "Material": 0,
-   "Owner": 536,
+   "Material": 598,
+   "Owner": 544,
    "Position": 212,
    "Rotation": 176,
    "Size": 452,
@@ -398,8 +403,8 @@
    "VisualEngine": 0
   },
   "RunService": {
-   "HeartbeatFPS": 242,
-   "HeartbeatTask": 84864
+   "HeartbeatFPS": 190,
+   "HeartbeatTask": 167480
   },
   "Script": {
    "ByteCode": 0,
@@ -432,17 +437,17 @@
    "SunTextureId": 512
   },
   "Sound": {
-   "IsPlaying": 304,
-   "Looped": 301,
-   "PlaybackSpeed": 268,
-   "RollOffMaxDistance": 272,
-   "RollOffMinDistance": 276,
+   "IsPlaying": 280,
+   "Looped": 277,
+   "PlaybackSpeed": 252,
+   "RollOffMaxDistance": 256,
+   "RollOffMinDistance": 260,
    "SoundGroup": 208,
    "SoundId": 176,
-   "Volume": 288
+   "Volume": 272
   },
   "SpawnLocation": {
-   "AllowTeamChangeOnTouch": 61,
+   "AllowTeamChangeOnTouch": 472,
    "Enabled": 473,
    "ForcefieldDuration": 464,
    "Neutral": 474,
@@ -453,7 +458,7 @@
    "Scale": 172
   },
   "StatsItem": {
-   "Value": 12512
+   "Value": 47421
   },
   "SunRaysEffect": {
    "Enabled": 152,
@@ -476,7 +481,7 @@
    "JobName": 24,
    "JobStart": 200,
    "MaxFPS": 176,
-   "Pointer": 149215160
+   "Pointer": 148528536
   },
   "Team": {
    "BrickColor": 160
@@ -495,8 +500,8 @@
    "Texture_Texture": 456
   },
   "Tool": {
-   "CanBeDropped": 869,
-   "Enabled": 149,
+   "CanBeDropped": 1184,
+   "Enabled": 1185,
    "Grip": 1172,
    "ManualActivationOnly": 1186,
    "RequiresHandle": 1187,
@@ -519,13 +524,9 @@
   "VisualEngine": {
    "Dimensions": 2832,
    "FakeDataModel": 2800,
-   "Pointer": 143928888,
+   "Pointer": 143223704,
    "RenderView": 3152,
    "ViewMatrix": 432
-  },
-  "Weld": {
-   "Part0": 256,
-   "Part1": 272
   },
   "WeldConstraint": {
    "Part0": 160,
@@ -538,7 +539,7 @@
   "Workspace": {
    "CurrentCamera": 1184,
    "DistributedGameTime": 1216,
-   "ReadOnlyGravity": 2512,
+   "ReadOnlyGravity": 2504,
    "World": 1016
   },
   "World": {
@@ -547,6 +548,17 @@
    "Gravity": 536,
    "Primitives": 672,
    "worldStepsPerSec": 2152
+  },
+  "Functions": {
+   "PrintIdentity": 70782928
+  },
+  "Offsets": {
+   "AirDensity": 24,
+   "GlobalWind": 60
+  },
+  "Weld": {
+   "Part0": 256,
+   "Part1": 272
   }
  }
 }

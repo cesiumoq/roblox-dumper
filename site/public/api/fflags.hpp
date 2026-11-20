@@ -4,16 +4,16 @@
 
 /*  Total FFlags    :  15270
 
-/*  Dumped At       : 03:07 20/11/2026 (GMT)
+/*  Dumped At       : 03:23 20/11/2026 (GMT)
 
-/*  Dumped In       : 199,9s
+/*  Dumped In       : 162,2s
 
 */
 #pragma once
 #include <cstdint>
 
 namespace FFlagOffsets {
-    inline std::string ClientVersion = "version-unknown";
+    inline std::string ClientVersion = "version-2c6fd5e09aaf4cfa";
 
         inline constexpr uintptr_t AANullRolloutTest = 0x813CBF8;
         inline constexpr uintptr_t ACEAnimationFromVideoCreatorServiceWithAssetImport = 0x81103F8;

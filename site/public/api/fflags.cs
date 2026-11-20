@@ -4,16 +4,16 @@
 
 /*  Total FFlags    :  15270
 
-/*  Dumped At       : 03:07 20/11/2026 (GMT)
+/*  Dumped At       : 03:23 20/11/2026 (GMT)
 
-/*  Dumped In       : 199,9s
+/*  Dumped In       : 162,2s
 
 */
 namespace FFlagOffsets
 {
     public static class Info
     {
-        public const string ClientVersion = "version-unknown";
+        public const string ClientVersion = "version-2c6fd5e09aaf4cfa";
     }
     public static class FFlagList
     {

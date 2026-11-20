@@ -1,5 +1,15 @@
 {
  "modules": {
+  "AirProperties": [
+   {
+    "name": "AirDensity",
+    "rva": "0x18"
+   },
+   {
+    "name": "GlobalWind",
+    "rva": "0x3C"
+   }
+  ],
   "AnimationTrack": [
    {
     "name": "Animation",
@@ -11,7 +21,7 @@
    },
    {
     "name": "IsPlaying",
-    "rva": "0xA10"
+    "rva": "0xA40"
    },
    {
     "name": "Looped",
@@ -29,7 +39,7 @@
   "Animator": [
    {
     "name": "ActiveAnimations",
-    "rva": "0x900"
+    "rva": "0x920"
    }
   ],
   "Atmosphere": [
@@ -183,7 +193,7 @@
   "ByteCode": [
    {
     "name": "Pointer",
-    "rva": "0x10"
+    "rva": "0x18"
    },
    {
     "name": "Size",
@@ -271,11 +281,11 @@
   "ColorCorrectionEffect": [
    {
     "name": "Brightness",
-    "rva": "0xAC"
+    "rva": "0xDC"
    },
    {
     "name": "Contrast",
-    "rva": "0xB0"
+    "rva": "0xE4"
    },
    {
     "name": "Enabled",
@@ -283,7 +293,7 @@
    },
    {
     "name": "TintColor",
-    "rva": "0xA0"
+    "rva": "0xD0"
    }
   ],
   "ColorGradingEffect": [
@@ -299,15 +309,15 @@
   "DataModel": [
    {
     "name": "CreatorId",
-    "rva": "0x170"
+    "rva": "0x190"
    },
    {
     "name": "GameId",
-    "rva": "0x178"
+    "rva": "0x198"
    },
    {
     "name": "GameLoaded",
-    "rva": "0x588"
+    "rva": "0x5B8"
    },
    {
     "name": "JobId",
@@ -315,15 +325,15 @@
    },
    {
     "name": "PlaceId",
-    "rva": "0x180"
+    "rva": "0x1A0"
    },
    {
     "name": "PlaceVersion",
-    "rva": "0x19C"
+    "rva": "0x1BC"
    },
    {
     "name": "PrimitiveCount",
-    "rva": "0x410"
+    "rva": "0x430"
    },
    {
     "name": "ScriptContext",
@@ -331,11 +341,11 @@
    },
    {
     "name": "ServerIP",
-    "rva": "0x570"
+    "rva": "0x5A0"
    },
    {
     "name": "ToRenderView1",
-    "rva": "0x1B8"
+    "rva": "0x1D8"
    },
    {
     "name": "ToRenderView2",
@@ -347,7 +357,7 @@
    },
    {
     "name": "Workspace",
-    "rva": "0x148"
+    "rva": "0x168"
    }
   ],
   "DepthOfFieldEffect": [
@@ -421,7 +431,7 @@
   "FakeDataModel": [
    {
     "name": "Pointer",
-    "rva": "0x8EB6960"
+    "rva": "0x8E16368"
    },
    {
     "name": "RealDataModel",
@@ -477,31 +487,31 @@
   "GuiObject": [
    {
     "name": "BackgroundColor3",
-    "rva": "0x508"
+    "rva": "0x2D8"
    },
    {
     "name": "BackgroundTransparency",
-    "rva": "0x514"
+    "rva": "0x2E4"
    },
    {
     "name": "BorderColor3",
-    "rva": "0x514"
+    "rva": "0x2E4"
    },
    {
     "name": "Image",
-    "rva": "0x9A8"
+    "rva": "0x670"
    },
    {
     "name": "LayoutOrder",
-    "rva": "0x544"
+    "rva": "0x314"
    },
    {
     "name": "Position",
-    "rva": "0x4D8"
+    "rva": "0x2A8"
    },
    {
     "name": "RichText",
-    "rva": "0xBA0"
+    "rva": "0x7C8"
    },
    {
     "name": "Rotation",
@@ -509,45 +519,51 @@
    },
    {
     "name": "ScreenGui_Enabled",
-    "rva": "0x490"
+    "rva": "0x40D"
    },
    {
     "name": "Size",
-    "rva": "0x4F8"
+    "rva": "0x2C8"
    },
    {
     "name": "Text",
-    "rva": "0xE08"
+    "rva": "0xA30"
    },
    {
     "name": "TextColor3",
-    "rva": "0xEB8"
+    "rva": "0xAE0"
    },
    {
     "name": "Visible",
-    "rva": "0x575"
+    "rva": "0x730"
    },
    {
     "name": "ZIndex",
-    "rva": "0x56C"
+    "rva": "0x33C"
+   }
+  ],
+  "HandleAdornment": [
+   {
+    "name": "CFrame",
+    "rva": "0x100"
    }
   ],
   "Humanoid": [
    {
     "name": "AutoJumpEnabled",
-    "rva": "0x1C8"
+    "rva": "0x1CC"
    },
    {
     "name": "AutoRotate",
-    "rva": "0x1C9"
+    "rva": "0x1CD"
    },
    {
     "name": "AutomaticScalingEnabled",
-    "rva": "0x95"
+    "rva": "0x1CE"
    },
    {
     "name": "BreakJointsOnDeath",
-    "rva": "0x1CC"
+    "rva": "0x1D0"
    },
    {
     "name": "CameraOffset",
@@ -563,7 +579,7 @@
    },
    {
     "name": "EvaluateStateMachine",
-    "rva": "0x1CD"
+    "rva": "0x1D1"
    },
    {
     "name": "FloorMaterial",
@@ -599,27 +615,27 @@
    },
    {
     "name": "IsWalking",
-    "rva": "0xA2E"
+    "rva": "0xA3E"
    },
    {
     "name": "Jump",
-    "rva": "0x1D0"
+    "rva": "0x1D4"
    },
    {
     "name": "JumpHeight",
-    "rva": "0x194"
-   },
-   {
-    "name": "JumpPower",
     "rva": "0x198"
    },
    {
-    "name": "MaxHealth",
+    "name": "JumpPower",
     "rva": "0x19C"
    },
    {
-    "name": "MaxSlopeAngle",
+    "name": "MaxHealth",
     "rva": "0x1A0"
+   },
+   {
+    "name": "MaxSlopeAngle",
+    "rva": "0x1A4"
    },
    {
     "name": "MoveDirection",
@@ -635,15 +651,15 @@
    },
    {
     "name": "NameDisplayDistance",
-    "rva": "0x1A4"
-   },
-   {
-    "name": "NameOcclusion",
     "rva": "0x1A8"
    },
    {
+    "name": "NameOcclusion",
+    "rva": "0x1AC"
+   },
+   {
     "name": "PlatformStand",
-    "rva": "0x1D2"
+    "rva": "0x1D5"
    },
    {
     "name": "PlatformStatePointer",
@@ -651,11 +667,11 @@
    },
    {
     "name": "RequiresNeck",
-    "rva": "0x1D3"
+    "rva": "0x1D6"
    },
    {
     "name": "RigType",
-    "rva": "0x1B4"
+    "rva": "0x1B8"
    },
    {
     "name": "SeatPart",
@@ -663,7 +679,7 @@
    },
    {
     "name": "Sit",
-    "rva": "0x1D3"
+    "rva": "0x1D6"
    },
    {
     "name": "TargetPoint",
@@ -671,7 +687,7 @@
    },
    {
     "name": "UseJumpPower",
-    "rva": "0x1D6"
+    "rva": "0x1D9"
    },
    {
     "name": "WalkTimer",
@@ -679,7 +695,7 @@
    },
    {
     "name": "Walkspeed",
-    "rva": "0x1C4"
+    "rva": "0x1C8"
    },
    {
     "name": "WalkspeedCheck",
@@ -697,7 +713,7 @@
    },
    {
     "name": "ClassBase",
-    "rva": "0x1B0"
+    "rva": "0x1B8"
    },
    {
     "name": "ClassDescriptor",
@@ -722,6 +738,16 @@
    {
     "name": "This",
     "rva": "0x8"
+   }
+  ],
+  "JointInstance": [
+   {
+    "name": "Part0",
+    "rva": "0x100"
+   },
+   {
+    "name": "Part1",
+    "rva": "0x110"
    }
   ],
   "LRUHolder": [
@@ -759,11 +785,11 @@
    },
    {
     "name": "ColorShift_Bottom",
-    "rva": "0xD0"
+    "rva": "0xC4"
    },
    {
     "name": "ColorShift_Top",
-    "rva": "0xC4"
+    "rva": "0xD0"
    },
    {
     "name": "EnvironmentDiffuseScale",
@@ -795,27 +821,27 @@
    },
    {
     "name": "GlobalShadows",
-    "rva": "0x12C"
+    "rva": "0x132"
    },
    {
     "name": "GradientBottom",
-    "rva": "0x178"
+    "rva": "0x180"
    },
    {
     "name": "GradientTop",
-    "rva": "0x138"
+    "rva": "0x140"
    },
    {
     "name": "LightColor",
-    "rva": "0x144"
+    "rva": "0x14C"
    },
    {
     "name": "LightDirection",
-    "rva": "0x150"
+    "rva": "0x158"
    },
    {
     "name": "MoonPosition",
-    "rva": "0x16C"
+    "rva": "0x174"
    },
    {
     "name": "OutdoorAmbient",
@@ -823,15 +849,15 @@
    },
    {
     "name": "Sky",
-    "rva": "0x1B0"
+    "rva": "0x1B8"
    },
    {
     "name": "Source",
-    "rva": "0x15C"
+    "rva": "0x164"
    },
    {
     "name": "SunPosition",
-    "rva": "0x160"
+    "rva": "0x168"
    }
   ],
   "LocalScript": [
@@ -952,6 +978,10 @@
     "rva": "0x2F8"
    },
    {
+    "name": "MeshSize",
+    "rva": "0x210"
+   },
+   {
     "name": "Texture",
     "rva": "0x328"
    }
@@ -995,7 +1025,7 @@
    },
    {
     "name": "Hash",
-    "rva": "0x348"
+    "rva": "0x0"
    },
    {
     "name": "IsCoreScript",
@@ -1131,7 +1161,7 @@
    },
    {
     "name": "Mouse",
-    "rva": "0x11F0"
+    "rva": "0x1278"
    },
    {
     "name": "NameDisplayDistance",
@@ -1181,11 +1211,11 @@
    },
    {
     "name": "Material",
-    "rva": "0x0"
+    "rva": "0x256"
    },
    {
     "name": "Owner",
-    "rva": "0x218"
+    "rva": "0x220"
    },
    {
     "name": "Position",
@@ -1291,11 +1321,11 @@
   "RunService": [
    {
     "name": "HeartbeatFPS",
-    "rva": "0xF2"
+    "rva": "0xBE"
    },
    {
     "name": "HeartbeatTask",
-    "rva": "0x14B80"
+    "rva": "0x28E38"
    }
   ],
   "Script": [
@@ -1397,23 +1427,23 @@
   "Sound": [
    {
     "name": "IsPlaying",
-    "rva": "0x130"
+    "rva": "0x118"
    },
    {
     "name": "Looped",
-    "rva": "0x12D"
+    "rva": "0x115"
    },
    {
     "name": "PlaybackSpeed",
-    "rva": "0x10C"
+    "rva": "0xFC"
    },
    {
     "name": "RollOffMaxDistance",
-    "rva": "0x110"
+    "rva": "0x100"
    },
    {
     "name": "RollOffMinDistance",
-    "rva": "0x114"
+    "rva": "0x104"
    },
    {
     "name": "SoundGroup",
@@ -1425,13 +1455,13 @@
    },
    {
     "name": "Volume",
-    "rva": "0x120"
+    "rva": "0x110"
    }
   ],
   "SpawnLocation": [
    {
     "name": "AllowTeamChangeOnTouch",
-    "rva": "0x3D"
+    "rva": "0x1D8"
    },
    {
     "name": "Enabled",
@@ -1463,7 +1493,7 @@
   "StatsItem": [
    {
     "name": "Value",
-    "rva": "0x30E0"
+    "rva": "0xB93D"
    }
   ],
   "SunRaysEffect": [
@@ -1537,7 +1567,7 @@
    },
    {
     "name": "Pointer",
-    "rva": "0x8E4D7B8"
+    "rva": "0x8DA5D98"
    }
   ],
   "Team": [
@@ -1589,11 +1619,11 @@
   "Tool": [
    {
     "name": "CanBeDropped",
-    "rva": "0x365"
+    "rva": "0x4A0"
    },
    {
     "name": "Enabled",
-    "rva": "0x95"
+    "rva": "0x4A1"
    },
    {
     "name": "Grip",
@@ -1661,7 +1691,7 @@
    },
    {
     "name": "Pointer",
-    "rva": "0x8942E38"
+    "rva": "0x8896B98"
    },
    {
     "name": "RenderView",
@@ -1713,7 +1743,7 @@
    },
    {
     "name": "ReadOnlyGravity",
-    "rva": "0x9D0"
+    "rva": "0x9C8"
    },
    {
     "name": "World",
