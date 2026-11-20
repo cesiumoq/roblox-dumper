@@ -1,18 +1,18 @@
 {
- "build_number": "4ea8e85481e34f46",
- "generated_at": "2026-11-11T21:49:40Z",
- "dump_seconds": 0,
+ "build_number": "unknown",
+ "generated_at": "2026-11-20T03:07:25Z",
+ "dump_seconds": 199.9,
  "valid": true,
  "offsets": {
-  "count": 405
+  "count": 399
  },
  "fflags": {
-  "count": 15290
+  "count": 15270
  },
  "functions": {
-  "count": 20
+  "count": 0
  },
  "classes": {
-  "count": 76
+  "count": 73
  }
 }

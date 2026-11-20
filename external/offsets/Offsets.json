@@ -1,12 +1,8 @@
 {
- "version": "version-4ea8e85481e34f46",
- "time": "2026-11-11 22:49:40",
- "total": 405,
+ "version": "version-unknown",
+ "time": "2026-11-20 04:07:24",
+ "total": 399,
  "classes": {
-  "AirProperties": {
-   "AirDensity": 24,
-   "GlobalWind": 60
-  },
   "AnimationTrack": {
    "Animation": 160,
    "Animator": 248,
@@ -16,7 +12,7 @@
    "TimePosition": 192
   },
   "Animator": {
-   "ActiveAnimations": 2336
+   "ActiveAnimations": 2304
   },
   "Atmosphere": {
    "Color": 160,
@@ -65,7 +61,7 @@
    "Size": 160
   },
   "ByteCode": {
-   "Pointer": 24,
+   "Pointer": 16,
    "Size": 40
   },
   "CachedItem": {
@@ -106,19 +102,19 @@
    "TonemapperPreset": 160
   },
   "DataModel": {
-   "CreatorId": 400,
-   "GameId": 408,
-   "GameLoaded": 1464,
+   "CreatorId": 368,
+   "GameId": 376,
+   "GameLoaded": 1416,
    "JobId": 264,
-   "PlaceId": 416,
-   "PlaceVersion": 444,
-   "PrimitiveCount": 1072,
+   "PlaceId": 384,
+   "PlaceVersion": 412,
+   "PrimitiveCount": 1040,
    "ScriptContext": 1088,
-   "ServerIP": 1440,
-   "ToRenderView1": 472,
+   "ServerIP": 1392,
+   "ToRenderView1": 440,
    "ToRenderView2": 8,
    "ToRenderView3": 40,
-   "Workspace": 360
+   "Workspace": 328
   },
   "DepthOfFieldEffect": {
    "Enabled": 152,
@@ -141,8 +137,11 @@
    "Responsiveness": 648
   },
   "FakeDataModel": {
-   "Pointer": 150530408,
+   "Pointer": 149645664,
    "RealDataModel": 504
+  },
+  "Functions": {
+   "PrintIdentity": 70782928
   },
   "FileMeshData": {
    "AABBMax": 396,
@@ -152,72 +151,66 @@
    "Vertices": 0,
    "VerticesEnd": 8
   },
-  "Functions": {
-   "PrintIdentity": 70782928
-  },
   "GuiBase2D": {
    "AbsolutePosition": 244,
    "AbsoluteRotation": 208,
    "AbsoluteSize": 0
   },
   "GuiObject": {
-   "BackgroundColor3": 728,
-   "BackgroundTransparency": 740,
-   "BorderColor3": 740,
-   "Image": 1648,
-   "LayoutOrder": 788,
-   "Position": 680,
-   "RichText": 1992,
+   "BackgroundColor3": 1288,
+   "BackgroundTransparency": 1300,
+   "BorderColor3": 1300,
+   "Image": 2472,
+   "LayoutOrder": 1348,
+   "Position": 1240,
+   "RichText": 2976,
    "Rotation": 208,
-   "ScreenGui_Enabled": 1037,
-   "Size": 712,
-   "Text": 2608,
-   "TextColor3": 2784,
-   "Visible": 1837,
-   "ZIndex": 828
-  },
-  "HandleAdornment": {
-   "CFrame": 256
+   "ScreenGui_Enabled": 1168,
+   "Size": 1272,
+   "Text": 3592,
+   "TextColor3": 3768,
+   "Visible": 1397,
+   "ZIndex": 1388
   },
   "Humanoid": {
-   "AutoJumpEnabled": 460,
-   "AutoRotate": 461,
-   "AutomaticScalingEnabled": 462,
-   "BreakJointsOnDeath": 464,
+   "AutoJumpEnabled": 456,
+   "AutoRotate": 457,
+   "AutomaticScalingEnabled": 149,
+   "BreakJointsOnDeath": 460,
    "CameraOffset": 272,
    "DisplayDistanceType": 372,
    "DisplayName": 160,
-   "EvaluateStateMachine": 465,
+   "EvaluateStateMachine": 461,
    "FloorMaterial": 376,
    "Health": 388,
    "HealthDisplayDistance": 380,
    "HealthDisplayType": 384,
    "HipHeight": 392,
-   "HumanoidRootPart": 1128,
-   "HumanoidState": 2224,
+   "HumanoidRootPart": 1120,
+   "HumanoidState": 2216,
    "HumanoidStateID": 32,
-   "IsWalking": 2630,
-   "Jump": 468,
-   "JumpHeight": 408,
-   "JumpPower": 412,
-   "MaxHealth": 416,
-   "MaxSlopeAngle": 420,
+   "IsWalking": 2606,
+   "Jump": 464,
+   "JumpHeight": 404,
+   "JumpPower": 408,
+   "MaxHealth": 412,
+   "MaxSlopeAngle": 416,
    "MoveDirection": 308,
    "MoveToPart": 256,
    "MoveToPoint": 344,
-   "NameDisplayDistance": 424,
-   "NameOcclusion": 428,
-   "PlatformStand": 470,
+   "NameDisplayDistance": 420,
+   "NameOcclusion": 424,
+   "PlatformStand": 466,
    "PlatformStatePointer": 0,
-   "RequiresNeck": 471,
-   "RigType": 440,
+   "RequiresNeck": 467,
+   "RigType": 436,
    "SeatPart": 240,
-   "Sit": 471,
+   "Sit": 467,
    "TargetPoint": 320,
-   "UseJumpPower": 474,
-   "WalkTimer": 1008,
-   "Walkspeed": 456,
-   "WalkspeedCheck": 932
+   "UseJumpPower": 470,
+   "WalkTimer": 0,
+   "Walkspeed": 452,
+   "WalkspeedCheck": 924
   },
   "Instance": {
    "ChildrenEnd": 8,
@@ -229,10 +222,6 @@
    "NameContainer": 104,
    "Parent": 96,
    "This": 8
-  },
-  "JointInstance": {
-   "Part0": 256,
-   "Part1": 272
   },
   "LRUHolder": {
    "MemEnforcedLRUCache": 32
@@ -246,8 +235,8 @@
    "Ambient": 184,
    "Brightness": 256,
    "ClockTime": 176,
-   "ColorShift_Bottom": 196,
-   "ColorShift_Top": 208,
+   "ColorShift_Bottom": 208,
+   "ColorShift_Top": 196,
    "EnvironmentDiffuseScale": 260,
    "EnvironmentSpecularScale": 264,
    "ExposureCompensation": 268,
@@ -267,7 +256,7 @@
    "SunPosition": 352
   },
   "LocalScript": {
-   "ByteCode": 376,
+   "ByteCode": 0,
    "GUID": 184,
    "Hash": 392
   },
@@ -302,7 +291,6 @@
   },
   "MeshPart": {
    "MeshId": 760,
-   "MeshSize": 528,
    "Texture": 808
   },
   "Misc": {
@@ -316,7 +304,7 @@
    "Scale": 300
   },
   "ModuleScript": {
-   "ByteCode": 288,
+   "ByteCode": 0,
    "GUID": 184,
    "Hash": 840,
    "IsCoreScript": 0
@@ -375,7 +363,7 @@
    "AssemblyAngularVelocity": 236,
    "AssemblyLinearVelocity": 224,
    "Flags": 446,
-   "Material": 590,
+   "Material": 0,
    "Owner": 536,
    "Position": 212,
    "Rotation": 176,
@@ -410,11 +398,11 @@
    "VisualEngine": 0
   },
   "RunService": {
-   "HeartbeatFPS": 200,
-   "HeartbeatTask": 10184
+   "HeartbeatFPS": 242,
+   "HeartbeatTask": 84864
   },
   "Script": {
-   "ByteCode": 376,
+   "ByteCode": 0,
    "GUID": 184,
    "Hash": 392
   },
@@ -465,7 +453,7 @@
    "Scale": 172
   },
   "StatsItem": {
-   "Value": 59224
+   "Value": 12512
   },
   "SunRaysEffect": {
    "Enabled": 152,
@@ -488,7 +476,7 @@
    "JobName": 24,
    "JobStart": 200,
    "MaxFPS": 176,
-   "Pointer": 150070280
+   "Pointer": 149215160
   },
   "Team": {
    "BrickColor": 160
@@ -507,8 +495,8 @@
    "Texture_Texture": 456
   },
   "Tool": {
-   "CanBeDropped": 1184,
-   "Enabled": 1185,
+   "CanBeDropped": 869,
+   "Enabled": 149,
    "Grip": 1172,
    "ManualActivationOnly": 1186,
    "RequiresHandle": 1187,
@@ -531,7 +519,7 @@
   "VisualEngine": {
    "Dimensions": 2832,
    "FakeDataModel": 2800,
-   "Pointer": 144775176,
+   "Pointer": 143928888,
    "RenderView": 3152,
    "ViewMatrix": 432
   },
@@ -550,7 +538,7 @@
   "Workspace": {
    "CurrentCamera": 1184,
    "DistributedGameTime": 1216,
-   "ReadOnlyGravity": 2504,
+   "ReadOnlyGravity": 2512,
    "World": 1016
   },
   "World": {

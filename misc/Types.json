@@ -1,11 +1,7 @@
 {
- "version": "version-4ea8e85481e34f46",
- "time": "2026-11-11 22:49:40",
+ "version": "version-unknown",
+ "time": "2026-11-20 04:07:25",
  "types": {
-  "AirProperties": {
-   "AirDensity": "uintptr_t",
-   "GlobalWind": "uintptr_t"
-  },
   "AnimationTrack": {
    "Animation": "uintptr_t",
    "Animator": "uintptr_t",
@@ -143,6 +139,9 @@
    "Pointer": "uintptr_t",
    "RealDataModel": "uintptr_t"
   },
+  "Functions": {
+   "PrintIdentity": "uintptr_t"
+  },
   "FileMeshData": {
    "AABBMax": "uintptr_t",
    "AABBMin": "uintptr_t",
@@ -150,9 +149,6 @@
    "FacesEnd": "uintptr_t",
    "Vertices": "uintptr_t",
    "VerticesEnd": "uintptr_t"
-  },
-  "Functions": {
-   "PrintIdentity": "uintptr_t"
   },
   "GuiBase2D": {
    "AbsolutePosition": "uintptr_t",
@@ -174,9 +170,6 @@
    "TextColor3": "uintptr_t",
    "Visible": "uintptr_t",
    "ZIndex": "uintptr_t"
-  },
-  "HandleAdornment": {
-   "CFrame": "uintptr_t"
   },
   "Humanoid": {
    "AutoJumpEnabled": "uintptr_t",
@@ -228,10 +221,6 @@
    "NameContainer": "uintptr_t",
    "Parent": "uintptr_t",
    "This": "uintptr_t"
-  },
-  "JointInstance": {
-   "Part0": "uintptr_t",
-   "Part1": "uintptr_t"
   },
   "LRUHolder": {
    "MemEnforcedLRUCache": "uintptr_t"
@@ -301,7 +290,6 @@
   },
   "MeshPart": {
    "MeshId": "uintptr_t",
-   "MeshSize": "uintptr_t",
    "Texture": "uintptr_t"
   },
   "Misc": {

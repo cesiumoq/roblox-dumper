@@ -2,9 +2,9 @@ SWC Dumper - rapport
 ====================
 
 Classe               Champ                          Valeur       Methode     Detail
-TaskScheduler        Pointer                        0x83372e8    STATIC      ancre string, cands=0x83372e8, 0x8f1e620, 0x8f1e630
-FakeDataModel        Pointer                        0x85c29b8    STATIC      vftable=0x7265ba8 score=1.6 accessors=1 refs=3 bonus=0 | top3=0x85c29b8, 0x85c37b8, 0x85c37b0
-VisualEngine         Pointer                        0x85c29b8    STATIC      vftable=0x72010b8 score=1.6 accessors=1 refs=3 bonus=0 | top3=0x85c29b8, 0x85c37b8, 0x85c37b0
+TaskScheduler        Pointer                        0x81b7d50    STATIC      ancre string, cands=0x81b7d50, 0x8da5fb0
+FakeDataModel        Pointer                        0x84473b8    STATIC      vftable=0x7114b18 score=1.6 accessors=1 refs=3 bonus=0 | top3=0x84473b8, 0x84481b8, 0x84481b0
+VisualEngine         Pointer                        0x84473b8    STATIC      vftable=0x70afad8 score=1.6 accessors=1 refs=3 bonus=0 | top3=0x84473b8, 0x84481b8, 0x84481b0
 FFlags               AANullRolloutTest              -            FAIL        string/ref introuvable
 FFlags               ACEAnimationFromVideoCreatorServiceWithAssetImport -            FAIL        string/ref introuvable
 FFlags               ACSDeserializeSkipRobloxSerializable -            FAIL        string/ref introuvable
@@ -15743,28 +15743,28 @@ FFlags               shrinkStepsForLargeStreamingQueryAdjust -            FAIL  
 FFlags               ttMetricP1                     -            FAIL        string/ref introuvable
 AirProperties        AirDensity                     0x18         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 AirProperties        GlobalWind                     0x3c         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-AnimationTrack       Animation                      0x8          REFLECTION  conf=2 cands=2 assoc=False top=0x8[n8,s6,l2], 0x18[n2,s2,l0], 0x28[n2,s2,l0]
-AnimationTrack       Animator                       0x38         REFLECTION  conf=0 cands=1 assoc=False top=0x38[n1,s0,l1]
+AnimationTrack       Animation                      0xa0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+AnimationTrack       Animator                       0x8          REFLECTION  conf=0 cands=1 assoc=False top=0x8[n1,s0,l1]
 AnimationTrack       IsPlaying                      0xa10        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 AnimationTrack       Looped                         0xcd         STALE       fallback ancien dump: aucun store/load dans les candidats
 AnimationTrack       Speed                          0xbc         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 AnimationTrack       TimePosition                   0xc0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Animator             ActiveAnimations               0x920        STALE       fallback ancien dump: string propriete absente
-Atmosphere           Color                          0x30         REFLECTION  conf=0 cands=1 assoc=False top=0x30[n1,s0,l1], 0x8[n1,s0,l1]
+Atmosphere           Color                          0xa0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Atmosphere           Decay                          0xac         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Atmosphere           Density                        0xb8         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Atmosphere           Glare                          0xbc         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Atmosphere           Haze                           0xc0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Atmosphere           Offset                         0xc4         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-Attachment           Position                       0xac         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+Attachment           Position                       0xc          REFLECTION  conf=0 cands=13 assoc=False top=0xc[n1,s0,l1]
 BasePart             CastShadow                     0x120        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-BasePart             Color3                         0x30         REFLECTION  conf=0 cands=1 assoc=False top=0x30[n1,s0,l1], 0x8[n1,s0,l1]
+BasePart             Color3                         0x11c        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 BasePart             Locked                         0x121        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 BasePart             Massless                       0x122        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 BasePart             Primitive                      0x178        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 BasePart             Reflectance                    0xf4         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-BasePart             Shape                          0x1a0        STALE       fallback ancien dump: aucun store/load dans les candidats
-BasePart             Transparency                   0x98         REFLECTION  conf=2 cands=4 assoc=False top=0x98[n2,s2,l0], 0x18[n2,s2,l0], 0xa8[n1,s1,l0]
+BasePart             Shape                          0x1a0        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+BasePart             Transparency                   0x98         REFLECTION  conf=2 cands=1 assoc=False top=0x98[n2,s2,l0], 0x18[n1,s1,l0], 0xa8[n1,s1,l0]
 Beam                 Attachment0                    0x148        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Beam                 Attachment1                    0x158        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Beam                 Brightness                     0x168        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
@@ -15778,13 +15778,13 @@ Beam                 TextureSpeed                   0x18c        STALE       fal
 Beam                 Width0                         0x190        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Beam                 Width1                         0x194        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Beam                 ZOffset                        0x198        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-BloomEffect          Enabled                        0x98         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+BloomEffect          Enabled                        0x98         STALE       fallback ancien dump: aucun store/load dans les candidats
 BloomEffect          Intensity                      0xa0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-BloomEffect          Size                           0xa4         STALE       fallback ancien dump: aucun store/load dans les candidats
+BloomEffect          Size                           0xa4         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 BloomEffect          Threshold                      0xa8         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-BlurEffect           Enabled                        0x98         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-BlurEffect           Size                           0xa0         STALE       fallback ancien dump: aucun store/load dans les candidats
-ByteCode             Size                           0x28         STALE       fallback ancien dump: aucun store/load dans les candidats
+BlurEffect           Enabled                        0x98         STALE       fallback ancien dump: aucun store/load dans les candidats
+BlurEffect           Size                           0xa0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+ByteCode             Size                           0x28         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 CachedItem           FileMeshData                   0x28         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Camera               CameraSubject                  0xb0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Camera               CameraType                     0x120        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
@@ -15804,22 +15804,22 @@ Clothing             Color3                         0x108        STALE       fal
 Clothing             Template                       0xe8         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 ColorCorrectionEffect Brightness                     0xac         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 ColorCorrectionEffect Contrast                       0xb0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-ColorCorrectionEffect Enabled                        0x98         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+ColorCorrectionEffect Enabled                        0x98         STALE       fallback ancien dump: aucun store/load dans les candidats
 ColorCorrectionEffect TintColor                      0xa0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-ColorGradingEffect   Enabled                        0x98         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+ColorGradingEffect   Enabled                        0x98         STALE       fallback ancien dump: aucun store/load dans les candidats
 ColorGradingEffect   TonemapperPreset               0xa0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 DataModel            CreatorId                      0x190        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-DataModel            GameId                         0x10         REFLECTION  conf=1 cands=9 assoc=False top=0x10[n1,s1,l0], 0x12[n1,s1,l0], 0x28[n3,s0,l3]
-DataModel            GameLoaded                     0x1b8        REFLECTION  conf=1 cands=2 assoc=False top=0x1b8[n2,s0,l2], 0x8[n2,s0,l2], 0x18[n1,s0,l1]
+DataModel            GameId                         0x198        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+DataModel            GameLoaded                     0x5b8        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 DataModel            JobId                          0x108        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-DataModel            PlaceId                        0x1a0        STALE       fallback ancien dump: aucun store/load dans les candidats
+DataModel            PlaceId                        0x1a0        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 DataModel            PlaceVersion                   0x1bc        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 DataModel            ServerIP                       0x5a0        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 DataModel            ToRenderView1                  0x1d8        STALE       fallback ancien dump: string propriete absente
 DataModel            ToRenderView2                  0x8          STALE       fallback ancien dump: string propriete absente
 DataModel            ToRenderView3                  0x28         STALE       fallback ancien dump: string propriete absente
-DataModel            Workspace                      0x8          REFLECTION  conf=3 cands=3 assoc=True top=0x8[n3,s2,l1], 0x10[n3,s1,l2], 0x30[n2,s0,l2]
-DepthOfFieldEffect   Enabled                        0x98         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+DataModel            Workspace                      0x168        STALE       fallback ancien dump: aucun store/load dans les candidats
+DepthOfFieldEffect   Enabled                        0x98         STALE       fallback ancien dump: aucun store/load dans les candidats
 DepthOfFieldEffect   FarIntensity                   0xa0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 DepthOfFieldEffect   FocusDistance                  0xa4         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 DepthOfFieldEffect   InFocusRadius                  0xa8         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
@@ -15837,28 +15837,28 @@ DragDetector         ReferenceInstance              0x1b8        STALE       fal
 DragDetector         Responsiveness                 0x288        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 FileMeshData         AABBMax                        0x18c        STALE       fallback ancien dump: string propriete absente
 FileMeshData         AABBMin                        0x180        STALE       fallback ancien dump: string propriete absente
-FileMeshData         Faces                          0x70         REFLECTION  conf=1 cands=4 assoc=False top=0x70[n2,s0,l2], 0x68[n1,s0,l1]
+FileMeshData         Faces                          0x30         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 FileMeshData         FacesEnd                       0x38         STALE       fallback ancien dump: string propriete absente
 FileMeshData         Vertices                       0            STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 FileMeshData         VerticesEnd                    0x8          STALE       fallback ancien dump: string propriete absente
-GuiBase2D            AbsolutePosition               0x28         REFLECTION  conf=0 cands=2 assoc=False top=0x28[n1,s0,l1], 0x10[n1,s0,l1]
+GuiBase2D            AbsolutePosition               0xf4         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 GuiBase2D            AbsoluteRotation               0xd0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 GuiBase2D            AbsoluteSize                   0            STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-GuiObject            BackgroundColor3               0x2d8        STALE       fallback ancien dump: aucun store/load dans les candidats
-GuiObject            BackgroundTransparency         0x2e4        STALE       fallback ancien dump: aucun store/load dans les candidats
+GuiObject            BackgroundColor3               0x2d8        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+GuiObject            BackgroundTransparency         0x2e4        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 GuiObject            BorderColor3                   0x2e4        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-GuiObject            Image                          0x8          REFLECTION  conf=2 cands=3 assoc=False top=0x8[n2,s1,l1]
+GuiObject            Image                          0x8          REFLECTION  conf=2 cands=2 assoc=False top=0x8[n2,s1,l1]
 GuiObject            LayoutOrder                    0x314        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-GuiObject            Position                       0x2a8        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+GuiObject            Position                       0xc          REFLECTION  conf=0 cands=13 assoc=False top=0xc[n1,s0,l1]
 GuiObject            RichText                       0x7c8        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 GuiObject            Rotation                       0xd0         STALE       fallback ancien dump: aucun store/load dans les candidats
 GuiObject            ScreenGui_Enabled              0x40d        STALE       fallback ancien dump: string propriete absente
-GuiObject            Size                           0x2c8        STALE       fallback ancien dump: aucun store/load dans les candidats
-GuiObject            Text                           0xa30        STALE       fallback ancien dump: aucun store/load dans les candidats
+GuiObject            Size                           0x2c8        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+GuiObject            Text                           0xa30        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 GuiObject            TextColor3                     0xae0        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-GuiObject            Visible                        0x28         REFLECTION  conf=0 cands=1 assoc=False top=0x28[n1,s0,l1], 0x10[n1,s0,l1]
-GuiObject            ZIndex                         0x18         REFLECTION  conf=1 cands=1 assoc=False top=0x18[n1,s1,l0], 0x77[n1,s1,l0], 0xb0[n1,s1,l0]
-HandleAdornment      CFrame                         0x48         REFLECTION  conf=2 cands=3 assoc=False top=0x48[n3,s1,l2], 0x8[n3,s1,l2], 0x58[n2,s1,l1]
+GuiObject            Visible                        0x72d        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+GuiObject            ZIndex                         0x33c        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+HandleAdornment      CFrame                         0xa0         REFLECTION  conf=1 cands=3 assoc=False top=0xa0[n2,s0,l2], 0x10[n1,s0,l1], 0x70[n1,s0,l1]
 Humanoid             AutoJumpEnabled                0x1cc        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Humanoid             AutoRotate                     0x1cd        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Humanoid             AutomaticScalingEnabled        0x1ce        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
@@ -15872,7 +15872,7 @@ Humanoid             Health                         0x184        STALE       fal
 Humanoid             HealthDisplayDistance          0x17c        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Humanoid             HealthDisplayType              0x180        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Humanoid             HipHeight                      0x188        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-Humanoid             HumanoidRootPart               0x468        STALE       fallback ancien dump: aucun store/load dans les candidats
+Humanoid             HumanoidRootPart               0x468        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Humanoid             HumanoidState                  0x8b0        STALE       fallback ancien dump: string propriete absente
 Humanoid             HumanoidStateID                0x20         STALE       fallback ancien dump: string propriete absente
 Humanoid             IsWalking                      0xa46        STALE       fallback ancien dump: string propriete absente
@@ -15916,8 +15916,8 @@ Lighting             GeographicLatitude             0x11c        STALE       fal
 Lighting             GlobalShadows                  0x12c        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Lighting             GradientBottom                 0x178        STALE       fallback ancien dump: string propriete absente
 Lighting             GradientTop                    0x138        STALE       fallback ancien dump: string propriete absente
-Lighting             LightColor                     0x30         REFLECTION  conf=0 cands=1 assoc=False top=0x30[n1,s0,l1], 0x8[n1,s0,l1]
-Lighting             LightDirection                 0x30         REFLECTION  conf=0 cands=3 assoc=False top=0x30[n1,s0,l1], 0x8[n1,s0,l1]
+Lighting             LightColor                     0x144        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+Lighting             LightDirection                 0x150        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Lighting             MoonPosition                   0x16c        STALE       fallback ancien dump: string propriete absente
 Lighting             OutdoorAmbient                 0xe8         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Lighting             Sky                            0x1b0        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
@@ -15944,13 +15944,13 @@ MaterialColors       Sandstone                      0x21         STALE       fal
 MaterialColors       Slate                          0x9          STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 MaterialColors       Snow                           0x1e         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 MaterialColors       WoodPlanks                     0x15         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-MemEnforcedLRUCache  Head                           0x28         REFLECTION  conf=0 cands=3 assoc=False top=0x28[n1,s0,l1]
+MemEnforcedLRUCache  Head                           0x28         REFLECTION  conf=0 cands=2 assoc=False top=0x28[n1,s0,l1]
 MeshPart             MeshId                         0x2f8        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 MeshPart             MeshSize                       0x210        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 MeshPart             Texture                        0x328        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-Misc                 Value                          0x20         REFLECTION  conf=2 cands=6 assoc=False top=0x20[n4,s3,l1], 0x28[n4,s3,l1], 0x18[n1,s1,l0]
+Misc                 Value                          0x20         REFLECTION  conf=2 cands=7 assoc=False top=0x20[n4,s3,l1], 0x28[n4,s3,l1], 0x18[n2,s1,l1]
 Model                PrimaryPart                    0x240        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-Model                Scale                          0x12c        STALE       fallback ancien dump: aucun store/load dans les candidats
+Model                Scale                          0x12c        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Offsets              AirDensity                     0x18         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Offsets              GlobalWind                     0x3c         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 ParticleEmitter      Acceleration                   0x1c8        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
@@ -15977,26 +15977,26 @@ Player               LocaleId                       0x100        STALE       fal
 Player               MaxZoomDistance                0x370        STALE       fallback ancien dump: string propriete absente
 Player               MinZoomDistance                0x374        STALE       fallback ancien dump: string propriete absente
 Player               ModelInstance                  0x2a0        STALE       fallback ancien dump: string propriete absente
-Player               Mouse                          0x11f0       STALE       fallback ancien dump: aucun store/load dans les candidats
+Player               Mouse                          0x11f0       STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Player               NameDisplayDistance            0x3b0        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-Player               Team                           0x30         REFLECTION  conf=0 cands=2 assoc=False top=0x30[n1,s0,l1], 0x8[n1,s0,l1]
+Player               Team                           0x2e0        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Player               TeamColor                      0x3b8        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Player               UserId                         0xb8         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 PlayerMouse          Icon                           0xb0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-PlayerMouse          Workspace                      0x8          REFLECTION  conf=2 cands=3 assoc=False top=0x8[n3,s2,l1], 0x10[n3,s1,l2], 0x30[n2,s0,l2]
+PlayerMouse          Workspace                      0x138        STALE       fallback ancien dump: aucun store/load dans les candidats
 Primitive            AssemblyAngularVelocity        0xec         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Primitive            AssemblyLinearVelocity         0xe0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Primitive            Material                       0x24e        STALE       fallback ancien dump: aucun store/load dans les candidats
-Primitive            Owner                          0x218        STALE       fallback ancien dump: aucun store/load dans les candidats
-Primitive            Position                       0xd4         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+Primitive            Owner                          0x218        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+Primitive            Position                       0xc          REFLECTION  conf=0 cands=13 assoc=False top=0xc[n1,s0,l1]
 Primitive            Rotation                       0xb0         STALE       fallback ancien dump: aucun store/load dans les candidats
-Primitive            Size                           0x1c4        STALE       fallback ancien dump: aucun store/load dans les candidats
+Primitive            Size                           0x1c4        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 PrimitiveFlags       Anchored                       0x2          STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 PrimitiveFlags       CanCollide                     0x8          STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 PrimitiveFlags       CanQuery                       0x20         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 PrimitiveFlags       CanTouch                       0x10         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 ProximityPrompt      ActionText                     0x98         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-ProximityPrompt      Enabled                        0x11e        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+ProximityPrompt      Enabled                        0x11e        STALE       fallback ancien dump: aucun store/load dans les candidats
 ProximityPrompt      GamepadKeyCode                 0x104        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 ProximityPrompt      HoldDuration                   0x108        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 ProximityPrompt      KeyCode                        0x10c        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
@@ -16007,7 +16007,7 @@ ScriptContext        LuaState                       0x200        STALE       fal
 ScriptContext        LuaStateAlt                    0x208        STALE       fallback ancien dump: string propriete absente
 ScriptContext        VTable                         0x71b0fe8    STALE       fallback ancien dump: string propriete absente
 ScriptContext        VTableSub                      0x71b12c8    STALE       fallback ancien dump: string propriete absente
-Seat                 Occupant                       0x98         REFLECTION  conf=2 cands=1 assoc=False top=0x98[n2,s2,l0], 0xa8[n2,s2,l0], 0xc8[n2,s2,l0]
+Seat                 Occupant                       0x200        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Sky                  MoonAngularSize                0x22c        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Sky                  MoonTextureId                  0xb0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Sky                  SkyboxBk                       0xe0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
@@ -16025,22 +16025,22 @@ Sound                Looped                         0x12d        STALE       fal
 Sound                PlaybackSpeed                  0x10c        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Sound                RollOffMaxDistance             0x110        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Sound                RollOffMinDistance             0x114        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-Sound                SoundGroup                     0x30         REFLECTION  conf=0 cands=1 assoc=False top=0x30[n1,s0,l1], 0x8[n1,s0,l1]
+Sound                SoundGroup                     0xd0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Sound                SoundId                        0xb0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Sound                Volume                         0x120        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 SpawnLocation        AllowTeamChangeOnTouch         0x3d         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-SpawnLocation        Enabled                        0x1d9        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+SpawnLocation        Enabled                        0x1d9        STALE       fallback ancien dump: aucun store/load dans les candidats
 SpawnLocation        ForcefieldDuration             0x1d0        STALE       fallback ancien dump: string propriete absente
 SpawnLocation        Neutral                        0x1da        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 SpawnLocation        TeamColor                      0x1d4        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 SpecialMesh          MeshId                         0xe0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-SpecialMesh          Scale                          0xac         STALE       fallback ancien dump: aucun store/load dans les candidats
-StatsItem            Value                          0x20         REFLECTION  conf=2 cands=6 assoc=False top=0x20[n4,s3,l1], 0x28[n4,s3,l1], 0x18[n1,s1,l0]
-SunRaysEffect        Enabled                        0x98         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+SpecialMesh          Scale                          0xac         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+StatsItem            Value                          0x20         REFLECTION  conf=2 cands=7 assoc=False top=0x20[n4,s3,l1], 0x28[n4,s3,l1], 0x18[n2,s1,l1]
+SunRaysEffect        Enabled                        0x98         STALE       fallback ancien dump: aucun store/load dans les candidats
 SunRaysEffect        Intensity                      0xa0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 SunRaysEffect        Spread                         0xa4         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-SurfaceAppearance    AlphaMode                      0x98         REFLECTION  conf=2 cands=2 assoc=False top=0x98[n2,s2,l0], 0x18[n1,s1,l0], 0xa8[n1,s1,l0]
-SurfaceAppearance    Color                          0x30         REFLECTION  conf=0 cands=1 assoc=False top=0x30[n1,s0,l1], 0x8[n1,s0,l1]
+SurfaceAppearance    AlphaMode                      0x98         REFLECTION  conf=2 cands=1 assoc=False top=0x98[n2,s2,l0], 0x18[n1,s1,l0], 0xa8[n1,s1,l0]
+SurfaceAppearance    Color                          0x1c0        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 SurfaceAppearance    ColorMap                       0xb0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 SurfaceAppearance    EmissiveMaskContent            0xe0         STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 SurfaceAppearance    EmissiveStrength               0x1dc        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
@@ -16059,7 +16059,7 @@ Terrain              WaterWaveSpeed                 0x1ec        STALE       fal
 Textures             Decal_Texture                  0x1c8        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Textures             Texture_Texture                0x1c8        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Tool                 CanBeDropped                   0x4a0        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-Tool                 Enabled                        0x4a1        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
+Tool                 Enabled                        0x4a1        STALE       fallback ancien dump: aucun store/load dans les candidats
 Tool                 Grip                           0x494        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Tool                 ManualActivationOnly           0x4a2        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 Tool                 RequiresHandle                 0x4a3        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
@@ -16085,14 +16085,17 @@ Workspace            ReadOnlyGravity                0x9c8        STALE       fal
 World                AirProperties                  0x230        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 World                FallenPartsDestroyHeight       0x20c        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 World                Gravity                        0x218        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
-World                Primitives                     0x10         REFLECTION  conf=2 cands=2 assoc=True top=0x10[n1,s1,l0], 0x7e8[n1,s0,l1], 0x7e0[n1,s0,l1]
+World                Primitives                     0x2a0        STALE       fallback ancien dump: aucune fonction candidate (getter/setter)
 World                worldStepsPerSec               0x868        STALE       fallback ancien dump: string propriete absente
-Lighting             LightColor/LightDirection      0x30         WARN        collision possible (meme offset)
 ByteCode             Pointer                        0x18         STALE       fallback ancien dump (recette manquante)
 DataModel            PrimitiveCount                 0x430        STALE       fallback ancien dump (recette manquante)
 DataModel            ScriptContext                  0x440        STALE       fallback ancien dump (recette manquante)
 FakeDataModel        RealDataModel                  0x1f8        STALE       fallback ancien dump (recette manquante)
 Humanoid             WalkTimer                      0x3f0        STALE       fallback ancien dump (recette manquante)
+Instance             AttributeContainer             0x48         STALE       fallback ancien dump (recette manquante)
+Instance             AttributeList                  0x18         STALE       fallback ancien dump (recette manquante)
+Instance             AttributeToNext                0x58         STALE       fallback ancien dump (recette manquante)
+Instance             AttributeToValue               0x18         STALE       fallback ancien dump (recette manquante)
 Instance             ChildrenEnd                    0x8          STALE       fallback ancien dump (recette manquante)
 Instance             ChildrenStart                  0x70         STALE       fallback ancien dump (recette manquante)
 Instance             ClassBase                      0x1b0        STALE       fallback ancien dump (recette manquante)
@@ -16143,4 +16146,4 @@ VisualEngine         FakeDataModel                  0xaf0        STALE       fal
 VisualEngine         RenderView                     0xc50        STALE       fallback ancien dump (recette manquante)
 Workspace            World                          0x3f8        STALE       fallback ancien dump (recette manquante)
 
-Total: FAIL=15736, REFLECTION=26, STALE=374, STATIC=3, WARN=1
+Total: FAIL=15736, REFLECTION=11, STALE=393, STATIC=3

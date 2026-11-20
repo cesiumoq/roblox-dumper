@@ -1,10 +1,10 @@
-// Genere par SWC Dumper (offline) - 2026-11-11 20:37
+// Genere par SWC Dumper (offline) - 2026-11-20 04:06
 using System;
 namespace Offsets
 {
     public static class Info
     {
-        public const string ClientVersion = "version-4ea8e85481e34f46";
+        public const string ClientVersion = "version-unknown";
     }
     public static class AirProperties
     {
@@ -13,8 +13,8 @@ namespace Offsets
     }
     public static class AnimationTrack
     {
-        public const long Animation = 0x8;
-        public const long Animator = 0x38;
+        public const long Animation = 0xa0; /* STALE (fallback ancien dump) */
+        public const long Animator = 0x8;
         public const long IsPlaying = 0xa10; /* STALE (fallback ancien dump) */
         public const long Looped = 0xcd; /* STALE (fallback ancien dump) */
         public const long Speed = 0xbc; /* STALE (fallback ancien dump) */
@@ -26,7 +26,7 @@ namespace Offsets
     }
     public static class Atmosphere
     {
-        public const long Color = 0x30;
+        public const long Color = 0xa0; /* STALE (fallback ancien dump) */
         public const long Decay = 0xac; /* STALE (fallback ancien dump) */
         public const long Density = 0xb8; /* STALE (fallback ancien dump) */
         public const long Glare = 0xbc; /* STALE (fallback ancien dump) */
@@ -35,12 +35,12 @@ namespace Offsets
     }
     public static class Attachment
     {
-        public const long Position = 0xac; /* STALE (fallback ancien dump) */
+        public const long Position = 0xc;
     }
     public static class BasePart
     {
         public const long CastShadow = 0x120; /* STALE (fallback ancien dump) */
-        public const long Color3 = 0x30;
+        public const long Color3 = 0x11c; /* STALE (fallback ancien dump) */
         public const long Locked = 0x121; /* STALE (fallback ancien dump) */
         public const long Massless = 0x122; /* STALE (fallback ancien dump) */
         public const long Primitive = 0x178; /* STALE (fallback ancien dump) */
@@ -128,8 +128,8 @@ namespace Offsets
     public static class DataModel
     {
         public const long CreatorId = 0x190; /* STALE (fallback ancien dump) */
-        public const long GameId = 0x10;
-        public const long GameLoaded = 0x1b8;
+        public const long GameId = 0x198; /* STALE (fallback ancien dump) */
+        public const long GameLoaded = 0x5b8; /* STALE (fallback ancien dump) */
         public const long JobId = 0x108; /* STALE (fallback ancien dump) */
         public const long PlaceId = 0x1a0; /* STALE (fallback ancien dump) */
         public const long PlaceVersion = 0x1bc; /* STALE (fallback ancien dump) */
@@ -139,7 +139,7 @@ namespace Offsets
         public const long ToRenderView1 = 0x1d8; /* STALE (fallback ancien dump) */
         public const long ToRenderView2 = 0x8; /* STALE (fallback ancien dump) */
         public const long ToRenderView3 = 0x28; /* STALE (fallback ancien dump) */
-        public const long Workspace = 0x8;
+        public const long Workspace = 0x168; /* STALE (fallback ancien dump) */
     }
     public static class DepthOfFieldEffect
     {
@@ -165,21 +165,21 @@ namespace Offsets
     }
     public static class FakeDataModel
     {
-        public const long Pointer = 0x85c29b8;
+        public const long Pointer = 0x84473b8;
         public const long RealDataModel = 0x1f8; /* STALE (fallback ancien dump) */
     }
     public static class FileMeshData
     {
         public const long AABBMax = 0x18c; /* STALE (fallback ancien dump) */
         public const long AABBMin = 0x180; /* STALE (fallback ancien dump) */
-        public const long Faces = 0x70;
+        public const long Faces = 0x30; /* STALE (fallback ancien dump) */
         public const long FacesEnd = 0x38; /* STALE (fallback ancien dump) */
         public const long Vertices = 0x0; /* STALE (fallback ancien dump) */
         public const long VerticesEnd = 0x8; /* STALE (fallback ancien dump) */
     }
     public static class GuiBase2D
     {
-        public const long AbsolutePosition = 0x28;
+        public const long AbsolutePosition = 0xf4; /* STALE (fallback ancien dump) */
         public const long AbsoluteRotation = 0xd0; /* STALE (fallback ancien dump) */
         public const long AbsoluteSize = 0x0; /* STALE (fallback ancien dump) */
     }
@@ -190,19 +190,19 @@ namespace Offsets
         public const long BorderColor3 = 0x2e4; /* STALE (fallback ancien dump) */
         public const long Image = 0x8;
         public const long LayoutOrder = 0x314; /* STALE (fallback ancien dump) */
-        public const long Position = 0x2a8; /* STALE (fallback ancien dump) */
+        public const long Position = 0xc;
         public const long RichText = 0x7c8; /* STALE (fallback ancien dump) */
         public const long Rotation = 0xd0; /* STALE (fallback ancien dump) */
         public const long ScreenGui_Enabled = 0x40d; /* STALE (fallback ancien dump) */
         public const long Size = 0x2c8; /* STALE (fallback ancien dump) */
         public const long Text = 0xa30; /* STALE (fallback ancien dump) */
         public const long TextColor3 = 0xae0; /* STALE (fallback ancien dump) */
-        public const long Visible = 0x28;
-        public const long ZIndex = 0x18;
+        public const long Visible = 0x72d; /* STALE (fallback ancien dump) */
+        public const long ZIndex = 0x33c; /* STALE (fallback ancien dump) */
     }
     public static class HandleAdornment
     {
-        public const long CFrame = 0x48;
+        public const long CFrame = 0xa0;
     }
     public static class Humanoid
     {
@@ -247,6 +247,10 @@ namespace Offsets
     }
     public static class Instance
     {
+        public const long AttributeContainer = 0x48; /* STALE (fallback ancien dump) */
+        public const long AttributeList = 0x18; /* STALE (fallback ancien dump) */
+        public const long AttributeToNext = 0x58; /* STALE (fallback ancien dump) */
+        public const long AttributeToValue = 0x18; /* STALE (fallback ancien dump) */
         public const long ChildrenEnd = 0x8; /* STALE (fallback ancien dump) */
         public const long ChildrenStart = 0x70; /* STALE (fallback ancien dump) */
         public const long ClassBase = 0x1b0; /* STALE (fallback ancien dump) */
@@ -289,8 +293,8 @@ namespace Offsets
         public const long GlobalShadows = 0x12c; /* STALE (fallback ancien dump) */
         public const long GradientBottom = 0x178; /* STALE (fallback ancien dump) */
         public const long GradientTop = 0x138; /* STALE (fallback ancien dump) */
-        public const long LightColor = 0x30;
-        public const long LightDirection = 0x30;
+        public const long LightColor = 0x144; /* STALE (fallback ancien dump) */
+        public const long LightDirection = 0x150; /* STALE (fallback ancien dump) */
         public const long MoonPosition = 0x16c; /* STALE (fallback ancien dump) */
         public const long OutdoorAmbient = 0xe8; /* STALE (fallback ancien dump) */
         public const long Sky = 0x1b0; /* STALE (fallback ancien dump) */
@@ -403,7 +407,7 @@ namespace Offsets
         public const long ModelInstance = 0x2a0; /* STALE (fallback ancien dump) */
         public const long Mouse = 0x11f0; /* STALE (fallback ancien dump) */
         public const long NameDisplayDistance = 0x3b0; /* STALE (fallback ancien dump) */
-        public const long Team = 0x30;
+        public const long Team = 0x2e0; /* STALE (fallback ancien dump) */
         public const long TeamColor = 0x3b8; /* STALE (fallback ancien dump) */
         public const long UserId = 0xb8; /* STALE (fallback ancien dump) */
     }
@@ -414,7 +418,7 @@ namespace Offsets
     public static class PlayerMouse
     {
         public const long Icon = 0xb0; /* STALE (fallback ancien dump) */
-        public const long Workspace = 0x8;
+        public const long Workspace = 0x138; /* STALE (fallback ancien dump) */
     }
     public static class Primitive
     {
@@ -423,7 +427,7 @@ namespace Offsets
         public const long Flags = 0x1be; /* STALE (fallback ancien dump) */
         public const long Material = 0x24e; /* STALE (fallback ancien dump) */
         public const long Owner = 0x218; /* STALE (fallback ancien dump) */
-        public const long Position = 0xd4; /* STALE (fallback ancien dump) */
+        public const long Position = 0xc;
         public const long Rotation = 0xb0; /* STALE (fallback ancien dump) */
         public const long Size = 0x1c4; /* STALE (fallback ancien dump) */
         public const long Validate = 0x6; /* STALE (fallback ancien dump) */
@@ -480,7 +484,7 @@ namespace Offsets
     }
     public static class Seat
     {
-        public const long Occupant = 0x98;
+        public const long Occupant = 0x200; /* STALE (fallback ancien dump) */
     }
     public static class Sky
     {
@@ -504,7 +508,7 @@ namespace Offsets
         public const long PlaybackSpeed = 0x10c; /* STALE (fallback ancien dump) */
         public const long RollOffMaxDistance = 0x110; /* STALE (fallback ancien dump) */
         public const long RollOffMinDistance = 0x114; /* STALE (fallback ancien dump) */
-        public const long SoundGroup = 0x30;
+        public const long SoundGroup = 0xd0; /* STALE (fallback ancien dump) */
         public const long SoundId = 0xb0; /* STALE (fallback ancien dump) */
         public const long Volume = 0x120; /* STALE (fallback ancien dump) */
     }
@@ -534,7 +538,7 @@ namespace Offsets
     public static class SurfaceAppearance
     {
         public const long AlphaMode = 0x98;
-        public const long Color = 0x30;
+        public const long Color = 0x1c0; /* STALE (fallback ancien dump) */
         public const long ColorMap = 0xb0; /* STALE (fallback ancien dump) */
         public const long EmissiveMaskContent = 0xe0; /* STALE (fallback ancien dump) */
         public const long EmissiveStrength = 0x1dc; /* STALE (fallback ancien dump) */
@@ -549,7 +553,7 @@ namespace Offsets
         public const long JobName = 0x18; /* STALE (fallback ancien dump) */
         public const long JobStart = 0xc8; /* STALE (fallback ancien dump) */
         public const long MaxFPS = 0xb0; /* STALE (fallback ancien dump) */
-        public const long Pointer = 0x83372e8;
+        public const long Pointer = 0x81b7d50;
     }
     public static class Team
     {
@@ -600,7 +604,7 @@ namespace Offsets
     {
         public const long Dimensions = 0xb10; /* STALE (fallback ancien dump) */
         public const long FakeDataModel = 0xaf0; /* STALE (fallback ancien dump) */
-        public const long Pointer = 0x85c29b8;
+        public const long Pointer = 0x84473b8;
         public const long RenderView = 0xc50; /* STALE (fallback ancien dump) */
         public const long ViewMatrix = 0x1b0; /* STALE (fallback ancien dump) */
     }
@@ -631,7 +635,7 @@ namespace Offsets
         public const long AirProperties = 0x230; /* STALE (fallback ancien dump) */
         public const long FallenPartsDestroyHeight = 0x20c; /* STALE (fallback ancien dump) */
         public const long Gravity = 0x218; /* STALE (fallback ancien dump) */
-        public const long Primitives = 0x10;
+        public const long Primitives = 0x2a0; /* STALE (fallback ancien dump) */
         public const long worldStepsPerSec = 0x868; /* STALE (fallback ancien dump) */
     }
 }

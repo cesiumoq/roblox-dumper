@@ -1,22 +1,22 @@
 {
-  "version": "version-4ea8e85481e34f46",
+  "version": "version-unknown",
   "offsets": {
     "TaskScheduler": {
-      "Pointer": 137589480,
+      "Pointer": 136019280,
       "MaxFPS": 176,
       "JobEnd": 208,
       "JobName": 24,
       "JobStart": 200
     },
     "VisualEngine": {
-      "Pointer": 140257720,
+      "Pointer": 138703800,
       "ViewMatrix": 432,
       "Dimensions": 2832,
       "FakeDataModel": 2800,
       "RenderView": 3152
     },
     "FakeDataModel": {
-      "Pointer": 140257720,
+      "Pointer": 138703800,
       "RealDataModel": 504
     },
     "AirProperties": {
@@ -24,8 +24,8 @@
       "GlobalWind": 60
     },
     "AnimationTrack": {
-      "Animation": 8,
-      "Animator": 56,
+      "Animation": 160,
+      "Animator": 8,
       "IsPlaying": 2576,
       "Looped": 205,
       "Speed": 188,
@@ -35,7 +35,7 @@
       "ActiveAnimations": 2336
     },
     "Atmosphere": {
-      "Color": 48,
+      "Color": 160,
       "Decay": 172,
       "Density": 184,
       "Glare": 188,
@@ -43,11 +43,11 @@
       "Offset": 196
     },
     "Attachment": {
-      "Position": 172
+      "Position": 12
     },
     "BasePart": {
       "CastShadow": 288,
-      "Color3": 48,
+      "Color3": 284,
       "Locked": 289,
       "Massless": 290,
       "Primitive": 376,
@@ -123,8 +123,8 @@
     },
     "DataModel": {
       "CreatorId": 400,
-      "GameId": 16,
-      "GameLoaded": 440,
+      "GameId": 408,
+      "GameLoaded": 1464,
       "JobId": 264,
       "PlaceId": 416,
       "PlaceVersion": 444,
@@ -132,7 +132,7 @@
       "ToRenderView1": 472,
       "ToRenderView2": 8,
       "ToRenderView3": 40,
-      "Workspace": 8,
+      "Workspace": 360,
       "PrimitiveCount": 1072,
       "ScriptContext": 1088
     },
@@ -159,13 +159,13 @@
     "FileMeshData": {
       "AABBMax": 396,
       "AABBMin": 384,
-      "Faces": 112,
+      "Faces": 48,
       "FacesEnd": 56,
       "Vertices": 0,
       "VerticesEnd": 8
     },
     "GuiBase2D": {
-      "AbsolutePosition": 40,
+      "AbsolutePosition": 244,
       "AbsoluteRotation": 208,
       "AbsoluteSize": 0
     },
@@ -175,18 +175,18 @@
       "BorderColor3": 740,
       "Image": 8,
       "LayoutOrder": 788,
-      "Position": 680,
+      "Position": 12,
       "RichText": 1992,
       "Rotation": 208,
       "ScreenGui_Enabled": 1037,
       "Size": 712,
       "Text": 2608,
       "TextColor3": 2784,
-      "Visible": 40,
-      "ZIndex": 24
+      "Visible": 1837,
+      "ZIndex": 828
     },
     "HandleAdornment": {
-      "CFrame": 72
+      "CFrame": 160
     },
     "Humanoid": {
       "AutoJumpEnabled": 460,
@@ -230,6 +230,10 @@
     },
     "Instance": {
       "This": 8,
+      "AttributeContainer": 72,
+      "AttributeList": 24,
+      "AttributeToNext": 88,
+      "AttributeToValue": 24,
       "ChildrenEnd": 8,
       "ChildrenStart": 112,
       "ClassBase": 432,
@@ -264,8 +268,8 @@
       "GlobalShadows": 300,
       "GradientBottom": 376,
       "GradientTop": 312,
-      "LightColor": 48,
-      "LightDirection": 48,
+      "LightColor": 324,
+      "LightDirection": 336,
       "MoonPosition": 364,
       "OutdoorAmbient": 232,
       "Sky": 432,
@@ -346,20 +350,20 @@
       "ModelInstance": 672,
       "Mouse": 4592,
       "NameDisplayDistance": 944,
-      "Team": 48,
+      "Team": 736,
       "TeamColor": 952,
       "UserId": 184
     },
     "PlayerMouse": {
       "Icon": 176,
-      "Workspace": 8
+      "Workspace": 312
     },
     "Primitive": {
       "AssemblyAngularVelocity": 236,
       "AssemblyLinearVelocity": 224,
       "Material": 590,
       "Owner": 536,
-      "Position": 212,
+      "Position": 12,
       "Rotation": 176,
       "Size": 452,
       "Flags": 446,
@@ -389,7 +393,7 @@
       "RequireBypass": 0
     },
     "Seat": {
-      "Occupant": 152
+      "Occupant": 512
     },
     "Sky": {
       "MoonAngularSize": 556,
@@ -411,7 +415,7 @@
       "PlaybackSpeed": 268,
       "RollOffMaxDistance": 272,
       "RollOffMinDistance": 276,
-      "SoundGroup": 48,
+      "SoundGroup": 208,
       "SoundId": 176,
       "Volume": 288
     },
@@ -436,7 +440,7 @@
     },
     "SurfaceAppearance": {
       "AlphaMode": 152,
-      "Color": 48,
+      "Color": 448,
       "ColorMap": 176,
       "EmissiveMaskContent": 224,
       "EmissiveStrength": 476,
@@ -505,7 +509,7 @@
       "AirProperties": 560,
       "FallenPartsDestroyHeight": 524,
       "Gravity": 536,
-      "Primitives": 16,
+      "Primitives": 672,
       "worldStepsPerSec": 2152
     },
     "LRUHolder": {

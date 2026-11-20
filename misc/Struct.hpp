@@ -2,22 +2,17 @@
 
 /*                  https://roblox-dump.vercel.app
 
-/*  Total Offsets   :  405
+/*  Total Offsets   :  399
 
-/*  Dumped At       : 21:49 11/11/2026 (GMT)
+/*  Dumped At       : 03:07 20/11/2026 (GMT)
 
-/*  Dumped In       : 0,0s
+/*  Dumped In       : 198,2s
 
 */
 #pragma once
 #include <cstdint>
 
-/* ClientVersion: "version-4ea8e85481e34f46" */
-
-struct AirProperties {
-    uintptr_t AirDensity; // 0x18
-    uintptr_t GlobalWind; // 0x3C
-};
+/* ClientVersion: "version-unknown" */
 
 struct AnimationTrack {
     uintptr_t Animation; // 0xA0
@@ -29,7 +24,7 @@ struct AnimationTrack {
 };
 
 struct Animator {
-    uintptr_t ActiveAnimations; // 0x920
+    uintptr_t ActiveAnimations; // 0x900
 };
 
 struct Atmosphere {
@@ -85,7 +80,7 @@ struct BlurEffect {
 };
 
 struct ByteCode {
-    uintptr_t Pointer; // 0x18
+    uintptr_t Pointer; // 0x10
     uintptr_t Size; // 0x28
 };
 
@@ -137,16 +132,16 @@ struct DataModel {
     uintptr_t ToRenderView2; // 0x8
     uintptr_t ToRenderView3; // 0x28
     uintptr_t JobId; // 0x108
-    uintptr_t Workspace; // 0x168
-    uintptr_t CreatorId; // 0x190
-    uintptr_t GameId; // 0x198
-    uintptr_t PlaceId; // 0x1A0
-    uintptr_t PlaceVersion; // 0x1BC
-    uintptr_t ToRenderView1; // 0x1D8
-    uintptr_t PrimitiveCount; // 0x430
+    uintptr_t Workspace; // 0x148
+    uintptr_t CreatorId; // 0x170
+    uintptr_t GameId; // 0x178
+    uintptr_t PlaceId; // 0x180
+    uintptr_t PlaceVersion; // 0x19C
+    uintptr_t ToRenderView1; // 0x1B8
+    uintptr_t PrimitiveCount; // 0x410
     uintptr_t ScriptContext; // 0x440
-    uintptr_t ServerIP; // 0x5A0
-    uintptr_t GameLoaded; // 0x5B8
+    uintptr_t ServerIP; // 0x570
+    uintptr_t GameLoaded; // 0x588
 };
 
 struct DepthOfFieldEffect {
@@ -173,7 +168,7 @@ struct DragDetector {
 
 struct FakeDataModel {
     uintptr_t RealDataModel; // 0x1F8
-    uintptr_t Pointer; // 0x8F8E968
+    uintptr_t Pointer; // 0x8EB6960
 };
 
 struct FileMeshData {
@@ -197,28 +192,26 @@ struct GuiBase2D {
 
 struct GuiObject {
     uintptr_t Rotation; // 0xD0
-    uintptr_t Position; // 0x2A8
-    uintptr_t Size; // 0x2C8
-    uintptr_t BackgroundColor3; // 0x2D8
-    uintptr_t BackgroundTransparency; // 0x2E4
-    uintptr_t BorderColor3; // 0x2E4
-    uintptr_t LayoutOrder; // 0x314
-    uintptr_t ZIndex; // 0x33C
-    uintptr_t ScreenGui_Enabled; // 0x40D
-    uintptr_t Image; // 0x670
-    uintptr_t Visible; // 0x72D
-    uintptr_t RichText; // 0x7C8
-    uintptr_t Text; // 0xA30
-    uintptr_t TextColor3; // 0xAE0
-};
-
-struct HandleAdornment {
-    uintptr_t CFrame; // 0x100
+    uintptr_t ScreenGui_Enabled; // 0x490
+    uintptr_t Position; // 0x4D8
+    uintptr_t Size; // 0x4F8
+    uintptr_t BackgroundColor3; // 0x508
+    uintptr_t BackgroundTransparency; // 0x514
+    uintptr_t BorderColor3; // 0x514
+    uintptr_t LayoutOrder; // 0x544
+    uintptr_t ZIndex; // 0x56C
+    uintptr_t Visible; // 0x575
+    uintptr_t Image; // 0x9A8
+    uintptr_t RichText; // 0xBA0
+    uintptr_t Text; // 0xE08
+    uintptr_t TextColor3; // 0xEB8
 };
 
 struct Humanoid {
     uintptr_t PlatformStatePointer; // 0x0
+    uintptr_t WalkTimer; // 0x0
     uintptr_t HumanoidStateID; // 0x20
+    uintptr_t AutomaticScalingEnabled; // 0x95
     uintptr_t DisplayName; // 0xA0
     uintptr_t SeatPart; // 0xF0
     uintptr_t MoveToPart; // 0x100
@@ -232,29 +225,27 @@ struct Humanoid {
     uintptr_t HealthDisplayType; // 0x180
     uintptr_t Health; // 0x184
     uintptr_t HipHeight; // 0x188
-    uintptr_t JumpHeight; // 0x198
-    uintptr_t JumpPower; // 0x19C
-    uintptr_t MaxHealth; // 0x1A0
-    uintptr_t MaxSlopeAngle; // 0x1A4
-    uintptr_t NameDisplayDistance; // 0x1A8
-    uintptr_t NameOcclusion; // 0x1AC
-    uintptr_t RigType; // 0x1B8
-    uintptr_t Walkspeed; // 0x1C8
-    uintptr_t AutoJumpEnabled; // 0x1CC
-    uintptr_t AutoRotate; // 0x1CD
-    uintptr_t AutomaticScalingEnabled; // 0x1CE
-    uintptr_t BreakJointsOnDeath; // 0x1D0
-    uintptr_t EvaluateStateMachine; // 0x1D1
-    uintptr_t Jump; // 0x1D4
-    uintptr_t PlatformStand; // 0x1D6
-    uintptr_t RequiresNeck; // 0x1D7
-    uintptr_t Sit; // 0x1D7
-    uintptr_t UseJumpPower; // 0x1DA
-    uintptr_t WalkspeedCheck; // 0x3A4
-    uintptr_t WalkTimer; // 0x3F0
-    uintptr_t HumanoidRootPart; // 0x468
-    uintptr_t HumanoidState; // 0x8B0
-    uintptr_t IsWalking; // 0xA46
+    uintptr_t JumpHeight; // 0x194
+    uintptr_t JumpPower; // 0x198
+    uintptr_t MaxHealth; // 0x19C
+    uintptr_t MaxSlopeAngle; // 0x1A0
+    uintptr_t NameDisplayDistance; // 0x1A4
+    uintptr_t NameOcclusion; // 0x1A8
+    uintptr_t RigType; // 0x1B4
+    uintptr_t Walkspeed; // 0x1C4
+    uintptr_t AutoJumpEnabled; // 0x1C8
+    uintptr_t AutoRotate; // 0x1C9
+    uintptr_t BreakJointsOnDeath; // 0x1CC
+    uintptr_t EvaluateStateMachine; // 0x1CD
+    uintptr_t Jump; // 0x1D0
+    uintptr_t PlatformStand; // 0x1D2
+    uintptr_t RequiresNeck; // 0x1D3
+    uintptr_t Sit; // 0x1D3
+    uintptr_t UseJumpPower; // 0x1D6
+    uintptr_t WalkspeedCheck; // 0x39C
+    uintptr_t HumanoidRootPart; // 0x460
+    uintptr_t HumanoidState; // 0x8A8
+    uintptr_t IsWalking; // 0xA2E
 };
 
 struct Instance {
@@ -267,11 +258,6 @@ struct Instance {
     uintptr_t NameContainer; // 0x68
     uintptr_t ChildrenStart; // 0x70
     uintptr_t ClassBase; // 0x1B0
-};
-
-struct JointInstance {
-    uintptr_t Part0; // 0x100
-    uintptr_t Part1; // 0x110
 };
 
 struct LRUHolder {
@@ -287,8 +273,8 @@ struct LRUNode {
 struct Lighting {
     uintptr_t ClockTime; // 0xB0
     uintptr_t Ambient; // 0xB8
-    uintptr_t ColorShift_Bottom; // 0xC4
-    uintptr_t ColorShift_Top; // 0xD0
+    uintptr_t ColorShift_Top; // 0xC4
+    uintptr_t ColorShift_Bottom; // 0xD0
     uintptr_t FogColor; // 0xDC
     uintptr_t OutdoorAmbient; // 0xE8
     uintptr_t Brightness; // 0x100
@@ -310,8 +296,8 @@ struct Lighting {
 };
 
 struct LocalScript {
+    uintptr_t ByteCode; // 0x0
     uintptr_t GUID; // 0xB8
-    uintptr_t ByteCode; // 0x178
     uintptr_t Hash; // 0x188
 };
 
@@ -348,7 +334,6 @@ struct MeshContentProvider {
 };
 
 struct MeshPart {
-    uintptr_t MeshSize; // 0x210
     uintptr_t MeshId; // 0x2F8
     uintptr_t Texture; // 0x328
 };
@@ -366,9 +351,9 @@ struct Model {
 };
 
 struct ModuleScript {
+    uintptr_t ByteCode; // 0x0
     uintptr_t IsCoreScript; // 0x0
     uintptr_t GUID; // 0xB8
-    uintptr_t ByteCode; // 0x120
     uintptr_t Hash; // 0x348
 };
 
@@ -429,6 +414,7 @@ struct PlayerMouse {
 };
 
 struct Primitive {
+    uintptr_t Material; // 0x0
     uintptr_t Validate; // 0x6
     uintptr_t Rotation; // 0xB0
     uintptr_t Position; // 0xD4
@@ -437,7 +423,6 @@ struct Primitive {
     uintptr_t Flags; // 0x1BE
     uintptr_t Size; // 0x1C4
     uintptr_t Owner; // 0x218
-    uintptr_t Material; // 0x24E
 };
 
 struct PrimitiveFlags {
@@ -472,13 +457,13 @@ struct RenderView {
 };
 
 struct RunService {
-    uintptr_t HeartbeatFPS; // 0xC8
-    uintptr_t HeartbeatTask; // 0x27C8
+    uintptr_t HeartbeatFPS; // 0xF2
+    uintptr_t HeartbeatTask; // 0x14B80
 };
 
 struct Script {
+    uintptr_t ByteCode; // 0x0
     uintptr_t GUID; // 0xB8
-    uintptr_t ByteCode; // 0x178
     uintptr_t Hash; // 0x188
 };
 
@@ -535,7 +520,7 @@ struct SpecialMesh {
 };
 
 struct StatsItem {
-    uintptr_t Value; // 0xE758
+    uintptr_t Value; // 0x30E0
 };
 
 struct SunRaysEffect {
@@ -561,7 +546,7 @@ struct TaskScheduler {
     uintptr_t MaxFPS; // 0xB0
     uintptr_t JobStart; // 0xC8
     uintptr_t JobEnd; // 0xD0
-    uintptr_t Pointer; // 0x8F1E408
+    uintptr_t Pointer; // 0x8E4D7B8
 };
 
 struct Team {
@@ -584,11 +569,11 @@ struct Textures {
 };
 
 struct Tool {
+    uintptr_t Enabled; // 0x95
     uintptr_t TextureId; // 0x348
+    uintptr_t CanBeDropped; // 0x365
     uintptr_t Tooltip; // 0x450
     uintptr_t Grip; // 0x494
-    uintptr_t CanBeDropped; // 0x4A0
-    uintptr_t Enabled; // 0x4A1
     uintptr_t ManualActivationOnly; // 0x4A2
     uintptr_t RequiresHandle; // 0x4A3
 };
@@ -614,7 +599,7 @@ struct VisualEngine {
     uintptr_t FakeDataModel; // 0xAF0
     uintptr_t Dimensions; // 0xB10
     uintptr_t RenderView; // 0xC50
-    uintptr_t Pointer; // 0x8A11808
+    uintptr_t Pointer; // 0x8942E38
 };
 
 struct Weld {
@@ -636,7 +621,7 @@ struct Workspace {
     uintptr_t World; // 0x3F8
     uintptr_t CurrentCamera; // 0x4A0
     uintptr_t DistributedGameTime; // 0x4C0
-    uintptr_t ReadOnlyGravity; // 0x9C8
+    uintptr_t ReadOnlyGravity; // 0x9D0
 };
 
 struct World {
